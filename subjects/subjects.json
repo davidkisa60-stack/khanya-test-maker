@@ -1,0 +1,67 @@
+{
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "folder": "mathematics",
+      "default_paper_types": ["P1", "P2", "P3"],
+      "active": true
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "folder": "biology",
+      "default_paper_types": ["P1", "P2", "P3", "P4"],
+      "active": true
+    },
+    {
+      "id": "physical_science",
+      "name": "Physical Science",
+      "folder": "physical_science",
+      "default_paper_types": ["P1", "P2", "P3", "P4"],
+      "active": true
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "folder": "physics",
+      "default_paper_types": ["P1", "P2", "P3"],
+      "active": true
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "folder": "chemistry",
+      "default_paper_types": ["P1", "P2", "P3"],
+      "active": true
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "folder": "economics",
+      "default_paper_types": ["P1", "P2"],
+      "active": true
+    },
+    {
+      "id": "development_studies",
+      "name": "Development Studies",
+      "folder": "development_studies",
+      "default_paper_types": ["P1", "P2"],
+      "active": true
+    },
+    {
+      "id": "accounting",
+      "name": "Accounting",
+      "folder": "accounting",
+      "default_paper_types": ["P1", "P2"],
+      "active": true
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "folder": "english",
+      "default_paper_types": ["P1", "P2"],
+      "active": true
+    }
+  ]
+}

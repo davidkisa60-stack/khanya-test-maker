@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# === DO NOT COMMIT ===
+Test
+Test from Real Extracted Bank
+uploads/
+*.zip *.pdf *.docx *.tex
+
+# All backup folders and files
+data/*.backup*
+subjects/*/data/backups/
+subjects/*/data/*_Cleaned.json
+subjects/*/data/*_ReadyForMerge.json
+subjects/*/data/questions_20*.json
+*.backup_*
+*_backup*
+
+# Temporary files
+*.txt
+!transcription_template_2018.txt
+!README.md
+!DEPLOY_RENDER.md
+!SPLIT_DEPLOYMENT.md
+
+.env
+.env.local

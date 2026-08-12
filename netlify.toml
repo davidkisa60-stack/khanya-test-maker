@@ -1,0 +1,13 @@
+[build]
+environment = { PYTHON_VERSION = "3.13" }
+
+[build]
+command = "mkdocs build"
+publish = "site"
+environment = { PYTHON_VERSION = "3.13" }
+
+[build]
+command = "mkpdfs build"
+publish = "site"
+environment = { PYTHON_VERSION = "3.13" }
+

@@ -1,0 +1,1871 @@
+[
+  {
+    "id": "2015-Q01",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Order of operations and types of numbers",
+    "body_markdown": "Work out the following:\n\n(a) 3 + 2 \u00d7 7 - 4\n\n(b) 2\u00bd - 1\u2158\n\n(c) 3 power - 2/5.",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2015-Q02",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "Types of numbers",
+    "body_markdown": "From the following list of numbers:\n\u221a5 , 2 , 3\u00b2 , 3.5 , 121\n\nwrite down\n\n(a) a multiple of 7\n\n(b) a factor of 8\n\n(c) a prime number\n\n(d) a square number\n\n(e) an irrational number",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2015-Q04",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "Population of Lesotho - rounding and standard form",
+    "body_markdown": "The population of Lesotho is approximately 1 870 000.\n\n(a) Write 1 870 000 to the nearest million.\n\n(b) Write 1 870 000 in standard form.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2015-Q03",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 3,
+    "topic": "Geometry",
+    "title": "Symmetry",
+    "body_markdown": "Write the order of rotational symmetry of the shape drawn.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "Pg01_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q05",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 3,
+    "topic": "Statistics",
+    "title": "Bar chart - favourite colours",
+    "body_markdown": "In a Form A class, students were asked to indicate their favourite colours. The results are shown in the bar chart.\n\n(a) How many students are there in the Form A class?\n\n(b) Which colour is liked best by the students?\n\n(c) Find the fraction of students whose favourite colour is white.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg02_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q06",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 4,
+    "topic": "Geometry",
+    "title": "Parallel lines - find angles a and b",
+    "body_markdown": "In the diagram, PQ and RS are parallel lines.\n\nCalculate the angles a and b.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "Pg03_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q07",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 5,
+    "topic": "Probability",
+    "title": "Probability tree - die and coin",
+    "body_markdown": "The diagram shows the possible outcomes when a die is thrown and a coin is tossed (T = tails, H = heads).\n\n(a) Complete the diagram.\n\n(b) Find the probability of obtaining:\n\n(i) a tail and an odd number less than 4\n\n(ii) a number less than three with a head or a tail",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg03_img51.png"
+    ]
+  },
+  {
+    "id": "2015-Q08",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 6,
+    "topic": "Number",
+    "title": "Percentage loss and currency exchange",
+    "body_markdown": "When 20 kg of carrots are peeled, 1 kg is lost as peel.\n\nFind this percentage loss.\n\nThe exchange rate from Maluti (M) to Pula (P) is P 1.00 = M 1.07.\n\nMolise travels from Botswana to Lesotho. He has P 2000 to exchange into Maluti.\n\nHow much Maluti does he receive?",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2015-Q09",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 7,
+    "topic": "Algebra",
+    "title": "Factorise and solve simple equation",
+    "body_markdown": "Factorise completely:\n\n(a) 2xy + 6xz\n\nSolve the equation:\n\n(b) (y+1)/5 = 2",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2015-Q10",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 8,
+    "topic": "Geometry",
+    "title": "Bearings",
+    "body_markdown": "In the diagram, the bearing of P from Q is 260\u00b0.\n\nNorth lines are shown.\n\nFind the bearing of Q from P.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "Pg06_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q11",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 9,
+    "topic": "Algebra",
+    "title": "Coordinates - plot, gradient and vector",
+    "body_markdown": "On the grid:\n\n(a) Plot the point B (2, -2).\n\n(b) Find the gradient of the line AB.\n\n(c) Write down the column vector AB.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "Pg06_img51.png"
+    ]
+  },
+  {
+    "id": "2015-Q12",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 10,
+    "topic": "Statistics",
+    "title": "Shoe sizes table - total and median",
+    "body_markdown": "The table shows the shoe sizes of a group of students.\n\n(a) How many students are in the group?\n\n(b) Find the median shoe size.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "Pg07_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q13",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 11,
+    "topic": "Algebra",
+    "title": "Function notation - find f(2)",
+    "body_markdown": "f(x) = 2x + 3\n\nFind f(2).",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015-Q14",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 12,
+    "topic": "Number",
+    "title": "Order numbers (decimals and fractions)",
+    "body_markdown": "Arrange the following in order of size, starting with the smallest:\n\n0.25 , 5/12 , 1/6 , 2/3\n\n[2]",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2015-Q15",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 13,
+    "topic": "Geometry",
+    "title": "Scale drawing - actual height of tree",
+    "body_markdown": "The picture is drawn to the scale of 1 : 250.\n\nThe height of the tree in the picture is 3 cm.\n\nFind the actual height of the tree in metres.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "Pg08_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q16",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 14,
+    "topic": "Geometry",
+    "title": "Regular polygon - number of sides",
+    "body_markdown": "The diagram shows part of a regular polygon.\n\nCalculate the number of sides of the polygon.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "Pg09_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q17",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 15,
+    "topic": "Algebra",
+    "title": "Simultaneous equations",
+    "body_markdown": "Solve the simultaneous equations:\n\nx + y = 7\n5x + 2y = 20",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2015-Q18",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 16,
+    "topic": "Geometry",
+    "title": "Area of trapezium",
+    "body_markdown": "The diagram shows a trapezium.\n\nCalculate the area of the trapezium.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "Pg11_img50.png"
+    ]
+  },
+  {
+    "id": "2015-Q19",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 17,
+    "topic": "Number",
+    "title": "Upper and lower bounds",
+    "body_markdown": "The distance, d, from home to school is 850 metres correct to the nearest 10 m.\n\nFind the upper and the lower bound of the distance.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2015-Q20",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 18,
+    "topic": "Geometry",
+    "title": "Similar triangles - find length",
+    "body_markdown": "In the diagram, triangle PRT is similar to triangle QRS.\n\nQS = 3 cm, QR = 4 cm and PT = 6 cm.\n\nFind the length PR.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "Pg11_img51.png"
+    ]
+  },
+  {
+    "id": "2015-Q21",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 19,
+    "topic": "Algebra",
+    "title": "Straight line graph - equation and intercept",
+    "body_markdown": "The line T has a gradient of 3.\n\n(a) Write down the equation of the line T.\n\n(b) The line T meets the x-axis at A.\n\nFind the x-coordinate of A.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg11_img52.png"
+    ]
+  },
+  {
+    "id": "2017-Q01",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Bank account overdrawn and deposits",
+    "body_markdown": "Mpho\u2019s bank account is overdrawn by M485.\n\n(a) She deposits M230 into the account.\n\nHow much does she now owe the bank?\n\n(b) What further deposit should she make to give her account a balance of M150?",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2017-Q02",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "LCM and HCF expressed in terms of n",
+    "body_markdown": "When written as a product of their prime factors,\n\na = 5\u207f \u00d7 3\u00b3 \u00d7 7 and b = 5 \u00d7 n\u00b2 \u00d7 3 \u00d7 7.\n\n(a) Express, in terms of n,\n\n(i) the LCM of a and b\n\n(ii) the HCF of a and b\n\n(b) Given that the LCM of a and b is 84.\n\nFind the values of n, a and b.",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2017-Q03",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 3,
+    "topic": "Number",
+    "title": "Lower and upper bounds for mass of eggs",
+    "body_markdown": "On average, the mass of each egg in a tray is 57.2 grams to the nearest tenth of a gram.\n\n(a) Write down the lower bound for the mass of one egg.\n\n(b) There are 30 eggs in the tray.\n\nCalculate an estimated upper bound for the total mass of all eggs in the tray.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2017-Q04",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 4,
+    "topic": "Algebra",
+    "title": "Simplify expression and solve for n in indices",
+    "body_markdown": "(a) Show that \u00bd(a + b)\u00b2 \u2212 \u00bd(a\u00b2 + b\u00b2) simplifies to ab.\n\n(b) Find the value of n in the following expression:\n(2\u00b3 \u00d7 3\u00b2) / (2\u00b3 \u00d7 3\u00b2)\u207f = 5\u00b9",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2017-Q05",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 5,
+    "topic": "Number",
+    "title": "Standard form and energy calculations (powdered milk)",
+    "body_markdown": "A serving of 100 g of powdered milk A provides 2120 kJ of energy.\n\n(a) Express this amount of energy in standard form. Give your answer in joules.\n\n(b) Calculate the amount of energy, in joules, that can be obtained from 2 kg of powdered milk A. Give your answer in standard form.\n\n(c) Powdered milk B provides 9.78 \u00d7 10\u00b2 kJ of energy per 100 g serving.\n\nCalculate the difference, in joules, between the energy obtained from 300 g of milk A and 300 g of milk B. Leave your answer in standard form.",
+    "latex": "",
+    "total_marks": 6,
+    "images": []
+  },
+  {
+    "id": "2017-Q06",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 6,
+    "topic": "Number",
+    "title": "Change in temperature",
+    "body_markdown": "The temperature of a substance falls from 23 \u00b0C to 12 \u00b0C.\n\nCalculate the decrease in temperature of the substance.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017-Q07",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 7,
+    "topic": "Number",
+    "title": "Prime factorisation and finding p and q",
+    "body_markdown": "Given that 180 = 2\u00b2 \u00d7 3\u00b2 \u00d7 p\u00b2 \u00d7 q\u00b2 and that both p and q are prime numbers.\n\nFind the values of p and q.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2017-Q08",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 8,
+    "topic": "Geometry",
+    "title": "Angles in parallel lines",
+    "body_markdown": "In the diagram, PQ is parallel to RS. VW and ZY are produced to meet at X.\n\n\u2220PVZ = 24\u00b0, \u2220RYZ = 38\u00b0 and \u2220RWV = 71\u00b0.\n\nFind the value of angle WXY and the value of reflex angle VZY.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page005_img01.png"
+    ]
+  },
+  {
+    "id": "2017-Q09",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 9,
+    "topic": "Geometry",
+    "title": "Volume and surface area of a trapezoidal prism",
+    "body_markdown": "The diagram shows a trapezoidal prism.\n\nCalculate the volume of the prism.\n\nCalculate the total surface area of the prism.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "page006_img01.png"
+    ]
+  },
+  {
+    "id": "2017-Q10",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 10,
+    "topic": "Geometry",
+    "title": "Similarity and Congruence",
+    "body_markdown": "The diagram shows a right-angled triangle.\n\nCalculate the length of the hypotenuse.\n\nCalculate the size of one of the acute angles.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page007_img01.png"
+    ]
+  },
+  {
+    "id": "2017-Q11",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 11,
+    "topic": "Geometry",
+    "title": "Circle theorems and properties",
+    "body_markdown": "In the diagram, A,B,C and F lie on the circumfrence of the circle, AB is the diameter, AB and DC produced meet at E. DB=BE and angle AED=18.\n\nFind the size of the angle ABC.\n\nShow that BD bisect angle ABC.(Give reasons for each stage of your working).",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "page008_img01.png"
+    ]
+  },
+  {
+    "id": "2017-Q12",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 12,
+    "topic": "Statistics",
+    "title": "Bar chart interpretation",
+    "body_markdown": "The bar chart shows the number of books read by students in a class.\n\n(a) How many students read exactly 3 books?\n\n(b) Find the total number of books read by the class.\n\n(c) Calculate the mean number of books read.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page012_img01.png"
+    ]
+  },
+  {
+    "id": "2017-Q13",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 13,
+    "topic": "Number",
+    "title": "Speed-time graph",
+    "body_markdown": "The speed-time graph shows the journey of a car.\n\n(a) Find the acceleration in the first 10 seconds.\n\n(b) Calculate the total distance travelled during the journey.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page013_img01.png"
+    ]
+  },
+  {
+    "id": "2018-Q01",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Prime, irrational and square numbers",
+    "body_markdown": "Write down a number that is\n\n(a) prime\n\n(b) irrational\n\n(c) a square number\n\nFrom the list: 0.4, 2/3, \u221a23, 1, 2\n\nThe side of a square is given as 9 cm, correct to the nearest centimetre.\nFind the least possible value of the side.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2018P2-Q01",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Significant figures and standard form",
+    "body_markdown": "(a) The number of people at a football match is 27359.\nWrite the number to one significant figure.\n\n(b) The number of people who sat in stand A is 2500 correct to two significant figures.\nFind the largest number of people that could have sat in stand A.\n\nA rectangular painting measures 4.5 \u00d7 10\u2074 mm by 3 \u00d7 10\u00b3 mm.\nCalculate, giving your answer in standard form:\n(a) the perimeter of the painting\n(b) the area of the painting.",
+    "latex": "",
+    "total_marks": 7,
+    "images": []
+  },
+  {
+    "id": "2018-Q02",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "Ratio and ordering numbers",
+    "body_markdown": "(a) Express the ratio 400 cm to 1 km in its simplest form.\n\n(b) Write the numbers in order of size, starting with the smallest:\n2, 0.22, 0.25, 2/7, 2.2",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2018P2-Q02",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 2,
+    "topic": "Geometry",
+    "title": "Similar cones \u2013 find height x",
+    "body_markdown": "The diagram shows two solid cones which are geometrically similar.\nThe height of the smaller cone is x cm and that of the larger one is 9 cm.\n\nThe volume of the smaller cone is 32 cm\u00b3 and the volume of the larger cone is 108 cm\u00b3.\n\nCalculate the value of x.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "Pg03_img_10.png"
+    ]
+  },
+  {
+    "id": "2018-Q03",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 3,
+    "topic": "Geometry",
+    "title": "Area and perimeter of a paper ring",
+    "body_markdown": "A paper ring is made by cutting a circle of radius 7 cm and then cutting out a small circle of radius 3.5 cm as shown in the diagram.\n\nUse \u03c0 = 22/7.\n\nWork out\n\n(a) the area of the ring\n\n(b) the total perimeter of the ring",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page005_img25.png"
+    ]
+  },
+  {
+    "id": "2018P2-Q03",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 3,
+    "topic": "Algebra",
+    "title": "Matrices \u2013 find a and k, and value of x for no inverse",
+    "body_markdown": "Given that\n[matrix expression]\n\n(a) Find the values of a and k.\n\n(b) Given that the matrix has no inverse, find the value of x.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg03_img_11.png",
+      "Pg03_img_12.png"
+    ]
+  },
+  {
+    "id": "2018-Q04",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 4,
+    "topic": "Number",
+    "title": "Calculate powers",
+    "body_markdown": "Find the value of\n\n(a) 15\u2074 x 15\u00b2\n\n(b) 15\u00b3\n\n(c) 12\u2075",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2018P2-Q04",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 4,
+    "topic": "Algebra",
+    "title": "Algebraic fractions and partial fractions",
+    "body_markdown": "(a) Express 4/(7x-2) as a single fraction. Write your answer as simply as possible.\n\n(b) 3x + 1 / (x\u00b2 + bx + c) can be written as A/(x-1) + B/(x+1)\nFind the value of b and the value of c.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2018-Q05",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 5,
+    "topic": "Algebra",
+    "title": "Function notation and difference of squares",
+    "body_markdown": "If f(x) = 3x + 2, find f(\u22122).\n\nFactorise fully\n4x\u00b2 \u2212 y\u00b2",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2018P2-Q05",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 5,
+    "topic": "Geometry",
+    "title": "Regular polygon logo \u2013 name, triangles, symmetry, interior angle",
+    "body_markdown": "The diagram shows a logo in the shape of a regular polygon.\n\n(a) State the name of the regular polygon.\n\n(b) Write the total number of isosceles triangles that are only white or only grey.\n\n(c) State the order of rotational symmetry of the logo.\n\n(d) Find the size of the interior angle of the regular polygon.",
+    "latex": "",
+    "total_marks": 6,
+    "images": [
+      "Pg05_img_10.png"
+    ]
+  },
+  {
+    "id": "2018-Q06",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 6,
+    "topic": "Number",
+    "title": "Number pattern and general terms",
+    "body_markdown": "The table shows part of a pattern of numbers and the sum of the numbers in each row:\n\n(a) Complete row 5 in the table.\n\nThe table is continued to row n.\n\n(b) (i) How many numbers would appear in row n?\n   (ii) Write, in terms of n, an expression for the sum of the numbers in row n.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "page007_img03.png"
+    ]
+  },
+  {
+    "id": "2018P2-Q06",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 6,
+    "topic": "Algebra",
+    "title": "Solve equations \u2013 exponential and simultaneous",
+    "body_markdown": "(a) Solve 5x\u00b2 = 320\n\n(b) Solve the simultaneous equations:\nx + y = 8\n2x + 3y = 19",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2018-Q07",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 7,
+    "topic": "Number",
+    "title": "Speed, distance and time",
+    "body_markdown": "A car travels 50 km at a speed of 40 km/h. The journey starts at 12:10.\nWork out the time the journey finishes.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2018P2-Q07",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 7,
+    "topic": "Number",
+    "title": "Percentage increase and ratio sharing",
+    "body_markdown": "(a) Mpho's salary is M4 400.\n(i) Calculate her new salary after a 5% increase.\n(ii) The M4 400 was a 10% increase on her previous salary.\nCalculate Mpho's previous salary.\n\n(b) Thato and Pule share M3 500 in the ratio 3:2.\nCalculate Pule's share.",
+    "latex": "",
+    "total_marks": 7,
+    "images": []
+  },
+  {
+    "id": "2018-Q08",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 8,
+    "topic": "Geometry",
+    "title": "Isosceles triangle ABC with point M",
+    "body_markdown": "The diagram shows an isosceles triangle ABC. M is a point on BC as shown.\n\nAB = AC = 5 cm and AM = 4 cm.\n\nFind\n\n(a) the length BC\n\n(b) sin \u2220ACB",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page008_img07.png"
+    ]
+  },
+  {
+    "id": "2018P2-Q08",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 8,
+    "topic": "Algebra",
+    "title": "Linear inequalities \u2013 show equation and find minimum",
+    "body_markdown": "The diagram shows a region enclosed by three straight lines A, B and C.\nThe equation of line A is 2y + 2 = x.\n\n(a) Show that the equation of the line C is 2y = 3x + 6.\n\n(b) Write down three inequalities which satisfy the shaded region.\n\n(c) For a point (x, y) in the shaded region, find the minimum value of x + y.",
+    "latex": "",
+    "total_marks": 8,
+    "images": [
+      "Pg08_img_10.png"
+    ]
+  },
+  {
+    "id": "2018-Q09",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 9,
+    "topic": "Geometry",
+    "title": "Coordinate geometry \u2013 lines and area",
+    "body_markdown": "In the diagram, B is the point (0, 8) and C is the point (0, 2). The sloping line through B and the horizontal line through C meet at the point A.\n\n(a) Write the equation of the line AC.\n\n(b) Given that the gradient of the line AB is 2, find the equation of the line AB.\n\n(c) Find the coordinates of A.\n\n(d) Work out the area of the triangle ABC.",
+    "latex": "",
+    "total_marks": 6,
+    "images": [
+      "page009_img03.png"
+    ]
+  },
+  {
+    "id": "2018P2-Q09",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 9,
+    "topic": "Statistics",
+    "title": "List of numbers \u2013 median, probability, range and mean",
+    "body_markdown": "Here is a list of numbers:\n36, 29, 41, 45, 15, 10, 13\n\n(a) Find the median.\n\n(b) Find the probability that a number chosen at random from this list is prime.\n\n(c) Thirteen more numbers are added to the list.\nThe smallest of the thirteen numbers is 14 while the largest number is 48.\n(i) Calculate the range of the 20 numbers now in the list.\n(ii) The mean of all the twenty numbers is 19.2.\nCalculate the mean of the added thirteen numbers.",
+    "latex": "",
+    "total_marks": 8,
+    "images": []
+  },
+  {
+    "id": "2018-Q10",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 10,
+    "topic": "Statistics",
+    "title": "Pie chart \u2013 sweets sold",
+    "body_markdown": "Teboho, Sello and Hape have 300 sweets to sell at school.\nHape sold 80 sweets.\n\nThe pie chart represents the number of sweets each boy sold.\n\n(a) How many sweets were sold by Teboho?\n\n(b) Find the value of x.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "page010_img02.png"
+    ]
+  },
+  {
+    "id": "2018P2-Q10",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 10,
+    "topic": "Geometry",
+    "title": "Locus \u2013 public phone position",
+    "body_markdown": "The diagram shows the position of the two houses X and Y and a path P.\n(Scale: 1 cm represents 25 m)\n\nA public phone is installed such that it is:\n- less than 125 m from X\n- nearer to Y than X\n- more than 100 m from the path\n\nUsing a ruler and compasses only, find the region where the public phone can be placed. Label it R.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "Pg010_img_10.png"
+    ]
+  },
+  {
+    "id": "2018-Q11",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 11,
+    "topic": "Geometry",
+    "title": "Reflection and translation of a point",
+    "body_markdown": "In the diagram, A is the point (3, \u22122).\n\nFind the coordinates of the points B and C such that\n\n(a) B is the image of A after the reflection in the line y = 2\n\n(b) C is the image of A after translation by vector (2, \u22123).",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page011_img02.png"
+    ]
+  },
+  {
+    "id": "2018P2-Q11",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 11,
+    "topic": "Number",
+    "title": "Speed-time graph of a toy truck",
+    "body_markdown": "The diagram shows the speed-time graph of a toy truck.\n\nCalculate:\n(a) the acceleration during the first 40 seconds\n(b) the time, in seconds, it takes to reach the speed of 15 m/s for the first time\n(c) the total distance travelled in metres.",
+    "latex": "",
+    "total_marks": 6,
+    "images": [
+      "Pg011_img_10.png"
+    ]
+  },
+  {
+    "id": "2018-Q12",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 12,
+    "topic": "Probability",
+    "title": "Probability with numbered cards",
+    "body_markdown": "Four identical cards are numbered 1, 4, 6 and 9 respectively.\nA card is chosen at random.\n\nFind the probability that the card is numbered\n\n(a) 6\n\n(b) even\n\n(c) a square number",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2018P2-Q12",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 12,
+    "topic": "Geometry",
+    "title": "Two intersecting circles with tangents",
+    "body_markdown": "The diagram shows two circles, one with centre B and another with centre D.\nThe two circles intersect at A and C.\nT is the point on one circle from which TA and TC are tangents to the other circle.\nAngle ATB = 30\u00b0.\n\n(a) Explain why the two circles are equal.\n\n(b) Find:\n(i) angle ATC\n(ii) the reflex angle ABC.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "Pg012_img_10.png"
+    ]
+  },
+  {
+    "id": "2018P2-Q13",
+    "year": 2018,
+    "paper": "P2 2018",
+    "original_num": 13,
+    "topic": "Algebra",
+    "title": "Direct proportion and show another proportion",
+    "body_markdown": "f is directly proportional to n\u00b2.\n\n(a) Given that f = 6 when n = 2\n(i) Find an equation for f in terms of n.\n(ii) Find f when n = 8.\n\n(b) Another number, p, is directly proportional to n\u00b2.\nShow that f is directly proportional to p.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2020-Q01",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 1,
+    "topic": "Geometry",
+    "title": "Find the length OP",
+    "body_markdown": "The diagram shows a circle with centre O. A tangent from point P touches the circle such that PT = 12 cm.\n\nFind the length OP.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "page004_img021.png"
+    ]
+  },
+  {
+    "id": "2020-Q02",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 2,
+    "topic": "Geometry",
+    "title": "Right-angled triangle ABC with 60\u00b0 angle",
+    "body_markdown": "The diagram shows a right-angled triangle ABC.\nAC = 12 cm and \u2220BAC = 60\u00b0.\n\n[sin 60\u00b0 = 0.866, cos 60\u00b0 = 0.5, tan 60\u00b0 = 1.732]\n\nCalculate:\n(a) the area of the triangle\n(b) the shortest distance from B to AC",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "page005_img020.png"
+    ]
+  },
+  {
+    "id": "2020-Q03",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 3,
+    "topic": "Geometry",
+    "title": "Ratio of heights and surface areas of two cubes",
+    "body_markdown": "Cube A has volume 216 cm\u00b3 and cube B has volume 64 cm\u00b3.\n\nFind the ratio:\n(a) height of A : height of B\n(b) surface area of A : surface area of B",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "page006_img020.png"
+    ]
+  },
+  {
+    "id": "2020-Q04",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 4,
+    "topic": "Geometry",
+    "title": "Two spheres melted and recast into a cone",
+    "body_markdown": "Two solid spheres of radii 2 cm and 4 cm respectively are melted and recast to form a cone of height 8 cm.\n\nFind the radius of the cone.\n(Volume of sphere = \u2074/\u2083\u03c0r\u00b3, volume of cone = \u00b9/\u2083\u03c0r\u00b2h)",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2020-Q05",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 5,
+    "topic": "Geometry",
+    "title": "Straight line AB with gradient -1/2",
+    "body_markdown": "The diagram shows a straight line AB of gradient -1/2 passing through B(0, 6).\n\nFind:\n(a) the coordinates of A\n(b) the distance AB\n(c) the equation of a line parallel to AB passing through the point (4, 2)",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "page007_img020.png"
+    ]
+  },
+  {
+    "id": "2020-Q06",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 6,
+    "topic": "Number",
+    "title": "Profit and loss \u2013 find trader's cost price",
+    "body_markdown": "A trader sold an item to a shopkeeper making a 20% profit.\nThe shopkeeper later sold it for M1560 making a 30% profit.\n\nCalculate the price which the trader paid for the item.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2020-Q07",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 7,
+    "topic": "Algebra",
+    "title": "Simplify the algebraic expression",
+    "body_markdown": "Simplify:\n(12x\u00b2 + 6ax) / (3x - 2a)",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2020-Q08",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 8,
+    "topic": "Algebra",
+    "title": "Solve simultaneous equations and quadratic equation",
+    "body_markdown": "Solve:\n(a) 2p + 3q = 21\n    3p - 2q = -1\n\n(b) (2t - 5)(t + 3) = 0",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2020-Q09",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 9,
+    "topic": "Number",
+    "title": "Inverse variation",
+    "body_markdown": "p varies inversely as the square of r.\nWhen p = 9, r = 2.\n\n(a) Write an expression for p in terms of r.\n\n(b) Find the decrease in p if r is tripled.\n\n(c) p is inversely proportional to v and v is inversely proportional to w.\nShow that p is directly proportional to w.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2020-Q10",
+    "year": 2020,
+    "paper": "P2 2020",
+    "original_num": 10,
+    "topic": "Probability",
+    "title": "Probability with two bags of coloured balls",
+    "body_markdown": "Bags A and B contain balls of the same shape and size.\n\nBag A contains 4 red balls and 2 yellow balls.\nBag B contains 2 red balls and 3 yellow balls.\n\nA ball is drawn at random from each bag.\n\n(a) Find the probability that both balls are of the same colour.\n\n(b) Two balls are drawn at random from each bag, one at a time.\nFind the probability that:\n(i) the two balls drawn from bag A or bag B are red\n(ii) all the four balls drawn are red.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2021-Q01",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 8,
+    "topic": "Geometry",
+    "title": "Two parallel chords in a circle",
+    "body_markdown": "A chord PQ is 3 cm away from the centre O of a circle.\nAnother chord RS parallel to PQ is 4 cm away from the centre O.\n\n(a) Find the distance between the chords PQ and RS.\n\n(b) State with a reason which of the chords PQ or RS is longer.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2021-Q02",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 9,
+    "topic": "Algebra",
+    "title": "Linear programming - remaining inequalities and maximum",
+    "body_markdown": "The shaded region is defined by four inequalities. Two of these inequalities are x > 0 and y < 5.\n\n(a) Write the remaining two inequalities.\n\n(b) Explain why the function 4y + 10x attains its maximum at multiple points rather than at one point in the region.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg006_img_30.png"
+    ]
+  },
+  {
+    "id": "2021-Q03",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 10,
+    "topic": "Geometry",
+    "title": "Midpoints and vectors - show parallel lines",
+    "body_markdown": "In the diagram, X and Y are midpoints of AC and BC respectively.\nAC = p and BC = q.\n\n(a) In terms of p and/or q, find:\n(i) XA\n(ii) AB\n\n(b) Show that XY and AB are parallel.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "Pg007_img_30.png"
+    ]
+  },
+  {
+    "id": "2021-Q04",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 11,
+    "topic": "Algebra",
+    "title": "Composite functions",
+    "body_markdown": "f(x) = 2x - 3 and g(x) = 4x.\n\nFind:\n(a) g(0.5)\n\n(b) gf(x)",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2021-Q05",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 12,
+    "topic": "Geometry",
+    "title": "Sector and rectangle - cylindrical cake slice",
+    "body_markdown": "The diagram shows a side view of a slice of a cylindrical cake.\nThe top of the slice is a sector of angle 45\u00b0 while the side is a rectangle of dimensions 24 cm by 20 cm as shown.\n\n20 cm\n45\u00b0\n24 cm\nSide",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "Pg008_img_30.png"
+    ]
+  },
+  {
+    "id": "2021-Q06",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 12,
+    "topic": "Sets",
+    "title": "Sets",
+    "body_markdown": "In a class of 50 students, some take part in Football(F), Singing(S) and Athletics(A).\nThe venn diagram shows part of the information.\n\n(a) Find the number of students who donot take part in any of the activities. \n\n(b) Use set notation to describe what 7 represents.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg002_img_30.png"
+    ]
+  },
+  {
+    "id": "2021-Q07",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 13,
+    "topic": "Bearings",
+    "title": "Scale drawing on a bearing",
+    "body_markdown": "An object travels from point A to point B on a bearing of 075\u00b0.\nThe distance between A and B is 60 km.\n\nUsing a scale of 1 cm : 12 km, draw a diagram to represent this journey.\nThe point B is already marked.",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2021-Q08",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 14,
+    "topic": "Geometry",
+    "title": "Prism with exactly 3 planes of symmetry",
+    "body_markdown": "Name the prism that has exactly 3 planes of symmetry.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2021-Q09",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 15,
+    "topic": "Surds",
+    "title": "Simplify and evaluate surd expression",
+    "body_markdown": "Work out (2\u221a5 \u00d7 \u221a20 - 11)^3",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2021-Q10",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 16,
+    "topic": "Number",
+    "title": "Estimation and significant figures - find digit x",
+    "body_markdown": "The letter x represents a digit in the number \"x.6\".\nIn the expression (2.45 + 2(x.6))/1.71 when each digit is estimated to one significant figure, the answer becomes 6.\n\nFind the digit x.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2021-Q11",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 17,
+    "topic": "Number",
+    "title": "Reading on a scale in terms of x",
+    "body_markdown": "Leaving your answer in terms of x, state the reading shown on the scale.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "Pg009_img_30.png"
+    ]
+  },
+  {
+    "id": "2021-Q12",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 18,
+    "topic": "Geometry",
+    "title": "Construct a regular polygon",
+    "body_markdown": "Construct a regular polygon of sides 3 cm and exterior angle 60\u00b0.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2021-Q13",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 19,
+    "topic": "Number",
+    "title": "Speed-time graph - distance in terms of x",
+    "body_markdown": "The diagram shows a speed-time graph.\nFind an expression in terms of x for the total distance travelled.\nGive your answer in its simplest form.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "Pg010_img_30.png"
+    ]
+  },
+  {
+    "id": "2021-Q14",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 21,
+    "topic": "Statistics",
+    "title": "Find possible values of p given range",
+    "body_markdown": "The range of the distribution 4, p, 7, 12 is 9.\n\nFind all possible values of p.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2021-Q15",
+    "year": 2021,
+    "paper": "P2 2021",
+    "original_num": 22,
+    "topic": "Geometry",
+    "title": "Rhombus and kite - properties",
+    "body_markdown": "Is it true that a rhombus is also a kite? Give reasons to support your answer.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "Q01",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Evaluate",
+    "body_markdown": "Evaluate\n\n(a) 20% of M450, \n\n(b) 0.5 \u00f7 2/3 , \n\n(c) 64\u00b9/\u00b3 .",
+    "latex": "Evaluate\n\\begin{enumerate}[label=(\\alph*)]\n\\item 20\\% of M450.\n\\item $0.5 \\div \\dfrac{2}{3}$.\n\\item $64^{1/3}$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q02",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 1,
+    "topic": "Algebra",
+    "title": "Find the inverse of a matrix",
+    "body_markdown": "Find the inverse of the matrix\n( 1  2 )\n( 3  1 ).",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q02",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "Express 36 seconds as a fraction of an hour",
+    "body_markdown": "Express 36 seconds as a fraction of an hour in its simplest form.",
+    "latex": "Express 36 seconds as a fraction of an hour in its simplest form.",
+    "total_marks": 2,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q01",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "Work out and estimate",
+    "body_markdown": "(a) Work out 0.02 + 1/2.\n\n(b) Estimate the value of (4.15 \u00d7 37.85) / 0.54.",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q03",
+    "original_num": 3,
+    "topic": "Number",
+    "title": "Standard form calculations with A and B",
+    "body_markdown": "A = 3.2 \u00d7 10\u00b3 and B = 2.4 \u00d7 10\u00b2.\n\nWork out, leaving the answer in standard form.\n\n(a) 2B, \n\n(b) A \u2212 B.",
+    "latex": "$A = 3.2 \\times 10^{3}$ and $B = 2.4 \\times 10^{2}$.\n\nWork out, leaving the answer in standard form.\n\\begin{enumerate}[label=(\\alph*)]\n\\item $2B$.\n\\item $A - B$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "Q04",
+    "original_num": 4,
+    "topic": "Number",
+    "title": "Estimate the value",
+    "body_markdown": "Estimate the value of\n\n36.88 \u00d7 2.87\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n 1.56\u00b2",
+    "latex": "Estimate the value of\n\\[\\dfrac{36.88 \\times 2.87}{1.56^{2}}.\\]",
+    "total_marks": 2,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "Q05",
+    "original_num": 5,
+    "topic": "Algebra",
+    "title": "Expand and simplify",
+    "body_markdown": "Expand and simplify\n\n\u22122(x \u2212 3).",
+    "latex": "Expand and simplify\n\u22122(x \u2212 3).",
+    "total_marks": 1,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q03",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 5,
+    "topic": "Algebra",
+    "title": "Sequence and recurring decimal",
+    "body_markdown": "The ordered pairs form a sequence: (1,2), (2,5), (3,10), (4,17).\n\n(a) Find the next pair.\n\n(b) Find the 7th pair.\n\nGiven that p = 1.646464..., write p in the form a/b where a and b are integers.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "Q06",
+    "original_num": 6,
+    "topic": "Algebra",
+    "title": "Solve the equations",
+    "body_markdown": "Solve the equations\n\n(a) 27 = 3x \u2212 6,\nx = \n\n(b) x\u00b2 + 7x + 12 = 0.\nx = ............ or x =",
+    "latex": "Solve the equations\n\\begin{enumerate}[label=(\\alph*)]\n\\item 27 = 3x \u2212 6.\n\\item x\u00b2 + 7x + 12 = 0.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q04",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 6,
+    "topic": "Sets",
+    "title": "Venn diagram",
+    "body_markdown": "The Venn diagram shows the number of students who play football (F), netball (N) or volleyball (V).\n\nFind:\n(a) the number of students who play volleyball.\n\n(b) n((F \u222a N) \u2229 V').",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "sets.png"
+    ]
+  },
+  {
+    "id": "2024P2-Q05",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 6,
+    "topic": "Geometry",
+    "title": "Sector area",
+    "body_markdown": "In a circle, a sector of angle 60\u00b0 has an area of 20 cm\u00b2.\n\nFind the area of the circle.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q07",
+    "original_num": 7,
+    "topic": "Algebra",
+    "title": "Factorise fully",
+    "body_markdown": "Factorise fully\n\n(a) 2b\u00b2 \u2212 2,\n\n(b) ac + ad \u2212 bc \u2212 bd.",
+    "latex": "Factorise fully\n\\begin{enumerate}[label=(\\alph*)]\n\\item 2b\u00b2 \u2212 2.\n\\item ac + ad \u2212 bc \u2212 bd.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q06",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 7,
+    "topic": "Algebra",
+    "title": "Order expressions and factorise",
+    "body_markdown": "For n > 2 where n \u2208 Z, arrange the following in order, starting with the smallest:\nn, n\u00b2, 0.7n, n/2, 2n\n\nFactorise completely:\n(a) 12x\u00b2 - 75x\n(b) 2t\u00b2 + 5t - 3",
+    "latex": "",
+    "total_marks": 6,
+    "images": []
+  },
+  {
+    "id": "Q08",
+    "original_num": 8,
+    "topic": "Number",
+    "title": "Flight time zone calculation",
+    "body_markdown": "A flight from place A started at 20 47.\nIt took 7 hours 36 minutes to arrive at place B, whose time zone is 2 hours behind that of place A.\n\nFind the time at place B on arrival.",
+    "latex": "A flight from place A started at 20 47.\nIt took 7 hours 36 minutes to arrive at place B, whose time zone is 2 hours behind that of place A.\n\nFind the time at place B on arrival.",
+    "total_marks": 2,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "Q09",
+    "original_num": 9,
+    "topic": "Geometry",
+    "title": "Polygon exterior to interior angle ratio",
+    "body_markdown": "The ratio of exterior angle to interior angle of a polygon is 2 : 7.\n\nFind the number of sides of the polygon.",
+    "latex": "The ratio of exterior angle to interior angle of a polygon is 2 : 7.\n\nFind the number of sides of the polygon.",
+    "total_marks": 2,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "Q10",
+    "original_num": 10,
+    "topic": "Algebra",
+    "title": "Volume formula V = 1/3 \u03c0 r\u00b2 h",
+    "body_markdown": "V = 1/3 \u03c0 r\u00b2 h\n\n(a) Find, in terms of \u03c0, the value of V when r = 6 and h = 5.\n\nV = \n\n(b) Make h the subject of the formula.\n\nh =",
+    "latex": "V = \\dfrac{1}{3} \\pi r^{2} h\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Find, in terms of \\pi, the value of V when r = 6 and h = 5.\n\\item Make h the subject of the formula.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q07",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 10,
+    "topic": "Algebra",
+    "title": "Inequalities - integer values",
+    "body_markdown": "Find the integer values of x which satisfy 5 < 2x < 10.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q11",
+    "original_num": 11,
+    "topic": "Sets",
+    "title": "Venn diagram elements",
+    "body_markdown": "Venn diagram shows elements of the universal set, set A and set B.\n\n(a) Use set notation to complete the statement:\n\n{a, b, c} .................... A\n\n(b) Find\n\n(i) A \u2229 B, \n\n(ii) n(A \u222a B)'. \n\n(c) Draw and shade A' \u2229 B.",
+    "latex": "The Venn diagram shows elements of the universal set, set $A$ and set $B$.\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Use set notation to complete the statement: $\\{a, b, c\\} \\ldots\\ldots A$.\n\\item Find\n  \\begin{enumerate}[label=(\\roman*)]\n  \\item $A \\cap B$.\n  \\item $n(A \\cup B)'$.\n  \\end{enumerate}\n\\item Shade $A' \\cap B$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [
+      "venn_diagram1.png"
+    ],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q08",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 11,
+    "topic": "Algebra",
+    "title": "Solve equations",
+    "body_markdown": "Solve the equations:\n(a) (n + 5)\u00b3 = 27\n\n(b) x - 3y = 1\n    x + 2y = 10\n\n(c) x\u00b2 - 5x - 24 = 0",
+    "latex": "",
+    "total_marks": 7,
+    "images": []
+  },
+  {
+    "id": "Q12",
+    "original_num": 12,
+    "topic": "Algebra",
+    "title": "Matrix operations with A and B",
+    "body_markdown": "Given A = \n[ 6 0 ]\n[ 1 2 ] and B = \n[ 2 3 ]\n[ 1 1 ],\n\nevaluate\n\n(a) 2B,\n\n( )\n\n(b) A \u2212 B.\n\n( )",
+    "latex": "Given $A = \\begin{pmatrix} 6 & 0 \\\\ 1 & 2 \\end{pmatrix}$ and $B = \\begin{pmatrix} 2 & 3 \\\\ 1 & 1 \\end{pmatrix}$,\n\nevaluate\n\\begin{enumerate}[label=(\\alph*)]\n\\item $2B$.\n\\item $A - B$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q09",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 12,
+    "topic": "Geometry",
+    "title": "Parallel lines with transversals - find angles",
+    "body_markdown": "The diagram shows parallel lines with transversals.\n\nFind the size of the angles marked with letters a, b and c.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "parallel.png"
+    ]
+  },
+  {
+    "id": "Q13",
+    "original_num": 13,
+    "topic": "Geometry",
+    "title": "Gradient and midpoint of PQ",
+    "body_markdown": "P(\u22123, \u22123) and Q(2, 12) are the points on a straight line.\n\nFind\n\n(a) the gradient of PQ,\n\n(b) the coordinates of the midpoint of PQ.",
+    "latex": "$P(-3, -3)$ and $Q(2, 12)$ are the points on a straight line.\n\nFind\n\\begin{enumerate}[label=(\\alph*)]\n\\item the gradient of $PQ$.\n\\item the coordinates of the midpoint of $PQ$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q10",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 13,
+    "topic": "Algebra",
+    "title": "Substitute and rearrange formula",
+    "body_markdown": "p = qr\u00b3 - 2t\n\n(a) Find the value of p when r = 2, q = 3 and t = -3.\n\n(b) Make r the subject of the formula.",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q14",
+    "original_num": 14,
+    "topic": "Algebra",
+    "title": "Vector PQ and magnitude",
+    "body_markdown": "PQ = ( 5 , 12 ) and P(1,2).\n\nFind\n\n(a) the coordinates of Q,\n\nQ( ........ , ........ )\n\n(b) the magnitude of PQ.\n\n........................................ units",
+    "latex": "$\\overrightarrow{PQ} = \\begin{pmatrix} 5 \\\\ 12 \\end{pmatrix}$ and $P(1,2)$.\n\nFind\n\\begin{enumerate}[label=(\\alph*)]\n\\item the coordinates of $Q$.\n\\item the magnitude of $\\overrightarrow{PQ}$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q11",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 14,
+    "topic": "Algebra",
+    "title": "Functions - inverse and composite",
+    "body_markdown": "f(x) = 3x + 2\n\nFind:\n(a) f\u207b\u00b9(x)\n\n(b) g(x) if fg(x) = 6x - 13",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q15",
+    "original_num": 15,
+    "topic": "Geometry",
+    "title": "Area of shaded parts in rectangle with sector",
+    "body_markdown": "The diagram shows a rectangle with an inscribed sector of 45\u00b0.\n\nCalculate, in terms of \u03c0, the area of the shaded parts.\n\nGive your answer in the form a \u2212 b\u03c0, where a and b are integers.\n\n........................................ cm\u00b2",
+    "latex": "The diagram shows a rectangle with an inscribed sector of $45^\\circ$.\n\nCalculate, in terms of $\\pi$, the area of the shaded parts.\n\nGive your answer in the form $a - b\\pi$, where $a$ and $b$ are integers.",
+    "total_marks": 3,
+    "images": [
+      "sector_diagram.png"
+    ],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q12",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 15,
+    "topic": "Algebra",
+    "title": "Inverse variation",
+    "body_markdown": "y varies inversely as x + 2.\nWhen y = 9, x = 6.\n\nFind y when x = 16.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q16",
+    "original_num": 16,
+    "topic": "Geometry",
+    "title": "Circle theorems with tangent and parallel lines",
+    "body_markdown": "The diagram shows a circle centre O and AD as the diameter.\nBC is parallel to AD and EF is a tangent to the circle at C.\nAngle OCB = 42\u00b0.\n\nFind the size of\n\n(a) the angle ECB, ........................................ \u00b0\n\n(b) the angle ODC. ........................................ \u00b0",
+    "latex": "The diagram shows a circle centre $O$ and $AD$ as the diameter.\n$BC$ is parallel to $AD$ and $EF$ is a tangent to the circle at $C$.\nAngle $OCB = 42^\\circ$.\n\nFind the size of\n\\begin{enumerate}[label=(\\alph*)]\n\\item the angle $ECB$.\n\\item the angle $ODC$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [
+      "circle_diagram.png"
+    ],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q13",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 16,
+    "topic": "Geometry",
+    "title": "Regular polygon - exterior angle and interior",
+    "body_markdown": "The diagram shows part of a regular polygon whose interior angle is 150\u00b0.\n\nCalculate the size of the angle marked p.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "polygons.png"
+    ]
+  },
+  {
+    "id": "Q17",
+    "original_num": 17,
+    "topic": "Geometry",
+    "title": "Right-angled triangle BCD",
+    "body_markdown": "The diagram shows a right-angled triangle BCD.\nBC = 8units and BD = 17 units.\n\nFind\n\n.(a) the length of CD, ........................................ units\n\n(b) the exact value of cos CBD,",
+    "latex": "The diagram shows a right-angled triangle $BCD$.\n$BC = 8$ units and $BD = 17$ units.\n\nFind\n\\begin{enumerate}[label=(\\alph*)]\n\\item the length of $CD$.\n\\item the exact value of $\\cos \\angle CBD$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [
+      "triangle_diagram.png"
+    ],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q14",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 17,
+    "topic": "Geometry",
+    "title": "Right-angled triangle - cosine",
+    "body_markdown": "The diagram shows the right-angled triangle PQR.\nQR = 7 cm and PR = 10 cm.\n\nCalculate the value of cos \u2220PRS.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "angles.png"
+    ]
+  },
+  {
+    "id": "Q18",
+    "original_num": 18,
+    "topic": "Probability",
+    "title": "Two fair spinners probability",
+    "body_markdown": "The diagram shows the regions of two fair spinners with pointers at the rest positions.\n\n(a) Spinner 2 is spun once.\nFind the probability that the pointer lands at the region 2.\n\n(b) The two spinners are spun simultaneously.\nFind the probability that both pointers land at an even number.",
+    "latex": "The diagram shows the regions of two fair spinners with pointers at the rest positions.\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Spinner 2 is spun once.\nFind the probability that the pointer lands at the region 2.\n\\item The two spinners are spun simultaneously.\nFind the probability that both pointers land at an even number.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [
+      "spinners_diagram.png"
+    ],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q15",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 18,
+    "topic": "Statistics",
+    "title": "Frequency table - modal and mean number of siblings",
+    "body_markdown": "A class of 40 students was asked the number of siblings they had. The table shows the results.\n\nFind:\n(a) the modal number of siblings.\n\n(b) the mean number of siblings.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "freqtable.png"
+    ]
+  },
+  {
+    "id": "Q19",
+    "original_num": 19,
+    "topic": "Statistics",
+    "title": "Frequency table mode and median",
+    "body_markdown": "The table shows the results of 60 children asked about the number of toys they have.\n\n(a) Find\n\n(i) the mode of the distribution, \n\n(ii) the median of the distribution. \n\n(b) Two more children are asked about the number of toys they have.\n\nExplain clearly, between the mode, mean and median, what would change.",
+    "latex": "The table shows the results of 60 children asked about the number of toys they have.\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Find\n  \\begin{enumerate}[label=(\\roman*)]\n  \\item the mode of the distribution.\n  \\item the median of the distribution.\n  \\end{enumerate}\n\\item Two more children are asked about the number of toys they have.\n\nExplain clearly, between the mode, mean and median, what would change.\n\\end{enumerate}",
+    "total_marks": 5,
+    "images": [
+      "frequency_table.png"
+    ],
+    "year": 2024,
+    "paper": "P1 2024"
+  },
+  {
+    "id": "2024P2-Q16",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 19,
+    "topic": "Probability",
+    "title": "Probability with two bags of fruit",
+    "body_markdown": "Bag A contains 9 red apples and 3 green apples.\nBag B contains 8 red peaches and 7 yellow peaches.\n\nA fruit is selected at random from each bag.\n\nFind the probability of selecting a green apple.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2024P2-Q17",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 20,
+    "topic": "Geometry",
+    "title": "Similar figures - find length",
+    "body_markdown": "Object A has area 24 cm\u00b2 and length 12 cm.\nObject B has area 54 cm\u00b2.\nThe two figures are similar.\n\nFind the length of object B.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2024P2-Q18",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 21,
+    "topic": "Number",
+    "title": "Speed-time graph - distance",
+    "body_markdown": "The diagram shows a speed-time graph of an object.\n\nCalculate the total distance travelled after 12 seconds.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "speedtime.png"
+    ]
+  },
+  {
+    "id": "2024P2-Q19",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 22,
+    "topic": "Geometry",
+    "title": "Locus construction in a triangle",
+    "body_markdown": "The diagram shows triangle ABC. D is the point on AB.\n\nConstruct the locus of points, inside triangle ABC, that are:\n- 3 cm from D\n- equidistant from AC and AB.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "locus.png"
+    ]
+  },
+  {
+    "id": "2024P2-Q20",
+    "year": 2024,
+    "paper": "P2 2024",
+    "original_num": 23,
+    "topic": "Algebra",
+    "title": "Linear programming - tables and chairs",
+    "body_markdown": "A company makes x tables and y chairs to sell at M400 and M120 respectively.\nThe region R represents possible number of tables and chairs made per day.\n\n(a) State the objective function.\n\n(b) Find the number of tables and chairs that make the maximum sales.\nState this amount.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "linear.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q01",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Round off to one decimal place",
+    "body_markdown": "Round off 0.997 correct to one decimal place.\n\n[1]",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q02",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "Prime factors and cube number",
+    "body_markdown": "(a) Express 605 as a product of its prime factors.\n\n[2]\n\n(b) Find the smallest value of n such that 605n is a cube number.\n\n[2]",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q03",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 3,
+    "topic": "Number",
+    "title": "Evaluate square roots",
+    "body_markdown": "Evaluate \u221a81 + \u221a49.\n\n[2]",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q04",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 4,
+    "topic": "Number",
+    "title": "Percentage as a fraction",
+    "body_markdown": "Write 33\u2153% as a fraction in its simplest form.\n\n[2]",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q05",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 5,
+    "topic": "Algebra",
+    "title": "Sequence - next and nth term",
+    "body_markdown": "Given a sequence 4, 6, 10, 16, 24,\n\n(a) write the next term.\n\n[1]\n\n(b) find the nth term.\n\n[3]",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q06",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 6,
+    "topic": "Algebra",
+    "title": "Inequalities - integer values",
+    "body_markdown": "Solve and list the integer values of x which satisfy the inequality 1 < 2x < 6.\n\n[2]",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q07",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 7,
+    "topic": "Geometry",
+    "title": "Similar triangles - calculate length",
+    "body_markdown": "The diagram shows two similar triangles ABE and CBD.\n\nBC = 21 cm, DC = 17.5 cm, AE = 12.5 cm.\n\nNOT TO SCALE\n\nCalculate AB.\n\n[3]",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "Pg04_img34.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q08",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 8,
+    "topic": "Algebra",
+    "title": "Direct variation",
+    "body_markdown": "E varies directly as the square of v. When E = 40, v = 2.\n\nFind the value of v when E = 1440.\n\n[3]",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q09",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 9,
+    "topic": "Number",
+    "title": "Speed calculation",
+    "body_markdown": "A car travels 75 km in 1 hour 15 minutes.\n\nCalculate the speed of the car in km/h.\n\n[3]",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q10",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 10,
+    "topic": "Algebra",
+    "title": "Formula - substitution and rearrange",
+    "body_markdown": "v\u00b2 = u\u00b2 + 2ax\n\n(a) Find the value of v when u = 8, a = 4 and x = 10.\n\n[2]\n\n(b) Make a the subject of the formula.\n\n[2]",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q11",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 11,
+    "topic": "Algebra",
+    "title": "Solve quadratic equation",
+    "body_markdown": "Solve the equation:\n\nx\u00b2 + 2x - 35 = 0\n\n[3]",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q12",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 12,
+    "topic": "Geometry",
+    "title": "Bearings",
+    "body_markdown": "The diagram shows the bearing of Q from P as 110\u00b0. \u2220QPR = 65\u00b0.\n\nNorth lines are shown.     \n\nCalculate the bearing of R from Q.\n\n[3]",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "Pg06_img34.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q13",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 13,
+    "topic": "Geometry",
+    "title": "Locus",
+    "body_markdown": "The diagram shows triangle PQR and line L.\n\nDescribe the locus represented by line L.\n\n[2]",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "Pg06_img35.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q14",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 14,
+    "topic": "Algebra",
+    "title": "Exponential equation to quadratic",
+    "body_markdown": "Express 3^{x+2} = 81 in the form ax\u00b2 + bx + c = 0 where a, b and c are integers.\n\n[3]",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q15",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 15,
+    "topic": "Probability",
+    "title": "Probability with three students",
+    "body_markdown": "Polo, Qalo and Ralo are writing a test. The probability that Polo and Qalo pass the test is the same. The probability that each of them pass is twice that of Ralo.\n\nFind the probability that\n\n(a) Ralo passes the test.\n\n[2]\n\n(b) Polo and Qalo pass the test.\n\n[1]",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q16",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 16,
+    "topic": "Algebra",
+    "title": "Simultaneous equations",
+    "body_markdown": "Solve the simultaneous equations:\n\n2x = y\ny = 9x - 3\n\n[3]",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2025P2-Q17",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 17,
+    "topic": "Geometry",
+    "title": "Transformations on coordinate grid",
+    "body_markdown": "The diagram shows polygons A and B.\n\n(a) Describe fully a single transformation which maps A onto B.\n\n[2]\n\n(b) Rotate polygon B through +90\u00b0 about (6, 1).\n\n[2]",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg08_img34.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q18",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 18,
+    "topic": "Geometry",
+    "title": "Cuboid - surface area and volume",
+    "body_markdown": "The diagram shows a cuboid of length 10 cm and width 4 cm. The total surface area of the cuboid is 248 cm\u00b2.\n\nNOT TO SCALE\n\nCalculate\n\n(a) the height of the cuboid.\n\n[3]\n\n(b) the volume of the cuboid.\n\n[1]",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg09_img34.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q19",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 19,
+    "topic": "Number",
+    "title": "Speed-time graph",
+    "body_markdown": "The diagram shows a speed-time graph of a particle for 36 seconds. The particle started from a speed of 0 m/s and accelerated constantly to reach maximum speed v m/s. It then decelerated for 16 seconds until it reached 10 m/s and stopped immediately.\n\n(a) Write, in terms of v, an expression for the acceleration at 20 seconds.\n\n[1]\n\n(b) Given that the distance covered in the first 20 seconds is 280 m, find the value of v.\n\n[3]",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg10_img34.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q20",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 20,
+    "topic": "Geometry",
+    "title": "Circle theorems - tangents and cyclic quadrilateral",
+    "body_markdown": "The diagram shows a circle with a cyclic quadrilateral ABCE. Tangents at C and E meet at D. \u2220ABC = 125\u00b0 and \u2220AEF = 85\u00b0.\n\nFind\n\n(a) the size of \u2220ACE and give a reason for your answer.\n\n[2]\n\n(b) the size of \u2220CDE.\n\n[2]",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg11_img34.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q21",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 21,
+    "topic": "Statistics",
+    "title": "Histogram - cars and probability",
+    "body_markdown": "The histogram shows the speed of cars as they pass a particular point. The speed limit at this point is 120 km/h and 24 cars exceeded the speed limit.\n\n(a) Calculate the total number of cars which passed the point.\n\n[3]\n\n(b) A car was chosen at random from the cars which passed the point. Calculate the probability that the car exceeded the speed limit.\n\n[1]",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "Pg12_img34.png"
+    ]
+  },
+  {
+    "id": "2025P2-Q22",
+    "year": 2025,
+    "paper": "P2 2025",
+    "original_num": 22,
+    "topic": "Algebra",
+    "title": "Linear programming - inequalities region",
+    "body_markdown": "The diagram shows the unshaded region which is defined by three inequalities. One of the three inequalities is x + y \u2265 6.\n\nFind\n\n(a) the other two inequalities.\n\n[3]\n\n(b) the maximum value of 3x - 2y.\n\n[2]",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "Pg13_img34.png"
+    ]
+  }
+]

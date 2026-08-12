@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khanya Test Maker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .math-container { font-size: 0.92rem; line-height: 1.45; }
+        .topic-header { transition: all 0.2s; }
+        .question-item:hover { background-color: #f8fafc; }
+        .preview-pane { min-height: 420px; }
+    </style>
+</head>
+<body class="bg-zinc-50">
+    <!-- Navbar -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-screen-2xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-x-3 cursor-pointer" onclick="showHome()">
+                <div class="w-10 h-10 bg-emerald-600 text-white rounded-2xl flex items-center justify-center">
+                    <i class="fa-solid fa-graduation-cap text-2xl"></i>
+                </div>
+                <span class="font-semibold text-2xl tracking-tight">Khanya Test Maker</span>
+            </div>
+            <div>
+                <button onclick="showSubjects()" 
+                        class="px-5 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>New Test</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <div id="home-page" class="max-w-screen-2xl mx-auto px-6 py-20">
+        <div class="max-w-3xl">
+            <h1 class="text-6xl font-semibold tracking-tighter text-zinc-900">Build clean, professional tests from real questions.</h1>
+            <p class="mt-6 text-xl text-zinc-600 max-w-lg">Select questions, give your paper a custom title, and preview exactly how it will look before downloading the PDF. These questions are extracted from ECOL and Cambridge Past papers.</p>
+            <button onclick="showSubjects()" 
+                    class="mt-10 px-8 h-14 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-3xl flex items-center gap-x-3">
+                <i class="fa-solid fa-plus"></i>
+                <span>New Test</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- SUBJECTS -->
+    <div id="subjects-page" class="max-w-screen-2xl mx-auto px-6 py-10 hidden">
+        <div class="flex items-center gap-x-3 mb-8">
+            <button onclick="showHome()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
+                <i class="fa-solid fa-arrow-left"></i> Back
+            </button>
+            <h2 class="text-3xl font-semibold tracking-tight">Choose a Subject</h2>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4" id="subjects-grid">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <!-- SUBJECT VIEW -->
+    <div id="subject-page" class="max-w-screen-2xl mx-auto px-6 py-6 hidden">
+        <div class="flex items-center justify-between mb-5">
+            <div class="flex items-center gap-x-4">
+                <button onclick="showSubjects()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Subjects
+                </button>
+                <h2 class="text-3xl font-semibold tracking-tight" id="subject-title"></h2>
+            </div>
+            <div class="flex items-center gap-x-3">
+                <input id="paper-title" type="text" value="Mathematics Test" 
+                       class="border border-zinc-300 px-4 py-2 rounded-2xl text-sm w-72 focus:outline-none focus:border-emerald-500" 
+                       placeholder="Paper Title (e.g. End of Term Test)">
+                <button onclick="previewFullPaper()" 
+                        class="px-6 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
+                    <i class="fa-solid fa-eye"></i>
+                    <span>Preview Full Paper</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <!-- LEFT: Filters + Topics -->
+            <div class="lg:col-span-5 xl:col-span-4 bg-white border border-zinc-200 rounded-3xl p-5 max-h-[620px] overflow-auto">
+                <!-- FILTERS -->
+                <div class="mb-4">
+                    <div class="font-semibold text-xs tracking-wider text-zinc-500 mb-2 px-1">FILTERS</div>
+                    
+                    <!-- Search -->
+                    <input id="filter-search" type="text" placeholder="Search questions..." 
+                           class="w-full border border-zinc-300 px-3 py-1.5 text-sm rounded-2xl mb-2 focus:outline-none focus:border-emerald-500"
+                           oninput="applyFilters()">
+                    
+                    <div class="grid grid-cols-3 gap-2">
+                        <!-- Year -->
+                        <div>
+                            <div class="text-[10px] text-zinc-500 mb-1 px-1">Year</div>
+                            <select id="filter-year" class="w-full border border-zinc-300 px-2 py-1 text-xs rounded-xl" onchange="applyFilters()">
+                                <option value="">All years</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Paper -->
+                        <div>
+                            <div class="text-[10px] text-zinc-500 mb-1 px-1">Paper</div>
+                            <select id="filter-paper" class="w-full border border-zinc-300 px-2 py-1 text-xs rounded-xl" onchange="applyFilters()">
+                                <option value="">All papers</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Topic / Subtopic -->
+                        <div>
+                            <div class="text-[10px] text-zinc-500 mb-1 px-1">Topic</div>
+                            <select id="filter-topic" class="w-full border border-zinc-300 px-2 py-1 text-xs rounded-xl" onchange="applyFilters()">
+                                <option value="">All topics</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between mt-2 px-1">
+                        <button onclick="clearFilters()" class="text-xs text-zinc-500 hover:text-zinc-700">Clear filters</button>
+                        <span id="filter-count" class="text-xs text-emerald-600 font-medium"></span>
+                    </div>
+                </div>
+
+                <div class="font-semibold text-xs tracking-wider text-zinc-500 mb-3 px-1 border-t pt-3">TOPICS</div>
+                <div id="topics-list" class="space-y-1">
+                    <!-- Populated by JS: collapsible topics with question titles -->
+                </div>
+            </div>
+
+            <!-- RIGHT: Preview -->
+            <div class="lg:col-span-7 xl:col-span-8">
+                <div class="bg-white border border-zinc-200 rounded-3xl p-6 min-h-[420px]">
+                    <div id="preview-placeholder" class="flex items-center justify-center h-full text-center text-zinc-400">
+                        <div>
+                            <i class="fa-solid fa-search text-3xl mb-3"></i>
+                            <p class="text-sm">Select a question from the left to see its preview here.</p>
+                        </div>
+                    </div>
+                    <div id="preview-content" class="hidden">
+                        <div class="flex items-center justify-between mb-3">
+                            <div class="flex items-center gap-x-3">
+                                <span id="preview-title" class="font-semibold text-lg"></span>
+                                <span id="preview-marks" class="text-xs px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded"></span>
+                            </div>
+                            <button id="add-btn" onclick="addCurrentToSelection()"
+                                    class="px-4 h-9 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold rounded-2xl flex items-center gap-x-2">
+                                <i class="fa-solid fa-plus"></i> <span>Add to Test</span>
+                            </button>
+                        </div>
+                        <div id="preview-body" class="math-container text-sm leading-relaxed border-t pt-4"></div>
+                        <div id="preview-images" class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+                    </div>
+                </div>
+
+                <!-- Selected Questions -->
+                <div class="mt-5">
+                    <div class="flex items-center justify-between mb-2 px-1">
+                        <div class="font-semibold text-sm">Selected for this paper <span id="selected-count" class="font-mono text-emerald-700">(0)</span></div>
+                        <button onclick="clearSelection()" class="text-xs text-red-600 hover:text-red-700">Clear all</button>
+                    </div>
+                    <div id="selected-list" class="bg-white border border-zinc-200 rounded-2xl p-3 min-h-[90px] text-sm">
+                        <!-- JS populated clean list -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FULL PAPER PREVIEW MODAL -->
+    <div id="paper-preview-modal" onclick="if (event.target.id === 'paper-preview-modal') closePaperPreview()" 
+         class="hidden fixed inset-0 bg-black/60 z-[100] flex items-start justify-center pt-10 p-4 overflow-auto">
+        <div onclick="event.stopImmediatePropagation()" class="bg-white w-full max-w-4xl rounded-3xl shadow-2xl overflow-hidden">
+            <div class="px-6 py-4 border-b flex items-center justify-between bg-zinc-50">
+                <div>
+                    <span id="modal-paper-title" class="font-semibold text-xl"></span>
+                </div>
+                <div class="flex items-center gap-x-3">
+                    <!-- Dual Download Buttons -->
+                    <div class="flex items-center gap-x-2">
+                        <button onclick="downloadFullPaperPDF()" 
+                                class="px-4 h-9 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl text-sm font-semibold flex items-center gap-x-2">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <span>PDF</span>
+                        </button>
+                        <button onclick="downloadFullPaperDocx()" 
+                                class="px-4 h-9 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl text-sm font-semibold flex items-center gap-x-2">
+                            <i class="fa-solid fa-file-word"></i>
+                            <span>Word</span>
+                        </button>
+                    </div>
+                    <button onclick="closePaperPreview()" class="text-zinc-400 hover:text-zinc-600 px-2 text-2xl leading-none">×</button>
+                </div>
+            </div>
+
+            <div class="p-6 max-h-[68vh] overflow-auto" id="paper-preview-body">
+                <!-- Clean assembled paper with sequential numbers (no short titles) + attached images only -->
+            </div>
+
+            <div class="px-6 py-4 border-t bg-zinc-50 text-xs text-zinc-500 flex justify-between">
+                <div>Total marks: <span id="modal-total-marks" class="font-semibold"></span></div>
+                <div>Ready for your classroom</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

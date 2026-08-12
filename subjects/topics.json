@@ -1,0 +1,29 @@
+{
+  "mathematics": [
+    "Number", "Algebra", "Geometry", "Statistics", "Probability", "Sets", "Trigonometry", "Matrices", "Functions", "Sequences"
+  ],
+  "biology": [
+    "Cell Biology", "Genetics", "Ecology", "Human Physiology", "Plant Physiology", "Classification", "Evolution", "Microbiology", "Biotechnology"
+  ],
+  "physical_science": [
+    "Physics - Mechanics", "Physics - Waves & Sound", "Physics - Electricity", "Physics - Heat", "Chemistry - Matter", "Chemistry - Chemical Reactions", "Chemistry - Organic", "Earth Science"
+  ],
+  "physics": [
+    "Mechanics", "Waves", "Electricity & Magnetism", "Thermal Physics", "Modern Physics", "Nuclear Physics", "Astrophysics"
+  ],
+  "chemistry": [
+    "Atomic Structure", "Chemical Bonding", "Stoichiometry", "Acids & Bases", "Redox Reactions", "Organic Chemistry", "Physical Chemistry", "Industrial Chemistry"
+  ],
+  "economics": [
+    "Microeconomics", "Macroeconomics", "International Trade", "Development Economics", "Market Structures", "Government Intervention", "Economic Indicators"
+  ],
+  "development_studies": [
+    "Sustainable Development", "Poverty & Inequality", "Globalisation", "Human Rights & Development", "Environment & Development", "Health & Education", "Governance & Aid"
+  ],
+  "accounting": [
+    "Financial Accounting", "Managerial Accounting", "Cost Accounting", "Auditing", "Taxation", "Financial Statements", "Accounting Principles", "Business Entities"
+  ]
+  "english": [
+    "Reading and Comprehension", "Writing", "Oral Skills"
+  ]
+}

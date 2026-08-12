@@ -1,0 +1,205 @@
+[
+  {
+    "id": "Q01",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Evaluate",
+    "body_markdown": "Evaluate\n\n(a) 20% of M450, \n\n(b) 0.5 ÷ 2/3 , \n\n(c) 64^{1/3} .",
+    "latex": "Evaluate\n\\begin{enumerate}[label=(\\alph*)]\n\\item 20\\% of M450.\n\\item $0.5 \\div \\dfrac{2}{3}$.\n\\item $64^{1/3}$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q02",
+    "original_num": 2,
+    "topic": "Number",
+    "title": "Express 36 seconds as a fraction of an hour",
+    "body_markdown": "Express 36 seconds as a fraction of an hour in its simplest form.",
+    "latex": "Express 36 seconds as a fraction of an hour in its simplest form.",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q03",
+    "original_num": 3,
+    "topic": "Number",
+    "title": "Standard form calculations with A and B",
+    "body_markdown": "A = 3.2 × 10³ and B = 2.4 × 10².\n\nWork out, leaving the answer in standard form.\n\n(a) 2B, \n\n(b) A − B.",
+    "latex": "$A = 3.2 \\times 10^{3}$ and $B = 2.4 \\times 10^{2}$.\n\nWork out, leaving the answer in standard form.\n\\begin{enumerate}[label=(\\alph*)]\n\\item $2B$.\n\\item $A - B$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "Q04",
+    "original_num": 4,
+    "topic": "Number",
+    "title": "Estimate the value",
+    "body_markdown": "Estimate the value of\n\n36.88 × 2.87\n════════════════════\n 1.56²",
+    "latex": "Estimate the value of\n\\[\\dfrac{36.88 \\times 2.87}{1.56^{2}}.\\]",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q05",
+    "original_num": 5,
+    "topic": "Algebra",
+    "title": "Expand and simplify",
+    "body_markdown": "Expand and simplify\n\n−2(x − 3).",
+    "latex": "Expand and simplify\n−2(x − 3).",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "Q06",
+    "original_num": 6,
+    "topic": "Algebra",
+    "title": "Solve the equations",
+    "body_markdown": "Solve the equations\n\n(a) 27 = 3x − 6,\nx = \n\n(b) x² + 7x + 12 = 0.\nx = ............ or x =",
+    "latex": "Solve the equations\n\\begin{enumerate}[label=(\\alph*)]\n\\item 27 = 3x − 6.\n\\item x² + 7x + 12 = 0.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q07",
+    "original_num": 7,
+    "topic": "Algebra",
+    "title": "Factorise fully",
+    "body_markdown": "Factorise fully\n\n(a) 2b² − 2,\n\n(b) ac + ad − bc − bd.",
+    "latex": "Factorise fully\n\\begin{enumerate}[label=(\\alph*)]\n\\item 2b² − 2.\n\\item ac + ad − bc − bd.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q08",
+    "original_num": 8,
+    "topic": "Number",
+    "title": "Flight time zone calculation",
+    "body_markdown": "A flight from place A started at 20 47.\nIt took 7 hours 36 minutes to arrive at place B, whose time zone is 2 hours behind that of place A.\n\nFind the time at place B on arrival.",
+    "latex": "A flight from place A started at 20 47.\nIt took 7 hours 36 minutes to arrive at place B, whose time zone is 2 hours behind that of place A.\n\nFind the time at place B on arrival.",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q09",
+    "original_num": 9,
+    "topic": "Geometry",
+    "title": "Polygon exterior to interior angle ratio",
+    "body_markdown": "The ratio of exterior angle to interior angle of a polygon is 2 : 7.\n\nFind the number of sides of the polygon.",
+    "latex": "The ratio of exterior angle to interior angle of a polygon is 2 : 7.\n\nFind the number of sides of the polygon.",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "Q10",
+    "original_num": 10,
+    "topic": "Algebra",
+    "title": "Volume formula V = 1/3 π r² h",
+    "body_markdown": "V = 1/3 π r² h\n\n(a) Find, in terms of π, the value of V when r = 6 and h = 5.\n\nV = \n\n(b) Make h the subject of the formula.\n\nh =",
+    "latex": "V = \\dfrac{1}{3} \\pi r^{2} h\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Find, in terms of \\pi, the value of V when r = 6 and h = 5.\n\\item Make h the subject of the formula.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q11",
+    "original_num": 11,
+    "topic": "Sets",
+    "title": "Venn diagram elements",
+    "body_markdown": "Venn diagram shows elements of the universal set, set A and set B.\n\n(a) Use set notation to complete the statement:\n\n{a, b, c} .................... A\n\n(b) Find\n\n(i) A ∩ B, \n\n(ii) n(A ∪ B)'. \n\n(c) Shade A' ∩ B.\n\n[Blank Venn diagram for shading]",
+    "latex": "The Venn diagram shows elements of the universal set, set $A$ and set $B$.\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Use set notation to complete the statement: $\\{a, b, c\\} \\ldots\\ldots A$.\n\\item Find\n  \\begin{enumerate}[label=(\\roman*)]\n  \\item $A \\cap B$.\n  \\item $n(A \\cup B)'$.\n  \\end{enumerate}\n\\item Shade $A' \\cap B$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": [
+      "venn_diagram1.png",
+      "venn_diagram2.png"
+    ]
+  },
+  {
+    "id": "Q12",
+    "original_num": 12,
+    "topic": "Algebra",
+    "title": "Matrix operations with A and B",
+    "body_markdown": "Given A = \n[ 6 0 ]\n[ 1 2 ] and B = \n[ 2 3 ]\n[ 1 1 ],\n\nevaluate\n\n(a) 2B,\n\n( )\n\n(b) A − B.\n\n( )",
+    "latex": "Given $A = \\begin{pmatrix} 6 & 0 \\\\ 1 & 2 \\end{pmatrix}$ and $B = \\begin{pmatrix} 2 & 3 \\\\ 1 & 1 \\end{pmatrix}$,\n\nevaluate\n\\begin{enumerate}[label=(\\alph*)]\n\\item $2B$.\n\\item $A - B$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "Q13",
+    "original_num": 13,
+    "topic": "Geometry",
+    "title": "Gradient and midpoint of PQ",
+    "body_markdown": "P(−3, −3) and Q(2, 12) are the points on a straight line.\n\nFind\n\n(a) the gradient of PQ,\n\n(b) the coordinates of the midpoint of PQ.",
+    "latex": "$P(-3, -3)$ and $Q(2, 12)$ are the points on a straight line.\n\nFind\n\\begin{enumerate}[label=(\\alph*)]\n\\item the gradient of $PQ$.\n\\item the coordinates of the midpoint of $PQ$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q14",
+    "original_num": 14,
+    "topic": "Algebra",
+    "title": "Vector PQ and magnitude",
+    "body_markdown": "PQ = (5 ; 12) and P(1,2).\n\nFind\n\n(a) the coordinates of Q,\n\nQ( ........ , ........ )\n\n(b) the magnitude of PQ.\n\n........................................ units",
+    "latex": "$\\overrightarrow{PQ} = \\begin{pmatrix} 5 \\\\ 12 \\end{pmatrix}$ and $P(1,2)$.\n\nFind\n\\begin{enumerate}[label=(\\alph*)]\n\\item the coordinates of $Q$.\n\\item the magnitude of $\\overrightarrow{PQ}$.\n\\end{enumerate}",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "Q15",
+    "original_num": 15,
+    "topic": "Geometry",
+    "title": "Area of shaded parts in rectangle with sector",
+    "body_markdown": "The diagram shows a rectangle with an inscribed sector of 45°.\n\nCalculate, in terms of π, the area of the shaded parts.\n\nGive your answer in the form a − bπ, where a and b are integers.\n\n........................................ cm²",
+    "latex": "The diagram shows a rectangle with an inscribed sector of $45^\\circ$.\n\nCalculate, in terms of $\\pi$, the area of the shaded parts.\n\nGive your answer in the form $a - b\\pi$, where $a$ and $b$ are integers.",
+    "total_marks": 3,
+    "images": [
+      "sector_diagram.png"
+    ]
+  },
+  {
+    "id": "Q16",
+    "original_num": 16,
+    "topic": "Geometry",
+    "title": "Circle theorems with tangent and parallel lines",
+    "body_markdown": "The diagram shows a circle centre O and AD as the diameter.\nBC is parallel to AD and EF is a tangent to the circle at C.\nAngle OCB = 42°.\n\nFind the size of\n\n(a) the angle ECB, ........................................ °\n\n(b) the angle ODC. ........................................ °",
+    "latex": "The diagram shows a circle centre $O$ and $AD$ as the diameter.\n$BC$ is parallel to $AD$ and $EF$ is a tangent to the circle at $C$.\nAngle $OCB = 42^\\circ$.\n\nFind the size of\n\\begin{enumerate}[label=(\\alph*)]\n\\item the angle $ECB$.\n\\item the angle $ODC$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [
+      "circle_diagram.png"
+    ]
+  },
+  {
+    "id": "Q17",
+    "original_num": 17,
+    "topic": "Geometry",
+    "title": "Right-angled triangle BCD",
+    "body_markdown": "The diagram shows a right-angled triangle BCD.\nBC = 8units and BD = 17 units.\n\nFind\n\n.(a) the length of CD, ........................................ units\n\n(b) the exact value of cos CBD,",
+    "latex": "The diagram shows a right-angled triangle $BCD$.\n$BC = 8$ units and $BD = 17$ units.\n\nFind\n\\begin{enumerate}[label=(\\alph*)]\n\\item the length of $CD$.\n\\item the exact value of $\\cos \\angle CBD$.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [
+      "triangle_diagram.png"
+    ]
+  },
+  {
+    "id": "Q18",
+    "original_num": 18,
+    "topic": "Probability",
+    "title": "Two fair spinners probability",
+    "body_markdown": "The diagram shows the regions of two fair spinners with pointers at the rest positions.\n\n(a) Spinner 2 is spun once.\nFind the probability that the pointer lands at the region 2.\n\n(b) The two spinners are spun simultaneously.\nFind the probability that both pointers land at an even number.",
+    "latex": "The diagram shows the regions of two fair spinners with pointers at the rest positions.\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Spinner 2 is spun once.\nFind the probability that the pointer lands at the region 2.\n\\item The two spinners are spun simultaneously.\nFind the probability that both pointers land at an even number.\n\\end{enumerate}",
+    "total_marks": 3,
+    "images": [
+      "spinners_diagram.png"
+    ]
+  },
+  {
+    "id": "Q19",
+    "original_num": 19,
+    "topic": "Statistics",
+    "title": "Frequency table mode and median",
+    "body_markdown": "The table shows the results of 60 children asked about the number of toys they have.\n\n(a) Find\n\n(i) the mode of the distribution, \n\n(ii) the median of the distribution. \n\n(b) Two more children are asked about the number of toys they have.\n\nExplain clearly, between the mode, mean and median, what would change.",
+    "latex": "The table shows the results of 60 children asked about the number of toys they have.\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Find\n  \\begin{enumerate}[label=(\\roman*)]\n  \\item the mode of the distribution.\n  \\item the median of the distribution.\n  \\end{enumerate}\n\\item Two more children are asked about the number of toys they have.\n\nExplain clearly, between the mode, mean and median, what would change.\n\\end{enumerate}",
+    "total_marks": 5,
+    "images": [
+      "frequency_table.png"
+    ]
+  }
+]

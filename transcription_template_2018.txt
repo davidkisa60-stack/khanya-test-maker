@@ -1,0 +1,56 @@
+=== TRANSCRIPTION TEMPLATE FOR MATHS P1 2018 ===
+
+Instructions:
+- Run the extract_pdf_helper.py on your local "Maths P1 2018.pdf" first.
+- Open the generated "page_previews" folder and read each page.
+- For each question, copy the text exactly as it appears (including (a), (b), subparts, and any instructions).
+- Note the total marks for the question.
+- List only the **relevant** image filenames that belong to that question (the actual diagram/table/graph, not every small icon).
+- Suggested topics: Number, Algebra, Geometry, Sets, Probability, Statistics (or leave blank).
+
+Copy and fill the sections below, then paste the whole thing back to me.
+
+--------------------------------------------------
+
+**Question 1**
+Full question text:
+[PASTE FULL TEXT HERE, including sub-parts like (a) (b) and any answer lines if present]
+
+Total marks: [e.g. 3]
+
+Attached images (filenames):
+- page01_imgXX.png
+- page01_imgYY.png
+
+Suggested topic: [e.g. Number]
+
+--------------------------------------------------
+
+**Question 2**
+Full question text:
+[PASTE FULL TEXT HERE]
+
+Total marks: 
+
+Attached images (filenames):
+
+Suggested topic: 
+
+--------------------------------------------------
+
+**Question 3**
+Full question text:
+
+Total marks: 
+
+Attached images (filenames):
+
+Suggested topic: 
+
+--------------------------------------------------
+
+(Repeat the block above for as many questions as you transcribe. Start with the first 5-8 if you want to test the flow quickly.)
+
+When done, paste everything back and say "here is the transcription for 2018".
+I will clean it, assign proper IDs (continuing from Q19), add year: 2018, create clean body_markdown + latex, map only the real diagrams, append to questions.json, and test the preview + PDF/Word export.
+

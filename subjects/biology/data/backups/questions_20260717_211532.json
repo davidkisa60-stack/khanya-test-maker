@@ -1,0 +1,461 @@
+[
+  {
+    "id": "2018Q01",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 1,
+    "topic": "Classification",
+    "title": "Classifying",
+    "body_markdown": "The diagram shows an example of an invertebrate.\n To which group does it belong?\nA Annelids\nB Arachnids \nC Nematodes\nD Molluscs",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j1.png"
+    ]
+  },
+  {
+    "id": "2018Q02",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 2,
+    "topic": "Classification",
+    "title": "Binomial System",
+    "body_markdown": "Using the binomial system for naming species, what is the name for a domestic cat? \nA Felis Domestica\nB felis domestica\n felis Domestica\nD Felis domestica",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q06",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 6,
+    "topic": "Cells",
+    "title": "Cells",
+    "body_markdown": "The diagrams show an animal cell, not drawn to scale, before and after further magnification.\n What is the final magnification of the cell?\nA X2\nB x20\nC x50 \nD x200\n5\nThe table lists two structures, substances that they absorb and the process involved in that absorption:\nWhich structure is correctly matched with a substance it absorbs and the process involved?\nStructure\nSubstance\nProcess\nA\nRoot hair cell\nGlucose\nActive transport\nB\nRoot hair cell\nlons\nOsmosis\nVillus\nGlucose\nActive transport\nD\nVillus\nlons\nOsmosis\n6\nWhich cell represents the appearance of a plant cell after it has been placed in a solution of higher water potential than the cell for six hours?\nA\nB\nD\nECoL 2018\n0180/01/O/N/18\n[Turn over",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j3.png"
+    ]
+  },
+  {
+    "id": "2018Q07",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 7,
+    "topic": "Enzymes",
+    "title": "Enzymes",
+    "body_markdown": " Which graph shows how pH affects the rate of an enzyme controlled reaction? ",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j6.png"
+    ]
+  },
+  {
+    "id": "2018Q08",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 8,
+    "topic": "Enzymes",
+    "title": "Enzymes",
+    "body_markdown": " The diagram represents an enzyme catalysed reaction, based on the lock and key model. \n What structures are represented by numbers 1 and 2",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j7.png",
+      "j8.png"
+    ]
+  },
+  {
+    "id": "2018Q09",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 9,
+    "topic": "Enzymes",
+    "title": "Enzymes",
+    "body_markdown": " Which chemical element is present in enzymes but is not present in fats?\nA Carbon \nB Hydrogen\nC Nitrogen \nD Oxygen",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q10",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 10,
+    "topic": "Nutrition",
+    "title": "Human Nutrition",
+    "body_markdown": " The diagram shows the human alimentary canal\nK\nWhich row of the table correctly matches the site of production of bile and Iipase to the part into which they are secreted in the human alimentary canal?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j9.png",
+      "j10.png"
+    ]
+  },
+  {
+    "id": "2018Q11",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 11,
+    "topic": "Nutrition",
+    "title": "Plant Nutrition",
+    "body_markdown": " The diagram shows a transverse section through a leaf.\n Which layer of the leaf cells are lined with a film of moisture?\nA upper epidermis and spongy mesophyll cells \n B palisade cells and spongy mesophyll cells \nC palisade cells and epidermis \nD palisade cells and lower epidermis",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j11.png"
+    ]
+  },
+  {
+    "id": "2018Q12",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 12,
+    "topic": "Nutrition",
+    "title": "Photosynthesis:",
+    "body_markdown": " The diagram shows the equation for photosynthesis.\n What do numbers 2, 4 and 5 represent?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j12.png",
+      "j13.png"
+    ]
+  },
+  {
+    "id": "2018Q13",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 13,
+    "topic": "Transport",
+    "title": "Plants",
+    "body_markdown": "The diagram shows a cross section of vascular bundles in a stem of a plant.\n Which row correctly identifies structure Z and the substance it transports?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j14.png",
+      "j15.png"
+    ]
+  },
+  {
+    "id": "2018Q14",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 14,
+    "topic": "Transport",
+    "title": "Plants",
+    "body_markdown": " Which graph shows the effect of increased temperature on the rate of transpiration of a plant over a two-hour period?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j16.png"
+    ]
+  },
+  {
+    "id": "2018Q15",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 15,
+    "topic": "Transport",
+    "title": "Plants",
+    "body_markdown": " Which process refers to the movement of water vapour through the stomata of a leaf?\nA Evaporation \nB Osmosis \nC Translocation \nD Transpiration.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q16",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 16,
+    "topic": "Transport",
+    "title": "Humans",
+    "body_markdown": " Which organ receives blood from the coronary artery?\nA Brain\nB Heart\nC Liver\nD Lung",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q17",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 17,
+    "topic": "Transport",
+    "title": "Animals",
+    "body_markdown": " The table shows substances that pass between capillaries and tissues in one part of the body. \n In which part of the body are these capillaries and tissues found?\nA The alveolus\nB The kidney \nC The liver\nD The villus",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j17.png"
+    ]
+  },
+  {
+    "id": "2018Q18",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 18,
+    "topic": "Respiration",
+    "title": "Gaseous Exchange",
+    "body_markdown": " Which activity requires the use of energy from respiration?\nA Movement of carbon dioxide out of a blood capillary:\nB Movement of ions into a root hair cell.\nC Movement of water vapour through the stomata.\nD Movement of oxygen into a red blood cell.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q19",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 19,
+    "topic": "Respiration",
+    "title": "Gaseous Exchange",
+    "body_markdown": " An athlete suddenly stops running and holds his thigh screaming.\n What could be the source of his pain?\nA Blockage of the pulmonary vein.\nB Increase in lactic acid in his muscles. \nC Too much blood rushing to the muscles.\nD Too much oxygen reaching the muscles:",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q20",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 20,
+    "topic": "Unknown",
+    "title": "The diagram shows part of the human respiratory system.",
+    "body_markdown": " The diagram shows part of the human respiratory system.\n Which structure of the human respiratory system has no ciliated cells?\nA Air sacs.\nB Bronchitis \nC Bronchus.\nD Trachea",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j18.png"
+    ]
+  },
+  {
+    "id": "2018Q21",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 21,
+    "topic": "Excretion",
+    "title": "Kidneys",
+    "body_markdown": " Which option best describes the function of a kidney.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j19.png"
+    ]
+  },
+  {
+    "id": "2018Q23",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 23,
+    "topic": "Growth",
+    "title": "Germination",
+    "body_markdown": " The diagram shows a germinating bean seed with a horizontal plumule and a radicle.\n Which diagram represents the seedling after 4 days?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j20.png",
+      "j21.png"
+    ]
+  },
+  {
+    "id": "2018Q24",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 24,
+    "topic": "Coordination and Response",
+    "title": "Animals.",
+    "body_markdown": "Which row correctly describes the initial response in concentration of blood glucose and blood adrenaline of a person immediately after hearing an explosion?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j22.png"
+    ]
+  },
+  {
+    "id": "2018Q25",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 25,
+    "topic": "Coordination and Respon",
+    "title": "Hormones",
+    "body_markdown": " Which hormone is responsible for water regulation in the body?\nA ADH \nB Glucagon \nC LH \nD Progesterone",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q26",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 26,
+    "topic": "Homeostasis",
+    "title": "Regulation",
+    "body_markdown": " Which part of the nervous system detects body temperature change?\nA Cerebell \nB Hypothalamus \nC Pituitary gland \nD Spinal cord",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q27",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 27,
+    "topic": "Drugs",
+    "title": "Tobacco Smoking",
+    "body_markdown": " Which effect is caused by carbon monoxide in tobacco smoke?\nA Destruction of alveolar walls\nB Displacement of oxygen in the red blood cells.\nC Lung cancer\nD Persistent coughing\nWhich term refers to any of two or more alternative forms of a factor that controls a certain 28 characteristic?\nA\nAllele\nB\nChromosome\nGene\nD\nGenotype",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q28",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 28,
+    "topic": "Inheritance",
+    "title": "Chromosomes",
+    "body_markdown": " Which term refers to any of two or more alternative forms of a factor that controls a certain 28 characteristic?\nA Allele\nB Chromosome\nC Gene\nD Genotype",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q29",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 29,
+    "topic": "Inheritance",
+    "title": "Mitosis",
+    "body_markdown": "Which effect is not a result of mitosis?\nA Asexual reproduction \nB Gamete formation. \nC Repair of damaged tissues.\nD Replacement of worn out cells.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q30",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 30,
+    "topic": "Reproduction",
+    "title": "STDS",
+    "body_markdown": "Which one is a sign or symptom of syphilis?\nA Burning sensation on urination\nB Discharge of pus \nC Inflammation of testicles\nD Rash all over the body",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q31",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 31,
+    "topic": "Flowering Plants",
+    "title": "Pollination",
+    "body_markdown": " Which of the following is a feature of a wind-pollinated flower?\nA Anthers inside the flower\nB Brightly coloured petal \nC Feathery stigma \nD Produces nectar.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q32",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 32,
+    "topic": "Inheritance",
+    "title": "Genes",
+    "body_markdown": " Which of these is an example of mutation?\nA Coronary heart disease\nB Obesity \nC Sickle-cell anaemia \nD Syphilis",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q33",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 33,
+    "topic": "Growth",
+    "title": "Germination",
+    "body_markdown": " Which graph shows changes in dry mass during seed germination and seedling growth?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j23.png"
+    ]
+  },
+  {
+    "id": "2018Q34",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 34,
+    "topic": "Inheritance",
+    "title": "Chromosomes",
+    "body_markdown": "How many chromosomes will a zygote that develops into a baby with Down's Syndrome contain?\nA 23\nB 24 \nC 46 \nD 47",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q35",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 35,
+    "topic": "Inheritance",
+    "title": "Genotypes",
+    "body_markdown": " A man with blood group A (genotype IAIO), marries a woman with blood group B (genotype IBIO), and they had four children.\n What are the chances that one of the children will have blood group 0? \nA 1/8 \nB 1/4 \nC 1/2 \nD 3/4",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q36",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 36,
+    "topic": "Inheritance",
+    "title": "Genetics",
+    "body_markdown": " A heterozygous dog with brown fur is crossed with a homozygous recessive dog with white fur.\n What is the predicted ratio of fur colour of the offspring from this cross?\nA 1 brown : 1 white \nA 1 brown : 2 white \nC 2 brown : 1 white \nD 3 brown : 1 white",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q38",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 38,
+    "topic": "Humand and The Environment",
+    "title": "Habitat Destruction",
+    "body_markdown": " Which factor is not an effect of deforestation?\nA Increase in carbon dioxide\nB Flooding \nC Loss of soil.\nD Oxygen builds-up",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2018Q39",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 39,
+    "topic": "Organisms and The Environment",
+    "title": "Nutrient Cycles",
+    "body_markdown": " The diagram shows a bean plant. \n Which chemical change is carried out by bacteria inside part P?\nA nitrates ->  nitrogen \nB nitrogen -> nitrates \nC nitrates -> proteins \nD proteins ->  nitrates",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j24.png"
+    ]
+  },
+  {
+    "id": "2018Q40",
+    "year": 2018,
+    "paper": "P1 2018",
+    "original_num": 40,
+    "topic": "Organisms and The Environment",
+    "title": "Population Size",
+    "body_markdown": " A tree is a habitat for birds that are heavily infected by flea parasites. These birds feed on caterpillars that feed on the tree leaves.\n Which diagram shows a pyramid of numbers for this food chain?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "j25.png"
+    ]
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "2025-Q01",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 1,
+    "topic": "Algebra",
+    "title": "Money",
+    "body_markdown": " (a) Marofa has a bank balance of -M180 at the Automated Teller Machine (ATM) before making a deposit. \n After he deposited some money into his account, his new balance is M1 630.\n Calculate the amount of money he deposited into his account. \n(b) Thoola Company pays its employee M220 for packaging 500-brick stack. \n(i)Find the number of 500-brick stacks packaged if an employee is paid M1 100. \n(ii) The Company reserved M15 000 for packaging the bricks:\n Find the amount that remains after packaging a maximum number of 500-brick stacks.",
+    "latex": "",
+    "total_marks": 6,
+    "images": []
+    
+  },
+  {
+    "id": "2025-Q02",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 2,
+    "topic": "Geometry",
+    "title": "Straight line graphs",
+    "body_markdown": " The xy-plane shows triangle ABC. The coordinates of A, B and C are (-4,6), (8,-2) and (2,-2) respectively.\n(a) Calculate the coordinates of the midpoint of the line AB. \n(b) Find the equation of the line AB.\n Give your answer in the form ax + by + c = 0, where a,b and c are integers.\n(c) Calculate the area of the triangle ABC.",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "er1.png"
+]
+    
+  },
+  {
+    "id": "2025-Q03",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 3,
+    "topic": "Algebra",
+    "title": "Patterns And Sequencies",
+    "body_markdown": " The diagram shows black and white dots in the first four patterns.\n(a) Draw pattern 5. (b) Complete the table.\n(c) Find the number of black dots and white dots in the 6th pattern. \n(ii) the nth term for the total number of dots. \n(d) Pattern m has a total number of dots as 239. Find the value of m.",
+    "latex": "",
+    "total_marks": 11,
+    "images": [
+      "er2.png",
+      "er3.png"
+]
+    
+  },
+  {
+    "id": "2025-Q04",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 4,
+    "topic": "Algebra",
+    "title": "Expressions",
+    "body_markdown": "(a) Factorise completely. \n(i) x\u00b2 - x - 20.\n(ii) Hence , simplify (x\u00b2 - 25)/(x\u00b2 - x - 20). \n(b) T = 2pi x squareroot (l/g). \n(i) Find T when l = 22.8 and g = 9.8.\n(ii) Express g in terms of pi, T and L.\n(c) Express as a single fraction in its simplest form:\n (a + 2)/4 + (a + 3)/5",
+    "latex": "",
+    "total_marks": 12,
+    "images": []
+    
+  },
+  {
+    "id": "2025-Q05",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 5,
+    "topic": "Number",
+    "title": "Percentages",
+    "body_markdown": "(a) In 2021,, the cost of printing page was 50 lisente. \n A company printed 1 180 pages and was given 7.5% discount on the cost. \n Calculate the total discount in Maloti (M). \nii) The cost of printing a page in 2021 was an increase of 10% from the cost of printing a page in 2020.\n Find the cost in Maluti of printing a page in 2020.\n(b) Pule gains M3 600 interest after investing M2O 000 at 6% simple interest per annum.\n Calculate the number of years he invested.",
+    "latex": "",
+    "total_marks": 7,
+    "images": []
+    
+  },
+  {
+    "id": "2025-Q06",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 6,
+    "topic": "Geometry",
+    "title": "Transformations",
+    "body_markdown": "(a) Point P (8, -5) is translated by column vector (3,2).\n Find the coordinates of the image of P.\n(b) Point Q(2, 7) is reflected upon y = -1.\n Find the coordinates of the image of Q .\n(c) A transformation R is represented by the matrix below; \n Describe the transformation R,\n(d) N is a matrix such that(check below). \n Find the matrix N. \n Given matrix M below, Find the inverse of M.",
+    "latex": "",
+    "total_marks": 9,
+    "images": [
+      "er4.png",
+      "er5.png",
+      "er6.png"
+]
+  },
+  {
+    "id": "2025-Q07",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 7,
+    "topic": "Probability",
+    "title": "Probability",
+    "body_markdown": " There are 150 marbles in a box.\n 60 of the marbles are red while the others are green and blue.\n A marble is chosen at random; and the probability of choosing a green marble is 7/30. \n (a) Find the probability of choosing \n(i) a red marble.\n(ii) a blue marble.\n(b) A marble is chosen at random, observed; but not replaced. Another marble is then chosen and observed.\n Calculate the probability that one marble is red and the other is green.",
+    "latex": "",
+    "total_marks": 7,
+    "images": []
+    
+  },
+  {
+    "id": "2025-Q08",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 8,
+    "topic": "Number",
+    "title": "Sets",
+    "body_markdown": " The school offers debate D; spelling bee Sand pronunciation P as its activities. \n n(S) =15, n(P) =17 and n(Dn P) = 8. \n The Venn diagram represents part of the information.\n(a) Complete the Venn diagram: (b) Find \n(i) n(P'),\n(ii)\n n(P u D n S). \n(c) Another Venn diagram shows a set of 20 elements. \n The number of elements in each subset is given in terms of n",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "er7.png",
+      "er8.png"
+]
+  },
+  {
+    "id": "2025-Q09",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 9,
+    "topic": "Algebra",
+    "title": "Expressions",
+    "body_markdown": "(a) Given that a + b = 9 and a\u00b2 + b\u00b2 = 71, find the value of (ab)^5.\n(b) Solve (1 + 2a)\u00b2 = 81. \n(c) If f(x) = x - 3/x \n(i) Find the value of x when f(x) = -2. \n(ii) Using the result from 9(c)(i) or otherwise, solve square root (2b - 3) - 3/ (square root (2b - 3)) = -2",
+    "latex": "",
+    "total_marks": 13,
+    "images": []
+    
+  },
+  {
+    "id": "2025-Q10",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 10,
+    "topic": "Statistics",
+    "title": "Statistics",
+    "body_markdown": " The table shows the marks obtained by 60 students in a mathematics quiz. \n(a) State the modal class. \n(b) Calculate the estimated mean score.\n(c)(i) Complete the cumulative frequency table. \n(ii) Draw a cumulative frequency curve to represent this information.\n(d) Use your graph to estimate \n(i) the number of students who scored above 35 marks,\n(ii) the interquartile range.",
+    "latex": "",
+    "total_marks": 13,
+    "images": [
+      "er9.png",
+      "er10.png",
+      "er11.png"
+]
+  },
+  {
+    "id": "2025-Q11",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 11,
+    "topic": "Geometry",
+    "title": "Volumes",
+    "body_markdown": " The diagram shows a container consisting of a cylinder and a hemispherical top. \n The radius of both the cylinder and the hemisphere is 0.3m each. \n The height of the container is 1.4m.\n(a) Find the height of the cylinder.\n(b) Calculate the total volume of the container:. [The volume of the sphere of radius r is given by V = (4/3) x pi x r\u00b3]. \n(c) The container is filled with water up to 3/4 of the total volume. \n Calculate the height reached by the water in the container.",
+    "latex": "",
+    "total_marks": 8,
+    "images": [
+      "er12.png"
+]
+  },
+  {
+    "id": "2025-Q12",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 12,
+    "topic": "Geometry",
+    "title": "Similarity",
+    "body_markdown": " (a) The diagram shows a square ABCD with a rectangle whose area is 15cm\u00b2. \n Two other measures, 5cm and 10cm; are also shown. \n Find the area of the square ABCD. \n(b) The diagram shows two similar triangles PQR and TSR: QS = 7cm, SR = 8cm, PR = 18cm and RT = a cm: \n Calculate the value of the length of PT:",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "er13.png",
+      "er14.png"
+]
+  },
+  {
+    "id": "2025-Q13",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 13,
+    "topic": "Geometry",
+    "title": "Shapes",
+    "body_markdown": " The diagram shows a trapezium ABCD. \n Angles ABC and angle BCD are right angles. \n E is a point on AD such that AE = 6.4cm. \n AB = 10.2cm, BC = 7.1cm, CD = 6cm and angle EAB = 59.5 .\n Calculate\n(a) the area of the shape ABCD. \n(b) the length of perpendicular line from E to line AB.\n(c) the length of the line BE.",
+    "latex": "",
+    "total_marks": 8,
+    "images": [
+      "er15.png"
+]
+    
+  },
+  {
+    "id": "2025-Q14",
+    "year": 2025,
+    "paper": "P4 2025",
+    "original_num": 14,
+    "topic": "Algebra",
+    "title": "Graphs of Functions",
+    "body_markdown": " The diagram shows the graph of y = f(x).\n(a) Use the graph to complete the table below. \n(b) The function f(x) can be expressed in the form f(x) = 2^ax \n Find the value of a. \n(c) The table shows the values of y = (2/x\u00b2) - x,\n Find the value of p and the value of q. \n(d) Draw the graph of y = (2/x\u00b2) - x on the same grid. \n(e) Use your graphs to solve these equations. \n(i) (2/x\u00b2) - x  = 3 \n(ii) 2^x - (2/x\u00b2) + x + 0 \n(f) (2/x\u00b2) - x = 3 - 2x can be written in the form 0 = ax\u00b3 +bx\u00b2 - 2 where a and b are integers.\n Find the values of a and b.",
+    "latex": "",
+    "total_marks": 15,
+    "images": [
+      "er16.png",
+      "er17.png",
+      "er18.png"
+]
+  }
+]

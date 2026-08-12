@@ -1,0 +1,1460 @@
+[
+  {
+    "id": "2016Q02",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 2,
+    "topic": "Physics - Mechanics",
+    "title": "Length of a pencil using a ruler",
+    "body_markdown": "A ruler is used to measure the length of a pencil.\n\nWhat is the length of the pencil?\n\nA  1.0 cm\nB  1.9 cm\nC  2.0 cm\nD  2.9 cm",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps111.png"
+    ]
+  },
+  {
+    "id": "2016Q03",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 3,
+    "topic": "Physics - Mechanics",
+    "title": "Speed from a distance-time graph",
+    "body_markdown": "The diagram shows a distance-time graph of a car that starts from rest.\n\nWhat is the speed of the car between 10 s and 20 s?\n\nA  0 m/s\nB  15 m/s\nC  30 m/s\nD  300 m/s",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps112.png"
+    ]
+  },
+  {
+    "id": "2016Q04",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 4,
+    "topic": "Physics - Energy",
+    "title": "Main useful energy change in a filament lamp",
+    "body_markdown": "A filament lamp is connected to a mains socket and switched on.\n\nWhat is the main useful energy change in the lamp?\n\nA  electrical energy into light energy\nB  electrical energy into chemical energy\nC  kinetic energy into electrical energy\nD  light energy into electrical energy",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q05",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 5,
+    "topic": "Physics - Mechanics",
+    "title": "Resultant force on a box",
+    "body_markdown": "A 75 N force is applied to push a 25 kg box along a horizontal rough floor. The box accelerates at 2 m/s\u00b2.\n\nWhat is the resultant force on the box?\n\nA  3 N\nB  25 N\nC  50 N\nD  75 N",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q06",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 6,
+    "topic": "Physics - Mechanics",
+    "title": "Centre of mass of a rectangular tile",
+    "body_markdown": "A student determined the centre of mass of a rectangular tile of uniform thickness.\n\nWhich statement is not true about the location of the centre of mass of the tile?\n\nA  It lies on a diagonal line of the tile.\nB  It lies on a line that divides the length of the tile into halves.\nC  It lies on a line that divides the width of the tile into halves.\nD  It lies on any of the lines dividing the tile into thirds",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q07",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 7,
+    "topic": "Physics - Thermal",
+    "title": "Why is a car radiator painted black?",
+    "body_markdown": "A car engine gets very hot when operating. To prevent it from overheating, a liquid is pumped around the engine. The liquid passes through a radiator.\n\nWhy is the radiator painted black?\n\nA  to absorb energy slower from the liquid\nB  to absorb energy faster from the surroundings\nC  to transfer energy faster to the liquid\nD  to transfer energy faster to the surroundings",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q08",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 8,
+    "topic": "Physics - Thermal",
+    "title": "Boiling and evaporation",
+    "body_markdown": "Which statements in the table are correct about both boiling and evaporation?\n\nA  Boiling: energy supplied by liquid, occurs at a fixed temperature   Evaporation: energy supplied by energy source, occurs at any temperature\nB  Boiling: occurs at a fixed temperature, takes place within the liquid   Evaporation: occurs at any temperature, takes place at the surface of a liquid\nC  Boiling: energy supplied by energy source, occurs at a fixed temperature   Evaporation: occurs at any temperature, takes place within the liquid\nD  Boiling: occurs at any temperature, takes place at the surface   Evaporation: energy supplied by liquid, occurs at a fixed temperature",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q09",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 9,
+    "topic": "Physics - Waves",
+    "title": "Loudest sound system",
+    "body_markdown": "The table shows data about two sound systems, P and Q.\n\nWhich of the sound systems would produce the loudest sound and why?\n\nA  system P because of its short wavelength\nB  system P because of its lower frequency range\nC  system Q because of its large amplitude\nD  system Q because of its large frequency range",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps119.png"
+    ]
+  },
+  {
+    "id": "2016Q10",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 10,
+    "topic": "Physics - Waves",
+    "title": "Wavelength of Radio Lesotho waves",
+    "body_markdown": "Radio Lesotho broadcasts at a frequency of 6.0 \u00d7 10\u2079 Hz. The speed of radio waves is 3.0 \u00d7 10\u2078 m/s.\n\nWhat is the wavelength of the radio waves?\n\nA  0.05 m\nB  20.0 m\nC  5.7 \u00d7 10\u2079 m\nD  6.3 \u00d7 10\u2079 m",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q11",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 11,
+    "topic": "Physics - Waves",
+    "title": "Image formed by a hand lens",
+    "body_markdown": "A student uses a hand lens to view crawling insects.\n\nWhat type of image is formed by the hand lens?\n\nA  real and diminished\nB  real and enlarged\nC  virtual and diminished\nD  virtual and enlarged",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q12",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 12,
+    "topic": "Physics - Waves",
+    "title": "Reflection of light by a plane mirror",
+    "body_markdown": "The diagram shows a ray of light incident on a plane mirror.\n\nWhich path does the ray of light take when it is reflected by the mirror?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps113.png"
+    ]
+  },
+  {
+    "id": "2016Q13",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 13,
+    "topic": "Physics - Electricity",
+    "title": "Hazards from water leaking onto cables",
+    "body_markdown": "Water from pipes leaks into a nearby office. It causes cables connected to ceiling fans to be immersed in water.\n\nWhich of these hazards could not be caused by the cables being under water?\n\nA  overheating\nB  rusting of ceiling fans\nC  electrocution\nD  short circuit",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q14",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 14,
+    "topic": "Physics - Electricity",
+    "title": "Symbol for a variable resistor",
+    "body_markdown": "Which diagram shows the correct symbol for a variable resistor?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps114.png"
+    ]
+  },
+  {
+    "id": "2016Q15",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 15,
+    "topic": "Physics - Electricity",
+    "title": "Appliance with highest current",
+    "body_markdown": "Which of the following appliances draws the highest current when connected to a 240 V supply?\n\nA  100 W lamp\nB  700 W toaster\nC  1200 W electric iron\nD  2000 W electric heater",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q16",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 16,
+    "topic": "Physics - Electricity",
+    "title": "Rubbing pens and effect on paper",
+    "body_markdown": "A student used a cloth to rub two pens, P and Q, made from different materials. He brought each rubbed pen near small pieces of paper.\n\nThe table shows some of his observations.\n\nWhich of the statements explains this result?\n\nA  Q is a conductor; it induced the same charge on the pieces of paper.\nB  P is an insulator; it induced the same charge on the pieces of paper.\nC  P is a conductor; it induced the opposite charge on the pieces of paper.\nD  Q is an insulator; it induced the opposite charge on the pieces of paper.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps120.png"
+    ]
+  },
+  {
+    "id": "2016Q17",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 17,
+    "topic": "Physics - Electricity",
+    "title": "Purpose of iron core in a step-up transformer",
+    "body_markdown": "What is the main purpose of using an iron core in a step-up transformer?\n\nA  It conducts current to the secondary coil.\nB  It decreases the resistance of the secondary coil.\nC  It increases the current induced in the secondary coil.\nD  It increases the energy transferred to the secondary coil.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q18",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 18,
+    "topic": "Physics - Electricity",
+    "title": "Magnet in a milling company",
+    "body_markdown": "In a milling company, flour is usually passed near a magnet before being packaged.\n\nWhat is the purpose of using the magnet?\n\nA  It induces magnetism on stalks in the flour.\nB  It transfers magnetism to stalks in the flour.\nC  It removes pieces of iron from the flour.\nD  It transfers magnetism to the flour.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q19",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 19,
+    "topic": "Physics - Electricity",
+    "title": "Charges on spheres near a negatively charged rod",
+    "body_markdown": "The diagrams show a negatively charged rod brought near two conducting spheres that are suspended from pieces of thread.\n\nWhich diagram correctly represents the arrangement of charges on the spheres?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps115.png"
+    ]
+  },
+  {
+    "id": "2016Q20",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 20,
+    "topic": "Physics - Nuclear",
+    "title": "Charges of alpha, beta and gamma radiation",
+    "body_markdown": "Which row in the table describes the charges of alpha, beta and gamma radiations?\n\nA  alpha: negative   beta: no charge   gamma: positive\nB  alpha: no charge   beta: positive   gamma: negative\nC  alpha: positive   beta: negative   gamma: no charge\nD  alpha: positive   beta: no charge   gamma: negative",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q21",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 21,
+    "topic": "Physics - Nuclear",
+    "title": "Handling radioactive material",
+    "body_markdown": "A scientist wanted to move a small rock containing a radioactive material that emits a highly penetrative radiation.\n\nWhich of the following is the best way of handling the rock?\n\nA  with bare hands\nB  use a long pair of tongs\nC  wear rubber gloves\nD  wear woollen gloves",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q22",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 22,
+    "topic": "Chemistry - Separation",
+    "title": "Separation technique for pure water from salt solution",
+    "body_markdown": "Which of the following separation techniques can be used to separate and collect pure water from a sodium chloride solution?\n\nA  crystallisation\nB  evaporation\nC  filtration\nD  distillation",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q23",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 23,
+    "topic": "Chemistry - Periodic Table",
+    "title": "Group VII element properties",
+    "body_markdown": "A group VII element has the following properties:\n1. it is a gas at room temperature\n2. it is yellowish green\n\nWhat is the name of this element?\n\nA  astatine\nB  bromine\nC  chlorine\nD  fluorine",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q24",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 24,
+    "topic": "Physics - Thermal",
+    "title": "Laboratory temperature from cooling curve",
+    "body_markdown": "Thabo measures the temperature of melted fat as it cools in the laboratory. He obtains the following cooling curve.\n\nWhat is the temperature in the laboratory?\n\nA  20 \u00b0C\nB  25 \u00b0C\nC  40 \u00b0C\nD  60 \u00b0C",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps116.png"
+    ]
+  },
+  {
+    "id": "2016Q25",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 25,
+    "topic": "Chemistry - Periodic Table",
+    "title": "Number of outer electrons vs atomic number",
+    "body_markdown": "The number of outer electrons for the first 20 elements is plotted against their atomic number.\n\nWhich graph shows this?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps117.png"
+    ]
+  },
+  {
+    "id": "2016Q26",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 26,
+    "topic": "Chemistry - Acids & Bases",
+    "title": "Property of orange juice",
+    "body_markdown": "Orange juice contains citric and ascorbic acids.\n\nWhich of the following is a property of the orange juice?\n\nA  It turns red litmus paper blue\nB  It turns blue litmus paper red\nC  It turns Universal Indicator blue\nD  It turns Universal Indicator green",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q27",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 27,
+    "topic": "Chemistry - Redox",
+    "title": "Definition of oxidation",
+    "body_markdown": "Which of the following statements describes oxidation?\n\nA  gaining of hydrogen and gaining of oxygen\nB  gaining of hydrogen and loss of oxygen\nC  loss of hydrogen and gaining of oxygen\nD  loss of hydrogen and loss of oxygen",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q28",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 28,
+    "topic": "Chemistry - Rates of Reaction",
+    "title": "Mass of catalyst in ammonia decomposition",
+    "body_markdown": "Which statement is true about the mass of a catalyst during the decomposition of ammonia?\n\nA  It decreases constantly with time.\nB  It decreases gradually, and then stays constant\nC  It increases constantly with time.\nD  It stays the same throughout the reaction",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q29",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 29,
+    "topic": "Chemistry - Halogens",
+    "title": "Halogen displacement reactions",
+    "body_markdown": "Which of the following substances would not produce a colour change when mixed together?\n\nA  potassium fluoride solution and iodine\nB  potassium bromide solution and chlorine\nC  magnesium iodide solution and bromine\nD  magnesium bromide solution and fluorine",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q30",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 30,
+    "topic": "Chemistry - Acids & Bases",
+    "title": "pH values of substances",
+    "body_markdown": "The diagram shows the pH values of four substances, P, Q, R and S.\n\nWhich two substances would form a neutral mixture when reacted in the correct proportions?\n\nA  P and Q\nB  P and R\nC  Q and S\nD  R and S",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps118.png"
+    ]
+  },
+  {
+    "id": "2016Q31",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 31,
+    "topic": "Chemistry - Calculations",
+    "title": "Relative molecular mass of SO\u2082",
+    "body_markdown": "What is the relative molecular mass of SO\u2082? [The relative atomic masses, A\u1d63: S = 32, O = 16]\n\nA  24\nB  48\nC  64\nD  80",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q32",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 32,
+    "topic": "Chemistry - Water",
+    "title": "Softest water source",
+    "body_markdown": "Which of the following contains the softest water?\n\nA  Katse Dam\nB  rain\nC  Senqu River\nD  spring",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q33",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 33,
+    "topic": "Chemistry - Carbon Compounds",
+    "title": "Reaction that does not form carbon dioxide",
+    "body_markdown": "Which of the following reactions does not form carbon dioxide?\n\nA  photosynthesis\nB  respiration\nC  combustion of ethanol\nD  decomposition of calcium carbonate",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q34",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 34,
+    "topic": "Chemistry - Water",
+    "title": "Colour of hydrated cobalt chloride paper",
+    "body_markdown": "What is the colour of hydrated cobalt chloride paper?\n\nA  blue\nB  pink\nC  red\nD  white",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q35",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 35,
+    "topic": "Chemistry - Industrial",
+    "title": "Reactant in the Haber process",
+    "body_markdown": "Which substance is a reactant in the Haber process?\n\nA  carbon\nB  halogen\nC  hydrogen\nD  iron",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q36",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 36,
+    "topic": "Chemistry - Air",
+    "title": "Gas found in clean atmospheric air",
+    "body_markdown": "Which gas is found in clean atmospheric air?\n\nA  argon\nB  hydrogen\nC  nitrogen dioxide\nD  sulfur dioxide",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q37",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 37,
+    "topic": "Chemistry - Organic",
+    "title": "Alkene",
+    "body_markdown": "Which of the following organic compounds is an alkene?\n\nA  ethanoic acid\nB  ethanol\nC  propene\nD  propane",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q38",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 38,
+    "topic": "Chemistry - Organic",
+    "title": "Synthetic polymers",
+    "body_markdown": "Which list shows synthetic polymers only?\n\nA  amino acid, glucose and ethanol\nB  amino acid, protein and polythene\nC  protein, nylon and starch\nD  nylon, polythene and polyester",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q39",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 39,
+    "topic": "Chemistry - Organic",
+    "title": "Crude oil fraction and use",
+    "body_markdown": "Which of the following fractions from crude oil is correctly matched with its use?\n\nA  bitumen \u2013 for making petrochemicals\nB  diesel \u2013 for aircraft fuel\nC  lubricating oil \u2013 for making waxes and polishes\nD  naphtha \u2013 for making roads",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q40",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 40,
+    "topic": "Chemistry - Organic",
+    "title": "Members of the same homologous series",
+    "body_markdown": "Which of the following organic compounds are members of the same homologous series?\n\nA  CH\u2084 and CH\u2082CH\u2082\nB  CH\u2084 and CH\u2083CH\u2083\nC  CH\u2082CH\u2082 and CH\u2083CH\u2083\nD  CH\u2083CH\u2082OH and CH\u2083COOH",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016Q41",
+    "year": 2016,
+    "paper": "P1 2016",
+    "original_num": 41,
+    "topic": "Chemistry - Organic",
+    "title": "Complete combustion of propanol",
+    "body_markdown": "Which equation represents complete combustion of propanol (C\u2083H\u2087OH)?\n\nA  2C\u2083H\u2087OH + 4O\u2082 \u2192 6CO + 4H\u2082O\nB  2C\u2083H\u2087OH + 9O\u2082 \u2192 6CO\u2082 + 8H\u2082O\nC  2C\u2083H\u2087OH + 3O\u2082 \u2192 6C + 8H\u2082O\nD  2C\u2083H\u2087OH + 5O\u2082 \u2192 6CO\u2082 + 8H\u2082",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q03",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 3,
+    "topic": "Physics - Mechanics",
+    "title": "Which quantity has the same unit as work?",
+    "body_markdown": "Which quantity has the same unit as work?\n\nA  energy\nB  force\nC  mass\nD  volume",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q04",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 4,
+    "topic": "Physics - Mechanics",
+    "title": "Mass of an object on the Moon",
+    "body_markdown": "The mass of an object on Earth is 50 kg. The gravitational field strengths on Earth and on the Moon are 10 N/kg and 1.6 N/kg respectively.\n\nWhat is the mass of the object on the Moon?\n\nA  5 kg\nB  50 kg\nC  80 kg\nD  500 kg",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q05",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 5,
+    "topic": "Physics - Mechanics",
+    "title": "Calculation that gives volume of an object",
+    "body_markdown": "Which calculation gives the volume of an object?\n\nA  density \u00f7 mass\nB  density \u00d7 mass\nC  mass \u00f7 density\nD  mass + density",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q06",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 6,
+    "topic": "Physics - Mechanics",
+    "title": "Weight of a metre rule",
+    "body_markdown": "A metre rule pivoted at the 30 cm mark is balanced by a 0.9 N weight suspended at the 5 cm mark.\n\nWhat is the weight of the metre rule?\n\nA  (0.9 \u00d7 20) \u00f7 25\nB  (0.9 \u00d7 25) \u00f7 20\nC  (0.9 \u00d7 25) \u00f7 70\nD  (0.9 \u00d7 70) \u00f7 25",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps1.png"
+    ]
+  },
+  {
+    "id": "2023Q07",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 7,
+    "topic": "Physics - Mechanics",
+    "title": "Stability of objects on a table",
+    "body_markdown": "A diagram shows two identical objects P and Q placed on the table.\n\nWhat will happen to object P and Q when tilted by the same amount of force clockwise?\n\nA  P and Q will return to original state\nB  P and Q will fall in clockwise direction\nC  P will fall clockwise while Q will return to original state\nD  P will return to original state while Q will fall clockwise",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps2.png"
+    ]
+  },
+  {
+    "id": "2023Q08",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 8,
+    "topic": "Physics - Mechanics",
+    "title": "Acceleration of a 2 kg mass",
+    "body_markdown": "A 2 kg mass is moving at a constant speed in a straight path. The forward thrust on the mass is 10 N.\n\nWhat is its acceleration?\n\nA  0.0 m/s\u00b2\nB  0.2 m/s\u00b2\nC  8.0 m/s\u00b2\nD  20.0 m/s\u00b2",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q09",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 9,
+    "topic": "Physics - Mechanics",
+    "title": "Unit for average speed of a car",
+    "body_markdown": "What unit better represents average speed of a car?\n\nA  kilometres per hour\nB  kilometres per second\nC  metres per hour\nD  metres per second",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q10",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 10,
+    "topic": "Physics - Thermal",
+    "title": "Crackling sounds on metal roofing",
+    "body_markdown": "Which process causes crackling sounds on metal roofing of a house during the night?\n\nA  conduction\nB  contraction\nC  convection\nD  expansion",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q11",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 11,
+    "topic": "Physics - Thermal",
+    "title": "Properties of liquids and solids",
+    "body_markdown": "Which of the statements are correct for both liquids and solids?\n\nA  Liquids: fixed shape and volume   Solids: fixed shape and volume\nB  Liquids: fixed shape and volume   Solids: no fixed shape and volume\nC  Liquids: no fixed shape but fixed volume   Solids: fixed shape and volume\nD  Liquids: no fixed shape and volume   Solids: no fixed shape and volume",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q12",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 12,
+    "topic": "Physics - Thermal",
+    "title": "Heat transfer methods and applications",
+    "body_markdown": "Which method of heat transfer is correctly matched to its application and consequence?\n\nA  conduction \u2013 greenhouse \u2013 trapping air\nB  conduction \u2013 vacuum flask \u2013 skin cancer\nC  convection \u2013 greenhouse \u2013 air conditioner\nD  convection \u2013 vacuum flask \u2013 sea breeze",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q13",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 13,
+    "topic": "Physics - Waves",
+    "title": "Distance from thunderstorm",
+    "body_markdown": "A student hears sound 2 seconds after a flash during a thunderstorm. The average speed of sound in air is 330 m/s.\n\nHow far is the student from the storm?\n\nA  165 m\nB  328 m\nC  332 m\nD  660 m",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q14",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 14,
+    "topic": "Physics - Waves",
+    "title": "Image in a mirror",
+    "body_markdown": "A diagram shows an eye looking at the image of an object O placed in front of a mirror.\n\nWhich is the correct image of the object O the eye sees?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps5.png"
+    ]
+  },
+  {
+    "id": "2023Q15",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 15,
+    "topic": "Physics - Waves",
+    "title": "Order of electromagnetic waves by frequency",
+    "body_markdown": "What is the correct order in decreasing frequency for the three given electromagnetic waves?\n\nA  radio waves, visible light, X-ray\nB  visible light, X-ray, radio waves\nC  X-ray, radio waves, visible light\nD  X-ray, visible light, radio waves",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q16",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 16,
+    "topic": "Physics - Waves",
+    "title": "Properties of sound waves",
+    "body_markdown": "Which statement is correct about sound waves?\n\nA  sound with low amplitude is louder\nB  sound with low frequency is softer\nC  sound with high amplitude is high pitched\nD  sound with high frequency is high pitched",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q17",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 17,
+    "topic": "Physics - Electricity",
+    "title": "Current through parallel resistors",
+    "body_markdown": "The diagram shows two identical resistors connected in parallel to a 12.0 V battery of negligible internal resistance. The ammeter reads 3 A.\n\nWhat is the amount of current through each resistor?\n\nA  1.5 A\nB  3.0 A\nC  6.0 A\nD  12 A",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps7.png"
+    ]
+  },
+  {
+    "id": "2023Q18",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 18,
+    "topic": "Physics - Electricity",
+    "title": "Conventional current flow",
+    "body_markdown": "Which statement defines conventional current flow in an electric circuit?\n\nA  actual flow of negative charge from positive to negative terminal\nB  actual flow of positive charge from negative to positive terminal\nC  assumption that negative charge flows from negative to positive terminal\nD  assumption that positive charge flows from positive to negative terminal",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q19",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 19,
+    "topic": "Physics - Electricity",
+    "title": "Lamps when switch is opened",
+    "body_markdown": "L1 and L2 are connected to a source with a closed switch S in the circuit.\n\nWhat will happen to the lamps when S is opened?\n\nA  L1 lights, L2 does not light\nB  L1 lights, L2 lights\nC  L1 does not light, L2 lights\nD  L1 does not light, L2 does not light",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps8.png"
+    ]
+  },
+  {
+    "id": "2023Q20",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 20,
+    "topic": "Physics - Electricity",
+    "title": "North poles of iron rods",
+    "body_markdown": "The two circuits show the direction of current around the iron rods PQ and RS.\n\nWhich ends of the two rods will be north pole?\n\nA  P and R\nB  P and S\nC  Q and R\nD  Q and S",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps9.png"
+    ]
+  },
+  {
+    "id": "2023Q21",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 21,
+    "topic": "Physics - Nuclear",
+    "title": "Alpha decay of radium-228",
+    "body_markdown": "The decay equation for radium-228 (\u00b2\u00b3\u2078Ra) that emits an alpha particle and a daughter nuclide Y is:\n\nWhat is the name of the element Y?\n\nA  bismuth\nB  polonium\nC  radon\nD  xenon",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps10.png"
+    ]
+  },
+  {
+    "id": "2023Q22",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 22,
+    "topic": "Physics - Atomic",
+    "title": "Proton number from electronic structure",
+    "body_markdown": "The diagram shows the electronic structure of an atom (2, 6, 8, 16 electrons in shells).\n\nWhat is the proton number of this atom?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps11.png"
+    ]
+  },
+  {
+    "id": "2023Q23",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 23,
+    "topic": "Chemistry - Acids & Bases",
+    "title": "pH scale and acidity",
+    "body_markdown": "Which part of the pH scale represents acidity?\n\nA  at 7\nB  at 14\nC  below 7\nD  above 7",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q24",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 24,
+    "topic": "Chemistry - Acids & Bases",
+    "title": "Use of calcium hydroxide in farming",
+    "body_markdown": "Calcium hydroxide (slaked lime) is used in farming.\n\nWhich chemical property of calcium hydroxide makes it useful in crop farming?\n\nA  decomposes on heating\nB  increases growth of plants\nC  kills pests\nD  neutralises acids",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q25",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 25,
+    "topic": "Chemistry - Metals",
+    "title": "Metal that reacts violently with water",
+    "body_markdown": "Which metal reacts violently with water?\n\nA  aluminium\nB  lead\nC  sodium\nD  zinc",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q26",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 26,
+    "topic": "Physics - Electricity",
+    "title": "Electrolysis of copper chloride",
+    "body_markdown": "The diagram shows electrolysis of a dilute solution of copper chloride.\n\nWhich product will form at the anode?\n\nA  chlorine\nB  copper\nC  hydrogen\nD  oxygen",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps12.png"
+    ]
+  },
+  {
+    "id": "2023Q27",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 27,
+    "topic": "Chemistry - Redox",
+    "title": "Reaction of chlorine with potassium bromide",
+    "body_markdown": "The reaction between chlorine gas and aqueous potassium bromide is:\n\nCl\u2082(g) + 2KBr(aq) \u2192 2KCl(aq) + Br\u2082(g)\n\nWhich statement is correct about the reaction?\n\nA  bromine is reduced\nB  chlorine is oxidised\nC  chlorine is reduced\nD  potassium is oxidised",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q28",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 28,
+    "topic": "Chemistry - Separation",
+    "title": "Technique to separate sugar from solution",
+    "body_markdown": "Which technique is used to separate sugar from a solution?\n\nA  chromatography\nB  crystallisation\nC  distillation\nD  filtration",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q29",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 29,
+    "topic": "Chemistry - Bonding",
+    "title": "Electrons in outermost shell",
+    "body_markdown": "A dot-and-cross diagram for a molecule formed when atoms of elements Q and Y bond chemically is shown.\n\nHow many electrons does a neutral atom of the element Q have in the outermost shell?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps14.png"
+    ]
+  },
+  {
+    "id": "2023Q30",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 30,
+    "topic": "Chemistry - Bonding",
+    "title": "Properties of chlorine and methane gases",
+    "body_markdown": "Which statement is true for both chlorine and methane gases?\n\nA  they are covalent molecules\nB  they are denser than air\nC  they are flammable gases\nD  they are greenhouse gases",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q31",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 31,
+    "topic": "Chemistry - Electrochemistry",
+    "title": "Electroplating of steel object",
+    "body_markdown": "The diagram demonstrates electroplating of a steel object with copper.\n\nWhat is the name of the electrolyte?\n\nA  battery\nB  copper\nC  copper(II) sulphate\nD  steel object",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps15.png"
+    ]
+  },
+  {
+    "id": "2023Q32",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 32,
+    "topic": "Chemistry - Industrial",
+    "title": "Industrial preparation of fertiliser",
+    "body_markdown": "The flow diagram shows the main steps in the industrial preparation of a solid fertiliser.\n\nHaber process \u2192 ammonia gas \u2192 HNO\u2083 \u2192 Fertiliser X\n\nWhat is the name of fertiliser X?\n\nA  ammonium chloride\nB  ammonium nitrate\nC  ammonium phosphate\nD  ammonium sulphate",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q33",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 33,
+    "topic": "Chemistry - Organic",
+    "title": "Endothermic process",
+    "body_markdown": "Which process is endothermic?\n\nA  fermentation\nB  Haber\nC  photosynthesis\nD  polymerisation",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q34",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 34,
+    "topic": "Chemistry - Organic",
+    "title": "Reagent to identify alkane or alkene",
+    "body_markdown": "The diagram shows apparatus used to identify whether a hydrocarbon is an alkane or alkene.\n\nWhat is the name of reagent W?\n\nA  bromine water\nB  chlorine water\nC  distilled water\nD  lime water",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps17.png"
+    ]
+  },
+  {
+    "id": "2023Q35",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 35,
+    "topic": "Chemistry - Organic",
+    "title": "Chromatogram for illegal drugs in horses",
+    "body_markdown": "The diagram shows a chromatogram for the urine test carried out to find illegal drugs in race horses.\n\nWhich horse was given an illegal drug?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps18.png"
+    ]
+  },
+  {
+    "id": "2023Q36",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 36,
+    "topic": "Chemistry - Organic",
+    "title": "Man-made macromolecule",
+    "body_markdown": "Which macromolecule is man-made?\n\nA  carbohydrate\nB  fat\nC  nylon\nD  protein",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q37",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 37,
+    "topic": "Chemistry - Metals",
+    "title": "Metal that does NOT react with dilute HCl",
+    "body_markdown": "Which metal would NOT react with dilute hydrochloric acid?\n\nA  copper\nB  iron\nC  magnesium\nD  zinc",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2023Q38",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 38,
+    "topic": "Chemistry - Water",
+    "title": "Water with least dissolved minerals",
+    "body_markdown": "The four test tubes contain water from different sources. Which test tube is likely to contain water with less or no dissolved minerals?\n\nA  lake\nB  rain\nC  river\nD  tap",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps19.png"
+    ]
+  },
+  {
+    "id": "2023Q39",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 39,
+    "topic": "Chemistry - Organic",
+    "title": "Amide linkages in protein",
+    "body_markdown": "The diagram shows a typical part-structure of a protein molecule.\n\nHow many amide linkages are represented?\n\nA  2\nB  3\nC  4\nD  5",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps20.png"
+    ]
+  },
+  {
+    "id": "2023Q40",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 40,
+    "topic": "Physics - Electricity",
+    "title": "Method of rust prevention",
+    "body_markdown": "The diagram shows how steel can be protected from rusting (thin layer of zinc on steel bar).\n\nWhat is the name of this method of rust prevention?\n\nA  coating\nB  electroplating\nC  painting\nD  sacrificial protection",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps21.png"
+    ]
+  },
+  {
+    "id": "2023Q41",
+    "year": 2023,
+    "paper": "P1 2023",
+    "original_num": 41,
+    "topic": "Chemistry - Organic",
+    "title": "Homologous series of organic compound",
+    "body_markdown": "The diagram shows the structure of an organic compound:\n\nTo which homologous series does the compound belong?\n\nA  acids\nB  alcohols\nC  alkanes\nD  alkenes",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps22.png"
+    ]
+  },
+  {
+    "id": "2024Q02",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 2,
+    "topic": "Physics - Electricity",
+    "title": "Instrument used to measure current",
+    "body_markdown": "Which instrument is used to measure current?\n\nA  ammeter\nB  fixed resistor\nC  variable resistor\nD  voltmeter",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q03",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 3,
+    "topic": "Physics - Mechanics",
+    "title": "Total distance from speed-time graph",
+    "body_markdown": "The diagram shows the speed-time graph for a car. The car starts from rest and moves for 40 seconds.\n\nWhat is the total distance moved by the car in 40 s?\n\nA  1000 m\nB  1200 m\nC  1400 m\nD  1600 m",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps211.png"
+    ]
+  },
+  {
+    "id": "2024Q04",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 4,
+    "topic": "Physics - Mechanics",
+    "title": "Masses with equal weight on Earth and Moon",
+    "body_markdown": "The gravitational field strength on Earth is 10 N/kg and on the Moon is 1.6 N/kg. The weight of the body is calculated as W = mg.\n\nWhich masses have equal weight on the Earth and on the Moon?\n\nA  1.6 kg on Earth, 10 kg on Moon\nB  10 kg on Earth, 1.6 kg on Moon\nC  10 kg on Earth, 16 kg on Moon\nD  16 kg on Earth, 10 kg on Moon",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q05",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 5,
+    "topic": "Physics - Mechanics",
+    "title": "Weight of a uniform bar",
+    "body_markdown": "The diagram shows two wooden blocks suspended on a 100 cm long uniform bar. The uniform bar is pivoted at the centre and balanced with the weight W.\n\nWhat is the value of the weight W?\n\nA  2.1 N\nB  5.3 N\nC  7.5 N\nD  10.5 N",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps212.png"
+    ]
+  },
+  {
+    "id": "2024Q06",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 6,
+    "topic": "Physics - Energy",
+    "title": "Energy conversions when throwing a ball upwards",
+    "body_markdown": "A boy throws a ball upwards.\n\nWhich energy conversions take place?\n\nA  chemical energy \u2192 kinetic energy \u2192 potential energy\nB  chemical energy \u2192 potential energy \u2192 kinetic energy\nC  potential energy \u2192 chemical energy \u2192 kinetic energy\nD  potential energy \u2192 kinetic energy \u2192 chemical energy",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q07",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 7,
+    "topic": "Physics - Thermal",
+    "title": "Improving a solar heating system",
+    "body_markdown": "The diagram shows the solar heating system Mpho uses to warm water. She puts water in the plastic tank and surrounds the tank with a glass case.\n\nWhich statement describes how Mpho can improve the efficiency of the heating system?\n\nA  put water in a bigger tank\nB  put water in a smaller tank\nC  remove glass casing\nD  use shiny glass casing",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps213.png"
+    ]
+  },
+  {
+    "id": "2024Q08",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 8,
+    "topic": "Physics - Mechanics",
+    "title": "Density of a glass block",
+    "body_markdown": "What is the density of a 50 g glass block of 20 cm\u00b3 volume?\n\nA  0.4 g/cm\u00b3\nB  2.5 g/cm\u00b3\nC  30 g/cm\u00b3\nD  70 g/cm\u00b3",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q09",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 9,
+    "topic": "Physics - Thermal",
+    "title": "Why the mercury level rises in a thermometer",
+    "body_markdown": "A student immersed a mercury thermometer in hot water and allowed it to stay for a few seconds. The level of mercury in the thermometer increased.\n\nWhy did the level of the mercury increase?\n\nA  mercury contracts when heated\nB  mercury evaporates when heated\nC  mercury expands when heated\nD  mercury melts when heated",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q10",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 10,
+    "topic": "Physics - Thermal",
+    "title": "Heat transfer from a hot pot to a metal table",
+    "body_markdown": "The diagram shows a hot pot placed on a metal table.\n\nHow does heat transfer from the pot to the table?\n\nA  by conduction\nB  by convection\nC  by evaporation\nD  by radiation",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps214.png"
+    ]
+  },
+  {
+    "id": "2024Q11",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 11,
+    "topic": "Physics - Waves",
+    "title": "Sound wave with the highest pitch",
+    "body_markdown": "The diagrams represent sound waves as they appeared on the screen of an oscilloscope. The controls of the oscilloscope were set the same in each case.\n\nWhich diagram represents the sound with the highest pitch?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps215.png"
+    ]
+  },
+  {
+    "id": "2024Q12",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 12,
+    "topic": "Physics - Waves",
+    "title": "Use of X-rays in medicine",
+    "body_markdown": "Which statement describes the use of X-rays in medicine?\n\nA  detects arrangement of atoms in substance\nB  detects broken bone\nC  medical imaging\nD  treatment of cancer",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q13",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 13,
+    "topic": "Physics - Electricity",
+    "title": "Magnetization by double stroking",
+    "body_markdown": "Which diagram represents magnetization by double stroking?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps216.png"
+    ]
+  },
+  {
+    "id": "2024Q14",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 14,
+    "topic": "Physics - Electricity",
+    "title": "Resistance of two wires of different lengths",
+    "body_markdown": "Two wires X and Y are made of the same material and have the same thickness. The length of wire Y is half the length of wire X.\n\nWhich statement describes how the resistance of the wires relate?\n\nA  Wire X has the same resistance as wire Y\nB  Wire X has half the resistance of wire Y\nC  Wire Y has half the resistance of wire X\nD  Wire Y has twice the resistance of wire X",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps217.png"
+    ]
+  },
+  {
+    "id": "2024Q15",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 15,
+    "topic": "Physics - Electricity",
+    "title": "Why not plug in too many electric appliances",
+    "body_markdown": "Why is it advisable not to plug in too many electric appliances?\n\nA  to reduce electricity consumption\nB  to reduce a risk of electric fire\nC  to regulate flow of electricity\nD  to regulate voltage levels in electrical systems",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q16",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 16,
+    "topic": "Physics - Electricity",
+    "title": "How an electric motor works",
+    "body_markdown": "Which statement best describes how an electric motor works?\n\nA  changing magnetic field in the current carrying wires causes a turning effect\nB  changing magnetic field around current carrying wires causes a turning effect\nC  magnetic field around current carrying wires causes a turning effect\nD  magnetic field of current carrying wires causes a turning effect",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q17",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 17,
+    "topic": "Physics - Electricity",
+    "title": "Current in step-up transformers",
+    "body_markdown": "The diagram shows two step-up transformers.\n\nWhich statement describes the amount of current in the secondary coils?\n\nA  less current in transformer 2 than in transformer 1\nB  more current in transformer 1 than in transformer 2\nC  more current in transformer 2 than in transformer 1\nD  same current in transformer 1 and transformer 2",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps219.png"
+    ]
+  },
+  {
+    "id": "2024Q18",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 18,
+    "topic": "Physics - Nuclear",
+    "title": "Change when a substance emits a beta particle",
+    "body_markdown": "A radioactive substance emits a beta particle when it decays.\n\nWhich statement describes the change in the substance?\n\nA  mass number decreases by 1\nB  mass number increases by 1\nC  protons decrease by 1\nD  protons increase by 1",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q19",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 19,
+    "topic": "Physics - Nuclear",
+    "title": "Safety measure when handling radioactive substances",
+    "body_markdown": "What safety measure is taken when handling radioactive substances?\n\nA  wear linen gloves\nB  wear latex gloves\nC  wear long pants\nD  wear tinted spectacles",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q20",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 20,
+    "topic": "Chemistry - Diffusion",
+    "title": "Observation in chlorine gas diffusion experiment",
+    "body_markdown": "A gas jar was inverted over another containing chlorine gas. The experiment was performed inside the fume hood.\n\nWhich statement explains the observation?\n\nA  Air and chlorine diffuse at the same rate.\nB  Air in the fume hood circulated around gas jars.\nC  Chlorine and air particles are in constant random motion.\nD  Chlorine vapour is denser than air",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps220.png"
+    ]
+  },
+  {
+    "id": "2024Q21",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 21,
+    "topic": "Chemistry - Organic",
+    "title": "Correct statement about polythene",
+    "body_markdown": "Which row is correct for polythene?\n\nA  it is man-made, it is made up of ethene monomers\nB  it is man-made, it is made up of ethane monomers\nC  it is natural, it is made up of ethene monomers\nD  it is natural, it is made up of ethane monomers",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q22",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 22,
+    "topic": "Chemistry - Measurement",
+    "title": "Best apparatus to measure 40 cm\u00b3 of water quickly",
+    "body_markdown": "A student is performing an experiment. Part of the instructions reads as follows: \"Quickly add 40 cm\u00b3 of water.\"\n\nWhat is the best piece of apparatus to use?\n\nA  burette\nB  measuring cylinder\nC  test tube\nD  volumetric flask",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q23",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 23,
+    "topic": "Chemistry - Periodic Table",
+    "title": "Correct statement about elements in the Periodic Table",
+    "body_markdown": "The diagram shows an outline of the Periodic Table.\n\nWhich statement about the elements P, Q, R and S is correct?\n\nA  Q has a smaller proton number than P\nB  S has a smaller proton number than Q\nC  Q combines with R to form the ionic compound QR\nD  R reacts with S to form the covalent compound RS",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps221.png"
+    ]
+  },
+  {
+    "id": "2024Q24",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 24,
+    "topic": "Chemistry - Atomic Structure",
+    "title": "Correct statements about a potassium atom",
+    "body_markdown": "Which statement about a potassium atom \u00b3\u2079\u2081\u2089K is correct?\n\n1. The nucleon number is 20\n2. The number of outer electrons is 1\n3. The proton number is 19\n\nA  1 only\nB  1 and 3 only\nC  2 only\nD  2 and 3 only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q25",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 25,
+    "topic": "Chemistry - Air",
+    "title": "Gas present in the smallest amount in clean air",
+    "body_markdown": "Air is a mixture of gases.\n\nWhich gas is present in the smallest amount in clean air?\n\nA  argon\nB  carbon dioxide\nC  nitrogen\nD  oxygen",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q26",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 26,
+    "topic": "Chemistry - Electrochemistry",
+    "title": "Products of electrolysis of concentrated copper(II) chloride",
+    "body_markdown": "A concentrated copper(II) chloride solution is electrolysed using carbon electrodes.\n\nWhat products are obtained at the electrodes?\n\nA  cathode: copper metal   anode: chlorine gas\nB  cathode: chlorine gas   anode: copper metal\nC  cathode: copper metal   anode: oxygen gas\nD  cathode: oxygen gas   anode: copper metal",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q27",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 27,
+    "topic": "Chemistry - Metals",
+    "title": "Metal that does not react with steam or dilute acids",
+    "body_markdown": "A metal has the following properties:\n- does not react with steam\n- does not displace hydrogen from dilute acids\n\nWhat is the name of the metal?\n\nA  iron\nB  calcium\nC  copper\nD  potassium",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q28",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 28,
+    "topic": "Chemistry - Rates of Reaction",
+    "title": "Effect of particle size and temperature on reaction speed",
+    "body_markdown": "What are the effects of increasing particle size and decreasing temperature on the speed of a reaction?\n\nA  increasing particle size: faster   decreasing temperature: faster\nB  increasing particle size: faster   decreasing temperature: slower\nC  increasing particle size: slower   decreasing temperature: faster\nD  increasing particle size: slower   decreasing temperature: slower",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q29",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 29,
+    "topic": "Chemistry - Organic",
+    "title": "Compound pair in the same homologous series",
+    "body_markdown": "Which compound pair belongs to the same homologous series?\n\nA  CH\u2083Cl and CH\u2083COCl\nB  CH3OH and CH\u2083-O-CH\u2083\nC  CH\u2083COOH and HCOOH\nD  CH\u2083COOH and CH\u2083CH\u2082OH",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q30",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 30,
+    "topic": "Chemistry - Acids & Bases",
+    "title": "Compound used to treat acidic soil",
+    "body_markdown": "Which compound is used to treat acidic soil?\n\nA  calcium oxide\nB  calcium nitrate\nC  potassium hydroxide\nD  potassium nitrate",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q31",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 31,
+    "topic": "Chemistry - Calculations",
+    "title": "Compound with 83.3% carbon by mass",
+    "body_markdown": "The table shows relative molecular masses of four compounds.\n\nWhich compound has 83.3% by mass of carbon?\n\nA  C\u2083H\u2088\nB  C\u2084H\u2081\u2080O\nC  C\u2085H\u2081\u2082\nD  C\u2086H\u2081\u2084",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps222.png"
+    ]
+  },
+  {
+    "id": "2024Q32",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 32,
+    "topic": "Chemistry - Energy",
+    "title": "Endothermic reaction",
+    "body_markdown": "Which reaction is endothermic?\n\nA  combustion\nB  neutralisation\nC  photosynthesis\nD  precipitation",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q33",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 33,
+    "topic": "Chemistry - Water",
+    "title": "Compound used in a chemical test for water",
+    "body_markdown": "Which compound is used in a chemical test for water?\n\nA  cobalt(II) chloride\nB  cobalt(III) chloride\nC  copper(I) chloride\nD  copper(II) chloride",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q34",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 34,
+    "topic": "Chemistry - Organic",
+    "title": "Products of complete combustion of methane",
+    "body_markdown": "What are the products of complete combustion of methane?\n\nA  carbon dioxide and water\nB  ethanol and water\nC  hydrogen and water\nD  sulphur dioxide and water",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q35",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 35,
+    "topic": "Chemistry - Gases",
+    "title": "Use of helium",
+    "body_markdown": "What is the use of helium?\n\nA  fills electric bulbs\nB  fills weather balloons\nC  in electric advertising signs\nD  in supporting combustion",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q36",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 36,
+    "topic": "Physics - Electricity",
+    "title": "Metal to prevent rusting on steel oil rig",
+    "body_markdown": "Which metal is the most suitable to be attached to the steel leg of an oil rig to prevent rusting?\n\nA  calcium\nB  copper\nC  lead\nD  zinc",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2024Q37",
+    "year": 2024,
+    "paper": "P1 2024",
+    "original_num": 37,
+    "topic": "Chemistry - Organic",
+    "title": "Structure of diamond",
+    "body_markdown": "Which structure represents diamond?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ps223.png"
+    ]
+  }
+]
