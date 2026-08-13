@@ -7,10 +7,11 @@
 // === IMPORTANT: Set your Render backend URL here ===
 // After deploying the backend to Render, replace this with your live URL (no trailing slash).
 // Example: "https://khanya-test-maker.onrender.com"
-const BACKEND_URL = "https://khanya-test-maker-backend.onrender.com";
+const BACKEND_URL = "https://khanya-test-maker-backend.onrender.com"; 
 
 function getApiUrl(endpoint) {
     if (BACKEND_URL) {
+        // Remove trailing slash from BACKEND_URL if present
         const base = BACKEND_URL.replace(/\/$/, '');
         return base + endpoint;
     }
@@ -20,8 +21,31 @@ function getApiUrl(endpoint) {
 let allQuestions = [];
 let currentSubject = null;
 let selectedQuestions = []; // array of question objects
+
+// Keep a live synced reference on window so inline onclicks and listeners always see the current list
+window.selectedQuestions = selectedQuestions;
 let currentPreview = null;
 let currentFilteredQuestions = []; // for filters
+
+// Make selectedQuestions always available on window for debugging and inline handlers
+function _exposeSelected() {
+    window.selectedQuestions = selectedQuestions;
+}
+window._exposeSelected = _exposeSelected;
+
+// === ROBUST SYNC: call this after EVERY mutation so inline handlers see live data
+function syncSelectedToWindow() {
+    window.selectedQuestions = selectedQuestions;
+    // Also expose a getter-like for safety
+    try {
+        Object.defineProperty(window, 'selectedQuestions', {
+            get: () => selectedQuestions,
+            set: (v) => { selectedQuestions = v; },
+            configurable: true
+        });
+    } catch(e) {}
+}
+window.syncSelectedToWindow = syncSelectedToWindow;
 
 const SUBJECTS = ["Mathematics", "Biology", "Physical Science", "English", "Economics", "Development Studies", "Accounting"];
 
@@ -113,6 +137,7 @@ window.showSubjects = showSubjects;
 async function showSubject(subject) {
     currentSubject = subject;
     selectedQuestions = [];
+    syncSelectedToWindow();   // CRITICAL for inline onclick + window access
     currentPreview = null;
 
     hideAll();
@@ -125,6 +150,7 @@ async function showSubject(subject) {
     const topicsEl = document.getElementById('topics-list');
     topicsEl.innerHTML = '';
 
+    // Load the correct questions file for this subject
     await loadQuestions(subject);
 
     if (allQuestions.length === 0) {
@@ -143,6 +169,10 @@ async function showSubject(subject) {
     renderSelectedList();
     showPreviewPlaceholder();
     updateSelectedCount();
+
+    // Re-attach preview button listener after subject page is active (static hosting timing fix)
+    setTimeout(attachPreviewButton, 50);
+    setTimeout(attachPreviewButton, 300);
 }
 
 function populateFilterDropdowns() {
@@ -246,8 +276,9 @@ function renderFilteredTopics() {
     });
 
     const cnt = document.getElementById('filter-count');
-    if (cnt) cnt.textContent = '';
+    if (cnt) cnt.textContent = '';   // no global total — only topic counts are shown
 }
+
 
 function showPreviewPlaceholder() {
     const ph = document.getElementById('preview-placeholder');
@@ -257,6 +288,8 @@ function showPreviewPlaceholder() {
 }
 
 function cleanQuestionBody(body) {
+    // Remove dotted answer lines ("dashes") and [marks] so display is clean question text only.
+    // The final PDF adds proper visual working space instead.
     if (!body) return '';
     let cleaned = body;
     cleaned = cleaned.replace(/\.{3,}\s*\[\d+\]/g, '');
@@ -282,6 +315,7 @@ function previewQuestion(qid) {
 
     const bodyEl = document.getElementById('preview-body');
     let bodyText = cleanQuestionBody(q.body_markdown || q.latex || '');
+    // Preserve structure with pre-wrap for (a)(b) subquestions etc.
     bodyEl.innerHTML = `<div class="math-container" style="white-space: pre-wrap; line-height: 1.55; font-size: 0.93rem;">${bodyText.replace(/\n/g, '<br>')}</div>`;
 
     const imgContainer = document.getElementById('preview-images');
@@ -309,6 +343,7 @@ function addToSelection(qid) {
     if (!q || selectedQuestions.some(s => s.id === q.id)) return;
 
     selectedQuestions.push(q);
+    syncSelectedToWindow();   // CRITICAL for inline onclick + window access
     renderSelectedList();
     updateSelectedCount();
 
@@ -352,6 +387,7 @@ function renderSelectedList() {
 
 function removeFromSelection(index) {
     selectedQuestions.splice(index, 1);
+    syncSelectedToWindow();   // CRITICAL for inline onclick + window access
     renderSelectedList();
     updateSelectedCount();
 
@@ -372,6 +408,7 @@ function updateSelectedCount() {
 
 function clearSelection() {
     selectedQuestions = [];
+    syncSelectedToWindow();   // CRITICAL for inline onclick + window access
     renderSelectedList();
     updateSelectedCount();
     const addBtn = document.getElementById('add-btn');
@@ -382,56 +419,170 @@ function clearSelection() {
 }
 
 function previewFullPaper() {
-    if (selectedQuestions.length === 0) {
-        alert("Please add at least one question.");
+    console.log('%c[Khanya] === previewFullPaper() ENTERED ===', 'color:#eab308; font-weight:bold');
+    console.log('[Khanya] selectedQuestions length:', selectedQuestions ? selectedQuestions.length : 0);
+    console.log('[Khanya] window.selectedQuestions length:', (window.selectedQuestions ? window.selectedQuestions.length : 'undefined'));
+    console.log('[Khanya] selectedQuestions:', selectedQuestions);
+    console.log('[Khanya] window.selectedQuestions:', window.selectedQuestions);
+    console.log('[Khanya] window.previewFullPaper ===', typeof window.previewFullPaper);
+    console.log('[Khanya] document.readyState:', document.readyState);
+
+    // Robust selectedQuestions: prefer window if the local is empty (timing/sync issue)
+    let questions = selectedQuestions;
+    if ((!questions || questions.length === 0) && window.selectedQuestions && window.selectedQuestions.length > 0) {
+        questions = window.selectedQuestions;
+        console.log('%c[Khanya] Using window.selectedQuestions fallback (length ' + questions.length + ')', 'color:#f59e0b');
+    }
+
+    if (!questions || questions.length === 0) {
+        alert("Please add questions first using the green 'Add' buttons.");
         return;
     }
 
     const modal = document.getElementById('paper-preview-modal');
     const body = document.getElementById('paper-preview-body');
+    const titleEl = document.getElementById('modal-paper-title');
+    const totalEl = document.getElementById('modal-total-marks');
+
+    console.log('[Khanya] modal found:', !!modal, 'id=', modal ? modal.id : null);
+    console.log('[Khanya] body found:', !!body);
+
+    if (!modal || !body) {
+        console.error('[Khanya] Modal not found!');
+        alert("Preview modal missing. Hard refresh (Ctrl+Shift+R).");
+        return;
+    }
+
     body.innerHTML = '';
 
-    const title = document.getElementById('paper-title').value.trim() || "Test Paper";
-    document.getElementById('modal-paper-title').textContent = title;
+    const paperTitle = document.getElementById('paper-title')?.value.trim() || "Test Paper";
+    if (titleEl) titleEl.textContent = paperTitle;
 
     let total = 0;
 
-    selectedQuestions.forEach((q, idx) => {
-        total += q.total_marks;
+    questions.forEach((q, idx) => {
+        const marks = Number(q.total_marks) || 0;
+        total += marks;
+
         const section = document.createElement('div');
         section.className = 'mb-8 pb-6 border-b last:border-b-0';
 
-        let bodyText = cleanQuestionBody(q.body_markdown || q.latex || '');
+        const bodyText = cleanQuestionBody(q.body_markdown || q.latex || '');
+
         let html = `
             <div class="flex justify-between mb-2 items-baseline">
-                <div class="font-semibold text-base">${idx + 1}. ${q.title}</div>
-                <div class="text-sm text-emerald-700 font-medium whitespace-nowrap">${q.total_marks} marks</div>
+                <div class="font-semibold text-base">${idx + 1}. ${q.title || 'Untitled'}</div>
+                <div class="text-sm text-emerald-700 font-medium">${marks} marks</div>
             </div>
             <div class="math-container text-sm" style="white-space: pre-wrap; line-height: 1.55;">${bodyText.replace(/\n/g, '<br>')}</div>
         `;
-        if (q.images && q.images.length) {
+
+        if (q.images && q.images.length > 0) {
             html += `<div class="mt-3 grid grid-cols-1 md:grid-cols-2 gap-2">`;
             q.images.forEach(img => {
-                html += `<img src="assets/images/${img}" class="border border-zinc-200 rounded-xl max-h-56 object-contain bg-white" alt="Diagram" style="max-width:100%; height:auto;">`;
+                html += `<img src="assets/images/${img}" class="border border-zinc-200 rounded-xl max-h-56 object-contain bg-white" style="max-width:100%; height:auto;" onerror="this.style.display='none'">`;
             });
             html += `</div>`;
         }
+
         html += `<div class="text-[10px] text-zinc-400 mt-1 italic">— space for workings —</div>`;
 
         section.innerHTML = html;
         body.appendChild(section);
     });
 
-    document.getElementById('modal-total-marks').textContent = total;
+    if (totalEl) totalEl.textContent = total;
+
+    // === CRITICAL FIX: Force visibility because hideAll() sets inline display:none which overrides classes
     modal.classList.remove('hidden');
     modal.classList.add('flex');
+    modal.style.display = 'flex';   // overrides any previous display:none
+    modal.style.visibility = 'visible';
+    modal.style.opacity = '1';
+    modal.style.pointerEvents = 'auto';   // ensure clicks work after downloads etc.
+
+    console.log('%c[Khanya] Preview opened successfully', 'color:#22c55e');
+    console.log('[Khanya] modal style.display after force:', modal.style.display);
+    console.log('[Khanya] modal classList:', modal.classList.toString());
 }
 
+// === CRITICAL: Expose immediately to window after definition (fixes Netlify/Render timing) ===
+window.previewFullPaper = previewFullPaper;
+
 function closePaperPreview() {
+    console.log('%c[Khanya] closePaperPreview() called', 'color:#ef4444');
+
     const modal = document.getElementById('paper-preview-modal');
+    if (!modal) {
+        console.warn('[Khanya] closePaperPreview: modal element not found');
+        return;
+    }
+
+    // === THE MOST AGGRESSIVE FIX for "× and backdrop stop responding AFTER PDF/Word download" ===
+    // previewFullPaper() forces:
+    //   modal.classList.add('flex');
+    //   modal.style.display = 'flex';
+    //   modal.style.visibility = 'visible';
+    //   modal.style.opacity = '1';
+    //   modal.style.pointerEvents = 'auto';
+    //
+    // These inline styles (plus .flex) completely override Tailwind's .hidden and the onclick handlers.
+    // After a blob download the close button often becomes dead until hard refresh.
+    //
+    // We nuke EVERYTHING aggressively.
+
+    // 1. Remove classes
     modal.classList.remove('flex');
     modal.classList.add('hidden');
+
+    // 2. NUCLEAR — remove the entire style attribute (this defeats the forced display:flex etc.)
+    modal.removeAttribute('style');
+    modal.style.cssText = '';
+
+    // 3. Force display none with !important (modern browsers respect this)
+    modal.style.setProperty('display', 'none', 'important');
+    modal.style.setProperty('visibility', 'hidden', 'important');
+    modal.style.setProperty('opacity', '0', 'important');
+    modal.style.setProperty('pointer-events', 'none', 'important');
+
+    // 4. Also set directly (belt + suspenders)
+    modal.style.display = 'none';
+    modal.style.pointerEvents = '';
+
+    // 5. Multiple timed cleanups (blob downloads are racy)
+    const forceHide = () => {
+        const m = document.getElementById('paper-preview-modal');
+        if (m) {
+            m.classList.remove('flex');
+            m.classList.add('hidden');
+            m.removeAttribute('style');
+            m.style.cssText = '';
+            m.style.setProperty('display', 'none', 'important');
+            m.style.display = 'none';
+            m.style.pointerEvents = '';
+        }
+    };
+
+    forceHide();
+    setTimeout(forceHide, 10);
+    setTimeout(forceHide, 40);
+    setTimeout(forceHide, 100);
+
+    // Also run the global hideAll as a final safety
+    if (typeof hideAll === 'function') {
+        // only affect the modal
+        const m = document.getElementById('paper-preview-modal');
+        if (m) {
+            m.classList.add('hidden');
+            m.style.display = 'none';
+        }
+    }
+
+    console.log('%c[Khanya] ✅ Modal closed + ALL forced styles nuked (post-download safe)', 'color:#22c55e');
 }
+
+// === CRITICAL: Expose immediately to window after definition ===
+window.closePaperPreview = closePaperPreview;
 
 async function downloadFullPaperPDF() {
     if (selectedQuestions.length === 0) return;
@@ -462,6 +613,12 @@ async function downloadFullPaperPDF() {
             a.click();
             a.remove();
             URL.revokeObjectURL(url);
+
+            // After download, force-close the modal (blob downloads often leave the UI "stuck")
+            setTimeout(() => {
+                const fn = window.closePaperPreview || closePaperPreview;
+                if (typeof fn === 'function') fn();
+            }, 30);
             return;
         } else {
             const err = await res.json().catch(() => ({}));
@@ -482,6 +639,8 @@ async function downloadFullPaperPDF() {
         `3. Run locally: python flask_app.py (then use http://127.0.0.1:5001)`
     );
 }
+
+
 
 async function downloadFullPaperDocx() {
     if (selectedQuestions.length === 0) return;
@@ -512,6 +671,12 @@ async function downloadFullPaperDocx() {
             a.click();
             a.remove();
             URL.revokeObjectURL(url);
+
+            // After download, force-close the modal (blob downloads often leave the UI "stuck")
+            setTimeout(() => {
+                const fn = window.closePaperPreview || closePaperPreview;
+                if (typeof fn === 'function') fn();
+            }, 30);
             return;
         } else {
             const err = await res.json().catch(() => ({}));
@@ -535,6 +700,7 @@ async function downloadFullPaperDocx() {
 
 // === Attach listeners from JS (most reliable) + text fallback ===
 function attachNewTestButtons() {
+    // Primary: by stable ID
     let nav = document.getElementById('btn-new-test-nav');
     if (!nav) {
         nav = Array.from(document.querySelectorAll('button, a')).find(el => 
@@ -563,22 +729,71 @@ function attachNewTestButtons() {
     }
 }
 
-// === Boot with aggressive retries ===
+// === NEW: Robust attachment for Preview Full Paper button ===
+function attachPreviewButton() {
+    const btn = document.getElementById('btn-preview-full') || 
+                document.querySelector('button[onclick*="previewFullPaper"]') ||
+                Array.from(document.querySelectorAll('button')).find(b => 
+                    b.textContent && b.textContent.toLowerCase().includes('preview full')
+                );
+
+    if (btn) {
+        // Do NOT call preventDefault or stopImmediatePropagation here.
+        // We want the inline onclick in the HTML to also run (it has the main logic + logs).
+        const listenerHandler = function(e) {
+            console.log('%c[Khanya] Preview button also seen by addEventListener', 'color:#a855f7');
+            // Do not stop the event — let the inline onclick fire too.
+            const fn = window.previewFullPaper || previewFullPaper;
+            if (typeof fn === 'function') {
+                // The inline will usually have already called it, this is just backup
+            }
+        };
+
+        btn.addEventListener('click', listenerHandler, true);
+        btn.addEventListener('click', listenerHandler, false);
+
+        console.log('%c[Khanya] ✅ listener attached (does not block inline onclick)', 'color:#22c55e');
+    } else {
+        console.error('[Khanya] Preview button #btn-preview-full NOT FOUND');
+    }
+}
+
+// === Boot with aggressive retries for static/Render timing ===
 function boot() {
-    console.log('%c[Khanya] Booted (Split deployment ready)', 'color:#16a34a');
+    console.log('%c[Khanya] Booted (Render-safe navigation)', 'color:#16a34a');
     
+    // Show home immediately
     if (window.showHome) {
         window.showHome();
     } else {
         showHome();
     }
     
+    // Attach buttons (multiple attempts)
     attachNewTestButtons();
     setTimeout(attachNewTestButtons, 200);
     setTimeout(attachNewTestButtons, 600);
     setTimeout(attachNewTestButtons, 1200);
     setTimeout(attachNewTestButtons, 2500);
 
+    // === CRITICAL: Attach Preview Full Paper button (fixes "does nothing" on Netlify/Render)
+    attachPreviewButton();
+    setTimeout(attachPreviewButton, 200);
+    setTimeout(attachPreviewButton, 600);
+    setTimeout(attachPreviewButton, 1200);
+    setTimeout(attachPreviewButton, 2500);
+    setTimeout(attachPreviewButton, 4000);
+
+    // === CRITICAL: Force expose preview functions to window ===
+    // This is what fixes "Preview button does nothing" on Netlify and Render
+    window.previewFullPaper = previewFullPaper;
+    window.previewQuestion = previewQuestion;
+    window.addToSelection = addToSelection;
+    window.addCurrentToSelection = addCurrentToSelection;
+    window.clearSelection = clearSelection;
+    window.removeFromSelection = removeFromSelection;
+
+    // Document-level safety net
     document.addEventListener('click', function(e) {
         const target = e.target;
         const isNewTestBtn = target && (
@@ -592,11 +807,65 @@ function boot() {
             console.log('%c[Khanya] Document fallback: New Test clicked', 'color:#0ea5e9');
             (window.showSubjects || showSubjects)();
         }
+
+        // Fallback for Preview Full Paper button (static host timing edge case)
+        const isPreviewBtn = target && (
+            target.id === 'btn-preview-full' ||
+            (target.closest && target.closest('#btn-preview-full')) ||
+            (target.textContent && target.textContent.trim().toLowerCase().includes('preview full') && (target.tagName === 'BUTTON' || target.closest('button')))
+        );
+        if (isPreviewBtn) {
+            console.log('%c[Khanya] Document fallback: Preview Full Paper clicked', 'color:#eab308');
+            const fn = window.previewFullPaper || previewFullPaper;
+            if (typeof fn === 'function') {
+                fn();
+            }
+        }
+
+        // === NEW: Post-download modal close safety net ===
+        // After blob downloads the normal onclick on × and backdrop can stop working.
+        // This catches clicks on the close button or the backdrop area.
+        const isModalClose = target && (
+            (target.closest && target.closest('#paper-preview-modal .text-2xl')) ||   // the × button
+            (target.id === 'paper-preview-modal') ||                                   // clicked the dark backdrop
+            (target.closest && target.closest('#paper-preview-modal')) && target.tagName === 'BUTTON' && target.textContent.includes('×')
+        );
+        if (isModalClose) {
+            console.log('%c[Khanya] Document fallback: Modal close clicked (post-download safety)', 'color:#ef4444');
+            const fn = window.closePaperPreview || closePaperPreview;
+            if (typeof fn === 'function') {
+                fn();
+            }
+        }
     }, true);
 }
 
+// Start
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', boot);
 } else {
     boot();
 }
+
+// === CRITICAL: Expose functions to window (fixes broken Preview button on Netlify/Render) ===
+window.previewFullPaper = previewFullPaper;
+window.previewQuestion = previewQuestion;
+window.addToSelection = addToSelection;
+window.addCurrentToSelection = addCurrentToSelection;
+window.clearSelection = clearSelection;
+window.removeFromSelection = removeFromSelection;
+window.updateSelectedCount = updateSelectedCount;
+window.closePaperPreview = closePaperPreview;
+
+// Expose download functions (used by inline onclicks in modal)
+window.downloadFullPaperPDF = downloadFullPaperPDF;
+window.downloadFullPaperDocx = downloadFullPaperDocx;
+
+// === Expose key functions globally (fixes inline onclick issues on static hosts) ===
+window.previewFullPaper = previewFullPaper;
+window.previewQuestion = previewQuestion;
+window.addToSelection = addToSelection;
+window.addCurrentToSelection = addCurrentToSelection;
+window.clearSelection = clearSelection;
+window.removeFromSelection = removeFromSelection;
+window.updateSelectedCount = updateSelectedCount;
