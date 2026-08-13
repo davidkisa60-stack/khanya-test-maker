@@ -7,7 +7,7 @@
 // === IMPORTANT: Set your Render backend URL here ===
 // After deploying the backend to Render, replace this with your live URL (no trailing slash).
 // Example: "https://khanya-test-maker.onrender.com"
-const BACKEND_URL = "https://khanya-test-maker-backend.onrender.com"; 
+const BACKEND_URL = "";   // ←←← PUT YOUR RENDER URL HERE (leave empty for local testing / Netlify-only mode)
 
 function getApiUrl(endpoint) {
     if (BACKEND_URL) {
@@ -24,6 +24,7 @@ let selectedQuestions = []; // array of question objects
 
 // Keep a live synced reference on window so inline onclicks and listeners always see the current list
 window.selectedQuestions = selectedQuestions;
+window.currentSubject = currentSubject;
 let currentPreview = null;
 let currentFilteredQuestions = []; // for filters
 
@@ -47,17 +48,23 @@ function syncSelectedToWindow() {
 }
 window.syncSelectedToWindow = syncSelectedToWindow;
 
-const SUBJECTS = ["Mathematics", "Biology", "Physical Science", "English", "Economics", "Development Studies", "Accounting"];
+// Keep currentSubject synced too (used by downloads)
+function syncCurrentSubjectToWindow() {
+    window.currentSubject = currentSubject;
+}
+window.syncCurrentSubjectToWindow = syncCurrentSubjectToWindow;
+
+const SUBJECTS = ["Mathematics", "Biology", "Physical Science", "Economics", "Development Studies", "Accounting", "English"];
 
 function getSubjectDataPath(subject) {
     const map = {
         "Mathematics": "subjects/mathematics/data/questions.json",
         "Biology": "subjects/biology/data/questions.json",
         "Physical Science": "subjects/physical_science/data/questions.json",
-        "English": "subjects/english/data/questions.json",
         "Economics": "subjects/economics/data/questions.json",
         "Development Studies": "subjects/development_studies/data/questions.json",
-        "Accounting": "subjects/accounting/data/questions.json"
+        "Accounting": "subjects/accounting/data/questions.json",
+        "English": "subjects/english/data/questions.json"
     };
     return map[subject] || "data/questions.json";
 }
@@ -136,6 +143,8 @@ window.showSubjects = showSubjects;
 
 async function showSubject(subject) {
     currentSubject = subject;
+    window.currentSubject = subject;
+    syncCurrentSubjectToWindow();
     selectedQuestions = [];
     syncSelectedToWindow();   // CRITICAL for inline onclick + window access
     currentPreview = null;
@@ -146,6 +155,12 @@ async function showSubject(subject) {
     page.style.display = 'block';
 
     document.getElementById('subject-title').textContent = subject;
+
+    // Set a sensible default paper title for the current subject (user can still edit it)
+    const paperTitleInput = document.getElementById('paper-title');
+    if (paperTitleInput) {
+        paperTitleInput.value = `${subject} Test`;
+    }
 
     const topicsEl = document.getElementById('topics-list');
     topicsEl.innerHTML = '';
@@ -587,8 +602,13 @@ window.closePaperPreview = closePaperPreview;
 async function downloadFullPaperPDF() {
     if (selectedQuestions.length === 0) return;
 
+    // Robust subject (in case of timing or closure issues)
+    let subj = currentSubject;
+    if (!subj && window.currentSubject) subj = window.currentSubject;
+    if (!subj) subj = 'Mathematics';
+
     const ids = selectedQuestions.map(q => q.id);
-    const title = document.getElementById('paper-title').value.trim() || `${currentSubject || 'Test'} Paper`;
+    const title = document.getElementById('paper-title').value.trim() || `${subj} Paper`;
 
     const apiUrl = getApiUrl('/api/generate-pdf');
 
@@ -599,7 +619,7 @@ async function downloadFullPaperPDF() {
             body: JSON.stringify({
                 ids: ids,
                 title: title,
-                subject: currentSubject || 'Mathematics'
+                subject: subj
             })
         });
 
@@ -645,8 +665,13 @@ async function downloadFullPaperPDF() {
 async function downloadFullPaperDocx() {
     if (selectedQuestions.length === 0) return;
 
+    // Robust subject (in case of timing or closure issues)
+    let subj = currentSubject;
+    if (!subj && window.currentSubject) subj = window.currentSubject;
+    if (!subj) subj = 'Mathematics';
+
     const ids = selectedQuestions.map(q => q.id);
-    const title = document.getElementById('paper-title').value.trim() || `${currentSubject || 'Test'} Paper`;
+    const title = document.getElementById('paper-title').value.trim() || `${subj} Paper`;
 
     const apiUrl = getApiUrl('/api/generate-docx');
 
@@ -657,7 +682,7 @@ async function downloadFullPaperDocx() {
             body: JSON.stringify({
                 ids: ids,
                 title: title,
-                subject: currentSubject || 'Mathematics'
+                subject: subj
             })
         });
 

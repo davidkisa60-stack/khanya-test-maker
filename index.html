@@ -18,15 +18,14 @@
     <!-- Navbar -->
     <nav class="bg-white border-b sticky top-0 z-50">
         <div class="max-w-screen-2xl mx-auto px-6 py-4 flex items-center justify-between">
-            <div class="flex items-center gap-x-3 cursor-pointer" onclick="showHome()">
+            <div class="flex items-center gap-x-3 cursor-pointer" onclick="(window.showHome || showHome)()">
                 <div class="w-10 h-10 bg-emerald-600 text-white rounded-2xl flex items-center justify-center">
                     <i class="fa-solid fa-graduation-cap text-2xl"></i>
                 </div>
                 <span class="font-semibold text-2xl tracking-tight">Khanya Test Maker</span>
             </div>
             <div>
-                <button onclick="showSubjects()" 
-                        class="px-5 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
+                <button id="btn-new-test-nav" onclick="(window.showSubjects || showSubjects)()" class="px-5 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
                     <i class="fa-solid fa-plus"></i>
                     <span>New Test</span>
                 </button>
@@ -39,8 +38,8 @@
         <div class="max-w-3xl">
             <h1 class="text-6xl font-semibold tracking-tighter text-zinc-900">Build clean, professional tests from real questions.</h1>
             <p class="mt-6 text-xl text-zinc-600 max-w-lg">Select questions, give your paper a custom title, and preview exactly how it will look before downloading the PDF. These questions are extracted from ECOL and Cambridge Past papers.</p>
-            <button onclick="showSubjects()" 
-                    class="mt-10 px-8 h-14 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-3xl flex items-center gap-x-3">
+            <button id="btn-new-test-big" onclick="(window.showSubjects || showSubjects)()" 
+                    class="mt-8 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-3xl font-semibold flex items-center gap-x-3 text-lg shadow-lg">
                 <i class="fa-solid fa-plus"></i>
                 <span>New Test</span>
             </button>
@@ -50,7 +49,7 @@
     <!-- SUBJECTS -->
     <div id="subjects-page" class="max-w-screen-2xl mx-auto px-6 py-10 hidden">
         <div class="flex items-center gap-x-3 mb-8">
-            <button onclick="showHome()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
+            <button onclick="(window.showHome || showHome)()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
                 <i class="fa-solid fa-arrow-left"></i> Back
             </button>
             <h2 class="text-3xl font-semibold tracking-tight">Choose a Subject</h2>
@@ -64,7 +63,7 @@
     <div id="subject-page" class="max-w-screen-2xl mx-auto px-6 py-6 hidden">
         <div class="flex items-center justify-between mb-5">
             <div class="flex items-center gap-x-4">
-                <button onclick="showSubjects()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
+                <button onclick="(window.showSubjects || showSubjects)()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
                     <i class="fa-solid fa-arrow-left"></i> Back to Subjects
                 </button>
                 <h2 class="text-3xl font-semibold tracking-tight" id="subject-title"></h2>
@@ -73,7 +72,16 @@
                 <input id="paper-title" type="text" value="Mathematics Test" 
                        class="border border-zinc-300 px-4 py-2 rounded-2xl text-sm w-72 focus:outline-none focus:border-emerald-500" 
                        placeholder="Paper Title (e.g. End of Term Test)">
-                <button onclick="previewFullPaper()" 
+                <button id="btn-preview-full" 
+                        onclick="console.log('%c[Khanya] ★★★ INLINE onclick #btn-preview-full FIRED ★★★', 'color:red; font-weight:bold'); 
+                                 var fn = window.previewFullPaper || previewFullPaper; 
+                                 if (typeof fn === 'function') { 
+                                   console.log('%c[Khanya] CALLING previewFullPaper from inline', 'color:orange'); 
+                                   fn(); 
+                                 } else { 
+                                   console.error('previewFullPaper not on window'); 
+                                   alert('Preview not ready - hard refresh (Ctrl+Shift+R)'); 
+                                 }" 
                         class="px-6 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
                     <i class="fa-solid fa-eye"></i>
                     <span>Preview Full Paper</span>
@@ -171,7 +179,8 @@
     </div>
 
     <!-- FULL PAPER PREVIEW MODAL -->
-    <div id="paper-preview-modal" onclick="if (event.target.id === 'paper-preview-modal') closePaperPreview()" 
+    <div id="paper-preview-modal" 
+         onclick="console.log('%c[Khanya] Backdrop clicked', 'color:#f59e0b'); if (event.target.id === 'paper-preview-modal') { (window.closePaperPreview || closePaperPreview)(); }" 
          class="hidden fixed inset-0 bg-black/60 z-[100] flex items-start justify-center pt-10 p-4 overflow-auto">
         <div onclick="event.stopImmediatePropagation()" class="bg-white w-full max-w-4xl rounded-3xl shadow-2xl overflow-hidden">
             <div class="px-6 py-4 border-b flex items-center justify-between bg-zinc-50">
@@ -181,18 +190,19 @@
                 <div class="flex items-center gap-x-3">
                     <!-- Dual Download Buttons -->
                     <div class="flex items-center gap-x-2">
-                        <button onclick="downloadFullPaperPDF()" 
+                        <button onclick="(window.downloadFullPaperPDF || downloadFullPaperPDF)()" 
                                 class="px-4 h-9 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl text-sm font-semibold flex items-center gap-x-2">
                             <i class="fa-solid fa-file-pdf"></i>
                             <span>PDF</span>
                         </button>
-                        <button onclick="downloadFullPaperDocx()" 
+                        <button onclick="(window.downloadFullPaperDocx || downloadFullPaperDocx)()" 
                                 class="px-4 h-9 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl text-sm font-semibold flex items-center gap-x-2">
                             <i class="fa-solid fa-file-word"></i>
                             <span>Word</span>
                         </button>
                     </div>
-                    <button onclick="closePaperPreview()" class="text-zinc-400 hover:text-zinc-600 px-2 text-2xl leading-none">×</button>
+                    <button onclick="console.log('%c[Khanya] × close button clicked', 'color:#ef4444'); (window.closePaperPreview || closePaperPreview)()" 
+                            class="text-zinc-400 hover:text-zinc-600 px-2 text-2xl leading-none">×</button>
                 </div>
             </div>
 
@@ -208,5 +218,5 @@
     </div>
 
     <script src="js/app.js"></script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2a90ef86a5a73a4',t:'MTc4NjYzODE0NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

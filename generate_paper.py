@@ -46,22 +46,16 @@ except ImportError:
 BASE_DIR = Path(__file__).parent
 IMAGES_DIR = BASE_DIR / "assets" / "images"
 
-# Per-subject data paths (matches JS getSubjectDataPath)
-SUBJECT_DATA_MAP = {
-    "Mathematics": BASE_DIR / "subjects" / "mathematics" / "data" / "questions.json",
-    "Biology": BASE_DIR / "subjects" / "biology" / "data" / "questions.json",
-    "Physical Science": BASE_DIR / "subjects" / "physical_science" / "data" / "questions.json",
-    "Physics": BASE_DIR / "subjects" / "physics" / "data" / "questions.json",
-    "Economics": BASE_DIR / "subjects" / "economics" / "data" / "questions.json",
-    "Chemistry": BASE_DIR / "subjects" / "chemistry" / "data" / "questions.json",
-    "Development Studies": BASE_DIR / "subjects" / "development_studies" / "data" / "questions.json",
-    "Accounting": BASE_DIR / "subjects" / "accounting" / "data" / "questions.json",
-}
-
+# Per-subject data paths are derived dynamically from the subject name.
+# This matches the folder structure used by the frontend (js/app.js getSubjectDataPath).
+# Adding a new subject in the UI + creating subjects/<folder>/data/questions.json
+# will automatically work on the backend without code changes.
 def get_subject_data_path(subject="Mathematics"):
     """Return the questions.json path for the given subject (case sensitive as in UI)."""
-    key = subject or "Mathematics"
-    return SUBJECT_DATA_MAP.get(key, SUBJECT_DATA_MAP["Mathematics"])
+    if not subject:
+        subject = "Mathematics"
+    folder = subject.lower().replace(" ", "_")
+    return BASE_DIR / "subjects" / folder / "data" / "questions.json"
 
 
 def load_questions(subject="Mathematics"):
