@@ -6,11 +6,41 @@
     <title>Khanya • Admin Panel</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- 
+      STRONGEST POSSIBLE ANTI-FLASH PROTECTION
+      This script runs BEFORE the browser can paint anything.
+    -->
+    <script>
+        (function() {
+            var user = null;
+            try {
+                var raw = localStorage.getItem('khanya_user');
+                if (raw) user = JSON.parse(raw);
+            } catch (e) {}
+
+            // If not logged in → redirect immediately and stop everything.
+            if (!user || !user.email) {
+                window.location.replace('/login');
+                // Stop rendering completely
+                document.open();
+                document.write('');
+                document.close();
+                return;
+            }
+        })();
+    </script>
+
+    <!-- Hide the page until we are sure -->
     <style>
-        body { font-family: 'Inter', system_ui, sans-serif; }
+        html, body {
+            display: none !important;
+            visibility: hidden !important;
+        }
     </style>
 </head>
 <body class="bg-zinc-950 text-white">
+
     <div class="max-w-5xl mx-auto p-6">
         <!-- Header -->
         <div class="flex items-center justify-between mb-8">
@@ -35,6 +65,9 @@
                 </button>
             </div>
         </div>
+
+        <!-- Logged in as -->
+        <div id="current-user" class="mb-4 text-sm text-emerald-400 flex items-center gap-x-2"></div>
 
         <!-- Add New User -->
         <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 mb-8">
@@ -92,6 +125,29 @@
     </div>
 
     <script>
+        // Reveal the page (only reached if auth passed the early check)
+        document.documentElement.style.display = 'block';
+        document.documentElement.style.visibility = 'visible';
+        document.body.style.display = 'block';
+        document.body.style.visibility = 'visible';
+
+        function getCurrentUser() {
+            try {
+                const raw = localStorage.getItem('khanya_user');
+                return raw ? JSON.parse(raw) : null;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function showLoggedInUser() {
+            const user = getCurrentUser();
+            const el = document.getElementById('current-user');
+            if (el && user) {
+                el.innerHTML = `<i class="fa-solid fa-user-check"></i> Logged in as <span class="font-mono">${user.email}</span>`;
+            }
+        }
+
         async function loadUsers() {
             const tbody = document.getElementById('users-table');
             tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-zinc-500">Loading users...</td></tr>`;
@@ -107,7 +163,7 @@
 
                 tbody.innerHTML = '';
 
-                if (data.users.length === 0) {
+                if (!data.users || data.users.length === 0) {
                     tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-zinc-500">No users yet.</td></tr>`;
                     return;
                 }
@@ -178,7 +234,6 @@
 
         async function toggleUser(email, currentActive) {
             const action = currentActive ? 'disable' : 'activate';
-
             if (!confirm(`Are you sure you want to ${action} ${email}?`)) return;
 
             try {
@@ -203,14 +258,16 @@
             window.location.href = '/login';
         }
 
-        window.onload = () => {
-            const user = JSON.parse(localStorage.getItem('khanya_user') || '{}');
-            if (!user.email) {
-                window.location.href = '/login';
+        // Load users after the page is revealed
+        window.addEventListener('load', function() {
+            const user = getCurrentUser();
+            if (!user || !user.email) {
+                window.location.replace('/login');
                 return;
             }
+            showLoggedInUser();
             loadUsers();
-        };
+        });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2db3480df5e95f2',t:'MTc4NzE2Mzk3MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2db62c70bc695f2',t:'MTc4NzE2NTg2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
