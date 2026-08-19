@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "email": "admin@khanya.test",
+      "active": true,
+      "role": "admin",
+      "added_at": "2026-08-19"
+    }
+  ]
+}

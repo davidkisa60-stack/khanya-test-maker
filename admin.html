@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khanya • Admin Panel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system_ui, sans-serif; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+    <div class="max-w-5xl mx-auto p-6">
+        <!-- Header -->
+        <div class="flex items-center justify-between mb-8">
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-emerald-600 rounded-2xl flex items-center justify-center">
+                    <i class="fa-solid fa-shield-halved text-xl"></i>
+                </div>
+                <div>
+                    <div class="font-semibold text-2xl">Khanya Admin</div>
+                    <div class="text-xs text-zinc-400 -mt-1">User Management</div>
+                </div>
+            </div>
+            <div class="flex items-center gap-x-3">
+                <a href="/" class="px-4 py-2 text-sm bg-zinc-800 hover:bg-zinc-700 rounded-2xl flex items-center gap-x-2">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Back to App</span>
+                </a>
+                <button onclick="logout()" 
+                        class="px-4 py-2 text-sm bg-red-600 hover:bg-red-700 rounded-2xl flex items-center gap-x-2">
+                    <i class="fa-solid fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Add New User -->
+        <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 mb-8">
+            <h2 class="font-semibold mb-4 flex items-center gap-x-2">
+                <i class="fa-solid fa-user-plus"></i>
+                <span>Add New User</span>
+            </h2>
+            <form id="add-user-form" onsubmit="addUser(event)" class="flex flex-col md:flex-row gap-3">
+                <input 
+                    type="email" 
+                    id="new-email" 
+                    placeholder="user@school.edu.ls" 
+                    required
+                    class="flex-1 bg-zinc-950 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-4 py-3 text-white placeholder-zinc-500">
+                <button type="submit" 
+                        class="bg-emerald-600 hover:bg-emerald-700 px-8 rounded-2xl font-semibold flex items-center justify-center gap-x-2">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Add User</span>
+                </button>
+            </form>
+            <div id="add-error" class="hidden mt-3 text-sm text-red-400"></div>
+        </div>
+
+        <!-- Users List -->
+        <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="font-semibold flex items-center gap-x-2">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Registered Users</span>
+                </h2>
+                <button onclick="loadUsers()" 
+                        class="text-xs px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 rounded-xl flex items-center gap-x-2">
+                    <i class="fa-solid fa-sync"></i>
+                    <span>Refresh</span>
+                </button>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="text-left text-zinc-400 border-b border-zinc-800">
+                            <th class="py-3 px-4 font-medium">Email</th>
+                            <th class="py-3 px-4 font-medium">Status</th>
+                            <th class="py-3 px-4 font-medium">Role</th>
+                            <th class="py-3 px-4 font-medium">Added</th>
+                            <th class="py-3 px-4 font-medium text-right">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users-table" class="divide-y divide-zinc-800">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function loadUsers() {
+            const tbody = document.getElementById('users-table');
+            tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-zinc-500">Loading users...</td></tr>`;
+
+            try {
+                const res = await fetch('/api/admin/users');
+                const data = await res.json();
+
+                if (!res.ok) {
+                    tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-red-400">Failed to load users</td></tr>`;
+                    return;
+                }
+
+                tbody.innerHTML = '';
+
+                if (data.users.length === 0) {
+                    tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-zinc-500">No users yet.</td></tr>`;
+                    return;
+                }
+
+                data.users.forEach(user => {
+                    const tr = document.createElement('tr');
+                    tr.className = 'hover:bg-zinc-800/50';
+
+                    const statusColor = user.active 
+                        ? 'bg-emerald-500/20 text-emerald-400' 
+                        : 'bg-red-500/20 text-red-400';
+
+                    const statusText = user.active ? 'Active' : 'Disabled';
+
+                    tr.innerHTML = `
+                        <td class="py-3 px-4 font-mono text-sm">${user.email}</td>
+                        <td class="py-3 px-4">
+                            <span class="px-3 py-0.5 text-xs rounded-full ${statusColor}">${statusText}</span>
+                        </td>
+                        <td class="py-3 px-4 text-xs text-zinc-400">${user.role || 'user'}</td>
+                        <td class="py-3 px-4 text-xs text-zinc-400">${user.added_at || '—'}</td>
+                        <td class="py-3 px-4 text-right">
+                            <div class="flex items-center justify-end gap-x-2">
+                                <button onclick="toggleUser('${user.email}', ${user.active})" 
+                                        class="px-3 py-1 text-xs rounded-xl transition-colors ${user.active ? 'bg-red-600 hover:bg-red-700' : 'bg-emerald-600 hover:bg-emerald-700'}">
+                                    ${user.active ? 'Disable' : 'Activate'}
+                                </button>
+                            </div>
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            } catch (err) {
+                tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-red-400">Error loading users</td></tr>`;
+            }
+        }
+
+        async function addUser(e) {
+            e.preventDefault();
+            const input = document.getElementById('new-email');
+            const errorEl = document.getElementById('add-error');
+            errorEl.classList.add('hidden');
+
+            const email = input.value.trim().toLowerCase();
+            if (!email) return;
+
+            try {
+                const res = await fetch('/api/admin/add-user', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email })
+                });
+
+                const data = await res.json();
+
+                if (res.ok) {
+                    input.value = '';
+                    loadUsers();
+                } else {
+                    errorEl.textContent = data.message || 'Failed to add user';
+                    errorEl.classList.remove('hidden');
+                }
+            } catch (err) {
+                errorEl.textContent = 'Failed to add user';
+                errorEl.classList.remove('hidden');
+            }
+        }
+
+        async function toggleUser(email, currentActive) {
+            const action = currentActive ? 'disable' : 'activate';
+
+            if (!confirm(`Are you sure you want to ${action} ${email}?`)) return;
+
+            try {
+                const res = await fetch('/api/admin/toggle-user', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, active: !currentActive })
+                });
+
+                if (res.ok) {
+                    loadUsers();
+                } else {
+                    alert('Failed to update user status');
+                }
+            } catch (err) {
+                alert('Error updating user');
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem('khanya_user');
+            window.location.href = '/login';
+        }
+
+        window.onload = () => {
+            const user = JSON.parse(localStorage.getItem('khanya_user') || '{}');
+            if (!user.email) {
+                window.location.href = '/login';
+                return;
+            }
+            loadUsers();
+        };
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2db3480df5e95f2',t:'MTc4NzE2Mzk3MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

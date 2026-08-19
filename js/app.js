@@ -7,7 +7,7 @@
 // === IMPORTANT: Set your Render backend URL here ===
 // After deploying the backend to Render, replace this with your live URL (no trailing slash).
 // Example: "https://khanya-test-maker.onrender.com"
-const BACKEND_URL = "https://khanya-test-maker-backend.onrender.com";
+const BACKEND_URL = "";   // ←←← PUT YOUR RENDER URL HERE (leave empty for local testing / Netlify-only mode)
 
 function getApiUrl(endpoint) {
     if (BACKEND_URL) {

@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """
-Flask for Khanya Test Maker - clean, supports custom paper title + PDF and Word export
+Flask for Khanya Test Maker - with Login + Admin User Management
 """
 
-from flask import Flask, request, send_file, jsonify, send_from_directory, make_response
+from flask import Flask, request, send_file, jsonify, send_from_directory, make_response, redirect
 from io import BytesIO
 from pathlib import Path
 import traceback
 import sys
 import os
+import json
+from datetime import datetime
 
 sys.path.append(str(Path(__file__).parent))
 
@@ -18,6 +20,21 @@ app = Flask(__name__, static_folder='.', static_url_path='')
 
 # === CORS for Netlify frontend (important for split deployment) ===
 ALLOWED_ORIGINS = os.environ.get("ALLOWED_ORIGINS", "*")
+
+# Simple JSON user store
+USERS_FILE = Path(__file__).parent / "data" / "users.json"
+
+def load_users():
+    if not USERS_FILE.exists():
+        USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+        return {"users": []}
+    with open(USERS_FILE, "r") as f:
+        return json.load(f)
+
+def save_users(data):
+    USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(USERS_FILE, "w") as f:
+        json.dump(data, f, indent=2)
 
 @app.after_request
 def add_cors_headers(response):
@@ -30,6 +47,107 @@ def add_cors_headers(response):
     if request.method == "OPTIONS":
         return response, 200
     return response
+
+# ==================== AUTH ROUTES ====================
+
+@app.route('/login')
+def login_page():
+    return send_from_directory('.', 'login.html')
+
+@app.route('/admin')
+def admin_page():
+    return send_from_directory('.', 'admin.html')
+
+@app.route('/api/login', methods=['POST'])
+def login():
+    try:
+        data = request.get_json(force=True)
+        email = data.get('email', '').strip().lower()
+
+        if not email:
+            return jsonify({"success": False, "message": "Email is required"}), 400
+
+        users_data = load_users()
+        user = next((u for u in users_data.get("users", []) if u["email"].lower() == email), None)
+
+        if not user:
+            return jsonify({"success": False, "message": "Email not registered. Please contact the administrator."}), 403
+
+        if not user.get("active", False):
+            return jsonify({"success": False, "message": "This account is currently disabled. Please contact the administrator."}), 403
+
+        return jsonify({
+            "success": True,
+            "email": user["email"],
+            "active": user["active"],
+            "role": user.get("role", "user")
+        })
+    except Exception as e:
+        return jsonify({"success": False, "message": str(e)}), 500
+
+# ==================== ADMIN ROUTES ====================
+
+@app.route('/api/admin/users', methods=['GET'])
+def get_users():
+    try:
+        users_data = load_users()
+        return jsonify(users_data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/admin/add-user', methods=['POST'])
+def add_user():
+    try:
+        data = request.get_json(force=True)
+        email = data.get('email', '').strip().lower()
+
+        if not email:
+            return jsonify({"success": False, "message": "Email is required"}), 400
+
+        users_data = load_users()
+        existing = [u for u in users_data.get("users", []) if u["email"].lower() == email]
+
+        if existing:
+            return jsonify({"success": False, "message": "User already exists"}), 409
+
+        new_user = {
+            "email": email,
+            "active": True,
+            "role": "user",
+            "added_at": datetime.now().strftime("%Y-%m-%d")
+        }
+        users_data.setdefault("users", []).append(new_user)
+        save_users(users_data)
+
+        return jsonify({"success": True, "message": "User added successfully"})
+    except Exception as e:
+        return jsonify({"success": False, "message": str(e)}), 500
+
+@app.route('/api/admin/toggle-user', methods=['POST'])
+def toggle_user():
+    try:
+        data = request.get_json(force=True)
+        email = data.get('email', '').strip().lower()
+        active = data.get('active', True)
+
+        users_data = load_users()
+        updated = False
+
+        for user in users_data.get("users", []):
+            if user["email"].lower() == email:
+                user["active"] = bool(active)
+                updated = True
+                break
+
+        if not updated:
+            return jsonify({"success": False, "message": "User not found"}), 404
+
+        save_users(users_data)
+        return jsonify({"success": True})
+    except Exception as e:
+        return jsonify({"success": False, "message": str(e)}), 500
+
+# ==================== EXISTING ROUTES ====================
 
 @app.route('/')
 def index():
@@ -75,7 +193,6 @@ def generate_pdf_api():
         traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
-
 @app.route('/api/generate-docx', methods=['POST'])
 def generate_docx_api():
     try:
@@ -112,11 +229,10 @@ def generate_docx_api():
         traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
-
 if __name__ == '__main__':
     import os
     port = int(os.environ.get("PORT", 5001))
     print(f"Khanya Test Maker server running on http://0.0.0.0:{port}")
-    print("  - PDF:  POST /api/generate-pdf   {ids: [...], title: '...'}")
-    print("  - Word: POST /api/generate-docx  {ids: [...], title: '...'}")
+    print("  - Login: /login")
+    print("  - Admin: /admin")
     app.run(host='0.0.0.0', port=port, debug=True)
