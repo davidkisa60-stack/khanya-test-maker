@@ -6,11 +6,12 @@
 const BACKEND_URL = "";   // leave empty when HTML and Flask are on the same Render service
 
 function getApiUrl(endpoint) {
-    if (BACKEND_URL) {
-        const base = BACKEND_URL.replace(/\//$, '');
-        return base + endpoint;
+    if (!BACKEND_URL) return endpoint;
+    var base = String(BACKEND_URL);
+    while (base.length && base.charAt(base.length - 1) === '/') {
+        base = base.slice(0, -1);
     }
-    return endpoint;
+    return base + endpoint;
 }
 
 let allQuestions = [];
