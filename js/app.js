@@ -72,23 +72,28 @@ async function loadQuestions(subject = "Mathematics") {
     }
 }
 
+function hideEl(el) {
+    if (!el) return;
+    el.classList.add('hidden');
+    el.style.setProperty('display', 'none', 'important');
+}
+
+function showEl(el, display) {
+    if (!el) return;
+    el.classList.remove('hidden');
+    el.style.setProperty('display', display || 'block', 'important');
+    el.style.setProperty('visibility', 'visible', 'important');
+}
+
 function hideAll() {
     ['home-page', 'subjects-page', 'subject-page', 'paper-preview-modal'].forEach(id => {
-        const el = document.getElementById(id);
-        if (el) {
-            el.classList.add('hidden');
-            el.style.display = 'none';
-        }
+        hideEl(document.getElementById(id));
     });
 }
 
 function showHome() {
     hideAll();
-    const home = document.getElementById('home-page');
-    if (home) {
-        home.classList.remove('hidden');
-        home.style.display = 'block';
-    }
+    showEl(document.getElementById('home-page'));
 }
 
 window.hideAll = hideAll;
@@ -100,8 +105,7 @@ function showSubjects() {
         hideAll();
         const page = document.getElementById('subjects-page');
         if (!page) return;
-        page.classList.remove('hidden');
-        page.style.display = 'block';
+        showEl(page);
 
         const grid = document.getElementById('subjects-grid');
         if (!grid) return;
@@ -137,8 +141,7 @@ async function showSubject(subject) {
 
     hideAll();
     const page = document.getElementById('subject-page');
-    page.classList.remove('hidden');
-    page.style.display = 'block';
+    showEl(page);
 
     document.getElementById('subject-title').textContent = subject;
 
@@ -577,10 +580,51 @@ function attachPreviewButton() {
     };
 }
 
-function boot() {
-    syncSelectedToWindow();
-    if (typeof showHome === 'function') showHome();
+function goToTestBuilder(e) {
+    if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
+    console.log('%c[Khanya] New Test → opening subjects', 'color:#0ea5e9');
+    showSubjects();
+    return false;
 }
+
+function attachNewTestButtons() {
+    ['btn-new-test-nav', 'btn-new-test-big'].forEach(function (id) {
+        const btn = document.getElementById(id);
+        if (!btn) return;
+        btn.setAttribute('type', 'button');
+        btn.onclick = goToTestBuilder;
+    });
+}
+
+function boot() {
+    console.log('%c[Khanya] Booted — test builder ready', 'color:#16a34a');
+    syncSelectedToWindow();
+    showHome();
+    attachNewTestButtons();
+    setTimeout(attachNewTestButtons, 200);
+    setTimeout(attachNewTestButtons, 800);
+
+    document.addEventListener('click', function (e) {
+        const t = e.target;
+        if (!t || !t.closest) return;
+        if (t.closest('#btn-new-test-nav') || t.closest('#btn-new-test-big')) {
+            goToTestBuilder(e);
+        }
+    }, true);
+}
+
+window.showSubject = showSubject;
+window.applyFilters = applyFilters;
+window.clearFilters = clearFilters;
+window.previewQuestion = previewQuestion;
+window.addToSelection = addToSelection;
+window.addCurrentToSelection = addCurrentToSelection;
+window.removeFromSelection = removeFromSelection;
+window.clearSelection = clearSelection;
+window.goToTestBuilder = goToTestBuilder;
 
 // Start
 if (document.readyState === 'loading') {
