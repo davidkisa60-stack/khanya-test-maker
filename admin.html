@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanya • Admin Panel</title>
+<<<<<<< HEAD
 
     <!-- 
       MAXIMUM STRENGTH ANTI-FLASH PROTECTION
@@ -53,6 +54,28 @@
             visibility: hidden !important;
             opacity: 0 !important;
         }
+=======
+    <script>
+        (function () {
+            try {
+                var user = JSON.parse(localStorage.getItem('khanya_user') || 'null');
+                if (!user || !user.email) {
+                    window.location.replace('login.html');
+                    return;
+                }
+                if (user.role !== 'admin') {
+                    window.location.replace('index.html');
+                }
+            } catch (e) {
+                window.location.replace('login.html');
+            }
+        })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: Inter, system-ui, sans-serif; }
+>>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
     </style>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -61,7 +84,6 @@
 <body class="bg-zinc-950 text-white">
 
     <div class="max-w-5xl mx-auto p-6">
-        <!-- Header -->
         <div class="flex items-center justify-between mb-8">
             <div class="flex items-center gap-x-3">
                 <div class="w-10 h-10 bg-emerald-600 rounded-2xl flex items-center justify-center">
@@ -69,15 +91,15 @@
                 </div>
                 <div>
                     <div class="font-semibold text-2xl">Khanya Admin</div>
-                    <div class="text-xs text-zinc-400 -mt-1">User Management</div>
+                    <div class="text-xs text-zinc-400 -mt-1">Activate or deactivate emails</div>
                 </div>
             </div>
             <div class="flex items-center gap-x-3">
-                <a href="/" class="px-4 py-2 text-sm bg-zinc-800 hover:bg-zinc-700 rounded-2xl flex items-center gap-x-2">
+                <a href="index.html" class="px-4 py-2 text-sm bg-zinc-800 hover:bg-zinc-700 rounded-2xl flex items-center gap-x-2">
                     <i class="fa-solid fa-arrow-left"></i>
                     <span>Back to App</span>
                 </a>
-                <button onclick="logout()" 
+                <button onclick="logout()"
                         class="px-4 py-2 text-sm bg-red-600 hover:bg-red-700 rounded-2xl flex items-center gap-x-2">
                     <i class="fa-solid fa-sign-out-alt"></i>
                     <span>Logout</span>
@@ -85,39 +107,42 @@
             </div>
         </div>
 
-        <!-- Logged in as -->
         <div id="current-user" class="mb-4 text-sm text-emerald-400 flex items-center gap-x-2"></div>
 
-        <!-- Add New User -->
         <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 mb-8">
-            <h2 class="font-semibold mb-4 flex items-center gap-x-2">
+            <h2 class="font-semibold mb-2 flex items-center gap-x-2">
                 <i class="fa-solid fa-user-plus"></i>
-                <span>Add New User</span>
+                <span>Add email</span>
             </h2>
-            <form id="add-user-form" onsubmit="addUser(event)" class="flex flex-col md:flex-row gap-3">
-                <input 
-                    type="email" 
-                    id="new-email" 
-                    placeholder="user@school.edu.ls" 
+            <p class="text-xs text-zinc-500 mb-4">New emails start <span class="text-amber-400">inactive</span>. Turn them on in the table so they can sign in.</p>
+            <form id="add-user-form" class="flex flex-col md:flex-row gap-3">
+                <input
+                    type="email"
+                    id="new-email"
+                    placeholder="teacher@school.edu.ls"
                     required
                     class="flex-1 bg-zinc-950 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-4 py-3 text-white placeholder-zinc-500">
-                <button type="submit" 
+                <select id="new-role" class="bg-zinc-950 border border-zinc-700 rounded-2xl px-4 py-3 text-sm">
+                    <option value="user">Teacher / user</option>
+                    <option value="admin">Admin</option>
+                </select>
+                <button type="submit"
                         class="bg-emerald-600 hover:bg-emerald-700 px-8 rounded-2xl font-semibold flex items-center justify-center gap-x-2">
                     <i class="fa-solid fa-plus"></i>
-                    <span>Add User</span>
+                    <span>Add</span>
                 </button>
             </form>
             <div id="add-error" class="hidden mt-3 text-sm text-red-400"></div>
+            <div id="add-ok" class="hidden mt-3 text-sm text-emerald-400"></div>
         </div>
 
-        <!-- Users List -->
         <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6">
             <div class="flex items-center justify-between mb-4">
                 <h2 class="font-semibold flex items-center gap-x-2">
                     <i class="fa-solid fa-users"></i>
-                    <span>Registered Users</span>
+                    <span>Registered emails</span>
                 </h2>
-                <button onclick="loadUsers()" 
+                <button onclick="loadUsers()"
                         class="text-xs px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 rounded-xl flex items-center gap-x-2">
                     <i class="fa-solid fa-sync"></i>
                     <span>Refresh</span>
@@ -136,7 +161,6 @@
                         </tr>
                     </thead>
                     <tbody id="users-table" class="divide-y divide-zinc-800">
-                        <!-- Populated by JS -->
                     </tbody>
                 </table>
             </div>
@@ -144,124 +168,132 @@
     </div>
 
     <script>
+<<<<<<< HEAD
         // The page is already revealed by the early script if we reach here
 
+=======
+>>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
         function getCurrentUser() {
             try {
-                const raw = localStorage.getItem('khanya_user');
-                return raw ? JSON.parse(raw) : null;
+                return JSON.parse(localStorage.getItem('khanya_user') || 'null');
             } catch (e) {
                 return null;
             }
         }
 
+        function authHeaders() {
+            var user = getCurrentUser() || {};
+            var headers = {
+                'Content-Type': 'application/json',
+                'X-User-Email': user.email || ''
+            };
+            if (user.token) headers['Authorization'] = 'Bearer ' + user.token;
+            return headers;
+        }
+
         function showLoggedInUser() {
-            const user = getCurrentUser();
-            const el = document.getElementById('current-user');
+            var user = getCurrentUser();
+            var el = document.getElementById('current-user');
             if (el && user) {
-                el.innerHTML = `<i class="fa-solid fa-user-check"></i> Logged in as <span class="font-mono">${user.email}</span>`;
+                el.innerHTML = '<i class="fa-solid fa-user-check"></i> Logged in as <span class="font-mono">' + user.email + '</span>';
             }
         }
 
         async function loadUsers() {
-            const tbody = document.getElementById('users-table');
-            tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-zinc-500">Loading users...</td></tr>`;
+            var tbody = document.getElementById('users-table');
+            tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-zinc-500">Loading users...</td></tr>';
 
             try {
-                const res = await fetch('/api/admin/users');
-                const data = await res.json();
+                var res = await fetch('/api/admin/users', { headers: authHeaders() });
+                var data = await res.json();
 
+                if (res.status === 403) {
+                    tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-red-400">Admin access required. Sign in with an admin email.</td></tr>';
+                    return;
+                }
                 if (!res.ok) {
-                    tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-red-400">Failed to load users</td></tr>`;
+                    tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-red-400">' + (data.message || 'Failed to load users') + '</td></tr>';
                     return;
                 }
 
                 tbody.innerHTML = '';
-
                 if (!data.users || data.users.length === 0) {
-                    tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-zinc-500">No users yet.</td></tr>`;
+                    tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-zinc-500">No users yet.</td></tr>';
                     return;
                 }
 
-                data.users.forEach(user => {
-                    const tr = document.createElement('tr');
+                data.users.forEach(function (user) {
+                    var tr = document.createElement('tr');
                     tr.className = 'hover:bg-zinc-800/50';
-
-                    const statusColor = user.active 
-                        ? 'bg-emerald-500/20 text-emerald-400' 
-                        : 'bg-red-500/20 text-red-400';
-
-                    const statusText = user.active ? 'Active' : 'Disabled';
-
-                    tr.innerHTML = `
-                        <td class="py-3 px-4 font-mono text-sm">${user.email}</td>
-                        <td class="py-3 px-4">
-                            <span class="px-3 py-0.5 text-xs rounded-full ${statusColor}">${statusText}</span>
-                        </td>
-                        <td class="py-3 px-4 text-xs text-zinc-400">${user.role || 'user'}</td>
-                        <td class="py-3 px-4 text-xs text-zinc-400">${user.added_at || '—'}</td>
-                        <td class="py-3 px-4 text-right">
-                            <div class="flex items-center justify-end gap-x-2">
-                                <button onclick="toggleUser('${user.email}', ${user.active})" 
-                                        class="px-3 py-1 text-xs rounded-xl transition-colors ${user.active ? 'bg-red-600 hover:bg-red-700' : 'bg-emerald-600 hover:bg-emerald-700'}">
-                                    ${user.active ? 'Disable' : 'Activate'}
-                                </button>
-                            </div>
-                        </td>
-                    `;
+                    var statusColor = user.active ? 'bg-emerald-500/20 text-emerald-400' : 'bg-red-500/20 text-red-400';
+                    var statusText = user.active ? 'Active' : 'Inactive';
+                    var btnClass = user.active ? 'bg-red-600 hover:bg-red-700' : 'bg-emerald-600 hover:bg-emerald-700';
+                    var btnLabel = user.active ? 'Deactivate' : 'Activate';
+                    tr.innerHTML =
+                        '<td class="py-3 px-4 font-mono text-sm">' + user.email + '</td>' +
+                        '<td class="py-3 px-4"><span class="px-3 py-0.5 text-xs rounded-full ' + statusColor + '">' + statusText + '</span></td>' +
+                        '<td class="py-3 px-4 text-xs text-zinc-400">' + (user.role || 'user') + '</td>' +
+                        '<td class="py-3 px-4 text-xs text-zinc-400">' + (user.added_at || '—') + '</td>' +
+                        '<td class="py-3 px-4 text-right">' +
+                            '<button onclick="toggleUser(\'' + user.email + '\', ' + !!user.active + ')" class="px-3 py-1 text-xs rounded-xl text-white ' + btnClass + '">' + btnLabel + '</button>' +
+                        '</td>';
                     tbody.appendChild(tr);
                 });
             } catch (err) {
-                tbody.innerHTML = `<tr><td colspan="5" class="py-8 text-center text-red-400">Error loading users</td></tr>`;
+                tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-red-400">Cannot reach /api/admin/users. Deploy app.py as a Render Web Service.</td></tr>';
             }
         }
 
-        async function addUser(e) {
+        document.getElementById('add-user-form').addEventListener('submit', async function (e) {
             e.preventDefault();
-            const input = document.getElementById('new-email');
-            const errorEl = document.getElementById('add-error');
+            var input = document.getElementById('new-email');
+            var role = document.getElementById('new-role').value;
+            var errorEl = document.getElementById('add-error');
+            var okEl = document.getElementById('add-ok');
             errorEl.classList.add('hidden');
+            okEl.classList.add('hidden');
 
-            const email = input.value.trim().toLowerCase();
+            var email = input.value.trim().toLowerCase();
             if (!email) return;
 
             try {
-                const res = await fetch('/api/admin/add-user', {
+                var res = await fetch('/api/admin/add-user', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ email })
+                    headers: authHeaders(),
+                    body: JSON.stringify({ email: email, role: role })
                 });
-
-                const data = await res.json();
-
+                var data = await res.json();
                 if (res.ok) {
                     input.value = '';
+                    okEl.textContent = data.message || 'Added. Activate the email so they can sign in.';
+                    okEl.classList.remove('hidden');
                     loadUsers();
                 } else {
                     errorEl.textContent = data.message || 'Failed to add user';
                     errorEl.classList.remove('hidden');
                 }
             } catch (err) {
-                errorEl.textContent = 'Failed to add user';
+                errorEl.textContent = 'Failed to add user — is the Flask API running?';
                 errorEl.classList.remove('hidden');
             }
-        }
+        });
 
         async function toggleUser(email, currentActive) {
-            const action = currentActive ? 'disable' : 'activate';
-            if (!confirm(`Are you sure you want to ${action} ${email}?`)) return;
+            var action = currentActive ? 'deactivate' : 'activate';
+            if (!confirm('Are you sure you want to ' + action + ' ' + email + '?')) return;
 
             try {
-                const res = await fetch('/api/admin/toggle-user', {
+                var res = await fetch('/api/admin/toggle-user', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ email, active: !currentActive })
+                    headers: authHeaders(),
+                    body: JSON.stringify({ email: email, active: !currentActive })
                 });
-
+                var data = {};
+                try { data = await res.json(); } catch (e) {}
                 if (res.ok) {
                     loadUsers();
                 } else {
-                    alert('Failed to update user status');
+                    alert(data.message || 'Failed to update user status');
                 }
             } catch (err) {
                 alert('Error updating user');
@@ -270,15 +302,29 @@
 
         function logout() {
             localStorage.removeItem('khanya_user');
-            window.location.href = '/login';
+            window.location.href = 'login.html';
         }
 
+<<<<<<< HEAD
         // Load data after page is visible
         // (Head script already verified authentication)
         window.addEventListener('load', function() {
+=======
+        window.toggleUser = toggleUser;
+        window.loadUsers = loadUsers;
+        window.logout = logout;
+
+        document.addEventListener('DOMContentLoaded', function () {
+>>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
             showLoggedInUser();
             loadUsers();
         });
     </script>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f"}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2e0ff6e789b009b',t:'MTc4NzIyNDcxMQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+>>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)

@@ -4,47 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanya Test Maker</title>
-
-    <!-- 
-      MAXIMUM STRENGTH ANTI-FLASH LOGIN PROTECTION
-      This runs BEFORE the browser paints ANYTHING.
-      Placed as the VERY FIRST thing in <head> (before any external scripts/styles that could cause paint).
-      Exact same pattern as the working admin.html.
-    -->
     <script>
-        (function() {
-            var user = null;
+        (function () {
             try {
-                var raw = localStorage.getItem('khanya_user');
-                if (raw) user = JSON.parse(raw);
-            } catch (e) {}
-
-            if (!user || !user.email) {
-                // Redirect instantly. Nothing will render.
-                window.location.replace('/login');
-                return;
+                var user = JSON.parse(localStorage.getItem('khanya_user') || 'null');
+                if (!user || !user.email) {
+                    window.location.replace('login.html');
+                }
+            } catch (e) {
+                window.location.replace('login.html');
             }
-
-            // Authenticated user - reveal the page immediately
-            document.documentElement.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-            document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
         })();
     </script>
-
-    <!-- Hide everything by default -->
-    <style>
-        html, body {
-            display: none !important;
-            visibility: hidden !important;
-            opacity: 0 !important;
-        }
-    </style>
-
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
-        body { font-family: 'Inter', system_ui, sans-serif; }
+        body { font-family: Inter, system-ui, sans-serif; }
         .math-container { font-size: 0.92rem; line-height: 1.45; }
         .topic-header { transition: all 0.2s; }
         .question-item:hover { background-color: #f8fafc; }
@@ -70,7 +46,11 @@
                 </div>
 
                 <!-- Admin link (visible when logged in) -->
+<<<<<<< HEAD
                 <a href="/admin" 
+=======
+                <a href="admin.html"
+>>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
                    class="hidden items-center gap-x-2 px-4 h-9 text-sm bg-emerald-100 hover:bg-emerald-200 text-emerald-700 font-medium rounded-2xl"
                    id="admin-link">
                     <i class="fa-solid fa-shield-halved"></i>
@@ -289,6 +269,7 @@
                 emailEl.textContent = user.email;
             }
             
+<<<<<<< HEAD
             // Show Admin Panel link only for admins (or if no role is set, show it for now)
             if (user.email && adminLink) {
                 const isAdmin = !user.role || user.role === 'admin';
@@ -296,15 +277,24 @@
                     adminLink.classList.remove('hidden');
                     adminLink.classList.add('flex');
                 }
+=======
+            if (user.role === 'admin' && adminLink) {
+                adminLink.classList.remove('hidden');
+                adminLink.classList.add('flex');
+>>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
             }
         }
         
         function logout() {
             localStorage.removeItem('khanya_user');
-            window.location.href = '/login';
+            window.location.href = 'login.html';
         }
         
         document.addEventListener('DOMContentLoaded', showUserInfo);
     </script>
+<<<<<<< HEAD
+=======
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2e0ffdfca36009b',t:'MTc4NzIyNDcyOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f"}' crossorigin="anonymous"></script>
+>>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
 </body>
 </html>

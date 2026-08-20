@@ -1,32 +1,9 @@
 // ============================================
-// Khanya Test Maker - Split Deployment Version
-// Frontend: Netlify (static) + Login Protection
-// Backend: Render (full Flask)
+// Khanya Test Maker
+// Auth is handled in the HTML pages. This file only runs the test builder.
 // ============================================
 
-// ===== ULTRA-AGGRESSIVE IMMEDIATE LOGIN PROTECTION (exact match to admin.html) =====
-// This MUST be the VERY FIRST executable code (before any const/let/function).
-// Synchronous check at parse time. If no valid khanya_user.email → instant replace + stop.
-// Authenticated → reveal the page immediately (exact same as admin.html + index.html head script).
-(function() {
-    var user = null;
-    try {
-        var raw = localStorage.getItem('khanya_user');
-        if (raw) user = JSON.parse(raw);
-    } catch (e) {}
-
-    if (!user || !user.email) {
-        // Redirect instantly. Nothing will render.
-        window.location.replace('/login');
-        return;
-    }
-
-    // Authenticated user - reveal the page immediately
-    document.documentElement.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-    document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-})();
-
-const BACKEND_URL = "";   // ←←← PUT YOUR RENDER URL HERE
+const BACKEND_URL = "";   // leave empty when HTML and Flask are on the same Render service
 
 function getApiUrl(endpoint) {
     if (BACKEND_URL) {
@@ -592,8 +569,18 @@ window.downloadFullPaperDocx = downloadFullPaperDocx;
 // Keep all your other functions (attachPreviewButton, boot, etc.) exactly as they were.
 // For brevity they are omitted here but must remain unchanged in your actual file.
 
-function attachPreviewButton() { /* keep your original */ }
-function boot() { /* keep your original */ }
+function attachPreviewButton() {
+    const btn = document.getElementById('btn-preview-full');
+    if (!btn) return;
+    btn.onclick = function () {
+        if (typeof window.previewFullPaper === 'function') window.previewFullPaper();
+    };
+}
+
+function boot() {
+    syncSelectedToWindow();
+    if (typeof showHome === 'function') showHome();
+}
 
 // Start
 if (document.readyState === 'loading') {
