@@ -44,11 +44,7 @@
                                 type="email"
                                 id="login-email"
                                 required
-<<<<<<< HEAD
-                                value="admin@khanya.test"
-=======
                                 autocomplete="username"
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
                                 placeholder="you@school.edu.ls"
                                 class="w-full bg-zinc-950 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none">
                             <i class="fa-solid fa-envelope absolute right-4 top-4 text-zinc-500"></i>
@@ -63,16 +59,6 @@
                         <span>Continue</span>
                     </button>
                 </form>
-
-                <!-- BIG Quick Admin Access -->
-                <div class="mt-5 pt-4 border-t border-zinc-700">
-                    <button onclick="quickAdminLogin()" 
-                            class="w-full bg-emerald-700 hover:bg-emerald-600 text-white font-semibold py-3 rounded-2xl flex items-center justify-center gap-x-2 text-sm shadow-lg">
-                        <i class="fa-solid fa-shield-halved text-lg"></i>
-                        <span>Login as Admin &amp; Go to Admin Panel</span>
-                    </button>
-                    <p class="text-center text-[10px] text-emerald-400 mt-1.5">admin@khanya.test (one-click access to /admin)</p>
-                </div>
 
                 <div id="login-error" class="hidden mt-4 p-3 bg-red-900/30 border border-red-700 text-red-400 text-sm rounded-2xl"></div>
 
@@ -89,38 +75,6 @@
     </div>
 
     <script>
-<<<<<<< HEAD
-        // If already logged in, go straight to the right place
-        (function() {
-            try {
-                const raw = localStorage.getItem('khanya_user');
-                if (raw) {
-                    const user = JSON.parse(raw);
-                    if (user && user.email) {
-                        if (user.role === 'admin') {
-                            window.location.replace('/admin');
-                        } else {
-                            window.location.replace('/');
-                        }
-                    }
-                }
-            } catch (e) {}
-        })();
-
-        // One-click admin login for easy access (sets localStorage directly)
-        function quickAdminLogin() {
-            const adminUser = {
-                email: 'admin@khanya.test',
-                active: true,
-                role: 'admin'
-            };
-            localStorage.setItem('khanya_user', JSON.stringify(adminUser));
-            console.log('%c[Khanya] Quick admin login - localStorage set, redirecting to /admin', 'color:#22c55e');
-            window.location.href = '/admin';
-        }
-
-        async function handleLogin(e) {
-=======
         function getStoredUser() {
             try {
                 var raw = localStorage.getItem('khanya_user');
@@ -144,7 +98,6 @@
         }
 
         document.getElementById('login-form').addEventListener('submit', async function (e) {
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
             e.preventDefault();
             var errorEl = document.getElementById('login-error');
             errorEl.classList.add('hidden');
@@ -164,31 +117,14 @@
                 try { data = await res.json(); } catch (err) { data = {}; }
 
                 if (res.ok && data.success) {
-                    // Store user info (including role for admin access)
-                    const userData = {
+                    localStorage.setItem('khanya_user', JSON.stringify({
                         email: data.email,
                         active: data.active,
-<<<<<<< HEAD
-                        role: data.role || 'user'
-                    };
-                    localStorage.setItem('khanya_user', JSON.stringify(userData));
-                    
-                    // For admin users, go straight to admin panel
-                    if (userData.role === 'admin') {
-                        window.location.href = '/admin';
-                    } else {
-                        window.location.href = '/';
-                    }
-                } else {
-                    errorEl.textContent = data.message || 'Login failed';
-                    errorEl.classList.remove('hidden');
-=======
                         role: data.role || 'user',
                         token: data.token || ''
                     }));
                     window.location.href = (data.role === 'admin') ? 'admin.html' : 'index.html';
                     return;
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
                 }
 
                 showError(data.message || 'This email cannot sign in.');
@@ -199,11 +135,6 @@
             }
         });
     </script>
-<<<<<<< HEAD
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2e31d1e7d5895f8',t:'MTc4NzI0Njg5OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f"}' crossorigin="anonymous"></script>
 </body>
 </html>
-=======
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f"}' crossorigin="anonymous"></script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2e0fff6add5009b',t:'MTc4NzIyNDczMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)

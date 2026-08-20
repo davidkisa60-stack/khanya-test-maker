@@ -4,57 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanya • Admin Panel</title>
-<<<<<<< HEAD
-
-    <!-- 
-      MAXIMUM STRENGTH ANTI-FLASH PROTECTION
-      This runs BEFORE the browser paints ANYTHING.
-      Placed as the VERY FIRST thing in <head> (before any external scripts/styles).
-      Exact same pattern as the fixed index.html.
-    -->
-    <script>
-        // === MAXIMUM RELIABILITY ADMIN ACCESS ===
-        // This page will NEVER redirect you to /login.
-        // It will always log you in as admin@khanya.test if needed,
-        // then show the admin panel.
-        (function() {
-            try {
-                var raw = localStorage.getItem('khanya_user');
-                var user = null;
-                if (raw) {
-                    try { user = JSON.parse(raw); } catch(e) {}
-                }
-
-                // Force admin login if missing
-                if (!user || !user.email) {
-                    const adminUser = {
-                        email: 'admin@khanya.test',
-                        active: true,
-                        role: 'admin'
-                    };
-                    localStorage.setItem('khanya_user', JSON.stringify(adminUser));
-                    console.log('%c[Khanya] /admin → auto logged in as admin@khanya.test', 'color:#22c55e');
-                }
-
-                // Always reveal the page
-                document.documentElement.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-                document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-            } catch (e) {
-                // Last resort — still show the page
-                document.documentElement.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-                document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-            }
-        })();
-    </script>
-
-    <!-- Hide everything by default -->
-    <style>
-        html, body {
-            display: none !important;
-            visibility: hidden !important;
-            opacity: 0 !important;
-        }
-=======
     <script>
         (function () {
             try {
@@ -75,11 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         body { font-family: Inter, system-ui, sans-serif; }
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
     </style>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body class="bg-zinc-950 text-white">
 
@@ -168,11 +113,6 @@
     </div>
 
     <script>
-<<<<<<< HEAD
-        // The page is already revealed by the early script if we reach here
-
-=======
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
         function getCurrentUser() {
             try {
                 return JSON.parse(localStorage.getItem('khanya_user') || 'null');
@@ -305,26 +245,15 @@
             window.location.href = 'login.html';
         }
 
-<<<<<<< HEAD
-        // Load data after page is visible
-        // (Head script already verified authentication)
-        window.addEventListener('load', function() {
-=======
         window.toggleUser = toggleUser;
         window.loadUsers = loadUsers;
         window.logout = logout;
 
         document.addEventListener('DOMContentLoaded', function () {
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
             showLoggedInUser();
             loadUsers();
         });
     </script>
-<<<<<<< HEAD
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2e31cf5c9f695f8',t:'MTc4NzI0Njg5Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f"}' crossorigin="anonymous"></script>
 </body>
 </html>
-=======
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f"}' crossorigin="anonymous"></script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2e0ff6e789b009b',t:'MTc4NzIyNDcxMQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
->>>>>>> 7bf589e (Fix login, admin allow-list, and blank Render screen)
