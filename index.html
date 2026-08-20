@@ -69,6 +69,14 @@
                     <span id="user-email" class="font-medium"></span>
                 </div>
 
+                <!-- Admin link (visible when logged in) -->
+                <a href="/admin" 
+                   class="hidden items-center gap-x-2 px-4 h-9 text-sm bg-emerald-100 hover:bg-emerald-200 text-emerald-700 font-medium rounded-2xl"
+                   id="admin-link">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Admin Panel</span>
+                </a>
+
                 <button onclick="logout()" class="px-4 h-9 text-sm border border-zinc-300 hover:bg-zinc-100 rounded-2xl flex items-center gap-x-2 text-zinc-600">
                     <i class="fa-solid fa-sign-out-alt"></i>
                     <span>Logout</span>
@@ -268,16 +276,26 @@
 
     <script src="js/app.js"></script>
     <script>
-        // Show logged in user in navbar (only runs if we reached here = authenticated)
+        // Show logged in user in navbar + Admin link (only runs if we reached here = authenticated)
         function showUserInfo() {
             const user = JSON.parse(localStorage.getItem('khanya_user') || '{}');
             const info = document.getElementById('user-info');
             const emailEl = document.getElementById('user-email');
+            const adminLink = document.getElementById('admin-link');
             
             if (user.email && info && emailEl) {
                 info.classList.remove('hidden');
                 info.classList.add('flex');
                 emailEl.textContent = user.email;
+            }
+            
+            // Show Admin Panel link only for admins (or if no role is set, show it for now)
+            if (user.email && adminLink) {
+                const isAdmin = !user.role || user.role === 'admin';
+                if (isAdmin) {
+                    adminLink.classList.remove('hidden');
+                    adminLink.classList.add('flex');
+                }
             }
         }
         
@@ -288,5 +306,5 @@
         
         document.addEventListener('DOMContentLoaded', showUserInfo);
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2db9c47a84495fb',t:'MTc4NzE2ODIyMQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</body>
 </html>
