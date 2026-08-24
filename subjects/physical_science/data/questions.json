@@ -1811,6 +1811,18 @@
     ]
   },
   {
+    "id": "2026P1MJ-Q01",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 1,
+    "topic": "Physics - Mechanics",
+    "title": "Force",
+    "body_markdown": "Which quantity is a force?\nA  energy\nB  mass\nC  power\nD  weight",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
     "id": "2026P2MJ-Q02",
     "year": 2026,
     "paper": "P2 2026",
@@ -1856,6 +1868,18 @@
     ]
   },
   {
+    "id": "2026P1MJ-Q02",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 2,
+    "topic": "Physics - Mechanics",
+    "title": "Density",
+    "body_markdown": "What is the density of a liquid with a volume of 25cm\u00b3 and a mass of 40g?\nA  0.63 g/cm\u00b3 \nB  1.60 g/cm\u00b3 \nC  15.O0 g/cm\u00b3 \nD  65.00 g/cm\u00b3  ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
     "id": "2026P2MJ-Q03",
     "year": 2026,
     "paper": "P2 2026",
@@ -1893,6 +1917,18 @@
       "pa47.png",
       "pa48.png"
     ]
+  },
+  {
+    "id": "2026P1MJ-Q03",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 3,
+    "topic": "Physics - Energy",
+    "title": "Renewable Energy Sources",
+    "body_markdown": "Which statement describes renewable energy sources?\nA  They will not run out and they cause significant damage on the environment. \nB  They will not run out and they have less impact on the environment. \nC  They will run out and they cause significant damage on the environment. \nD  They will run out and they have less impact on the environment.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
   },
   {
     "id": "2026P2MJ-Q04",
@@ -1941,6 +1977,18 @@
     ]
   },
   {
+    "id": "2026P1MJ-Q04",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 4,
+    "topic": "Physics - Energy",
+    "title": "Work",
+    "body_markdown": "An excavator lifts sand from the river bed into a truck.\n Which quantities are used to determine work done by the excavator on the sand?\nA  volume of sand and distance the excavator moved \nB  volume of sand and time the excavator took \nC  weight of sand and distance the excavator moved \nD  weight of sand and time the excavator took.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
     "id": "2026P2MJ-Q05",
     "year": 2026,
     "paper": "P2 2026",
@@ -1967,6 +2015,20 @@
     "images": [
       "pa34.png",
       "pa35.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q05",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 5,
+    "topic": "Physics - Energy",
+    "title": "Stability",
+    "body_markdown": "The diagram shows four objects A, B, C and D placed on a flat surface The objects have the same mass: The centre of mass, X, is marked on each object.\n Which object is most likely to topple over first when tilted ?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa200.png"
     ]
   },
   {
@@ -2000,6 +2062,18 @@
     ]
   },
   {
+    "id": "2026P1MJ-Q06",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 6,
+    "topic": "Physics - Mechanics",
+    "title": "Uniform Velocity",
+    "body_markdown": "Which statement describes how a bird remains in one place in air?\nA  Its wings exert equal upward force to forward force. \nB  Its wings exert equal upward force to the weight. \nC  Its wings exert more upward force than forward force. \nD  Its wings exert more forward force than weight",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
     "id": "2026P2MJ-Q07",
     "year": 2026,
     "paper": "P2 2026",
@@ -2029,6 +2103,20 @@
     ]
   },
   {
+    "id": "2026P1MJ-Q07",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 7,
+    "topic": "Physics - Thermal Energy",
+    "title": "Temperature",
+    "body_markdown": "The diagram shows two similar containers, X and Y placed at equal distances on the opposite sides of the heat source. Identical thermometers were inserted in each of the containers.\n The thermometers read 0 degrees C when the containers were placed next to the heat source. After some time, the thermometer in the container X read 35 degrees C while the one in container Y read 20 degrees C.\n What could be the reason for the difference?\nA  container X is a good conductor of heat \nB  container X is a good transmitter of heat \nD  container X is made of a thicker black material \nD  container X is made of a dull black material.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa201.png"
+    ]
+  },
+  {
     "id": "2026P2MJ-Q08",
     "year": 2026,
     "paper": "P2 2026",
@@ -2055,6 +2143,18 @@
     "images": []
   },
   {
+    "id": "2026P1MJ-Q08",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 8,
+    "topic": "Physics - Thermal Energy",
+    "title": "Thermal Expansion",
+    "body_markdown": "Which statement describes a consequence of thermal expansion? \nA  bending of railroad tracks in summer \nB  breaking of electrical wires in summer \nC  changing the volume of a liquid-in-glass thermometer \nD  marking of bimetallic strips used in the thermostats.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
     "id": "2026P2MJ-Q09",
     "year": 2026,
     "paper": "P2 2026",
@@ -2076,6 +2176,423 @@
     "body_markdown": "Fermentation is an enzyme driven chemical reaction that produces ethanol present in alcoholic beverages. \n(a) Ethanol belongs to the alcohol homologous series. \n(i) State one other use of ethanol.\n(ii) Name the first member of the homologous series.\n(b) Draw the graphical structure of ethanol.[2]\n(c) Describe another chemical reaction that can produce ethanol.[3]\n(d) Describe the cause of the sour taste on alcoholic beverages when exposed to air.[2]",
     "latex": "",
     "total_marks": 9,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q09",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 9,
+    "topic": "Physics - Light Energy",
+    "title": "Glass Block",
+    "body_markdown": "The diagram shows the light ray incident to the glass block. Which letter represents the angle of incidence?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa202.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q10",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 10,
+    "topic": "Physics - Light Energy",
+    "title": "Refraction",
+    "body_markdown": "A ray of light incident at an angle of 52 degrees to the water in a dam refracts at an angle of 37 degrees. What is the refractive index of water?\nA  37/52 \nB  52/37 \nC  sin 37/sin 52 \nD  sin 52/     sin 37.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q11",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 11,
+    "topic": "Physics - Waves",
+    "title": "Ultrasound",
+    "body_markdown": "Which row describes ultrasound wave?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa203.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q12",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 12,
+    "topic": "Physics - Light Energy",
+    "title": "Plane Mirrors",
+    "body_markdown": "Which diagram shows the image of object X as seen in the plane mirror?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa204.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q13",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 13,
+    "topic": "Physics - Electricity",
+    "title": "Turning effect of a current carrying coil",
+    "body_markdown": "Which device uses turning effect of a current carrying coil?\nA  electric blanket \nB  electric fan \nC  electric lamp \nD  electric stove",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q14",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 14,
+    "topic": "Physics - Electricity",
+    "title": "Brightness",
+    "body_markdown": "In each of the four circuit diagrams shown, three identical lamps are connected differently.\n Which circuit diagram will have all three lamps lighting with the same brightness?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa205.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q15",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 15,
+    "topic": "Physics - Electricity",
+    "title": "Electroscope",
+    "body_markdown": "The diagram shows the electroscope used to detect the charge on the rod.\n What is the net charge on the rod and the metal plate?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa206.png",
+      "pa207.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q16",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 16,
+    "topic": "Physics - Electricity",
+    "title": "Magnetism",
+    "body_markdown": "The diagrams show magnets being moved into or out of the coil with different poles. \n Which diagram represents the direction, on the galvanometer, in which the e.m f is induced?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa208.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q17",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 17,
+    "topic": "Physics - Electricity",
+    "title": "Ammeter and voltmeter",
+    "body_markdown": "The diagrams show ammeter and voltmeter connected to measure current through and voltage across the lamp.\n Which diagram shows the correct connection of an ammeter and a voltmeter?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa209.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q18",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 18,
+    "topic": "Physics - Electricity",
+    "title": "Circuits",
+    "body_markdown": "The diagram shows a circuit with two resistors connected in parallel. The resistors have resistance of 2 Ohms and 3 Ohms.\n What is the total resistance in the circuit?\nA  5/6  \nB  6/5 \nC  5 \nD  6",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa210.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q19",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 19,
+    "topic": "Physics - Electricity",
+    "title": "Magnets",
+    "body_markdown": "The diagram shows two ferromagnetic bars each with one end attracted to a magnet.The other ends of the bars are labelled P and Q.\n What is the pole on end P and end Q?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa211.png",
+      "pa212.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q20",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 20,
+    "topic": "Physics - Electricity",
+    "title": "Magnets",
+    "body_markdown": "What is meant by half-life of a radioactive isotope?\nA  half the amount of the isotope sample to decay in a given time \nB  half the time it takes the amount of isotope sample to decay \nC  time taken for the amount of the isotope sample to decay \nD  time taken for half the amount of isotope sample to decay",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q21",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 21,
+    "topic": "Chemistry - Separation",
+    "title": "Measurements",
+    "body_markdown": "Which of the instruments can NOT be used to measure 5g of sodium chloride?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa213.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q22",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 22,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Physical Properties",
+    "body_markdown": "Which physical property do sodium and copper have in common?\nA  They are hard \nB  They are malleable. \nC  They have soft texture \nD  They have high density.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q23",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 23,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Structures",
+    "body_markdown": "Which substance has the structure represented by the diagram?\nA  diamond \nB  graphite \nC  nitrogen \nD  silicon.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa214.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q24",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 24,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Hydrogen Gas",
+    "body_markdown": "Which of the following matches the test for hydrogen gas?\nA  Glowing splint produces pop sound. \nB  Glowing splint relights. \nC  Lighted splint produces pop sound. \nD  Lighted splint relights",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q25",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 25,
+    "topic": "Chemistry - Environment",
+    "title": "Water",
+    "body_markdown": "Which method is the most efficient for large-scale softening of water that has permanent hardness?\nA  boiling \nB  fractional distillation \nC  ion-exchange simple \nD  simple distillation",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q26",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 26,
+    "topic": "Chemistry - Matter",
+    "title": "Air",
+    "body_markdown": "Which row shows composition of some gases in dry clean air?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa215.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q27",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 27,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactivity",
+    "body_markdown": "A student investigated the reactivity of four metals by adding them to aqueous solutions of other metal nitrates. The observations are recorded in the table.\n What is the correct order of reactivity of the metals, from most reactive to least reactive?\nA  aluminium => zinc => iron => copper \nB  copper => iron => zinc => alminium \nC  iron => alminium => zinc => copper \nD zinc => iron => alminium => copper ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q28",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 28,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Redox reaction: ",
+    "body_markdown": "The following equation represents a redox reaction: C + CuO => Cu + CO .\n Which substance is reduced in the equation?\nA  C\nB  CO \nC  Cu \nD  CuO",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q29",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 29,
+    "topic": "Chemistry - Matter",
+    "title": "Heating Curve",
+    "body_markdown": "Diagram P shows an arrangement of particles in a substance.\n The heating curve for the substance in diagram P is shown in diagram Q.\n Which point in diagram Q corresponds to the arrangement of particles of the substance?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa216.png",
+      "pa217.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q30",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 30,
+    "topic": "Chemistry - Matter",
+    "title": "Photosynthesis",
+    "body_markdown": "Which form of energy is needed for photosynthesis to occur?\nA  kinetic\nB  heat\nC  light \nD  sound",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q31",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 31,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Acids",
+    "body_markdown": "Which statement describes the property of all acids?\nA  They are bitter. \nB  They release OH ions in solution. \nC  They turn red litmus paper blue. \nD  They turn blue litmus paper red",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q32",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 32,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Alkaline",
+    "body_markdown": "Compound X dissolves in water to form a solution with a pH of 14.\n Which substance is likely to be the compound X?\nA  calcium oxide \nB  nitrogen monoxide \nC  sodium oxide \nD  sulphur dioxide",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q33",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 33,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Gas formed",
+    "body_markdown": "Which gas is formed when a dilute hydrochloric acid reacts with calcium carbonate?\nA    carbon dioxide \nB  hydrogen \nC  hydrogen chloride \nD  oxygen",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026PMJ-Q34",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 34,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Physical Change",
+    "body_markdown": "Which process is an example of a physical change?\nA  combustion of petroleum \nB  electroplating of copper \nC  melting of ice \nD  neutralisation of acid",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q35",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 35,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Formulas",
+    "body_markdown": "Lithium ion has a formula, Li+ What is the formula of a compound formed by Lithium and chlorine?\nA  Licl \nB  LiCl2 \nC  Li2Cl \nD  Li2Cl3",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q36",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 36,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Physical Changes",
+    "body_markdown": "The substance Z has a blue colour in dry conditions and turns pink in wet conditions\n Which of the substances is likely to be Z?\nA  cobalt \nB  cobalt (II) chloride \nC  copper \nD  copper(II) chloride",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q37",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 37,
+    "topic": "Chemistry - Organic",
+    "title": "Monomers",
+    "body_markdown": "Which row contains monomers of proteins and starch respectively?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa218.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q38",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 38,
+    "topic": "Chemistry - Organic",
+    "title": "Hydrocarbons",
+    "body_markdown": "Which structure represents an unsaturated hydrocarbon?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "pa219.png"
+    ]
+  },
+  {
+    "id": "2026P1MJ-Q39",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 39,
+    "topic": "Chemistry - Organic",
+    "title": "Plastic Bags",
+    "body_markdown": "What is the disadvantage of wide-spread use of plastic bags?\nA  They are biodegradable. \nB  They are causes of pollution. \nC  They are difficult to produce. \nD  They are expensive.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJ-Q40",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 40,
+    "topic": "Chemistry - Organic",
+    "title": "Petroleum",
+    "body_markdown": "Which statement describes petroleum?\nA  It is a compound of hydrocarbons. \nB  It is a compound that is separated by fractional distillation. \nC  It is a mixture of hydrocarbons. \nD  It is an element that is separated by fractional distillation.",
+    "latex": "",
+    "total_marks": 1,
     "images": []
   }
 ]
