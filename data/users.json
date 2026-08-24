@@ -5,6 +5,12 @@
       "active": true,
       "role": "admin",
       "added_at": "2026-08-19"
+    },
+    {
+      "email": "davidkisa40@gmail.com",
+      "active": true,
+      "role": "user",
+      "added_at": "2026-08-24"
     }
   ]
 }
