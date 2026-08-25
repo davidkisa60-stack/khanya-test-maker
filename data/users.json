@@ -8,7 +8,7 @@
     },
     {
       "email": "davidkisa40@gmail.com",
-      "active": true,
+      "active": false,
       "role": "user",
       "added_at": "2026-08-24"
     }
