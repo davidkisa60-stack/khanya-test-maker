@@ -119,6 +119,173 @@
     ]
   },
   {
+    "id": "2019P1-Q01",
+    "year": 2019,
+    "paper": "P1 2019",
+    "original_num": 1,
+    "topic": "Poverty and Development",
+    "title": "Education",
+    "body_markdown": "(a) Study Fig: 1.1, which shows the percentage of children enrolled in primary school in 1990 and 2015 in selected regions: Millennium Development Goal 2 was to achieve universal primary education by 2015.\n(i) Which region had 75% of children enrolled in primary school in 1990?[1]\n(ii) Which region was closest to achieving full enrolment in primary education by 2015?[1]\n(iii) Which region has shown the greatest improvement since 1990?[1]. \n(b) Study Fig: 1.2, which shows the percentage of children completing their primary education in low income countries between 1992 and 2015. \n Describe the change in the percentage of children completing their primary education in low income countries between 1992 and 2015.[2].\n(c) Describe how traditional (informal) education takes place. Explain its importance to communities. Use examples to illustrate your answer.[5]\n(d) For economic development it is important to increase the number of young people who have relevant skills for employment in different sectors.\n State two skills that need to be taught to enable a country to develop economically. Explain why each one is necessary.[4].\n(e) Explain the measures that may be taken to make sure more children are able to attend school and complete their education. You should develop fully the points you make.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ds60.png",
+      "ds61.png"
+    ]
+  },
+  {
+    "id": "2019P1-Q02",
+    "year": 2019,
+    "paper": "P1 2019",
+    "original_num": 2,
+    "topic": "Industrial Development, Trade and Globalisation",
+    "title": "Tourism",
+    "body_markdown": "(a) Study Table 2.1, which shows data about the tourism industry in four countries.\n(i)How many people are employed in India's tourism industry?[1].\n(ii) Which country's tourism industry depends the most on its own people spending money within their country?[1]\n(iii) Which country is most dependent on the tourism industry?[1]\n(b)(i) Suggest two ways that a country can increase the proportion of foreign tourists.[2]\n(ii) Explain the risks for countries that are very dependent on the tourism industry[4].\n(c) Describe the ways that tourism can be made more socially and environmentally sustainable.[5].\n(d) Explain how the tourism industry depends on and promotes other industries and services within a country. You should develop fully the points You make.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": []
+  },
+  {
+    "id": "2019P1-Q03",
+    "year": 2019,
+    "paper": "P1 2019",
+    "original_num": 3,
+    "topic": "Population and Development",
+    "title": "Population",
+    "body_markdown": "(a) Study Fig 3.1, which shows the urban population as a percentage of the total population of seven countries in 1960 and 2015.\n(i) Which country had the highest percentage of urban population in 2015?[1]\n(ii) Which country showed the greatest increase in the percentage of urban population between 1960 and 2015?[1] \n(b)(i) Urbanisation may lead to overpopulation and an increase in population density in towns.\n Define these two terms:\n overpopulation\n population density[2]. \n(ii) Describe the effects on rural areas of urbanisation.[5]. \n(c) Study Fig 3.2, which describes a rural development project in Kenya.\n(i) What is meant by the term staple crop?[1] \n(ii) Explain, in your own words, how the project has increased farmers' incomes.[4]. \n(d) Explain how the provision of electricity and internet access to rural areas could help reduce the migration of people to urban areas. You should develop fully the points you make.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ds63.png",
+      "ds64.png"
+    ]
+  },
+  {
+    "id": "2019P1-Q04",
+    "year": 2019,
+    "paper": "P1 2019",
+    "original_num": 4,
+    "topic": "Environment and Development",
+    "title": "Farming",
+    "body_markdown": "(a) Study Fig 4.1, which shows water use in two groups of countries.\n(i) Identify the two main changes that take place in water use as countries develop, as shown in Fig: 4.1.[2].\n(b) Study Fig 4.2, which shows the domestic use of water per person in selected countries.\n(i) Which country's domestic use of water per person is approximately double that of India?\n(ii) Explain why the domestic use of water per person generally increases as countries develop.[2].\n(c) Study Figure, which shows two farms in developing countries.One from Asia and one from Africa.\n(i) Compare the characteristics of the two farms shown in the figure below.[4]\n(ii) Explain a problem that farming in developing countries may face in the future.[2]\n(iii) Explain how the growing and export of large quantities of flowers help developing countries[3].\n(d) Water pollution can be caused by domestic waste and industrial production.\n Evaluate the measures taken to reduce the effect of water pollution on the natural environment:You should develop fully the points you make.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ds65.png",
+      "ds66.png",
+      "ds67.png"
+    ]
+  },
+  {
+    "id": "2020P1-Q01",
+    "year": 2020,
+    "paper": "P1 2020",
+    "original_num": 1,
+    "topic": " Environment and Development",
+    "title": "Agricultural Products",
+    "body_markdown": "(a) Study Fig 1.1, a bar chart that shows exports and imports of agricultural products for selected developing countries.\n(i) Identify the country that imports the highest value of agricultural products.[1]\n(ii) Give two reasons why some countries import more agricultural products than they export.[2]\n(b) Explain how a government can improve the balance of trade of a country.[4]\n(c) Study Fig 1.2, a graph which shows government debt as a percentage of Gross Domestic Product (GDP) for selected developing countries.\n(i) Identify the two countries which have the highest government debt as a percentage of their GDP[2]\n(ii) Suggest two reasons why a country may have large amounts of government debt.[2].\n(iii) Describe the   possible effects on services, such as health or education, when a government tries to reduce its debt.[3] \n(d) Countries with a very low income may apply for debt relief to the International Monetary Fund or the World Bank\n Describe the benefits of debt relief on the people and the economy of a developing country: You should develop fully the points you make.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": []
+  },
+  {
+    "id": "2019P2-Q01",
+    "year": 2019,
+    "paper": "P2 2019",
+    "original_num": 1,
+    "topic": "Population and Development",
+    "title": "Development Indicators",
+    "body_markdown": "(a) Study Table 1.1, which shows indicators of development for a sample of ten countries.\n(i) Identify from Table 1.1 the country where:\nA  the smallest percentage work in farming;\nB  there is the lowest access to medical care.[2]\n(ii) What is meant by Panama has a female literacy rate of 94.4%?[2].\n(iii) Put the following developing countries in rank order according to their number of doctors, female literacy rate and employment in agriculture.\n(iv) Which of the indicators of development used in Table 1.1 do you consider is most useful to measure each of economic and social development?\n Give a reason for each of your choices.[4] \n(b) The Human Development Index (HDI) is an indicator of  development; based on life expectancy; education, and income per person:\n(i) Finland has an HDI of 0.883 and the Dominican Republic has an HDI of 0.724.\n Suggest likely differences in life expectancy, education, and income per person between Finland and the Dominican Republic.[3] \n(ii) Explain why using HDI is more effective than using GDP when comparing the development of two countries.[3] \n(c) Study Fig: 1.1, a scatter graph showing GDP per person and electricity use per person of a sample of countries.\n(i) Plot the following information for Russia on Fig: 1.1.\n GDP per person      15000 (USS)\n Electricity use per person      6000 (KWh/year)\n(ii) Describe the relationship shown on Fig 1.1 between GDP per person and electricity use per person.You should include data in your answer.[3]. \n(iii) Explain why there is a relationship between GDP per person and electricity use per person.[4]",
+    "latex": "",
+    "total_marks": 25,
+    "images": [
+      "ds80.png",
+      "ds81.png",
+      "ds82.png"
+    ]
+  },
+  {
+    "id": "2020P1-Q02",
+    "year": 2020,
+    "paper": "P1 2020",
+    "original_num": 2,
+    "topic": " Environment and Development",
+    "title": "Hydroponics",
+    "body_markdown": "(a) Study Fig 2.1, which shows an indoor farm in an urban area that uses hydroponics, a modern farming method and Fig: 2.2, an illustration of hydroponic farming.\n Using Fig: 2.1 and Fig. 2.2, explain how hydroponics increases agricultural output in an urban area.[3]\n(ii) Suggest two advantages to the local urban community of a farm such as that shown in Fig: 2.1[2]\n(b) Name two ways of increasing agricultural output; other than hydroponics.[2]\n(c) Explain why governments of developing countries need to encourage the use of modern farming methods.[4].\n(d) Study Table 2.1, which shows the consumption of livestock products (meat) per person in different parts of the world in two different years.\n(i) Identify the region that will have the largest increase in meat consumption (kg per person) by 2030.[1]\n(ii) Suggest two ways that consumers can promote sustainable development in commercial livestock farming.[2].\n(e) Explain why organic farming would be a sustainable development: You should develop fully the points you make[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ds71.png",
+      "ds72.png",
+      "ds73.png"
+    ]
+  },
+  {
+    "id": "2019P2-Q02",
+    "year": 2019,
+    "paper": "P2 2019",
+    "original_num": 2,
+    "topic": "Large-Scale Case Studies",
+    "title": "Collecting Data",
+    "body_markdown": "(a) Study the section below, information about a research investigation carried out to compare fuels used for cooking and lighting in two villages in the eastern part of Nepal.\n The villages of Barbote and Kanyam were compared: Barbote has a population of 6424 and there are 1414 households. \n Kanyam has a population of 7290 and there are 1715 households.\n Qualitative and quantitative data were collected in February 2013 for 15 days. 100 residents were selected, 50 from Barbote and 50 from Kanyam: The main part of the study was conducted through structured questionnaires and semi-structured interviews.In addition,one local leader from each village was interviewed.\n Observation was also undertaken on different fuel types used for lighting and for use in cooking stoves: To choose the 100 residents, convenience sampling was used based on the availability of the people As it was harvesting and firewood collecting season in Barbote most of the people were in the fields, so it was hard to meet them at their homes: In Kanyam the data was collected in the early morning and evening at people's homes: In addition data was collected using books, e-books, journals and online publications.\n What was the aim of the research investigation?\n What is meant by:\n qualitative data\n quantitative data?[2]. \n(iii) Identify two primary and two secondary methods of data collection used in the research investigation.[4] \n(iv) To choose the 100 residents, convenience sampling was used based on the availability of the people.\n Give one advantage and one disadvantage of this sampling method[2].\n Explain why care must be taken when using the results from:\n personal observations[2]\n interviews with the village leaders[2] \nsecondary data[2]. \n(b) Study Fig. 2.2, showing results from the questionnaire about the educational level of the 100 residents in Barbote and Kanyam.\n(i) Complete the pie chart for Kanyam in Fig 2.2, by showing the following information about the educational level of the 50 residents sampled in Kanyam.[3]. \n Study Figs 2.3 and 2.4, which show the different fuel types used for lighting and cooking by the 100 residents in Barbote and Kanyam: 100 key 90 Barbote Kanyam. \n Complete the bar graph in Fig 2.3, showing fuel type for lighting for both villages, using the following information.\n 90% of the people interviewed in Barbote used candles for lighting\n 55% of the people interviewed in Kanyam used candles for lighting.[2] \n(iii) Compare the fuel types used for cooking in Barbote and Kanyam. Use data from Fig: 2.4 in your answer.[4]",
+    "latex": "",
+    "total_marks": 24,
+    "images": [
+      "ds83.png",
+      "ds84.png",
+      "ds85.png",
+      "ds86.png"
+    ]
+  },
+  {
+    "id": "2020P1-Q03",
+    "year": 2020,
+    "paper": "P1 2020",
+    "original_num": 3,
+    "topic": "Industrial Development, Trade and Globalisation",
+    "title": "Child Labour",
+    "body_markdown": "(a) Study the section below, which describes the use of child labour in the mining industry in a developing country:\n Children as young as seven are searching the mines for rocks that contain cobalt; a very important element for powering the batteries used in the global production of smartphones, laptops and electric vehicles.\n The children have no masks to wear to protect their developing lungs from the dust and they suffer from extreme tiredness They are at risk from serious accidents and illnesses. However; large families in developing countries require more than one or two incomes to feed everyone, especially if there are few jobs for the parents. For the mine owners it is more cost-effective to pay small children, who are more obedient.\n Using the section, identify three reasons why there is child labour in the mining industry[3] \n(ii) Explain why it is difficult for governments to take action against companies who use child labour.[4] \n(b) Study Fig 3.2, which shows the value of remittances sent by migrants from developing countries to their region of origin.\n(i) What is meant by the term economic migrant?[1] \n(ii) Which region received the lowest value of remittances?[1]\n(iii) Suggest reasons why there is a variation in the value of remittances sent by migrants to their region of origin.[3] \n(c) Outsourcing is the transferring of part of the work of a company to another organisation somewhere else.\n Choose, from the list below; one part of a multinational company\n call centres, research, sales, computer programming, head office, \n that is usually outsourced to another organisation \n that usually remains in the home country.[2]\n(d) Describe the advantages to local communities when local firms supply raw materials or finished goods, such as shoes or clothes, to a multinational company: You should develop fully the points you make.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ds74.png"
+    ]
+  },
+  {
+    "id": "2019P2-Q03",
+    "year": 2019,
+    "paper": "P2 2019",
+    "original_num": 3,
+    "topic": "Large-Scale Case Studies",
+    "title": "Enironmental Problems",
+    "body_markdown": "(a) Study Fig 3.1, which shows some global environmental problems.\n What is meant by\n a global environmental problem;\n loss of biodiversity?[2]\n(i) Identify the global environmental problem from Fig: 3.1 which is mainly caused by emissions of sulfur dioxide and nitrogen oxide.[1].\n(b) Study Fig 3.2, a graph showing changes in average global temperature between 1880 and 2010. \n(i) Using Fig 3.2 only, describe the increase in average global temperature between 1880 and 2010. You should use data in your answer.[3].\n(ii) Explain why average global temperature has increased between 1880 and 2010.[4] \n(c) Study Fig 3.3, information about the likely impacts of an increase in average global temperature.\n(i) Identify from Fig 3.3, two different impacts of an increase in average global temperature on the natural environment.[2]\n(ii) Explain why an increase in average global temperature will reduce supplies of food for many people in developing countries.[2]\n(iii) Explain why the governments of some countries are more concerned about an increase in average global temperature than others.[4].\n(d) Study the section, an article about the Maldives, a country made up of many islands in the Indian Ocean, along with Fig: 3.5, Fig: 3.6 and Fig: 3.7, photographs taken in the Maldives.\n Looking down from a seaplane flying above the Maldives, the coral islands are spread across the water. We land at a remote island, Maduvvari, with the vice-president of the Maldives; Mohamed Waheed. Maduvvari is home to about 2000 people. The vice-president takes me to a beach that used to be a road: It has now been covered by the sea, and houses nearby are crumbling into the water. They are dredging sand from the lagoon to build temporary flood barriers: \"How long do you think this island can be inhabited?\" ask: \"Not more than 20 years;' he says, \"then we will have to abandon it: Children in the primary school now will not be able to live here, many will emigrate to other islands: The vice-president has warned that people might have to emigrate to a new country unless sea-level rise can be prevented: So this week he announced that the Maldives hoped to become the world's first country to meet all its energy needs from renewable sources, like wind and solar power: Another possible solution is to build high artificial islands. About 80% of the country's land is less than a metre above sea level, but on the island of Hulhumale you can actually look down on the sea from a height The whole island has been raised and reclaimed using sand, concrete and shingle, to protect it from storm surges and higher tides, which could provide a solution that will allow people to continue living in the Maldives for hundreds of years: \"We're proposing big new islands which are built up to three metres high in seven different parts of the country;' he says. \"That will be enough for the entire Maldives population; 300000 people. The people who don't want to move to other countries can move to higher ground within the Maldives.\n The government of the Maldives is concerned about the impacts of rising sea levels caused by increasing average global temperature.\n Study the next section, which shows information about four possible strategies being considered to reduce the impact of rising sea levels:\nStrategy A: Use renewable energy supplies, such as wind and solar power. \n Strategy B: Give grants to the local authorities to build flood barriers around all islands.\n Strategy C: Build new islands in seven different parts of the country to a height of 3 metres above sea level.\n Strategy D: Encourage emigration to other countries.\n(i) Explain why strategy A will not be very effective to reduce the problems caused in the Maldives by rising sea levels.[4]\n(ii) Which strategy; B, C or D, do you think will be most effective?\n Explain your reasons for choosing this strategy. \n You should do this by describing the advantages of the strategy you have chosen and the disadvantages of the two strategies you have rejected.[9]",
+    "latex": "",
+    "total_marks": 31,
+    "images": [
+      "ds87.png",
+      "ds88.png",
+      "ds89.png",
+      "ds90.png",
+      "ds91.png",
+      "ds92.png"
+    ]
+  },
+  {
+    "id": "2020P1-Q04",
+    "year": 2020,
+    "paper": "P1 2020",
+    "original_num": 4,
+    "topic": "Environment and Development",
+    "title": "Acid Rain",
+    "body_markdown": "(a) Study Fig: 4.1, which shows the formation of acid rain.\n(i) Use Fig 4.1 and words from the list to complete the sentences below:\nsulfur and nitrogen, ozone, nitric and sulfuric acid, renewable energy, water, fossil fuels, carbon dioxide. \n Factories and cars burn ..................... which   emit   oxides of ......................... Fumes combine with the ....................... droplets in the atmosphere. When the rain falls, it becomes dilute ..................[2]\n(ii) Explain how acid rain affects people and the environment.[4]. \n(iii) Suggest two ways to reduce acid rain.[2] \n(b) Study Fig 4.2, which shows the Gross National Income (GNI) per person of the countries which have the greatest and the least impact upon the environment and human health.\n(i) Identify the relationship between a country's GNI per person and its impact on the environment and health.\n(ii) Give one reason why a country with a high GNI per person may have a negative impact on the environment.[1] \n(iii) State two indicators used to calculate the Human Development Index.[2] \n(c) Suggest why some aspects of development, such as political freedom are difficult to measure.[2] \n(d) Describe how corruption and the mismanagement of resources impact on local people in developing countries You should develop fully the points you make.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ds75.png",
+      "ds76.png"
+    ]
+  },
+  {
     "id": "2021P1-Q01",
     "year": 2021,
     "paper": "P1 2021",

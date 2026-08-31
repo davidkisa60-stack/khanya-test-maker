@@ -15,6 +15,8 @@ import os
 import json
 import base64
 import threading
+import secrets
+import time
 from datetime import datetime
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
@@ -38,6 +40,11 @@ GITHUB_USERS_PATH = os.environ.get("GITHUB_USERS_PATH", "data/users.json").strip
 
 _lock = threading.Lock()
 _memory_users = None
+
+# One live session per email. Idle timeout is 5 minutes.
+IDLE_SECONDS = int(os.environ.get("SESSION_IDLE_SECONDS", "300"))
+_sessions = {}  # email -> {token, last_activity}
+_sess_lock = threading.Lock()
 
 
 def _default_users():
@@ -164,6 +171,97 @@ def save_users(data):
         return saved
 
 
+def _session_now():
+    return time.time()
+
+
+def _session_token_from_request():
+    auth = request.headers.get("Authorization") or ""
+    if auth.lower().startswith("bearer "):
+        return auth.split(" ", 1)[1].strip()
+    token = (request.headers.get("X-Session-Token") or "").strip()
+    if token:
+        return token
+    body = request.get_json(silent=True) or {}
+    return (body.get("token") or "").strip()
+
+
+def _find_session(token):
+    if not token:
+        return None, None
+    with _sess_lock:
+        for email, sess in list(_sessions.items()):
+            if sess.get("token") == token:
+                idle = _session_now() - float(sess.get("last_activity") or 0)
+                if idle > IDLE_SECONDS:
+                    _sessions.pop(email, None)
+                    return None, "idle"
+                return email, sess
+    return None, "replaced"
+
+
+def create_session(email):
+    token = secrets.token_urlsafe(32)
+    with _sess_lock:
+        _sessions[email] = {"token": token, "last_activity": _session_now()}
+    return token
+
+
+def touch_session(email):
+    with _sess_lock:
+        if email in _sessions:
+            _sessions[email]["last_activity"] = _session_now()
+
+
+def destroy_session(token):
+    with _sess_lock:
+        for email, sess in list(_sessions.items()):
+            if sess.get("token") == token:
+                _sessions.pop(email, None)
+                return True
+    return False
+
+
+def require_session(admin_only=False):
+    token = _session_token_from_request()
+    email, sess = _find_session(token)
+    if sess == "idle":
+        return None, (
+            jsonify(
+                {
+                    "success": False,
+                    "reason": "idle",
+                    "message": "Signed out after 5 minutes of inactivity.",
+                }
+            ),
+            401,
+        )
+    if not email:
+        reason = "replaced" if token else "session"
+        msg = (
+            "This email is signed in somewhere else."
+            if token
+            else "Please sign in."
+        )
+        return None, (
+            jsonify({"success": False, "reason": reason, "message": msg}),
+            401,
+        )
+
+    users_data = load_users()
+    user = next((u for u in users_data.get("users", []) if u["email"].lower() == email), None)
+    if not user or not user.get("active"):
+        destroy_session(token)
+        return None, (
+            jsonify({"success": False, "reason": "session", "message": "Account is not active."}),
+            403,
+        )
+    if admin_only and user.get("role") != "admin":
+        return None, (jsonify({"success": False, "message": "Admin access required"}), 403)
+    touch_session(email)
+    return (email, user), None
+
+
 @app.after_request
 def add_cors_headers(response):
     origin = request.headers.get("Origin", "")
@@ -175,7 +273,7 @@ def add_cors_headers(response):
     ):
         response.headers["Access-Control-Allow-Origin"] = origin if origin else "*"
         response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
-        response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, X-User-Email"
+        response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, X-User-Email, X-Session-Token"
         response.headers["Access-Control-Allow-Credentials"] = "true"
     if request.method == "OPTIONS":
         response.status_code = 200
@@ -219,22 +317,44 @@ def login():
                 }
             ), 403
 
+        token = create_session(user["email"])
         return jsonify(
             {
                 "success": True,
                 "email": user["email"],
                 "active": user["active"],
                 "role": user.get("role", "user"),
+                "token": token,
+                "idle_seconds": IDLE_SECONDS,
             }
         )
     except Exception as e:
         return jsonify({"success": False, "message": str(e)}), 500
 
 
+@app.route("/api/session", methods=["GET", "POST"])
+def api_session():
+    pair, err = require_session()
+    if err:
+        return err
+    email, user = pair
+    return jsonify({"success": True, "email": email, "role": user.get("role", "user")})
+
+
+@app.route("/api/logout", methods=["POST"])
+def api_logout():
+    token = _session_token_from_request()
+    destroy_session(token)
+    return jsonify({"success": True})
+
+
 # ==================== ADMIN ROUTES ====================
 
 @app.route("/api/admin/users", methods=["GET"])
 def get_users():
+    pair, err = require_session(admin_only=True)
+    if err:
+        return err
     try:
         users_data = load_users()
         users_data["persist_ok"] = bool(GITHUB_TOKEN)
@@ -245,6 +365,9 @@ def get_users():
 
 @app.route("/api/admin/add-user", methods=["POST"])
 def add_user():
+    pair, err = require_session(admin_only=True)
+    if err:
+        return err
     try:
         data = request.get_json(force=True)
         email = data.get("email", "").strip().lower()
@@ -281,6 +404,9 @@ def add_user():
 
 @app.route("/api/admin/toggle-user", methods=["POST"])
 def toggle_user():
+    pair, err = require_session(admin_only=True)
+    if err:
+        return err
     try:
         data = request.get_json(force=True)
         email = data.get("email", "").strip().lower()
@@ -308,10 +434,14 @@ def toggle_user():
 
 @app.route("/")
 def index():
-    try:
-        return send_from_directory(".", "index.html")
-    except Exception:
-        return "<h1>Khanya Test Maker</h1><p>index.html not found.</p>"
+    # Site URL always opens the login page (never the last session).
+    return send_from_directory(".", "login.html")
+
+
+@app.route("/app")
+@app.route("/index.html")
+def app_page():
+    return send_from_directory(".", "index.html")
 
 
 @app.route("/<path:path>")
@@ -321,6 +451,9 @@ def static_files(path):
 
 @app.route("/api/generate-pdf", methods=["POST"])
 def generate_pdf_api():
+    pair, err = require_session()
+    if err:
+        return err
     try:
         data = request.get_json(force=True)
         ids = data.get("ids", [])
@@ -355,6 +488,9 @@ def generate_pdf_api():
 
 @app.route("/api/generate-docx", methods=["POST"])
 def generate_docx_api():
+    pair, err = require_session()
+    if err:
+        return err
     try:
         if not HAS_DOCX:
             return jsonify({"error": "python-docx not installed on server. Run: pip install python-docx"}), 500

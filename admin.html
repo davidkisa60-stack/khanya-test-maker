@@ -8,7 +8,7 @@
         (function () {
             try {
                 var user = JSON.parse(localStorage.getItem('khanya_user') || 'null');
-                if (!user || !user.email) {
+                if (!user || !user.email || !user.token) {
                     window.location.replace('login.html');
                     return;
                 }
@@ -112,6 +112,7 @@
         </div>
     </div>
 
+    <script src="js/session.js"></script>
     <script>
         function getCurrentUser() {
             try {
@@ -122,12 +123,16 @@
         }
 
         function authHeaders() {
+            if (window.khanyaAuth) return window.khanyaAuth.headers();
             var user = getCurrentUser() || {};
             var headers = {
                 'Content-Type': 'application/json',
                 'X-User-Email': user.email || ''
             };
-            if (user.token) headers['Authorization'] = 'Bearer ' + user.token;
+            if (user.token) {
+                headers['Authorization'] = 'Bearer ' + user.token;
+                headers['X-Session-Token'] = user.token;
+            }
             return headers;
         }
 
@@ -241,8 +246,11 @@
         }
 
         function logout() {
-            localStorage.removeItem('khanya_user');
-            window.location.href = 'login.html';
+            if (window.khanyaAuth) window.khanyaAuth.logoutNow();
+            else {
+                localStorage.removeItem('khanya_user');
+                window.location.replace('login.html');
+            }
         }
 
         window.toggleUser = toggleUser;
@@ -254,6 +262,5 @@
             loadUsers();
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2e31cf5c9f695f8',t:'MTc4NzI0Njg5Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f"}' crossorigin="anonymous"></script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a33e9cd1a81cbbf0',t:'MTc4ODIwNjMzMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

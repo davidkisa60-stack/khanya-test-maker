@@ -510,9 +510,12 @@ async function downloadFullPaperPDF() {
     const apiUrl = getApiUrl('/api/generate-pdf');
 
     try {
+        const hdrs = (window.khanyaAuth && window.khanyaAuth.headers)
+            ? window.khanyaAuth.headers()
+            : { 'Content-Type': 'application/json' };
         const res = await fetch(apiUrl, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: hdrs,
             body: JSON.stringify({ ids, title, subject: subj })
         });
 
@@ -543,9 +546,12 @@ async function downloadFullPaperDocx() {
     const apiUrl = getApiUrl('/api/generate-docx');
 
     try {
+        const hdrs = (window.khanyaAuth && window.khanyaAuth.headers)
+            ? window.khanyaAuth.headers()
+            : { 'Content-Type': 'application/json' };
         const res = await fetch(apiUrl, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: hdrs,
             body: JSON.stringify({ ids, title, subject: subj })
         });
 
