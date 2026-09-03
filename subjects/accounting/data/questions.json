@@ -1,1 +1,954 @@
-[]
+[
+  {
+    "id": "2026P1MJV1-Q01",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 1,
+    "topic": "The Fundamentals of Accounting",
+    "title": "Bookkeeper",
+    "body_markdown": "Which two statements outline the duties of a bookkeeper?\n1. the detailed recording of all the financial transactions of a business  \n2. the maintenance of double-entry records using accepted principles and methods \n3. the measurement of the progress of a business by comparing financial statements \n4. the use of financial records to assist in decision-making. \nA  1 and 2 \nB  1 and 3 \nC  2 and 4 \nD  3 and 4",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q01",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 1,
+    "topic": "The Fundamentals of Accounting",
+    "title": "Bookkeeper",
+    "body_markdown": "What would not be a task performed by a bookkeeper?\nA  performing a bank reconciliation \nB  preparing a cash book  \nC  processing source documents\nD  recommending an interim dividend",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P2-Q01",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 1,
+    "topic": "Sources and Recording of Data",
+    "title": "Petty cash book",
+    "body_markdown": "Reggie maintains a petty cash book using the imprest system. The imprest amount is $250 and is restored on the first day of each month. \n All payments of less than $50 are made from petty cash. \n All cash receipts of less than $50 are paid into petty cash.\n On 1 April 2026, Reggie had $133 in his petty cash box. He provided the following information for April 2026. \n April \n1.   Restored petty cash imprest from the business bank account \n5   Paid $40 to Greta, a trade payable \n9   Paid $16 for cleaning materials \n15   Received $31 from Awez, a trade receivable \n20   Paid $11 for postage \n27   Paid $42 wages to the cleaner of the business premises \n29   Paid $23 for printer paper \n REQUIRED \n(a) Prepare Reggie's petty cash book for the month of April 2026. \n Balance the petty cash book and bring down the balance at May 2026.\n The amount of cash drawn from the bank account to restore the imprest on April has been omitted from the cash book. When Reggie received his bank statement dated 30 April 2026, he 2 identified an unpresented cheque for $390 and an uncredited deposit of $450. The bank balance 2 shown on the bank statement is a positive balance of $982.\n REQUIRED \n(b) Calculate the bank balance which was shown in the cash book at 30 April 2026. \n Reggie is considering using petty cash for receipts and payments of under $10 only. All other receipts would be required by bank transfer and all other payments would be made by bank transfer. The imprest amount would be reduced to $100. \n REQUIRED \n(c) Advise Reggie whether or not he should require that all receipts over $10 are made by bank transfer and make all payments over $10 by bank transfer. Justify your answer by providing both advantages and disadvantages of making this change.",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "acc31.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q02",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 2,
+    "topic": "The Fundamentals of Accounting",
+    "title": "Accounting Equation",
+    "body_markdown": "Which set of figures makes both sides of the accounting equation agree?\nA  assets $800, liabilities $1120 and capital $320 \nB  assets $1000, liabilities $600 and capital $400\nC  assets $1200, liabilities S720 and capital $1920 \nD  assets $1400, liabilities $380 and capital $1780",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q02",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 2,
+    "topic": "Sources and Recording of Data",
+    "title": "Accounting books",
+    "body_markdown": "The following balances appeared in Hussein's books.\n How much were his total liabilities?\nA  $4800\nB  $6200\nC  $6400\nD  $7200",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc20.png"
+    ]
+  },
+  {
+    "id": "2026P2-Q02",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 2,
+    "topic": "Sources and Recording of Data",
+    "title": "Accounting books",
+    "body_markdown": "The Hi Notes Music Club provides facilities for its members to practise together. It also runs a coffee shop where members can buy refreshments.\n The club's assets and liabilities were:\n REQUIRED \n(a) Calculate the accumulated fund of the club at 31 March 2025.\n(b) Prepare the subscriptions account for the year ended 31 March 2026. Balance the account and bring down the balances at April 2026.\n(c) Prepare the income statement for the coffee shop for the year ended 31 March 2026.\n(d) Prepare the income and expenditure account for the club for the year ended 31 March 2026.\n(e) Calculate the accumulated fund of the club at 31 March 2026. ",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "acc31.png",
+      "acc32.png",
+      "acc34.png",
+      "acc35.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q03",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 3,
+    "topic": "Sources and Recording of Data",
+    "title": "Books",
+    "body_markdown": "Suzi owed $200 for goods supplied by Mandy. Suzi paid the amount owing by cheque after deducting a cash discount of $10.  \n Which entries would Suzi make in Mandy's account to record this transaction? \nA  credit entries: bank $190, discount $10 \nB  credit entries: bank $200, discount $10 \nC  debit entries: bank $190, discount $10 \nD  debit entries: bank $200, discount $10",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q03",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 3,
+    "topic": "Sources and Recording of Data",
+    "title": "Ledger accounts",
+    "body_markdown": "Which statements about a ledger account for depreciation expense are correct?\n1. The balance on the account is shown on the statement of financial position. \n2. The balance brought down appears on the same side as the balance carried down. \n3. The balance carried down at the end of the month is the same figure as the balance brought down at the start of the next month. \nA  1 and 2 \nB 1 only \nC  2 and 3 \nD  3 only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P2-Q03",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 3,
+    "topic": "Sources and Recording of Data",
+    "title": "Partnerships",
+    "body_markdown": "Yasmin and Zafran are in partnership. They prepare their financial statements to 31 March each year.\nThe annual rent expense for the partnership is $8400. \n During the year ended 31 March 2026, rent of $6300 was paid. \n At 1 April 2025, there was a prepayment of rent of $700. \n REQUIRED \n(a) Prepare the rent expense account for the year ended 31 March 2026. Balance the account and bring down the balance at April 2026. \n Yasmin and Zafran are considering obtaining a long-term loan to buy the storeroom which they  are now renting. \n REQUIRED \n(b) Advise the partners whether or not they should take out a long-term loan in order to buy the storeroom. \n Justify your answer by providing points both for and against doing this[5]. \n The partnership agreement provides for: \n interest on partners' loans of 7.5% per annum \n interest on drawings of 5% per annum \n interest on capital of 3% per annum \n a salary to Yasmin of $8000 per annum \n residual profits and losses to be shared equally.\n The residual profit for the year ended 31 March 2026, after the income statement and the appropriation account had been prepared, was $22400. \n The partners provided the following information. \n Yasmin's capital account balance at i April 2025 $42000, Yasmin's current account balance at 1 April 2025 $2900 credit, Yasmin's drawings for the year ended 31 March 2026 $18000. \n On 1 April 2025, Yasmin made a loan of $30000 to the business. The loan interest recorded in the income statement has not yet been paid. \n REQUIRED \n(c) Prepare Yasmin's current account for the year ended 31 March 2026. Balance the account and bring down the balance at 1 April 2026.\n The credit balances on Zafran's accounts at 31 March 2026 were: \n capital account: $35000 \n current account $5600 \n REQUIRED \n(d) Prepare an extract from the statement of financial position showing the capital section (closing balances only) at 31 March 2026",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "acc36.png",
+      "acc37.png",
+      "acc38.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q04",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 4,
+    "topic": "Sources and Recording of Data",
+    "title": "Sales Ledger",
+    "body_markdown": "What does the sales ledger of a business contain? \nA  accounts of trade payables \nB  accounts of trade receivables \nC  sales account \nD  sales ledger control account",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q04",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 4,
+    "topic": "Sources and Recording of Data",
+    "title": "Accounting Books",
+    "body_markdown": "Wilma bought 55 items from Margot at a list price of $40 each, subject to a 15% trade discount. Wilma later returned 25 items as they were faulty. \n Which document did Margot issue to Wilma for the returned items? \nA  credit note for $850 \nB  credit note for $1000 \nC  debit note for $850 \nD  debit note for $1000 ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P2-Q04",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 4,
+    "topic": "Verification of Accounting Records",
+    "title": "Errors",
+    "body_markdown": "Sally is a trader. She has prepared a draft income statement for the year ended 1 <  28 February 2026.\n Sally charges depreciation on her motor vehicle at 20% per annum using the reducing balance method. She purchased her motor vehicle on March 2023 for $21000. \n Depreciation had been correctly charged in the two years to 28 February 2025. However; in the year ended 28 February 2026, an incorrect amount of depreciation of $4200 had been charged on the motor vehicle. \n REQUIRED\n(a) Prepare the journal entry required to correct the depreciation charge. A narrative is required.\n Sally has now discovered the following further errors in her accounting record.\n1. Rent expense paid of $620 had been debited to the rental income account. \n2. The sales journal and the purchases journal had both been overcast by $900. \n3. Wages of $170 had been debited to the drawings account. \n4. Motor expenses paid for $625 had been recorded as $256. \n REQUIRED \n(b) Prepare the journal entries required to correct these four errors. Narratives are not required.\n(c) Calculate the corrected profit for the year ended 28 February 2026. \n(d) State the type of error shown in:\n(i) error 1 (rent expense paid)\n(ii) error 2 (overcast).\n Sally records her sales when the sale is made and the goods are provided to the customer. \n REQUIRED \n(e) State which accounting principle Sally is applying when she does this.",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "acc39.png",
+      "acc40.png",
+      "acc41.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q05",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 5,
+    "topic": "Sources and Recording of Data",
+    "title": "Prime entry",
+    "body_markdown": "Which book of prime entry is used by a business to record credit notes issued?\nA  purchases journal \nB  purchases returns journal \nC  sales journal \nD  sales returns journal",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q05",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 5,
+    "topic": "Sources and Recording of Data",
+    "title": "Accounting Books",
+    "body_markdown": "Anna maintains a full set of accounting records.\n Anna has taken some goods from the business for her own use.\n Which book of prime entry is this recorded in?\nA  cash book\nB  general journal \nC  general ledger \nD  purchases journal",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P2-Q05",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 5,
+    "topic": "Accounting Principles and Policies",
+    "title": "Doubtful debts",
+    "body_markdown": "Ahmed is a trader. All his sales and purchases are on credit. Ahmed has provided the following information.\n REQUIRED \n(a) Complete the following table. \n Ahmed had written off irrecoverable debts for the year ended 31 March 2026. He is now considering setting up a provision for doubtful debts. \n REQUIRED \n(b)(i) State one accounting principle which Ahmed would be following if he set up a provision for doubtful debts. \n(ii) State one reason why Ahmed should set up a provision for doubtful debts (other than to comply with accounting principles).[1] \n Ahmed allows his customers 30 days to pay, and his suppliers allow him 30 days to pay. \n REQUIRED \n(c) State two factors which may cause Ahmed concern[2]. \n Ahmed is considering selling the delivery vehicle of his business for cash so that he can pay the trade payables. The disposal proceeds of the delivery vehicle would be $4830. \n REQUIRED \n(d) Advise Ahmed whether or not he should sell the delivery vehicle of his business so that he can pay the trade payables. Justify your answer by providing points for and against doing this",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "acc44.png",
+      "acc45.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q06",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 6,
+    "topic": "Sources and Recording of Data",
+    "title": "Business document",
+    "body_markdown": "Which business document acts as a source of information for making entries on the credit side of a cash book?\nA  a cheque counterfoil \nB  a debit note \nC  a paying-in slip \nD  an invoice",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q06",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 6,
+    "topic": "Sources and Recording of Data",
+    "title": "Accounting Books",
+    "body_markdown": "What is meant by 'restoring the imprest' of a petty cash book? \nA  adding up the petty cash vouchers issued during the period \nB  replacing the amount of petty cash to a fixed level at regular intervals \nC  calculating the petty cash balance at the end of the period \nD  calculating the total of all the analysis columns of the petty cash book",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q07",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 7,
+    "topic": "Verification of Accounting Records",
+    "title": "Trial Balance",
+    "body_markdown": "Which error in a trader's books of account would be shown by preparing a trial balance?\nA  a credit sale recorded in the wrong customer's account \nB  purchases account and sales account overcast by the same amount \nC  repairs to machinery debited to the machinery account \nD  sales journal overcast",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q07",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 7,
+    "topic": "Sources and Recording of Data",
+    "title": "Accounting Books",
+    "body_markdown": " Which statement about a trial balance is correct?\nA  It assists in revealing all bookkeeping errors.\nB  It shows the totals on all the journals \nC  It proves that the ledger accounts are free from error. \nD  It assists in locating arithmetical errors in the bookkeeping records.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q08",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 8,
+    "topic": "Verification of Accounting Records",
+    "title": "Trial Balance",
+    "body_markdown": "Betty opened a suspense account with an entry of $180 on the debit side. \n Which error had made this necessary? \nA  Discount received of $90 had been posted to the debit side of the discount received account \nB  Purchases of $40 had been recorded in the purchases journal as $140. \nC  Rent paid of $530 had been entered on the debit side of the rent expenses account as $350. \nD  The sales journal had been undercast by $180.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q08",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 8,
+    "topic": "Verification of Accounting Records",
+    "title": "Trial Balance",
+    "body_markdown": "Paula has provided the following trial balance. Some of the account balances have been placed on the wrong side of her trial balance.\n What is the corrected trial balance total?\nA  $23 500\nB  $24500 \nC  $25500 \nD  $26 500",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc21.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q09",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 9,
+    "topic": "Verification of Accounting Records",
+    "title": "Income Statement",
+    "body_markdown": "Sales returns were incorrectly recorded as purchases returns in an income statement.\n What was the effect of this error?\nA  Capital employed was understated. \nB  Cost of sales was overstated\nC  Gross profit was understated \nD  Profit of the year was overstated ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q09",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 9,
+    "topic": "Verification of Accounting Records",
+    "title": "Profit",
+    "body_markdown": "Sajid runs a grocery store. His draft profit was $9000. The following errors were made in his accounting records. \n1. Capital of $4000, introduced by Sajid, had been recorded as sales. \n2. House repairs costing $400 for Sajid's private home had been included in business expenses. \n What is the corrected profit for the year? \nA  $4600 \nB  $5400 \nC  $12600 \nD  $13400",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q10",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 10,
+    "topic": "Verification of Accounting Records",
+    "title": "Bank Reconciliations",
+    "body_markdown": "What would not be shown on a bank statement?  \nA  a cheque returned by the bank marked as dishonoured \nB  a monthly payment made for electricity by direct debit \nC  bank charges \nD  unpresented cheques",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q10",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 10,
+    "topic": "Verification of Accounting Records",
+    "title": "Suspense Account",
+    "body_markdown": "A suspense account may be used to balance the trial balance. Sometimes a balance may remain on a suspense account after a number of errors have been found and corrected. \n What does this balance indicate? \nA  All the errors have been found and corrected. \nB  Any remaining errors would only affect the income statement. \nC  The only errors remaining are those that do not affect the trial balance. \nD  There are still some errors in the accounting records.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q11",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 11,
+    "topic": "Verification of Accounting Records",
+    "title": "Cash Book",
+    "body_markdown": "On 31 July; the bank column in Jay's cash book showed that he had $312 in the bank. On the same date, his bank statement showed a debit balance of $53. \n It was found that bank charges of $47 had not been recorded in the cash book; and a cheque for 8318 from a customer had not been credited by the bank. \n What is the bank balance that should be shown in Jay's statement of financial position on 31 July? \nA  $265 asset \nB  $324 liability \nC  $359 asset \nD  $371 liability",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q11",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 11,
+    "topic": "Verification of Accounting Records",
+    "title": "Bank reconciliation statement",
+    "body_markdown": "When Solomon's bank statement arrived, he updated his cash book and prepared the bank reconciliation statement. \n How did he update his cash book balance?  \nA  He added back the unpresented cheques \nB  He added the bank charges \nC  He subtracted the bank charges \nD  He subtracted the unpresented cheques",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q12",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 12,
+    "topic": "Verification of Accounting Records",
+    "title": "Ledger",
+    "body_markdown": "Which items appear on the credit side of a sales ledger control account? \nA  discount allowed, sales returns and contra entry \nB  discount received, sales returns and irrecoverable debts \nC  cash sales, dishonoured cheques and irrecoverable debts \nD  discount allowed, dishonoured cheques and contra entry",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q12",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 12,
+    "topic": "Verification of Accounting Records",
+    "title": "Bank statement",
+    "body_markdown": "Peter's bank statement showed a debit balance of $600 on April: The transactions that took place in April are shown.\n What was the balance on Peter's bank statement on 30 April?\nA  $870 credit\nB  $870 debit\nC  $2070 credit\nD  $2070 debit",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc22.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q13",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 13,
+    "topic": "Verification of Accounting Records",
+    "title": "Maintaining control accounts",
+    "body_markdown": "Which statements are advantages of maintaining control accounts?\n1. They act as a deterrent against fraud as they provide an independent check \n2. They ensure all errors are discovered in the purchases and sales ledgers. \n3. They provide totals of trade payables and trade receivables. \nA   1,2 and 3 \nB 1 and 2 only \nC 1 and 3 only \nD 2 and 3 only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q13",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 13,
+    "topic": "Verification of Accounting Records",
+    "title": "Ledger control account",
+    "body_markdown": "Which item would not appear in a sales ledger control account? \nA  discount received \nB  payments received \nC  refunds paid to credit customers \nD  returns from credit customers",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q14",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 14,
+    "topic": "Verification of Accounting Records",
+    "title": "Errors",
+    "body_markdown": "On the last day of the financial year; Khalid purchased office fittings for $900. This was incorrectly recorded as office expenses for $90.  What was the effect on the profit for the year (ignore depreciation)?\nA  overstated by $810\nB  overstated by $990 \nC  understated by $90 \nD  understated by $900",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q14",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 14,
+    "topic": "Accounting Procedures",
+    "title": "Capital expenditure",
+    "body_markdown": "The payments made when a new machine was purchased are shown.\n How much was the capital expenditure? \nA  $32 000 \nB  $33300 \nC  $35 100 \nD  $37 100 ",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc23.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q15",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 15,
+    "topic": "Verification of Accounting Records",
+    "title": "Capital Expenditure",
+    "body_markdown": "Filippo incurred the following additional expenditure when purchasing machinery.\n Which amount was shown as capital expenditure in respect of these items?\nA  $6400 \nB  $6650 \nC  $9250 \nD  $10450 ",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc1.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV2-Q15",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 15,
+    "topic": "Accounting Procedures",
+    "title": "Depreciation",
+    "body_markdown": "Chanu purchased a motor vehicle.\n Why did Chanu charge depreciation on this vehicle in his income statement? \nA  to be able to calculate the residual value of the motor vehicle \nB  to account for the net realisable value of the motor vehicle \nC  to spread the cost of the motor vehicle over the years when it is used \nD  to set aside funds to cover the replacement of the motor vehicle",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q16",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 16,
+    "topic": "Accounting Procedures",
+    "title": "Depreciation",
+    "body_markdown": "Ahmed's financial year ends on 30 April. On February 2025,he purchased a machine for $12 000. \n He depreciates machinery at 25% per annum, using the straight-line method. Depreciation is charged on a month-by-month basis.\n Ahmed has no other non-current assets. \n What was the balance brought down on Ahmed's provision for depreciation account on 1 May 2026?\nA  $3500 debit\nB  $3500 credit\nC  $3750 debit\nD  $3750 credit",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q16",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 16,
+    "topic": "Accounting Procedures",
+    "title": "Depreciation",
+    "body_markdown": "A machine costing $5000 was sold for $1500 after two years of use. \n Depreciation was provided at the rate of 40% per annum, using the reducing balance method in both years. \n How much was transferred to the income statement as profit or loss on disposal?\nA  $300 loss \nB  $300 profit \nC  $500 loss \nD  $500 profit",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q17",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 17,
+    "topic": "Accounting Procedures",
+    "title": "Doubtful debts",
+    "body_markdown": "A trader maintains a provision for doubtful debts of 2% of trade receivables\n At the start of the current year on January; the provision for doubtful debts was $60O.  \n At the end of the current year on 31 December, trade receivables totalled $27 500. This included S2500 which should be written off as irrecoverable.\n Which entry should be made in the provision for doubtful debts account at the end of the current year on 31 December? \nA  $50 debit \nB  $50 credit \nC  $100 debit \nD  $100 credit",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q17",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 17,
+    "topic": "Accounting Procedures",
+    "title": "Rent",
+    "body_markdown": "At the end of the financial year; Mui had prepaid rent of $1500. \n How should she record this? \nA  debit $1500 in the rent account and carry down as a credit balance \nB  credit $1500 in the rent account and carry down as a credit balance \nC  debit $1500 in the rent account and carry down as a debit balance \nD  credit $1500 in the rent account and carry down as a debit balance",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q18",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 18,
+    "topic": "Accounting Procedures",
+    "title": "Inventory",
+    "body_markdown": "When should inventory be valued at selling price?. \nA  when sales volume is increasing \nB  when the business needs to improve its profits \nC  when the owner is sure that the inventory will be sold soon \nD  when the selling price is less than cost",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q18",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 18,
+    "topic": "Accounting Procedures",
+    "title": "Income statement",
+    "body_markdown": "Amit's financial year ends on 31 December: The account shown appeared in his sales ledger: \n Which amount should be included for closing inventory in his income statement?\nA  $1625\nB  $1675 \nC  $1750 \nD  $1800",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc24.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q19",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 19,
+    "topic": "Preparation of Financial Statements",
+    "title": "Sole trader",
+    "body_markdown": "What does an income statement for a sole trader show?\nA  the revenue and expenses for the year \nB  the assets and liabilities owned during the year\nC  the change in the bank balance during the year\nD  the capital invested by the owner during the year",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q19",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 19,
+    "topic": "Accounting Procedures",
+    "title": "Income statement",
+    "body_markdown": "Ravi sells paint and paint brushes. He provided the following information about his inventory at the end of the year.\n Which amount should be included for closing inventory in his income statement? \nA  $1625 \nB  $1675 \nC  $1750 \nD  $1800",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc25.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q20",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 20,
+    "topic": "Preparation of Financial Statements",
+    "title": "Sole trader",
+    "body_markdown": "Leena receives rent from her tenant on 31 December 2025. This relates to the period from 1 January 2026 to 31 March 2026.\n How will this appear in her financial statements for the year ended 31 December 2025?  \nA  under current assets, as other payables \nB  under current assets, as other receivables \nC  under current liabilities, as accrued income \nD  under current liabilities, as prepaid income",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q20",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 20,
+    "topic": "Accounting Procedures",
+    "title": "Accountancy business",
+    "body_markdown": "Which statements about an accountancy business are correct?\n1. Its gross profit is shown on the income statement. \n2. It does not purchase goods for resale.\n3. It does not sell goods on credit. \n4. Its revenue income is shown on the income statement. \nA  1,2,3 and 4 \nB  1 and 4 only \nC  2, 3 and 4 only \nD  2 and 3 only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q21",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 21,
+    "topic": "Preparation of Financial Statements",
+    "title": "Mohan and Dipak are in partnership. They provided the following inform...",
+    "body_markdown": "Mohan and Dipak are in partnership. They provided the following information at the end of the financial year.\n How much profit was available for distribution to the partners in their profit-sharing ratio?\nA  $23740\nB  $24460\nC  $27 740\nD  $29460",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc2.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV2-Q21",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 21,
+    "topic": "Accounting Procedures",
+    "title": "Cost of sales",
+    "body_markdown": "A trader provided the following information.\n What was the cost of sales for the year? \nA  $77 000 \nB  $81 000 \nC  $91 000 \nD  $95 000",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc26.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q22",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 22,
+    "topic": "Preparation of Financial Statements",
+    "title": "Partnerships",
+    "body_markdown": "X and Y started up a business as partners on January 2025. Each partner has a fixed capital account and a current account: Neither partner is allowed a salary or interest on capital. Financial statements are being prepared for the first year of trading.\n Which statements are correct?\n1. partner's current account will have a debit balance if their drawings are more than their share of the profits  \n2. Any additional capital put into the business by a partner will be credited to their current account. \n3. Interest charged on the drawings made by partner will be credited to their current account. \n4. The fixed capital account of a partner will always have a credit balance. \nA  1 and 4 \nB  2 and 3 \nC  2 only \nD  3 and 4",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q22",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 22,
+    "topic": "Accounting Procedures",
+    "title": "Income statement",
+    "body_markdown": "A business had prepaid insurance both at the start and at the end of its financial year. The ending prepaid amount was greater than the starting prepaid amount. The income statement for the year is now being prepared.\n Which statement is correct?\nA  The insurance expense in the income statement will be equal to the amount paid during the year \nB  The insurance expense in the income statement will be greater than the amount paid during the year. \nC  Prepaid insurance at the start of the year will be added to the amount paid during the year. \nD  Prepaid insurance at the start of the year will be added to the prepaid insurance at the end of the year:",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q23",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 23,
+    "topic": "Preparation of Financial Statements",
+    "title": "Called-up share capital",
+    "body_markdown": "What is called-up share capital?\nA  the amount of share capital for which the company has received payment from shareholders \nB  the amount of share capital for which the company has requested payment from shareholders \nC  the amount of share capital which the company has actually issued to shareholders \nD  the amount of share capital which the company is permitted to issue to shareholders.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q23",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 23,
+    "topic": "Preparation of Financial Statements",
+    "title": "Partnerships",
+    "body_markdown": "What may appear in the appropriation account of a partnership business? \n1. capital invested by a partner \n2. interest on a partner's loan \n3. interest on partners' drawings \n4. profit or loss for the year \nA  1,2 and 3 \nB 1 and 3 only \nC  1 and 4 \nD  3 and 4",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q24",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 24,
+    "topic": "Preparation of Financial Statements",
+    "title": "Equity",
+    "body_markdown": "Which items shown in a statement of changes in equity? \n1. debenture interest paid during the year \n2. interim dividend on ordinary shares paid during the current year \n3. profit for the year \n4. share dividend proposed last year paid in the current year. \nA  1,2,3 and 4 \nB  1 and 2 only \nC  2, 3 and 4 only \nD  3 and 4 only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q24",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 24,
+    "topic": "Preparation of Financial Statements",
+    "title": "Partnerships",
+    "body_markdown": "Tee and Rex were partners in a business. They provided their figures from their statement of financial position, as shown.\n What was the balance on Rex's current account?\nA  $4000 credit\nB  $4000 debit\nC  $14000 credit\nD  $14000 debit",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc27.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q25",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 25,
+    "topic": "Preparation of Financial Statements",
+    "title": "Income and Expenditure",
+    "body_markdown": "Which group contains only items which may be recorded in both the income statement of a trading business and the income and expenditure account of a club?\nA  bank charges, depreciation, wages \nB  bank charges, gross profit; surplus \nC  deficit; sales revenue, treasurer's expenses \nD  depreciation, treasurer's expenses, wages",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q25",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 25,
+    "topic": "Preparation of Financial Statements",
+    "title": "Shareholders",
+    "body_markdown": "The maximum a shareholder can lose is the amount he has agreed to pay for his shares in the company. \n What does the statement describe? \nA  fixed dividend \nB  limited liability \nC  ownership continuity \nD  separate legal entity",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q26",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 26,
+    "topic": "Preparation of Financial Statements",
+    "title": "Accumulated fund",
+    "body_markdown": "A social club had the following assets and liabilities in its books of account.\n What was the accumulated fund? \nA  $6275 \nB  $6325 \nC  $7175 \nD  $7275",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc3.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV2-Q26",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 26,
+    "topic": "Preparation of Financial Statements",
+    "title": "Dividends",
+    "body_markdown": "The equity of a company increased by $60 000 during the year. The company had paid no dividends.\n What could have caused the increase? \nA  profit of $60 000 and a transfer of $20 000 to general reserve \nB  a profit of $80 000 and a transfer of $20 000 to general reserve \nC  an issue of new shares for $60 000 and a profit of $20000 \nD  an issue of new shares for $20 000 and a profit of $80 000",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q27",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 27,
+    "topic": "Preparation of Financial Statements",
+    "title": "Errors",
+    "body_markdown": "Ebba prepared her draft manufacturing account: Cost of production was shown as $360 100.\n Two errors were then discovered.\n1. Depreciation of factory machinery of $24 000 had been included in prime cost instead of overheads.\n2. Closing work in progress of $17 400 had been recorded as $14700.\n What was the revised value for cost of production? \nA  $333400 \nB  $338800 \nC  $357 400 \nD  $362 800 ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q27",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 27,
+    "topic": "Preparation of Financial Statements",
+    "title": "Expenditure Account",
+    "body_markdown": "Which items are included in an income and expenditure account prepared for a sports club?\n1. cost of new furniture purchased during the year for the clubhouse \n2. depreciation on furniture and sports equipment \n3. rates for the clubhouse paid in advance for the next financial year \n4. the profit on the cafe provided for the members. \nA  1 and 2 \nB  1 and 4 \nC  2 and 4 \nD  3 and 4",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q28",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 28,
+    "topic": "Preparation of Financial Statements",
+    "title": "Factory Overheads",
+    "body_markdown": "A computer manufacturer provided the following information. \n1. cost of computer components \n2. rent of factory \n3. salary of factory manager \n4. wages of machine operators\n Which costs are factory overheads?\nA  1,2 and 3\nB 1 and 4\nC  2,3 and 4\nD  2 and 3 only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q28",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 28,
+    "topic": "Preparation of Financial Statements",
+    "title": "and 4 28 club provided the following information. enaeetanteoet  subsc...",
+    "body_markdown": "A club provided the following information.\n How much was recorded for subscriptions in the income and expenditure account at the end of the year?\nA  $2300\nB  $2860\nC  $3140\nD  $3280",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc28.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q29",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 29,
+    "topic": "Preparation of Financial Statements",
+    "title": "Trade receivables",
+    "body_markdown": "A business, keeping incomplete records, provided the following information for the year 2025. \n During the year ended 31 December 2025. \n .receipts from trade receivables, after deducting cash discount; were $23 520 \n .cash discount was 2% \n .credit sales were $36 000.\n What was the amount of opening trade receivables?\nA  $2520\nB  $3000\nC  $12000\nD  $12480",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc4.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV2-Q29",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 29,
+    "topic": "Preparation of Financial Statements",
+    "title": "Which item is included in the prime cost in manufacturing accounts? fa...",
+    "body_markdown": "Which item is included in the prime cost in manufacturing accounts? \nA  factory machinery's depreciation \nB  factory operatives' wages \nC  factory rent and rates Panandee \nD  factory supervisors' salaries",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q30",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 30,
+    "topic": "Analysis and Interpretation",
+    "title": "Cost of sales",
+    "body_markdown": "Eling owned a clothes shop. Her sales were $45000, and her gross margin was 33.3 %. What was the value of Eling's cost of sales? \nA  $15000 \nB  $22 500 \nC  $30 000 \nD  $33750",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q30",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 30,
+    "topic": "Accounting Procedures",
+    "title": "Double entry records",
+    "body_markdown": "John did not keep a full set of double entry records.\n He provided the following information for 2025.\n During the year ended 31 December 2025,he paid S28 000 to trade payables and received $25 000 from trade receivables.\n What were his credit sales for the year ended 31 December 2025?\nA  $22 000 \nB  $24700 \nC  $28000 \nD",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc29.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q31",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 31,
+    "topic": "Analysis and Interpretation",
+    "title": "ROCE",
+    "body_markdown": "A limited company provided the following information at the end of the financial year.    \n What was the return on capital employed (ROCE)? \nA  12.9% \nB  13.7% \nC  14.1% \nD  15.0%",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc5.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV2-Q31",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 31,
+    "topic": "Accounting Procedures",
+    "title": "Current Assets",
+    "body_markdown": "A business provided the following information. \n Inventory at the start of the year was $10 000. \n At the end of the year. \n .inventory had increased by 20% \n .current liabilities were $26 000 and total liabilities were $36 000 \n .the liquid (acid test) ratio was 0.96 : 1. \n What were the current assets at the end of the year? \nA  $34 960 \nB  $36 960 \nC  $44 560 \nD  $46 560",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q32",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 32,
+    "topic": "Analysis and Interpretation",
+    "title": "Profit",
+    "body_markdown": "The following information relates to four businesses which sell the same type of product.  \n Which business was the most profitable?\nA  1 \nB  2\nC  3\nD  4",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc6.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV2-Q32",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 32,
+    "topic": "Analysis and Interpretation",
+    "title": "Gross Margin",
+    "body_markdown": "What will not result on its own, in an improvement in gross margin?\nA  a decrease in purchase price per unit \nB  an increase in selling price per unit \nC  a decrease in the carriage inwards per unit \nD an increase in the carriage outwards per unit",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q33",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 33,
+    "topic": "Accounting Principles and Policies",
+    "title": "Financial Statements",
+    "body_markdown": "Win is a member of a walking club. She pays an annual subscription to the club. \n Win has received a copy of the financial statements of the club. \n What would Win be interested in? \nA  the amount of dividend paid \nB the amount of interest on drawings \nC  the club's ability to continue to operate \nD  the club's ability to repay its capital",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q33",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 33,
+    "topic": "Analysis and Interpretation",
+    "title": "Two business comparison",
+    "body_markdown": "The table shows information on two businesses, J and K, which are in the same trade. \n Neither  business has any income other than revenue from sales. \n Which statement is correct based on the information in the table only?\nA  J controlled expenses better than K did. \nB  J sold goods at a higher price than K did. \nC  K bought goods from a more expensive supplier than J did.\nD  K incurred lower expenses than J.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc30.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q34",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 34,
+    "topic": "Accounting Principles and Policies",
+    "title": "Principles",
+    "body_markdown": "A business purchased a set of rulers that cost $9. The set of rulers was expected to last for several years, but the business did not treat it as a non-current asset.\n Which accounting principle was the business following?\nA  business entity\nB  going concern \nC  materiality \nD  realisation",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q34",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 34,
+    "topic": "Accounting Principles and Policies",
+    "title": "Priciples",
+    "body_markdown": "A business included all wages due, but unpaid, in its income statement for the year. \n Which accounting principle was being followed? \nA  going concern \nB  matching \nC  materiality \nD  realisation ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q35",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 35,
+    "topic": "Accounting Principles and Policies",
+    "title": "Cost Principle",
+    "body_markdown": "Which statement describes the historic cost principle? \nA  All assets and expenses are initially recorded at their original price. \nB  Businesses only record transactions which can be expressed in terms of money. \nC  Costs are recognised when they are incurred, not when the money is paid. \nD  It is assumed that the business will continue to operate for the foreseeable future.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV2-Q35",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 35,
+    "topic": "Accounting Principles and Policies",
+    "title": "Relevance",
+    "body_markdown": "Which statement describes 'relevance' as an objective when selecting accounting policies?\nA  Accounting information must be accurate. \nB  Accounting information must be free from bias. \nC  Accounting information must influence users' decisions.\nD  Accounting information must stay consistent over time.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  }
+]
