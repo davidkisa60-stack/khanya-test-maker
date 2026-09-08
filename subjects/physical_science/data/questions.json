@@ -1,5 +1,718 @@
 [
   {
+    "id": "2015P1-Q01",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 1,
+    "topic": "Physics - Mechanics",
+    "title": "Measuring Cylinder",
+    "body_markdown": "Tefo measures the level of water in a measuring cylinder.\n Which is the correct position for Tefo's eye when measuring the volume?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS400.png"
+    ]
+  },
+  {
+    "id": "2015P3-Q01",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 1,
+    "topic": "Physics - Mechanics",
+    "title": "Kinematics",
+    "body_markdown": "Fig 1.1 shows a 1200kg car raised to a height of 2.Om by & hydraulic jack at an automotive repair centre:(Use g = 1ON/kg )\n(a)(i) Calculate the weight of the car[2]\n(ii) Show that the potential energy gained by the car is 24000J[1]\n(iii) State the name of the unit whose symbol is J[1]\n(iv) State the work done on the car by the hydraulic jack in raising the car to the 2.0m height. Give a reason for your answer[2]. \n(b) It took 30s to raise the car to the height of 2.0m.\n Calculate the power developed by the hydraulic jack when raising the car in (iv).[2]\n(c) The car falls off the ramp and hits the ground without hitting anything else on its way down.\n Calculate the velocity with which the car hits the ground.[3]",
+    "latex": "",
+    "total_marks": 11,
+    "images": [
+      "ps600.png"
+    ]
+  },
+  {
+    "id": "2015P4-Q01",
+    "year": 2015,
+    "paper": "P4 2015",
+    "original_num": 1,
+    "topic": "Physics - Light Energy",
+    "title": "Lens",
+    "body_markdown": "A digital instrument is used to measure the thickness of a lens at the edge and at the middle. Fig: 1.1 shows readings obtained from the instrument.\n(a) Identify the type of lens. Give a reason for your answer.[2] \n(b) Describe how you would perform an experiment to determine the focal length of this lens.You should draw a ray diagram to help answer this question,state what measurements should be made, and how the focal length would be determined from any measurements.\n(c) An object O is placed in front of a plane mirror; as shown in Fig 1.2.\n On Fig 1.2, complete a ray diagram showing the accurate position of the image formed in the mirror.[2]",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "ps610.png",
+      "ps611.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q02",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 2,
+    "topic": "Physics - Mechanics",
+    "title": "Forces",
+    "body_markdown": "Which of the following is NOT a characteristic of forces?\nA  can change the direction in which an object moves\nB  can change the shape of an object\nC  can decrease the speed of a moving object\nD  can increase the mass of a stationary object.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P3-Q02",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 2,
+    "topic": "Physics - Light Energy",
+    "title": "Lens",
+    "body_markdown": "Fig 2.1 shows an object O placed 3.0cm in front of a thin converging lens of focal length 6.0cm. \n(a)(i) Use a ruler to mark on Fig 2.1 the position F of the focal point to the right of the lens.[1] \n(ii) Draw rays on Fig 2.1 to locate the position of the image of the object[3] \n(b) State the nature of the image formed.\n(c) Give one use of a thin converging lens.",
+    "latex": "",
+    "total_marks": 6,
+    "images": [
+      "ps601.png"
+    ]
+  },
+  {
+    "id": "2015P4-Q02",
+    "year": 2015,
+    "paper": "P4 2015",
+    "original_num": 2,
+    "topic": "Physics - Electricity",
+    "title": "Electromagnetism",
+    "body_markdown": "Fig 2.1 shows the circuit used by Palesa to investigate electromagnetic induction.\n(a) Name the type of meter that should be used to determine the current in this experiment.[1]\n(b) Fig 2.1 shows the bar magnet being moved into the coil.\n The meter has a centre-zero needle that can move either way\n As the magnet moves into the coil, the needle deflects to the lef as shown in Fig 2.1.\n(i) On Fig 2.2, show the needle deflection that will be observed wren tne magnet is pulled back to the left out of the coil again.[1] \n(ii) Explain why you have drawn the needle deflection in this direction.[1].\n(c) Fig 2.3 shows the bar magnet held stationary in the coil.\n(i) Draw an arrow to indicate the direction in which the needle would point.\n(ii) Give a reason for this behaviour.[1]\n(d) Fig 2.4 shows the same magnet peing moved into another coil at the same speed as in Fig 2.1\n(i) Predict how the deflection of the needle will compare with that in Fig: 2.1[2]\n(ii) Explain why the same magnet is moved into the coil at the same speed as in Fig 2.1[2]\n(e) Name a device that uses the principle of an induced emf[1]",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "ps612.png",
+      "ps613.png",
+      "ps614.png",
+      "ps615.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q03",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 3,
+    "topic": "Physics - Mechanics",
+    "title": "Forces",
+    "body_markdown": "The diagram shows two groups of people pulling a rope in opposite directions in a tug-of-war.\n One group pulls with a force of 1000N towards the left Another group, pulling towards the right, applies a force of 1200N.\n How much force must be added to produce equilibrium?\nA  200 N acting in the same direction as the 1000N force\nB  200 N acting in the same direction as the 1200N force\nC  2200 N acting in the same direction as the 1000 N force. \nD  2200N acting in the same direction as the 1200N force.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS401.png"
+    ]
+  },
+  {
+    "id": "2015P3-Q03",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 3,
+    "topic": "Physics - Electricity",
+    "title": "Transformers",
+    "body_markdown": "(a) Fig. 3.1 shows how a mains supply works to light a bulb.\n(i) Name component Y [1]\n(ii) Explain why a current flows in the secondary coil.[3]\n(b) The transformer in Fig 3.1 has 6000 turns in the primary coil and is supplied with 240V. The number of turns in the secondary coil is 150.\n(i) Name this type of transformer.\n(ii) Calculate the voltage across the secondary coil.[2]\n(iii) The bulb has a resistance of 30.\n Calculate the current through the bulb.[2]",
+    "latex": "",
+    "total_marks": 9,
+    "images": [
+      "ps602.png"
+    ]
+  },
+  {
+    "id": "2015P4-Q03",
+    "year": 2015,
+    "paper": "P4 2015",
+    "original_num": 3,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Preparing Salts",
+    "body_markdown": "Fig 3.1 shows the set-up of some stages of an experiment to prepare a salt: \n(a) Name the pieces of apparatus labeled A and B in Fig 3.1[2] \n(ii) Why is apparatus A needed in the experiment?[1]\n(b) Describe how you would adjust the Bunsen burner to ensure that the heating is done gently; without depositing soot on the beaker.[2]\n(c) Predict what will be observed in the beaker at the end of stage 1[1]\n(d) Describe how you would test and confirm the presence of the anion in the filtrate in stage 2[2]\n(e) Describe the method you would use to get large crystals of the salt from the filtrate.[2]",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "ps616.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q04",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 4,
+    "topic": "Physics - Mechanics",
+    "title": "Forces",
+    "body_markdown": "The diagram shows a 50kg bag of cement pulled along a frictionless surface with a horizontal force of 150N.\n Use the equation F = ma to find the acceleration of the bag.\nA  0.33m/s\u00b2\nB  3.0m/s\u00b2\nC  150m/s\u00b2 \nD  200m/s\u00b2?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS402.png"
+    ]
+  },
+  {
+    "id": "2015P3-Q04",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 4,
+    "topic": "Physics - Thermal Energy",
+    "title": "Temperatures",
+    "body_markdown": "Table 4.1 shows the temperatures, in degrees C, recorded when a substance that is initially solid is heated at a constant rate for 35 minutes.\n(i) State the boiling point of the substance.[1]\n(ii) Explain what happens to the energy absorbed by the substance during boiling.\n(iii) Find the temperature difference of the substance between time t = 14mins and time t = 24mins.[1]\n(iv) The specific heat capacity of the solid substance is 1700J/(kgC)\n Calculate the amount of heat energy gained by a 7.Okg mass of the solid substance during the first minute.[2].\n(b) Fig 4.1 shows an enamel mug containing hot tea placed on a wooden table.\n The mug is covered with a plastic plate.\n(i) State how the temperature of the tea changes after an hour.[1] \n(ii) Explain why the temperature has changed in this way.[4]",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "ps603.png",
+      "ps604.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q05",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 5,
+    "topic": "Physics - Mechanics",
+    "title": "Forces",
+    "body_markdown": "A student investigates how the length of a spring changes when weights are added to it, one after the other.\n Which diagram represents the extension-load graph obtained by the student?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS403.png"
+    ]
+  },
+  {
+    "id": "2015P3-Q05",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 5,
+    "topic": "Physics - Nuclear Energy",
+    "title": "Energy",
+    "body_markdown": "The equation shown represents the fission in a nuclear reactor during the production of electricity.\n(a) What is nuclear fission?[1]\n(b) The number of nucleons before and after this reaction is the same. However, the total mass of the nucleons after fission is slightly less than the total mass before.\n Explain why there is a small loss of mass in this process.\n(c) Another isotope of uranium 232, decays by emitting alpha particles.\n Write the equation for this decay[2]",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "ps605.png"
+    ]
+  },
+  {
+    "id": "2015P4-Q05",
+    "year": 2015,
+    "paper": "P4 2015",
+    "original_num": 5,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Rate of Reactions",
+    "body_markdown": "Fig 4.1 shows the set-up used to investigate the effect of temperature on the rate of the reaction between aqueous sodium thiosulfate and dilute hydrochloric acid.\n The reaction produces a dense yellow precipitate.\n 10cm\u00b3 of dilute hydrochloric acid is quickly added to 50cm\u00b3 of sodium thiosulfate in a beaker at 18 degrees C placed on a paper marked with a cross.\n A stop clock is started as soon as the acid is added. The clock is stopped when the yellow precipitate formed hides the view of the cross on the piece of paper.\n The same procedure is repeated at four other temperatures.\n(a)(i) Name the apparatus labelled A on Fig: 4.1[1]\n(ii) What is the reading on A? Include the units.[1] \n Table 4.1 shows the times recorded for each of the five experiments run.\n(b) Plot these results on the grid provided. Draw the best-fit line for the results.[3]\n(c)(i) Suggest which experiment should be repeated. Give a reason for your answer\n(ii) Predict the reading at this temperature that would fit the pattern of the other readings.[1]. \n(d) State the conclusion that can be drawn from this experiment about the effect of temperature on the rate of the reaction.[1]\n(e) Describe one way of reducing the rate of the reaction at 50 degrees C without  changing the temperature.[1]\n(f) The rate of an exothermic reaction is measured at 18 degrees C.\n Predict whether the temperature of the reaction mixture will be higher or lower than 18 degrees C at the end of the reaction.\n Give a reason for your answer.[1]",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "ps617.png",
+      "ps618.png",
+      "ps619.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q06",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 6,
+    "topic": "Physics - Mechanics",
+    "title": "Forces",
+    "body_markdown": "A fork-lift truck exerts a force of 1200N to lift a load of cement from the ground onto the back of a cargo truck. The back of the cargo truck is 1.5m above the ground. The fork-lift truck took 5.0s to lift the load.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS404.png"
+    ]
+  },
+  {
+    "id": "2015P3-Q06",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 6,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Sodium",
+    "body_markdown": "Sodium and sodium chloride are solids at room temperature.\n(a) Fig: 6.1 shows the structures of solid sodium and solid sodium chloride.\n(i) Complete the structure of sodium chloride by showing the charges on the ions.[2]\n(ii) Explain how the particles are held together in solid sodium.[2]\n(b) Suggest a reason why the melting point of sodium is lower than the melting point of aluminium.[2]\n(c) Draw dot and cross diagrams of the two ions in sodium chloride. Only show outer shells of electrons. Use different symbols for sodium electrons and for chlorine electrons.[3].\n(d) Explain each of the following observations.\n(i) Solid sodium chloride does not conduct electricity[1]\n(ii) Graphite conducts electricity[1]",
+    "latex": "",
+    "total_marks": 11,
+    "images": [
+      "ps606.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q07",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 7,
+    "topic": "Physics - Thermal Energy",
+    "title": "Forces",
+    "body_markdown": "In winter; highland roads can be icy. The roads are then sprinkled with salt.\n Why does sprinkling with salt help to remove the ice?\nA  The salt lowers the melting point of ice.\nB  The salt raises the melting point of ice.\nC  The melting point of salt is the same as the melting point of ice. \nD   The melting point of salt is lower than the melting point of ice.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P3-Q07",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 7,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "Mopheme wants to prepare hydrogen in the laboratory using the reaction of excess dilute acid with a metal.\n(a) He is thinking of using the following metals:rubidium (Rb), zinc (Zn) and copper (Cu).\n(i) Choose the metal that he can safely use in this experiment.[1]\n(ii) Give a reason why you rejected each of the other metals.[2].\n(b) Mopheme wishes to investigate the rate of this reaction.\n(i) Describe one way in which the rate of this reaction could be measured.[2]\n(ii) Sketch a graph, labelled X, that would result from the measurements he would make if the method outlined in (b)(i) were used in an experiment;showing clearly the labels on each axis.[3]\n(iii) On the sketch, draw a second line that might be produced by the use of more concentrated acid with the same mass of metal at the same temperature. Label this line clearly with the letter Y[1]",
+    "latex": "",
+    "total_marks": 9,
+    "images": [
+      "ps607.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q08",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 8,
+    "topic": "Physics - Thermal Energy",
+    "title": "Expansion",
+    "body_markdown": "The diagram shows a balloon before and after it was placed in the Sun for a few hours.\n Why does the balloon increase in size?\nA  The mass of the air particles increases.\nB  The number of the air particles increases.\nC  The size of the air particles increases\nD  The space between the air particles increases.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS405.png"
+    ]
+  },
+  {
+    "id": "2015P3-Q08",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 8,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Acids and Bases",
+    "body_markdown": "Seputsoe studied the acid-base behaviours of some substances in water.\n He wanted to use indicator A to distinguish between dilute solutions of the substances.\n(a)(i) Name two substances from the list which can be identified using indicator A.\n State the colour of the indicator in each case.[2]\n(ii) Explain why indicator A cannot be used to mark the end-point of a neutralisation reaction[1] \n(b) The hydrochloric acid used in this work can be described as 'a dilute solution of a strong acid'.\n State the meaning of dilute and strong as used in the statement.[2]. \n(c) Limewater is used to test for carbon dioxide by forming calcium carbonate\n Another reaction of carbon dioxide is:\n CaCOz (s) + COz (g) + H2O (l) to Ca(HCO3)2 (aq)\n(i) Use the information given and the equation to suggest what would be observed if carbon dioxide is bubbled through lime water for a long time. Explain your observation.[3]\n(ii) Describe one environmental effect of carbon dioxide escaping into the atmosphere.[2]\n(d) Tablets containing magnesium oxide are used as antacids. Magnesium oxide reacts with hydrochloric acid in the stomach according to the equation:\n MgO(s) + 2HCI(aq) to MgCl2(aq) + H2O(l). Each tablet contains 0.3 g of magnesium oxide.\n Calculate how many tablets should be used to completely neutralise 0.03 moles of the acid in the stomach.[3]",
+    "latex": "",
+    "total_marks": 13,
+    "images": [
+      "ps608.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q09",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 9,
+    "topic": "Physics - Energy",
+    "title": "Expansion",
+    "body_markdown": "The diagram shows a lamina with uniformly distributed mass.\n Which point; A, B, C or D; is most likely to be the centre of mass of the lamina?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS406.png"
+    ]
+  },
+  {
+    "id": "2015P3-Q09",
+    "year": 2015,
+    "paper": "P3 2015",
+    "original_num": 9,
+    "topic": "Chemistry - Electrolysis",
+    "title": "Copper(II) Chloride",
+    "body_markdown": "Fig 9.1 represents a set-up of apparatus used in the electrolysis of aqueous copper(II) chloride.\n(a) What is meant by the term electrolysis?[2].\n(b)(i) State the change that would be observed in the solution during electrolysis.[1]\n(ii) Write a balanced ionic equation to describe what happens during electrolysis. Include state symbols.[2]\n(iii) Electrolysis of copper(II) chloride solution is described as a redox reaction.\n Define oxidation as it applies to this reaction.[1].\n(iv) Which species is oxidised in this reaction?[1]",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "ps609.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q10",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 10,
+    "topic": "Physics - Electricity",
+    "title": "Magnetism",
+    "body_markdown": "The diagram shows three metal bars.\n End E of bar is brought near to the ends G and H of bar 2 in turn. Then end E of bar is brought near to ends J and K of bar 3 in turn.\n The following behaviour is observed.\n End E with end G: attraction. \n End E with end H: repulsion: \n End E with end J: attraction. \n End E with end K: attraction.\n Which of the three bars are magnets?\nA  bar 1 and bar 2 only\nB  bar 1 and bar 3 only\nC  bar 2 and bar 3 only\nD  bar 1, bar 2 and bar 3",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS407.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q11",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 11,
+    "topic": "Physics - Electricity",
+    "title": "Magnets",
+    "body_markdown": "The diagram shows a coil being rotated between the poles of a horse-shoe magnet.\n Which of these factors will NOT affect the magnitude of the induced e.m.f. in the coil?\nA  the number of turns of the coil\nB  the resistance of the coil cutting the magnetic field.\nC  the speed with which the coil cuts across the field lines\nD  the strength of the magnetic field.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS408.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q12",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 12,
+    "topic": "Physics - Nuclear Energy",
+    "title": "Radioactivity",
+    "body_markdown": "Be undergoes beta decay according to this equation below. What is element X?\nA  helium\nB  Lithium\nC  boron\nD  carbon",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS409.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q13",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 13,
+    "topic": "Physics - Waves",
+    "title": "Water waves",
+    "body_markdown": "Water waves can be described as both longitudinal and transverse.\n This is because the water molecules oscillate\nA  vertically and along the direction of the wave.\nB  perpendicular to the direction of the wave\nC  vertically in the direction of the wave.\nD  side-to-side and along the direction of the wave",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q14",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 14,
+    "topic": "Physics - Waves",
+    "title": "Thato sleeps in a room where a TV is placed: Each morning she switches...",
+    "body_markdown": "Thato sleeps in a room where a TV is placed: Each morning she switches on the TV using a remote control whilst in bed.\n How does the remote control switch on the TV?\nA  It emits visible light which is detected by the TV.\nB  It emits infra-red which is detected by the TV.\nC  It emits microwaves which are detected by the TV\nD  It emits radio waves which are detected by the TV.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q15",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 15,
+    "topic": "Physics - Light Energy",
+    "title": "Reflection",
+    "body_markdown": "A ray of light hits a polished block of wood at an angle of 55 degrees with its surface.\n What angle will be formed between the block and the ray that bounces off the block?\nA  20\nB  35\nC  55\nD  90",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS410.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q16",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 16,
+    "topic": "Physics - Light Energy",
+    "title": "Refraction",
+    "body_markdown": "Mpho puts a pen in a glass of water; as shown in the photograph.\n She looks into the glass from above. The pen appears to be bent at water level.\n What behaviour of light does this show?\nA  deflection\nB  magnification\nC  reflection\nD  refraction",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS411.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q17",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 17,
+    "topic": "Physics - Electricity",
+    "title": "Circuit diagram",
+    "body_markdown": "Which of the following statements is correct about the circuit diagram?\nA  Resistors 1 2 and 3 are in parallel.\nB  Resistors 1 2 and 3 are in series\nC  Resistors 1 and 2 are in series and they are in parallel with resistor 3.\nD  Resistors 1 and 2 are in parallel and they are in series with resistor 3.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS412.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q18",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 18,
+    "topic": "Physics - Electricity",
+    "title": "Electromagnetic spectrum",
+    "body_markdown": "The diagram represents the electromagnetic spectrum.\ngamma rays\nX-rays\nS\nradio\nWhich part of the spectrum is represented by the letter S?\nA  microwaves\nB  visible light\nC  infra-red\nD  ultra-violet",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS413.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q19",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 19,
+    "topic": "Physics - Thermal Energy",
+    "title": "Reflection",
+    "body_markdown": "The photograph shows an overhead gas heater.\n What is the main purpose of using a shiny metal cap?\nA  to reflect heat\nB  to absorb heat\nC  to emit heat\nD  to conduct heat",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS414.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q20",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 20,
+    "topic": "Physics - Electricity",
+    "title": "Ferromagnetic",
+    "body_markdown": "Which item is ferromagnetic?\nA  an aluminum foil\nB  a bronze medal\nC  a copper wire\nD  a steel pin",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q21",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 21,
+    "topic": "Chemistry - Separation",
+    "title": "Measurements",
+    "body_markdown": "To analyse the amount of alcohol in a brand of beer produced by Lesotho Brewers, a 25cm\u00b3 sample needs to be measured out as accurately as possible.\n Which is the best container in which to measure it?\nA  25cm\u00b3 beaker\nB  25cm\u00b3 burette\nC  25cm\u00b3 measuring cylinder\nD  25cm\u00b3 pipette",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q22",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 22,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Neutrons",
+    "body_markdown": "Which of the atoms shown has the largest number of neutrons?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS415.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q23",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 23,
+    "topic": "Chemistry - Matter",
+    "title": "Mass",
+    "body_markdown": "The diagram shows a chemical substance, Q, sealed in a strengthened glass container filled with air.\n Substance Q is then ignited by focusing sunlight on it using a magnifying glass and left to cool.The container with the substance is then weighed on a balance.\n Which of these statements is true about the reading on the balance after the substance is ignited?\nA  It is 505.0g.\nB  It is less than 505.0g.\nC  It is greater than 505.0g\nD  It cannot be determined without knowing the identity of the chemical.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS416.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q24",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 24,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "Sodium chloride is soluble in water; but not in ether.\n lodine is soluble in ether; but not in water.\n Water and ether do not mix \n Suggest the most suitable technique to separate a mixture of sodium chloride and iodine.\nA  Stir with water and ether; then use simple distillation.\nB  Stir with water and ether; then use a separating funnel.\nC  Stir with ether; then evaporate and crystallise\nD  Stir with water; then use fractional distillation.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q25",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 25,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Properties",
+    "body_markdown": "The table shows properties of the contents of four bottles.\n Which bottle contains an element?\nA  W\nB  X\nC  Y\nD  Z",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS417.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q26",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 26,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Electronic arrangement",
+    "body_markdown": "The diagram shows the electronic arrangement of a molecule.\n Only the outermost shells are shown.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS418.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q27",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 27,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Percentage mass",
+    "body_markdown": "What is the percentage mass of oxygen in magnesium oxide, MgO? Ar;0, 16; Mg, 24 \nA  16%\nB  24%\nC  40%\nD  50%",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q28",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 28,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "The equation shows the reaction between nitrogen and hydrogen in the Haber process:\n Nz(g) + 3Hz(g) (to & fro) 2NHz(g) \n What information is provided by this equation?\nA  Both temperature and pressure have to be high all the time.\nB  Some of the gas produced breaks down into the reactants.\nC  The reaction is exothermic\nD  The unreacted gases are recycled.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q29",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 29,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "In a school laboratory; 250cm\u00b3 of nitric acid was spilt.\n Which substance ,when added in excess, will neutralise the acid without leaving an alkaline solution?\nA  aqueous ammonia\nB  aqueous sodium hydroxide\nC  calcium carbonate\nD  sodium chloride",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q30",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 30,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "A metal M reacts with steam but not with cold water.\n When it is added to a solution containing iron(II) ions, a grey substance is observed.\n What is the metal M most likely to be?\nA  copper\nB  magnesium\nC  sodium\nD  zinc",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q31",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 31,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Neutralisation reaction.",
+    "body_markdown": "The graph shows the results of a neutralisation reaction.\n At which point is the resulting solution neutral?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS419.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q32",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 32,
+    "topic": "Chemistry - Organic",
+    "title": "Macromolecules",
+    "body_markdown": "Macromolecules can be man-made or natural.\n Which of the following groups of macromolecules contain only man-made macromolecules?\nA  fat, polythene, nylon\nB  fat, starch, protein\nC  polyester, protein, starch\nD  polythene, nylon, polyester",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q33",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 33,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Exothermic or endothermic.",
+    "body_markdown": "Physical and chemical processes may be exothermic or endothermic.\n Which of the following processes are endothermic?\n(i) Production of starch by plants \n(ii) Melting of ice \n(iii) Burning of methane gas\nA  (i) only\nB  (iii) only\nC  (i) and (ii)\nD  (ii) and (iii)",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q34",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 34,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "In an experiment; Motjope bubbles chlorine gas into a solution of potassium iodide until there is no further change.\n Which observation is he likely to make?\nA  formation of a pale green solution\nB  formation of a pale yellow solid\nC  formation of a purple-black solid\nD  formation of a red-brown solution",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q35",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 35,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Slaked lime",
+    "body_markdown": "In agriculture, slaked lime is used to neutralise the acids in the soil. Ammonium sulfate is added as a fertiliser.\n Farmers should not add both slaked lime and ammonium sulfate to soil at the same time.\n Which of the following reasons for this are correct?\n(i) They react together so slaked lime is no longer available for neutralisation of soil acids. \n(ii) They react together and poisonous sulfur dioxide is formed. \n(iii) They react together and ammonia gas is lost.\nA  (i) and (ii)\nB  (i) and (iii)\nC  (ii) only\nD  (iii) only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q36",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 36,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Chlorofluorocarbons",
+    "body_markdown": "What problem can chlorofluorocarbons (CFCs) cause to the environment?\nA  acid rain and ozone depletion\nB  global warming and ozone depletion\nC  acid rain only\nD  global warming only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q37",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 37,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "The following diagram shows the properties of a green solution of a salt S.\n Deduce the identity of salt S.\nA  copper(II) nitrate\nB  copper(II) sulfate\nC  iron(II) chloride\nD  iron(II) sulfate",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS420.png"
+    ]
+  },
+  {
+    "id": "2015P1-Q38",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 38,
+    "topic": "Chemistry - Organic",
+    "title": "Hydrocarbons",
+    "body_markdown": "Which of the following statements concerning hydrocarbons are correct?\n(i) Most hydrocarbons are gases at room temperature.\n(ii) Reactions of hydrocarbons with oxygen generally yield carbon dioxide and water.\n(iii) Carbon dioxide is the simplest hydrocarbon.\nA  (i) only\nB  (ii) only\nC  (ii) and (iii)\nD  (i) and (iii)",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q39",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 39,
+    "topic": "Chemistry - Organic",
+    "title": "Reactions",
+    "body_markdown": "What is the name of the gaseous product of the reaction between ethanoic acid and sodium carbonate?\nA  ammonia\nB  carbon dioxide\nC  hydrogen\nD  water vapour",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2015P1-Q40",
+    "year": 2015,
+    "paper": "P1 2015",
+    "original_num": 40,
+    "topic": "Chemistry - Organic",
+    "title": "Propene",
+    "body_markdown": "Which of the structures represents propene?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "PS421.png"
+    ]
+  },
+  {
     "id": "2016P1-Q02",
     "year": 2016,
     "paper": "P1 2016",
@@ -372,7 +1085,7 @@
     "year": 2016,
     "paper": "P1 2016",
     "original_num": 31,
-    "topic": "Chemistry - Mole Concept",
+    "topic": "Chemistry - Atomic Structures",
     "title": "Relative molecular mass of SO\u2082",
     "body_markdown": "What is the relative molecular mass of SO\u2082? [The relative atomic masses, A\u1d63: S = 32, O = 16]\n\nA  24\nB  48\nC  64\nD  80",
     "latex": "",
@@ -1682,9 +2395,9 @@
     "year": 2024,
     "paper": "P1 2024",
     "original_num": 31,
-    "topic": "Chemistry - Mole Concept",
-    "title": "Compound with 83.3% carbon by mass",
-    "body_markdown": "The table shows relative molecular masses of four compounds.\n\nWhich compound has 83.3% by mass of carbon?\n\nA  C\u2083H\u2088\nB  C\u2084H\u2081\u2080O\nC  C\u2085H\u2081\u2082\nD  C\u2086H\u2081\u2084",
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Mass",
+    "body_markdown": "The table shows relative molecular masses of four compounds.\n Which compound has 83.3% by mass of carbon?\n\nA  C\u2083H\u2088\nB  C\u2084H\u2081\u2080\nC  C\u2085H\u2081\u2082\nD  C\u2086H\u2081\u2084",
     "latex": "",
     "total_marks": 1,
     "images": [
@@ -1951,7 +2664,7 @@
     "paper": "P3 2026",
     "original_num": 4,
     "topic": "Physics - Electricity",
-    "title": "Untitled Question",
+    "title": "Transformers",
     "body_markdown": "(a)Fig: 4.1 shows the type of transformer used in the power stations of two different companies, P and Q. The transformer is used to increase voltage from 20kV to 300kV. It is used in the two companies when transmitting voltage of the same power over equal distance. P transmits 100kV while Q transmits 300kV.\n(a)(i) Describe how the transformer converts 20kV to 300kV.[3]\n(ii) Explain why the transformer of the company Q is more efficient than that of the company P in transmitting power.\n(b) Fig.4.2 shows two separate solenoids connected to DC power supplies. A cobalt bar is placed inside one solenoid, and a nickel bar is placed in the other.\n Suggest what would be observed regarding the magnetic interaction between end B and end C when the switches are closed, and explain if reversing the battery terminals would change this observation.[3]\n(c) Two kettles X and Y have heating elements made from the same material. The elements have the same lengths but different thickness.The thickness of the element of the kettle Y is twice that of kettle X. The kettles are each connected to a 240V power supply for 5minutes.\n By using calculations, suggest which kettle draws more energy.[3]",
     "latex": "",
     "total_marks": 11,

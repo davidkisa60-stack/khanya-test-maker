@@ -1,5 +1,281 @@
 [
   {
+    "id": "2016P2-Q01",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 1,
+    "topic": "Sources and Recording of Data",
+    "title": "Accounting books",
+    "body_markdown": "Tatinyane buys goods on credit from Khethang. On 1 October 2015, Khethang was owed M6480 by Tatinyane. \n The following transactions took place in October 2015.\n October \n 5    Sold goods to Tatinyane, list price M2400, less 20% trade discount.\n 14    Received a cheque from Tatinyane, M6250, in full settlement of the amount due on 1 October.\n 20    Tatinyane returned some of the goods purchased on 5 October; list price M4OO.\n 31    Tatinyane paid the balance due by cheque after deducting 3% cash discount. \n(a) Prepare the account of Tatinyane as it would appear in the ledger of Khethang for the month of October 2015.[7] \n(b) State two reasons why Khethang allowed Tatinyane trade discount[2]. \n Khethang maintains a petty cash book using the imprest system. The imprest is restored on the first day of each month.\n On 1 October 2015 the balance of the petty cash book was M3OO which was equal to the amount of the imprest.\n His transactions for the month of October 2015 were as follows:\n October \n 6    Paid for postage costs \n 11    Bought tea and coffee \n 16    Purchased copy paper and printing ink \n 20    Bought cleaning materials \n 23    Paid taxi fare \n 25    Paid parcel postage \n 29   Bought envelopes and pens \n 30    Paid taxi fare. \n(c) Enter these transactions in the petty cash book on the opposite page Balance the book and bring down the balance on 1 November 2015.[12]",
+    "latex": "",
+    "total_marks": 21,
+    "images": [
+      "acc60.png"
+    ]
+  },
+  {
+    "id": "2016P2-Q02",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 2,
+    "topic": "Verification of Accounting Records",
+    "title": "Accounts",
+    "body_markdown": "The financial year of Palesa Construction ends on 31 December. On 1 April 2014 the business purchased a machine on credit for M12O O00 from Molefi. It was estimated that the machine would have a working life of four years at the end of which it would be worth M12O00.\n On 31 March 2015 the machine was sold and a cheque for M94000 was received. A replacement machine was purchased on the same day for M15OOOO, paid by cheque. This  machine was estimated to have a working life of six years and a scrap value of nil.\n Palesa Construction calculates depreciation on a month-to-month basis, using the straight line method.\n(a) Define the term \"depreciation\" [1] \n(b) Prepare the following accounts in the ledger of Palesa Construction for each of the years ended 31 December 2014 and 31 December 2015. Balance the accounts where necessary and bring down the balances.\n Palesa Construction(Machinery Account) \nProvision far depreciation or macninery accounr.[5]\n Machinery disposal account.[4]. \n(c) Classify the following payments made by Palesa Construction into capital expenditure and revenue expenditure. The first one has been completed as an example.[6]",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "acc61.png"
+    ]
+  },
+  {
+    "id": "2016P2-Q03",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 3,
+    "topic": "Accounting Procedures",
+    "title": "Calculations",
+    "body_markdown": "Mosa provided the following information about her business on 31 August 2016.\n Revenue (Sales)  M120500 \n Sales returns  M500 \n Inventory 1 September 2015  M9800 \n Average inventory  M11000 \n Capital   M200000\n Gross profit to sales percentage   12.5% \n Expenses percentage to sales   6% \n(a) Calculate (showing your workings)\n(i) Gross profit[2]\n(ii) Closing inventory[3]\n(iii) Cost of sales[2]\n(iv) Purchases[3].\n(v) Profit for the year[2]\n(vi) Rate of stock turnover to two decimal places[2] \n(vii) Profit for the year as percentage of capital[2]\n(b)(i) State two disadvantages of a business for holding too much inventory.[2] \n(ii) Suggest two reasons why inventory is always valued at the lower of the cost price and net realisable value.[2]",
+    "latex": "",
+    "total_marks": 20,
+    "images": []
+  },
+  {
+    "id": "2016P2-Q04",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 4,
+    "topic": "Accounting Procedures",
+    "title": "Trading Account",
+    "body_markdown": "Lieketseng runs a trading store. She provided the following information for the year ended 31 December 2015.\n Purchases   M32460 \n Revenue   M60000 \n Inventory at 1 January 2015   M19000 \n Carriage inwards   M550\n Discount received   M150\n Discount allowed   M280\n Returns outwards   M250\nAdditional information\n1. Inventory at 31 December 2015 was valued at M13800.\n2. Returns inwards amounted to 10% of revenue.\n3. Lieketseng took goods costing M3OO for personal use. \n(a) Prepare the income statement (trading account section) for the year ended 31 December 2015 to show the gross profit. \n Lieketseng trading store\n Income Statement (Trading account section) for the year ended 31 December 2015. \n On 1 January 2015 Lieketseng rented premises at an annual rent of M15OO. She paid rent on the following dates.\n 2015 \n 1   April  Cash  M600\n 1   July  Cash  M590 \n(b) Prepare the rent  account for the year ended 31 December 2015, showing the amount transferred to the income statement. Balance the account and bring down the balance on 1 January 2016.\n Lieketseng Trading Store \n Rent payable account.[4]",
+    "latex": "",
+    "total_marks": 13,
+    "images": []
+  },
+  {
+    "id": "2016P2-Q05",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 5,
+    "topic": "Preparation of Financial Statements",
+    "title": "Trading Accounts",
+    "body_markdown": "Basotho Women's Dressmaking Company provided the following information for the year ended 31 March 2016.\n Opening inventory \n Raw materials    M12000\n Finished goods    M20500 \n Work in progress    M8800 \nInsurance    M6000 \n Purchases of raw materials    M19700 \n Factory equipment(at cost)    M16000 \n Provision for depreciation of equipment    M2400 \n Trade payables    M13620 \n Trade receivables    M15370 \n Provision for doubtful debts    M830 \n Advertising expenses    M2100 \n Office stationery and printing    M3690 \n Light and heating    M7780 \nPower    M10000 \n Factory wages    M80O0 \n Factory direct costs    M 5000 \n Revenue    M89400 \n Additional information:\n1. On 31 March 2016 inventories were valued at: \n Raw materials    M 7 340 \n Finished goods    M5900 \n Work in progress    M3300.\n2. On 31 March 2016 insurance prepaid amounted to M4OO and light and heating accrued amounted to M6OO \n3. The items 'power; insurance and light and heating' are divisible between the factory and office in the ratio 3:1 respectively.\n4. A debt of M370 is to be written off as bad.\n5. The provision for doubtful debts is maintained at 4% on trade receivables at the end of each year.\n6. Factory equipment is being depreciated at the rate of 10% per annum using the straight line method. \n(a) Prepare the manufacturing account for the year ended 31 March 2016.\n Basotho Women's Dressmaking Company\n Manufacturing Account for the year ended 31 March 2016[16]. \n(b) Prepare the income statement for the year ended 31 March 2016.\n Basotho Women's Dressmaking Company\n Income Statement for the year ended 31 March 2016[10]",
+    "latex": "",
+    "total_marks": 26,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q01",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 1,
+    "topic": "Sources and Recording of Data",
+    "title": "Books of Prime Entry",
+    "body_markdown": "Which book of prime (original) entry records the acquisition of non-current assets on credit? \nA  cash book\nB  general journal\nC  petty cash book\nD  purchases journal",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q02",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 2,
+    "topic": "The Fundamentals of Accounting",
+    "title": "Accounting Equation",
+    "body_markdown": "A trader invested additional cash into the business.\n What is the effect of this transaction on the accounting equation?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc150.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q03",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 3,
+    "topic": "Verification of Accounting Records",
+    "title": "Capital",
+    "body_markdown": "Which capital is the total called-up share capital for which cash has actually been received? \nA  authorised share capital\nB  share capital \nC  issued share capital\nD  paid-up share capital",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q04",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 4,
+    "topic": "Verification of Accounting Records",
+    "title": "Books",
+    "body_markdown": "On 1 June Pulane sent a cheque to Fusi.This was correctly entered in the supplier's books.On 5 June this cheque was returned by the bank.\n Which entries will Fusi make on 5 June?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc151.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q05",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 5,
+    "topic": "Accounting Procedures",
+    "title": "Working Capital",
+    "body_markdown": "Mareka had the following assets and liabilities.\n Bank    1500(Dr) \n Trade receivables    5000 \n Long term loan    2000 \n Rates prepaid    800 \n Salaries owing    700.\n What was Mareka's working capital?\nA  M4800\nB  M5200\nC  M6200\nD  M6600",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q06",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 6,
+    "topic": "Accounting Principles and Policies",
+    "title": "Principles",
+    "body_markdown": "Which accounting principle is applied when non-current assets are included in the statement of financial position at book value?\nA  going concern\nB  historical cost\nC  matchinglaccruals\nD  money measurement",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q07",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 7,
+    "topic": "Accounting Procedures",
+    "title": "Depreciation.",
+    "body_markdown": "Equipment costing M3OOO was sold for M1200. The depreciation at the date of sale totalled M1600\n What was the profit or loss on disposal?\nA  loss M2OO\nB  loss M1800\nC  profit M2OO\nD  profit M1800",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q08",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 8,
+    "topic": "Preparation of Financial Statements",
+    "title": "accounts",
+    "body_markdown": "What may appear as income in the accounts of a service business? \nA  carriage inwards\nB  donations to charity\nC  fees from clients\nD  purchases returns",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q09",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 9,
+    "topic": "Accounting Procedures",
+    "title": "Ledger",
+    "body_markdown": "Which entries are made at month-end to transfer the totals of the sales, purchases and returns journals to the ledger?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "acc152.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q10",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 10,
+    "topic": "Accounting Procedures",
+    "title": "Accounts",
+    "body_markdown": "There is a credit balance of M9OO in the bank column of Bonang's cash book\n What does this mean?\nA  Bonang is owed M9OO by the bank \nB  Bonang owes the bank M9OO\nC  Bonang paid M9OO into the bank \nD  Bonang withdrew M9OO from the bank",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q11",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 11,
+    "topic": "Accounting Procedures",
+    "title": "Expenses",
+    "body_markdown": "In which section of a statement of financial position is an accrued motor expense shown? \nA  current assets\nB  current liabilities\nC  non-current assets\nD  non-current liabilities",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q12",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 12,
+    "topic": "Analysis and Interpretation",
+    "title": "Running Balance Method",
+    "body_markdown": "What is the advantage of preparing a ledger account using the running balance method? \nA  additional calculations are required\nB  the account is only balanced at month end\nC  the balance is shown after every transaction\nD  the balance is shown at the start of the month only",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q13",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 13,
+    "topic": "Verification of Accounting Records",
+    "title": "Insurance",
+    "body_markdown": "On 1 July 2016 a trader had prepaid insurance, M6OO. On 1 October 2016 he paid one year's insurance, M3600.\n How much would be charged to the income statement for insurance for the year ended 30 June 2017?\nA  M27OO\nB  M3OOO\nC  M3300\nD  M3600",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q14",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 14,
+    "topic": "Verification of Accounting Records",
+    "title": "Compesating Error",
+    "body_markdown": "Which is a compensating error? \nA  A purchase of stationery, M7O, was debited to purchases account\nB  A sale of goods, M75, to Tau was entered in the books as M57 . \nC  The purchases account was overcast by M1OO and the purchases returns account was overcast by M1OO.\nD  The purchases account was overcast by M1OO and the purchases returns account was undercast by M1OO",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q15",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 15,
+    "topic": "Preparation of Financial Statements",
+    "title": "Manufacturig Account",
+    "body_markdown": "Baits'okoli Pty Ltd is a business that produces bricks. The company prepares & manufacturing account at the end of each financial year.\n(a) State two reasons why a manufacturing account is prepared.[2]\n The following information was provided by Baits'okoli Pty Ltd at 31 December 2016\n Inventory of raw materials at 1 January 2016    M10200 \n Inventory of raw materials at 31 December 2016    M9400 \n Purchases of raw materials    M70600 \n Direct production wages    M8260 \n Depreciation of production machinery    M15 000 \n Inventory of work in progress at 1 January 2016    M7800 \n Inventory of work in progress at 31 December 2016    M5 900 \n(b) State the difference between direct costs and indirect costs[2]. \n(c) Prepare an extract from Baits okoli Pty Ltd's manufacturing account for the year ended 31 December 2016 to show the prime cost.\n Baits'okoli Pty Ltd\n Extract from Manufacturing Account for the year ended 31 December 2016[6]",
+    "latex": "",
+    "total_marks": 10,
+    "images": []
+  },
+  {
+    "id": "2017P1-Q16",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 16,
+    "topic": "Preparation of Financial Statements",
+    "title": "Accounts",
+    "body_markdown": " Boithatelo is a trader.He provided the following information in July 2017 .\n 2017 July \n1    bought goods from Lisebo    M400 \n10    sold goods on credit to Moeketsi     M700  \n15 sold goods to Abiel on credit \n25    bought goods from Lits'oanelo for M2OO less 10% trade discount    M650\n(a) Record the above information in the following books of prime (original) entry. Total the books and state the accounts the totals will be transferred.\n Boithatelo Sales Journal[3]\n Boithatelo Purchases Journal[4]\n(b) State the difference between capital expenditure and revenue expenditure.[2]\n Boithatelo's payments in August 2017 included both capital and revenue items.\n(c) Complete the following table indicating with a tick and which are revenue expenditure.[4]\n which payments are capital expenditure\nThe first one has been completed as an example\n Boithatelo maintains a full set of accounting records and prepares a set of financial statements at the end of each financial year.\n(d) Suggest two reasons why a bank manager would be interested in financial statements of Boithatelo[2]",
+    "latex": "",
+    "total_marks": 15,
+    "images": [
+      "acc153.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q17",
+    "year": 2017,
+    "paper": "P1 2017",
+    "original_num": 17,
+    "topic": "Preparation of Financial Statements",
+    "title": "Financial Statement",
+    "body_markdown": "The following balances were extracted from the books of Ts'epang at 30 June 2017 .\n Capital    M9000 \n Drawings    M1500 \nTrade receivables    M4200 \n Trade payables    M3100 \n Wages and salaries accrued     M640 \n Cash at bank    M590 \n Profit for the year    M4050 \n Non-current assets(at cost)    M7500 \n Inventory    M2000 \n(a) Prepare the statement of financial position of Ts'epang at 30 June 2017 .\n Ts'epang\n Statement of Financial Position at 30 June 2017. \n(b) State the basis on which Ts'epang should value her inventory.[1]. \n Ts'epang provided the following additional information. \n Cost of sales    M15000 \n Inventory 1 July 2016    M4000",
+    "latex": "",
+    "total_marks": 11,
+    "images": []
+  },
+  {
     "id": "2026P1MJV1-Q01",
     "year": 2026,
     "paper": "P1 2026",
