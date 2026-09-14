@@ -713,6 +713,20 @@
     ]
   },
   {
+    "id": "2016P2-Q01",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 1,
+    "topic": "Physics - Mechanics",
+    "title": "Work",
+    "body_markdown": "A stone of mass 15kg is carried from the ground to the top of a building that is 3.2m high, and then dropped back to the ground.\n(a) Calculate the weight of the stone (g = 10N/kg) .\n Use W = mg[2]\n(b) Calculate the work done against gravity on the stone in carrying it from the ground to the top of the building:\n Use W = Fd.[2]\n(c) State the main energy changes taking place as the stone\n falls from the top of the building to the ground\n hits the ground.[2]\n(d) Explain how the principle of conservation of energy applies to the falling stone.\n(e) Fig 1.1 shows the speed-time graph of the stone dropped from the top of the building.\n Calculate the distance covered by the stone in the first 0.7s.[3]",
+    "latex": "",
+    "total_marks": 11,
+    "images": [
+      "phy150.png"
+    ]
+  },
+  {
     "id": "2016P1-Q02",
     "year": 2016,
     "paper": "P1 2016",
@@ -724,6 +738,20 @@
     "total_marks": 1,
     "images": [
       "ps111.png"
+    ]
+  },
+  {
+    "id": "2016P2-Q02",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 2,
+    "topic": "Physics - Mechanics",
+    "title": "Work",
+    "body_markdown": "A stone of mass 15kg is carried from the ground to the top of a building that is 3.2m high, and then dropped back to the ground.\n(a) Calculate the weight of the stone (g = 10N/kg) .\n Use W = mg[2]\n(b) Calculate the work done against gravity on the stone in carrying it from the ground to the top of the building:\n Use W = Fd.[2]\n(c) State the main energy changes taking place as the stone\n falls from the top of the building to the ground\n hits the ground.[2]\n(d) Explain how the principle of conservation of energy applies to the falling stone.\n(e) Fig 1.1 shows the speed-time graph of the stone dropped from the top of the building.\n Calculate the distance covered by the stone in the first 0.7s.[3]",
+    "latex": "",
+    "total_marks": 11,
+    "images": [
+      "phy150.png"
     ]
   },
   {
@@ -741,6 +769,20 @@
     ]
   },
   {
+    "id": "2016P2-Q03",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 3,
+    "topic": "Physics - Light Energy",
+    "title": "Lens",
+    "body_markdown": "Fig 3.1 shows a glass lens put in front of a lit candle. A screen is placed so that a sharp image of the candle is seen on the screen.\n Ray 1 from the lit candle passes through the lens and stops at the screen.\n(a) State the type of lens used in Fig 3.1.[1]\n(b)(i) On Fig 3.1, complete the path of ray 2 through the lens onto the screen.[1]\n(b)(ii) On Fig 3.1, mark F, the focal point of the lens.[1]\n(c) State any two characteristics of the image formed by the lens on the screen.[2]\n(d) Part of the light from the candle has a wavelength of 6.0 x 10 power-7 m and travels at a speed of 3.0 x 10 power 8m/s:\n Calculate the frequency of the light.",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "phy152.png"
+    ]
+  },
+  {
     "id": "2016P1-Q04",
     "year": 2016,
     "paper": "P1 2016",
@@ -751,6 +793,22 @@
     "latex": "",
     "total_marks": 1,
     "images": []
+  },
+  {
+    "id": "2016P2-Q04",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 4,
+    "topic": "Physics - Electricity",
+    "title": "Magnetism",
+    "body_markdown": "(a) Fig 4.1 shows the poles of a strong magnet.\n Draw the magnetic field lines between the two poles.[2]\n(b) Fig 4.2 shows a copper rod, AB, held between the poles of a strong magnet and connected to a cell\n Describe and explain what happens when the switch is closed[2].\n(c) Fig 4.3 shows a relay switch used to control a high current motor in a factory.\n A current flows between A and B.\n Describe the effect of this on\n(i) the soft iron core\n(ii) the iron armature\n(iii) the electric motor.[2]\n(d) The coil in Fig 4.3 has a resistance of 200 ohms. \n Calculate the current that flows through AB if a 12V battery is connected between A and B. Use V = IR.[2]\n(e) Describe how the resistance of the coil in Fig 4.3 would change if\n(i) it was made of thinner wire\n(ii) a shorter piece of wire was used.",
+    "latex": "",
+    "total_marks": 12,
+    "images": [
+      "phy153.png",
+      "phy154.png",
+      "phy155.png"
+    ]
   },
   {
     "id": "2016P1-Q05",
@@ -765,6 +823,20 @@
     "images": []
   },
   {
+    "id": "2016P2-Q05",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 5,
+    "topic": "Physics - Nuclear Energy",
+    "title": "Radiation",
+    "body_markdown": "Fig 5.1 shows the apparatus used to demonstrate how to deflect radiation emitted by a radioactive material.\n(a) Three detectors, A, B and C, are each used to detect one of the three types of radiation emitted by the radioactive material.\n Name the three types of radiation emitted by the radioactive material.[2]\n(b) Name the type of radiation that is detected at C, and explain why this radiation can be detected at C.\n(c) Explain why the radioactive material is kept inside a lead block with a long, narrow exit.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "phy156.png"
+    ]
+  },
+  {
     "id": "2016P1-Q06",
     "year": 2016,
     "paper": "P1 2016",
@@ -774,6 +846,18 @@
     "body_markdown": "A student determined the centre of mass of a rectangular tile of uniform thickness.\n\nWhich statement is not true about the location of the centre of mass of the tile?\n\nA  It lies on a diagonal line of the tile.\nB  It lies on a line that divides the length of the tile into halves.\nC  It lies on a line that divides the width of the tile into halves.\nD  It lies on any of the lines dividing the tile into thirds",
     "latex": "",
     "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016P2-Q06",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 6,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Elements",
+    "body_markdown": "(a) Methane is a compound.\n Chlorine and sodium are elements.\n(i) Describe one difference between an element and a compound using chlorine and methane as your examples.[2]\n(ii) Chlorine and sodium react to form a compound called sodium chloride. \n Use a 'dot and cross' diagram to show the electronic structure of sodium chloride.\n Show all electron shells.[2]\n(b) Methane burns in air releasing energy.\n(i) State the term used to describe reactions that release energy.\n(ii) Carbon monoxide is sometimes formed when methane bums. \n Complete a chemical equation for this reaction:\n  .....CH4 + .....02 to ................[2] \n(iii) Name another pollutant gas produced by burning fossil fuels and describe an environmental problem caused by this gas.[2]",
+    "latex": "",
+    "total_marks": 9,
     "images": []
   },
   {
@@ -789,6 +873,20 @@
     "images": []
   },
   {
+    "id": "2016P2-Q07",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 7,
+    "topic": "Unknown",
+    "title": "Untitled Question",
+    "body_markdown": "Fig 7.1 illustrates the electrolysis of water to form hydrogen and oxygen gases.\n(a) Define electrolysis.[2]\n(b) On Fig 7.1, label an electrode and the electrolyte[2]\n(c) Electrolysis of water is a chemical change which is also endothermic. \n Use this statement to explain the meaning of\n chemical change\n endothermic\n[2]",
+    "latex": "",
+    "total_marks": 6,
+    "images": [
+      "phy157.png"
+    ]
+  },
+  {
     "id": "2016P1-Q08",
     "year": 2016,
     "paper": "P1 2016",
@@ -799,6 +897,20 @@
     "latex": "",
     "total_marks": 1,
     "images": []
+  },
+  {
+    "id": "2016P2-Q08",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 8,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "Table 8.1 shows the reactions of metals X, Y and 2 with the aqueous sulfate of Y, with dilute hydrochloric acid, and with the aqueous nitrate of Z. \n The letters X, Y and Z are not the true symbols of the metals.\n The same mass of each metal was used.\n(a)(i) Name the gas responsible for the effervescence observed.\n(ii) Describe a test for this gas.[2]\n(b) Use the information in Table 8.1 to explain why metal Y is said to be more reactive than metal Z.[2]\n Suggest in what region of the Periodic Table metal X is likely to be located. \n Give a reason for your answer.[2]",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "phy158.png"
+    ]
   },
   {
     "id": "2016P1-Q09",
@@ -815,6 +927,20 @@
     ]
   },
   {
+    "id": "2016P2-Q09",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 9,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Element Properties",
+    "body_markdown": "Table 9.1 shows the properties of some metals, A to G. The numbers in the last column (order of reactivity) indicate the position of the metal in the reactivity series, with 1 being the most reactive. \n Use the table to answer the questions that follow.\n(a) State the most suitable metal from A to G for each of the following uses. \n In each case give a reason for your choice:\n(i) constructing an aircraft[2]\n(ii) making electrical conductors[2]\n(iii) making a crucible for melting all the other metals.[2]\n(b) State the metal in the table that remains a liquid over the widest range of temperatures\n(c) Explain why aluminium is used to coat food cans, despite being a very reactive metal.[2]",
+    "latex": "",
+    "total_marks": 9,
+    "images": [
+      "phy159.png"
+    ]
+  },
+  {
     "id": "2016P1-Q10",
     "year": 2016,
     "paper": "P1 2016",
@@ -824,6 +950,18 @@
     "body_markdown": "Radio Lesotho broadcasts at a frequency of 6.0 \u00d7 10\u2079 Hz. The speed of radio waves is 3.0 \u00d7 10\u2078 m/s.\n\nWhat is the wavelength of the radio waves?\n\nA  0.05 m\nB  20.0 m\nC  5.7 \u00d7 10\u2079 m\nD  6.3 \u00d7 10\u2079 m",
     "latex": "",
     "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016P2-Q10",
+    "year": 2016,
+    "paper": "P2 2016",
+    "original_num": 10,
+    "topic": "Chemistry - Organic",
+    "title": "Ethene",
+    "body_markdown": "Ethene, an unsaturated hydrocarbon, reacts with bromine. \n The reaction is represented by the equation.\n ethene + bromine to X\n(a)(i) Explain why ethene is called an unsaturated hydrocarbon.\n(ii) Name product X\n(iii) Explain how this reaction can be used to distinguish ethene from ethane.[2]\n(b) Chemicals similar to compound X were used as insecticides in 2013 during an army worm outbreak in Lesotho.\n State one advantage and one disadvantage of the use of insecticides on the environment.[2]\n(c) Calculate the percentage by mass of carbon in ethene (C2H4) Relative atomic masses, Ar: C, 12; H, 1[3]",
+    "latex": "",
+    "total_marks": 9,
     "images": []
   },
   {
