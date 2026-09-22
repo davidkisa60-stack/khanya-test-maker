@@ -92,7 +92,7 @@
                     <span>Logout</span>
                 </button>
 
-                <button id="btn-new-test-nav" onclick="(window.showSubjects || showSubjects)()" class="px-5 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
+                <button type="button" id="btn-new-test-nav" onclick="(window.goToSubjects || window.showSubjects || showSubjects)(event)" class="px-5 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
                     <i class="fa-solid fa-plus"></i>
                     <span>New Test</span>
                 </button>
@@ -105,7 +105,7 @@
         <div class="max-w-3xl">
             <h1 class="text-6xl font-semibold tracking-tighter text-zinc-900">Build clean, professional tests from real questions.</h1>
             <p class="mt-6 text-xl text-zinc-600 max-w-lg">Select questions, give your paper a custom title, and preview exactly how it will look before downloading the PDF. These questions are extracted from ECOL and Cambridge Past papers.</p>
-            <button id="btn-new-test-big" onclick="(window.showSubjects || showSubjects)()" 
+            <button type="button" id="btn-new-test-big" onclick="(window.goToSubjects || window.showSubjects || showSubjects)(event)" 
                     class="mt-8 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-3xl font-semibold flex items-center gap-x-3 text-lg shadow-lg">
                 <i class="fa-solid fa-plus"></i>
                 <span>New Test</span>
@@ -316,5 +316,5 @@
         
         document.addEventListener('DOMContentLoaded', showUserInfo);
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f0275fced6e72e',t:'MTc5MDA2Nzk4OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f046057a4fd89d',t:'MTc5MDA2OTI0Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

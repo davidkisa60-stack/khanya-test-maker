@@ -76,7 +76,7 @@
                         <i class="fa-solid fa-shield-halved text-lg"></i>
                         <span>Login as Admin &amp; Go to Admin Panel</span>
                     </button>
-                    <p class="text-center text-[10px] text-emerald-400 mt-1.5"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3352575e5a5d73585b525d4a521d47564047">[email&#160;protected]</a> (one-click access to /admin)</p>
+                    <p class="text-center text-[10px] text-emerald-400 mt-1.5"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3253565f5b5c72595a535c4b531c46574146">[email&#160;protected]</a> (one-click access to /admin)</p>
                 </div>
 
                 <div id="login-error" class="hidden mt-4 p-3 bg-red-900/30 border border-red-700 text-red-400 text-sm rounded-2xl"></div>
@@ -150,13 +150,8 @@
                         subjects: Array.isArray(data.subjects) ? data.subjects : []
                     };
                     localStorage.setItem('khanya_user', JSON.stringify(userData));
-                    
-                    // For admin users, go straight to admin panel
-                    if (userData.role === 'admin') {
-                        window.location.href = '/admin';
-                    } else {
-                        window.location.href = '/';
-                    }
+                    // Always open the test maker. Admins can use Admin Panel from the navbar.
+                    window.location.href = '/';
                 } else {
                     errorEl.textContent = data.message || 'Login failed';
                     errorEl.classList.remove('hidden');
@@ -167,5 +162,5 @@
             }
         }
     </script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f046411d3bd89d',t:'MTc5MDA2OTI1Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
