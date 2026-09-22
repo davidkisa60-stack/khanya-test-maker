@@ -54,7 +54,8 @@
                                 type="email" 
                                 id="login-email" 
                                 required
-                                value="admin@khanya.test"
+                                value=""
+                                autocomplete="username"
                                 placeholder="you@school.edu.ls"
                                 class="w-full bg-zinc-950 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none">
                             <i class="fa-solid fa-envelope absolute right-4 top-4 text-zinc-500"></i>
@@ -68,16 +69,6 @@
                         <span>Sign In</span>
                     </button>
                 </form>
-
-                <!-- BIG Quick Admin Access -->
-                <div class="mt-5 pt-4 border-t border-zinc-700">
-                    <button onclick="quickAdminLogin()" 
-                            class="w-full bg-emerald-700 hover:bg-emerald-600 text-white font-semibold py-3 rounded-2xl flex items-center justify-center gap-x-2 text-sm shadow-lg">
-                        <i class="fa-solid fa-shield-halved text-lg"></i>
-                        <span>Login as Admin &amp; Go to Admin Panel</span>
-                    </button>
-                    <p class="text-center text-[10px] text-emerald-400 mt-1.5"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3253565f5b5c72595a535c4b531c46574146">[email&#160;protected]</a> (one-click access to /admin)</p>
-                </div>
 
                 <div id="login-error" class="hidden mt-4 p-3 bg-red-900/30 border border-red-700 text-red-400 text-sm rounded-2xl"></div>
 
@@ -94,36 +85,19 @@
         </div>
     </div>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-        // If already logged in, go straight to the right place
+    <script>
+        // If already logged in, go to the test maker
         (function() {
             try {
                 const raw = localStorage.getItem('khanya_user');
                 if (raw) {
                     const user = JSON.parse(raw);
                     if (user && user.email) {
-                        if (user.role === 'admin') {
-                            window.location.replace('/admin');
-                        } else {
-                            window.location.replace('/');
-                        }
+                        window.location.replace('/');
                     }
                 }
             } catch (e) {}
         })();
-
-        // One-click admin login for easy access (sets localStorage directly)
-        function quickAdminLogin() {
-            const adminUser = {
-                email: 'admin@khanya.test',
-                active: true,
-                role: 'admin',
-                subjects: ["Mathematics", "Biology", "Physical Science", "Economics", "Development Studies", "Accounting", "English"]
-            };
-            localStorage.setItem('khanya_user', JSON.stringify(adminUser));
-            console.log('%c[Khanya] Quick admin login - localStorage set, redirecting to /admin', 'color:#22c55e');
-            window.location.href = '/admin';
-        }
 
         async function handleLogin(e) {
             e.preventDefault();
@@ -162,5 +136,5 @@
             }
         }
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f046411d3bd89d',t:'MTc5MDA2OTI1Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f13717b93995ff',t:'MTc5MDA3OTExOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
