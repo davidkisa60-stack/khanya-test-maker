@@ -22,8 +22,11 @@
     }
 
     // Authenticated user - reveal the page immediately
+    document.documentElement.classList.remove('khanya-boot');
     document.documentElement.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-    document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
+    if (document.body) {
+        document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
+    }
 })();
 
 const BACKEND_URL = "";   // ←←← PUT YOUR RENDER URL HERE

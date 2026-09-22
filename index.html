@@ -1,58 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="khanya-boot">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanya Test Maker</title>
+
+    <!--
+      Hide only while html has class="khanya-boot".
+      Removing that class in <head> reveals the page even before <body> exists.
+    -->
+    <style>
+        html.khanya-boot, html.khanya-boot body {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+    </style>
     <script>
-        (function () {
-            try {
-                var user = JSON.parse(localStorage.getItem('khanya_user') || 'null');
-                if (!user || !user.email || !user.token) {
-                    window.location.replace('login.html');
+        (function() {
+            function reveal() {
+                document.documentElement.classList.remove('khanya-boot');
+                document.documentElement.style.removeProperty('display');
+                document.documentElement.style.removeProperty('visibility');
+                document.documentElement.style.removeProperty('opacity');
+                if (document.body) {
+                    document.body.style.removeProperty('display');
+                    document.body.style.removeProperty('visibility');
+                    document.body.style.removeProperty('opacity');
                 }
-            } catch (e) {
-                window.location.replace('login.html');
             }
+            window.khanyaReveal = reveal;
+
+            var user = null;
+            try {
+                var raw = localStorage.getItem('khanya_user');
+                if (raw) user = JSON.parse(raw);
+            } catch (e) {}
+
+            if (!user || !user.email) {
+                window.location.replace('/login');
+                return;
+            }
+
+            reveal();
         })();
-
-        function khanyaShow(id, on) {
-            var el = document.getElementById(id);
-            if (!el) return;
-            if (on) {
-                el.classList.remove('hidden');
-                el.style.setProperty('display', 'block', 'important');
-                el.style.setProperty('visibility', 'visible', 'important');
-            } else {
-                el.classList.add('hidden');
-                el.style.setProperty('display', 'none', 'important');
-            }
-        }
-
-        function goToTestBuilder(ev) {
-            if (ev && ev.preventDefault) ev.preventDefault();
-            if (typeof window.showSubjects === 'function') {
-                window.showSubjects();
-                return false;
-            }
-            khanyaShow('home-page', false);
-            khanyaShow('subject-page', false);
-            khanyaShow('subjects-page', true);
-            return false;
-        }
-        function showHomeFallback() {
-            if (typeof window.showHome === 'function') { window.showHome(); return; }
-            khanyaShow('subjects-page', false);
-            khanyaShow('subject-page', false);
-            khanyaShow('home-page', true);
-        }
-        window.goToTestBuilder = goToTestBuilder;
     </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
-        body { font-family: Inter, system-ui, sans-serif; }
+        body { font-family: 'Inter', system_ui, sans-serif; }
         .math-container { font-size: 0.92rem; line-height: 1.45; }
         .topic-header { transition: all 0.2s; }
         .question-item:hover { background-color: #f8fafc; }
@@ -60,10 +58,14 @@
     </style>
 </head>
 <body class="bg-zinc-50">
+    <script>
+        if (window.khanyaReveal) window.khanyaReveal();
+        else document.documentElement.classList.remove('khanya-boot');
+    </script>
     <!-- Navbar -->
     <nav class="bg-white border-b sticky top-0 z-50">
         <div class="max-w-screen-2xl mx-auto px-6 py-4 flex items-center justify-between">
-            <div class="flex items-center gap-x-3 cursor-pointer" onclick="showHomeFallback()">
+            <div class="flex items-center gap-x-3 cursor-pointer" onclick="(window.showHome || showHome)()">
                 <div class="w-10 h-10 bg-emerald-600 text-white rounded-2xl flex items-center justify-center">
                     <i class="fa-solid fa-graduation-cap text-2xl"></i>
                 </div>
@@ -78,7 +80,7 @@
                 </div>
 
                 <!-- Admin link (visible when logged in) -->
-                <a href="admin.html"
+                <a href="/admin" 
                    class="hidden items-center gap-x-2 px-4 h-9 text-sm bg-emerald-100 hover:bg-emerald-200 text-emerald-700 font-medium rounded-2xl"
                    id="admin-link">
                     <i class="fa-solid fa-shield-halved"></i>
@@ -90,7 +92,7 @@
                     <span>Logout</span>
                 </button>
 
-                <button type="button" id="btn-new-test-nav" onclick="goToTestBuilder(event)" class="px-5 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
+                <button id="btn-new-test-nav" onclick="(window.showSubjects || showSubjects)()" class="px-5 h-10 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold flex items-center gap-x-2 text-sm">
                     <i class="fa-solid fa-plus"></i>
                     <span>New Test</span>
                 </button>
@@ -103,7 +105,7 @@
         <div class="max-w-3xl">
             <h1 class="text-6xl font-semibold tracking-tighter text-zinc-900">Build clean, professional tests from real questions.</h1>
             <p class="mt-6 text-xl text-zinc-600 max-w-lg">Select questions, give your paper a custom title, and preview exactly how it will look before downloading the PDF. These questions are extracted from ECOL and Cambridge Past papers.</p>
-            <button type="button" id="btn-new-test-big" onclick="goToTestBuilder(event)" 
+            <button id="btn-new-test-big" onclick="(window.showSubjects || showSubjects)()" 
                     class="mt-8 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-3xl font-semibold flex items-center gap-x-3 text-lg shadow-lg">
                 <i class="fa-solid fa-plus"></i>
                 <span>New Test</span>
@@ -114,7 +116,7 @@
     <!-- SUBJECTS -->
     <div id="subjects-page" class="max-w-screen-2xl mx-auto px-6 py-10 hidden">
         <div class="flex items-center gap-x-3 mb-8">
-            <button type="button" onclick="showHomeFallback()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
+            <button onclick="(window.showHome || showHome)()" class="text-zinc-500 hover:text-zinc-700 flex items-center gap-x-2 text-sm">
                 <i class="fa-solid fa-arrow-left"></i> Back
             </button>
             <h2 class="text-3xl font-semibold tracking-tight">Choose a Subject</h2>
@@ -282,7 +284,6 @@
         </div>
     </div>
 
-    <script src="js/session.js"></script>
     <script src="js/app.js"></script>
     <script>
         // Show logged in user in navbar + Admin link (only runs if we reached here = authenticated)
@@ -298,24 +299,22 @@
                 emailEl.textContent = user.email;
             }
             
-            if (user.role === 'admin' && adminLink) {
-                adminLink.classList.remove('hidden');
-                adminLink.classList.add('flex');
+            // Show Admin Panel link only for admins (or if no role is set, show it for now)
+            if (user.email && adminLink) {
+                const isAdmin = !user.role || user.role === 'admin';
+                if (isAdmin) {
+                    adminLink.classList.remove('hidden');
+                    adminLink.classList.add('flex');
+                }
             }
         }
         
         function logout() {
-            if (window.khanyaAuth) window.khanyaAuth.logoutNow();
-            else {
-                localStorage.removeItem('khanya_user');
-                window.location.replace('login.html');
-            }
+            localStorage.removeItem('khanya_user');
+            window.location.href = '/login';
         }
         
-        document.addEventListener('DOMContentLoaded', function () {
-            showUserInfo();
-            if (window.khanyaAuth) window.khanyaAuth.start();
-        });
+        document.addEventListener('DOMContentLoaded', showUserInfo);
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a33e9d95fa2ebbf0',t:'MTc4ODIwNjM2NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f0275fced6e72e',t:'MTc5MDA2Nzk4OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

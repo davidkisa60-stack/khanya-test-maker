@@ -1,60 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="khanya-boot">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanya • Admin Panel</title>
 
     <!--
-      MAXIMUM STRENGTH ANTI-FLASH PROTECTION
-      This runs BEFORE the browser paints ANYTHING.
-      Placed as the VERY FIRST thing in <head> (before any external scripts/styles).
-      Exact same pattern as the fixed index.html.
+      Hide only while html has class="khanya-boot".
+      The boot script removes that class in <head>, so the page is visible
+      as soon as <body> exists. Never set display:none on body directly —
+      document.body is null in <head> and that used to leave a blank page.
     -->
-    <script>
-        // === MAXIMUM RELIABILITY ADMIN ACCESS ===
-        // This page will NEVER redirect you to /login.
-        // It will always log you in as admin@khanya.test if needed,
-        // then show the admin panel.
-        (function() {
-            try {
-                var raw = localStorage.getItem('khanya_user');
-                var user = null;
-                if (raw) {
-                    try { user = JSON.parse(raw); } catch(e) {}
-                }
-
-                // Force admin login if missing
-                if (!user || !user.email) {
-                    const adminUser = {
-                        email: 'admin@khanya.test',
-                        active: true,
-                        role: 'admin',
-                        subjects: ["Mathematics", "Biology", "Physical Science", "Economics", "Development Studies", "Accounting", "English"]
-                    };
-                    localStorage.setItem('khanya_user', JSON.stringify(adminUser));
-                    console.log('%c[Khanya] /admin → auto logged in as admin@khanya.test', 'color:#22c55e');
-                }
-
-                // Always reveal the page
-                document.documentElement.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-                document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-            } catch (e) {
-                // Last resort — still show the page
-                document.documentElement.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-                document.body.style.cssText = 'display:block !important; visibility:visible !important; opacity:1 !important;';
-            }
-        })();
-    </script>
-
-    <!-- Hide everything by default -->
     <style>
-        html, body {
+        html.khanya-boot, html.khanya-boot body {
             display: none !important;
             visibility: hidden !important;
             opacity: 0 !important;
         }
     </style>
+    <script>
+        (function() {
+            function reveal() {
+                document.documentElement.classList.remove('khanya-boot');
+                document.documentElement.style.removeProperty('display');
+                document.documentElement.style.removeProperty('visibility');
+                document.documentElement.style.removeProperty('opacity');
+                if (document.body) {
+                    document.body.style.removeProperty('display');
+                    document.body.style.removeProperty('visibility');
+                    document.body.style.removeProperty('opacity');
+                }
+            }
+            try {
+                var raw = localStorage.getItem('khanya_user');
+                var user = null;
+                if (raw) {
+                    try { user = JSON.parse(raw); } catch (e) {}
+                }
+                if (!user || !user.email) {
+                    localStorage.setItem('khanya_user', JSON.stringify({
+                        email: 'admin@khanya.test',
+                        active: true,
+                        role: 'admin',
+                        subjects: ["Mathematics", "Biology", "Physical Science", "Economics", "Development Studies", "Accounting", "English"]
+                    }));
+                }
+            } catch (e) {}
+            reveal();
+            window.khanyaReveal = reveal;
+        })();
+    </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -67,6 +62,10 @@
     </style>
 </head>
 <body class="bg-zinc-950 text-white">
+    <script>
+        if (window.khanyaReveal) window.khanyaReveal();
+        else document.documentElement.classList.remove('khanya-boot');
+    </script>
 
     <div class="max-w-6xl mx-auto p-6">
         <!-- Header -->
@@ -472,10 +471,12 @@
         });
 
         window.addEventListener('load', function() {
+            if (window.khanyaReveal) window.khanyaReveal();
+            document.documentElement.classList.remove('khanya-boot');
             showLoggedInUser();
             renderSubjectCheckboxes('add-subjects', ALL_SUBJECTS.map(s => s.name));
             loadUsers();
         });
     </script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f027273d5be72e',t:'MTc5MDA2Nzk3OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
