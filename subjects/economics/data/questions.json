@@ -90,6 +90,18 @@
     ]
   },
   {
+    "id": "2025P1MJV1-Q01",
+    "year": 2025,
+    "paper": "P1 2025",
+    "original_num": 1,
+    "topic": "Basic Economic Problem",
+    "title": "Occupational mobility of labour",
+    "body_markdown": "What is likely to increase the occupational mobility of labour?\nA  increasing entry requirements to professions \nB  increasing retraining of workers \nC  introducing job specialisation \nD  introducing subsidised transport.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
     "id": "2025P2V2-Q02",
     "year": 2025,
     "paper": "P2",
@@ -165,19 +177,6 @@
     ]
   },
   {
-    "id": "2025P1MJV1-Q01",
-    "year": 2025,
-    "paper": "P1 2025",
-    "original_num": 1,
-    "topic": "Basic Economic Problem",
-    "title": "Occupational mobility of labour",
-    "body_markdown": "What is likely to increase the occupational mobility of labour?\nA  increasing entry requirements to professions \nB  increasing retraining of workers \nC  introducing job specialisation \nD  introducing subsidised transport.",
-    "latex": "",
-    "total_marks": 1,
-    "images": []
-
-},
-{
     "id": "2025P1MJV1-Q02",
     "year": 2025,
     "paper": "P1 2025",
@@ -188,7 +187,6 @@
     "latex": "",
     "total_marks": 1,
     "images": []
-
   },
   {
     "id": "2025P2V1-Q03",
@@ -764,6 +762,386 @@
     "total_marks": 1,
     "images": [
       "AA19.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q01",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 1,
+    "topic": "Basic Economic Problem",
+    "title": "Scarcity",
+    "body_markdown": "Which government action is likely to reduce the problem of scarcity? \nA  banning the import of raw materials \nB  borrowing money to purchase more defence equipment \nC  introducing maximum prices for essential goods \nD  subsidising firms to discover more natural resources ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q02",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 2,
+    "topic": "Basic Economic Problem",
+    "title": "Opportunity Cost",
+    "body_markdown": "Moni is considering leaving her full-time job to set up a new business.\n What would be the opportunity cost of this decision?\nA  the interest payment on the loan Moni takes for her business \nB  the losses Moni incurs while her business is new\nC  the salary Moni could have earned from her job\nD  the wages Moni will have to pay to workers in her business",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q03",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 3,
+    "topic": "Basic Economic Problem",
+    "title": "PPC shifts",
+    "body_markdown": "A country's production possibility curve (PPC) shifts from PPC1 to PPCz and the economy's output moves from point X to point Y. \n What has happened in this country? \nA  the opportunity cost of capital goods has increased \nB  economic growth has occurred \nC  the production of consumer goods has increased \nD  unemployment has fallen",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec20.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q04",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 4,
+    "topic": "Allocation of Resources",
+    "title": "Market Economy",
+    "body_markdown": "What is the role of the price mechanism in a market economy? \nA  to allocate scarce resources \nB  to increase the provision of merit goods \nC  to make the distribution of goods and services more equal \nD  to reduce the negative externalities of production and consumption",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q05",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 5,
+    "topic": "Allocation of Resources",
+    "title": "Demand",
+    "body_markdown": "Good X is demanded in two areas, Y and Z. The table shows the amount of X demanded in these areas at different prices. \n What can be concluded from the table? \nA  Consumers in area Y are more willing and able to buy good X than are consumers in area Z. \nB  Consumers in area Y are richer than consumers in area Z \nC  Consumers in area Y want the good more than consumers in area Z \nD  There are more consumers living in area Y than in area Z ",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec21.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q06",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 6,
+    "topic": "Allocation of Resources",
+    "title": "Supply Curve",
+    "body_markdown": "The diagram shows the supply curve for a good.\n What is the price elasticity of supply when the price rises from $10 to $12?\nA  0.5\nB  0.75\nC  1.4\nD  2.0",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec22.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q07",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 7,
+    "topic": "Economic Development",
+    "title": "Economic System",
+    "body_markdown": "What does a market economic system rely on to make it efficient? \nA  agreements on prices among producers \nB  competition between rival producers \nC  government regulation of industry \nD  the nationalisation of industries",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q08",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 8,
+    "topic": "Economic Development",
+    "title": "Market Failure",
+    "body_markdown": "Economists refer to market failure. \n What is a market failure?\nA  a lack of information about the effects of a medicine\nB  different rates of interest offered by banks \nC  queues to buy tickets at concerts \nD  seasonal variations in the prices charged for vegetables",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q09",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 9,
+    "topic": "Economic Development",
+    "title": "Price",
+    "body_markdown": "The government fixes a minimum price of $4 per kg in the market for rice. \n It agrees to buy surplus rice at this price.\n What will be the total spending by the government on rice? \nA  $20 000 \nB  $80 000 \nC  $360 000 \nD  $440 000",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec23.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q10",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 10,
+    "topic": "Economic Development",
+    "title": "Earnings",
+    "body_markdown": "The chart shows the annual percentage change in earnings for public sector workers and construction workers for each quarter of two years.\n What can be concluded from the data?\nA  Construction workers earned less than public sector workers.\nB  Construction workers' wages fell relative to public sector workers. \nC  Construction workers' wages rose throughout year 2. \nD  Public sector workers' wages did not change over the period.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec24.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q11",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 11,
+    "topic": "Allocation of Resources",
+    "title": "Demand",
+    "body_markdown": "The diagram shows an outward shift in the demand curve for dentists.\n What is the most likely explanation for this?\nA  an increase in non-wage benefits for dentists\nB  an increase in the number of dentists in the labour market\nC  an increase in the size of the population \nD  an increase in the wage rate of dentists.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q12",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 12,
+    "topic": "Allocation of Resources",
+    "title": "Demand",
+    "body_markdown": "What will increase the strength of a trade union of workers who produce cars?\nA  a decrease in the demand for cars made by the trade union members\nB  a decrease in the productivity of workers producing cars \nC  an increase in the number of car workers with trade union membership \nD  an increase in the capital intensity of car production",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec25.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q13",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 13,
+    "topic": "Government and the Macroeconomy",
+    "title": "Size of a firm",
+    "body_markdown": "What does not influence the size of a firm?\nA  the age of the firm \nB  the sector in which the firm operates \nC  the size of the market in which the firm operates \nD  the type of business organisation used by the firm.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q14",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 14,
+    "topic": "Government and the Macroeconomy",
+    "title": "Capital-intensive production",
+    "body_markdown": "What is an advantage of capital-intensive production for a manufacturing firm? \nA  It can produce small amounts of specific products for different customers.\nB  It has the ability to continuously produce to the same standard of product. \nC  It is cheaper to set up than most labour-intensive forms of production. \nD  It is quicker to respond to changes in consumer tastes and preferences",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q15",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 15,
+    "topic": "Government and the Macroeconomy",
+    "title": "output and total cost of a firm",
+    "body_markdown": "The table shows the output and total cost of a firm. \n What is the average fixed cost (AFC) of producing 20 000 units? \nA  $0.50 \nB $1.00 \nC  $1.50 \nD  $20.00",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec26.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q16",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 16,
+    "topic": "Government and the Macroeconomy",
+    "title": "Monopolies",
+    "body_markdown": "How is a government most likely to prevent the growth of monopolies?\nA  by encouraging mergers in the private sector \nB  by establishing nationalised industries\nC  by promoting the benefits of economies of scale \nD  by reducing barriers to entry into an industry",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q17",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 17,
+    "topic": "Government and the Macroeconomy",
+    "title": "Government",
+    "body_markdown": "What is most likely to be provided by a government at a national level? \nA  armed forces \nB  household waste collection \nC  libraries \nD  sports facilities",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q18",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 18,
+    "topic": "Government and the Macroeconomy",
+    "title": "low rate of inflation",
+    "body_markdown": "The government of a country aims for a low rate of inflation of 2% per year.\n What is a reason for choosing this aim?\nA  government budget surplus is guaranteed.\nB  Falling prices are always a good thing. \nC  Greater economic certainty will increase investment.\nD  Menu costs and shoe-leather costs will be zero.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q19",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 19,
+    "topic": "Government and the Macroeconomy",
+    "title": "Taxation",
+    "body_markdown": "The table shows government receipts from taxation in year and year 2.\n What can be concluded from the table? \nA  Direct tax revenue increases from year 1 to year 2 \nB  Indirect tax revenue decreases from year 1 to year 2.\nC  Inheritance tax becomes more regressive from year 1 to year 2 \nD  Total tax revenue stays the same from year 1 to year 2",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec27.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q20",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 20,
+    "topic": "Government and the Macroeconomy",
+    "title": "Expansionary monetary policy?",
+    "body_markdown": "What might be an undesirable outcome of expansionary monetary policy?\nA  a fall in total demand\nB  a fall in the rate of unemployment\nC  a rise in economic growth \nD  a rise in the rate of inflation",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q21",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 21,
+    "topic": "Government and the Macroeconomy",
+    "title": "Supply-side policy",
+    "body_markdown": "Which measure is a supply-side policy? \nA  a decrease in a fixed exchange rate \nB  a decrease in the rate of interest \nC  an increase in the money supply \nD  an increase in spending on education",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q22",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 22,
+    "topic": "Economic Development",
+    "title": "Recession",
+    "body_markdown": "An increase in which variable is most likely to cause a recession?\nA  global demand \nB  government spending \nC  interest rate \nD  money supply",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q23",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 23,
+    "topic": "Economic Development",
+    "title": "Employment",
+    "body_markdown": "The diagrams show percentage employment in different sectors in two countries.\n Which statement is correct when comparing country X and country Y? \nA  Country X employs more workers in secondary industry than country Y. \nB   Country X produces more primary output than country Y. \nC  Country produces more secondary output than country X \nD  Country Y is more developed than country X",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec27.png"
+    ]
+  },
+  {
+    "id": "2026P1-Q24",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 24,
+    "topic": "Economic Development",
+    "title": "Price level",
+    "body_markdown": "The price level in a country increased at a lower rate compared to the previous year: Which term describes this? \nA  currency depreciation \nB  deflation \nC  falling inflation \nD  recession",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q25",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 25,
+    "topic": "Economic Development",
+    "title": "Standards of living",
+    "body_markdown": "What is not likely to be used to measure the difference in the standard of living between countries? \nA  Gross Domestic Product per head \nB  Human Development Index \nC  the rate of interest \nD  the rate of poverty",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q26",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 26,
+    "topic": "Economic Development",
+    "title": "High-income country",
+    "body_markdown": "Which feature is not a typical characteristic of a high-income country?\nA  a high death rate\nB  a high literacy rate \nC  a large elderly population \nD  a low number of doctors per head",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q27",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 27,
+    "topic": "Economic Development",
+    "title": "Low cost production",
+    "body_markdown": "A country decides to specialise in making low-cost mass-produced clothing.\n Which factor is most likely to have influenced this decision?\nA  a large low-skilled workforce\nB  a shortage of raw materials to make cloth\nC  high transport costs for completed garments \nD  strong competition in the international market for clothes",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q28",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 28,
+    "topic": "Economic Development",
+    "title": "Globalisation",
+    "body_markdown": "What is a feature of globalisation? \nA  a decrease in foreign investment \nB  a decrease in migration Panande \nC  an increase in international trade \nD  an increase in tariffs",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q29",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 29,
+    "topic": "International Trade and Globalisation",
+    "title": "Floating exchange rate",
+    "body_markdown": "What is least likely to be a benefit of a floating exchange rate system?\nA  It gives greater freedom to change the interest rate.\nB  It helps determine the market value of a currency \nC  It provides greater certainty and stability. \nD  It reduces the requirement to keep foreign exchange reserves ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1-Q30",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 30,
+    "topic": "International Trade and Globalisation",
+    "title": "Balance of Payments",
+    "body_markdown": "The table shows information from a country's current account of its balance of payments.\n What is the country's current account balance?\nA  +$1 billion \nB -$4 billion \nC  -$7 billion \nD  -$15 billion ",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec29.png"
     ]
   }
 ]

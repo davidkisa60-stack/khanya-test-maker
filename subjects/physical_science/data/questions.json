@@ -727,6 +727,37 @@
     ]
   },
   {
+    "id": "2016P3-Q01",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 1,
+    "topic": "Physics - Mechanics",
+    "title": "Kinematics",
+    "body_markdown": "(a) A stone dropped from the top of a building takes 2 seconds to reach the ground. \n Assume that air resistance is negligible.\n(i) Name the force which pulls the stone down.\n(ii) Explain why a brick dropped from the same position on the building as the stone would take the same time to reach the ground.[2]\n(b) Another stone is dropped from the top of the building into a pond.\n Fig 1.1 shows the velocity-time graph for the stone until it reaches the bottom of the pond.\n The stone reaches the surface of the pond 2 seconds after being dropped from the top of the building.\n Use the graph to\n(i) calculate the acceleration of the stone between t = 0s and t= 2s [2]\n(ii) calculate the height of the building above the surface of the pond.[2]\n(iii) explain why the gradient of the graph changes at point X.[2]",
+    "latex": "",
+    "total_marks": 9,
+    "images": [
+      "phy160.png"
+    ]
+  },
+  {
+    "id": "2016P4-Q01",
+    "year": 2016,
+    "paper": "P4 2016",
+    "original_num": 1,
+    "topic": "Physics - Waves",
+    "title": "Echoes",
+    "body_markdown": "Fig 1,1 shows a student hammering a post into the ground near the entrance of a large cave.\n(a)(i) Measure the distance XY on Fig: 1.1 in centimetres.\n(ii) The distance XY is drawn to a scale of 1cm : 10m\n Calculate the actual distance between the post and X, the entrance to the cave.\n(b) Name a suitable instrument for measuring the distance from the post to the cave.\n(c) While hammering the post into the ground, the student hears an echo from the cave. He decides to investigate how the distance from the cave affects the time between hitting the post and hearing an echo. \n He changes the distance from the post to the cave as shown in Table 1.1 . \n At each distance, the student hits the post 20 times with a regular beat. Another student measures the time from the first blow until the echo of the twentieth blow is heard. The sound of each blow has to travel to the cave and back for the echo to be heard.\n(i) Complete the second column in Table 1.1 by multiplying distance, d by 2. \n(ii) Fig 1.2 shows the stopwatch reading taken by the student for the distance of 100m.\n Record the time reading in Table 1.1.\n(iii) Use your answer for the time taken for 20 echoes in (c)ii) to calculate the time taken for one echo. Divide the answer to (c)ii) by 20. Use this to complete the fourth column of Table 1.1.\n(d)(i) Draw the graph of distance 2d, against time t on the grid, \n(ii) Use the graph to determine the gradient of the line, which gives an approximate speed of sound in air.\n Show your working.",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "phy1.png",
+      "phy2.png",
+      "phy3.png",
+      "phy4.png"
+    ]
+  },
+  {
     "id": "2016P1-Q02",
     "year": 2016,
     "paper": "P1 2016",
@@ -752,6 +783,36 @@
     "total_marks": 11,
     "images": [
       "phy150.png"
+    ]
+  },
+  {
+    "id": "2016P3-Q02",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 2,
+    "topic": "Physics - Thermal Energy",
+    "title": "Temperature",
+    "body_markdown": "Fig 2.1 shows two thermometers placed in 0.1kg of hot water.\n(a) State the temperature of the hot water. [1]\n(b) State the main method of heat transfer between the hot water and the liquid inside the thermometer:\n(c) Explain which thermometer in Fig 2.1 is more sensitive to temperature changes.[3]. \n(d) The initial temperature of the water in the beaker before heating was 298K.\n(i) Convert this temperature to degrees Celsius.[1]\n(ii) Calculate the heat energy absorbed by the 0.1kg of water to heat it from the temperature in (d)(i) to the temperature in (a).\n Specific heat capacity of water is 4200 Jlkg\"C\n Show your working.[2]\n(iii) Water is used to prevent the engine of a car from overheating.\n Explain why water is a suitable liquid for preventing car engines from overheating.[2]",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "phy161.png"
+    ]
+  },
+  {
+    "id": "2016P4-Q02",
+    "year": 2016,
+    "paper": "P4 2016",
+    "original_num": 2,
+    "topic": "Physics - Electricity",
+    "title": "Resistance",
+    "body_markdown": "A student investigates how the length of a wire affects its resistance. She uses three wires, A, B and C, made of the same material, an ammeter; a voltmeter; a ruler and a micrometer. Fig 2.1 shows the circuit she connected.\n The student measures the length of each wire using a ruler. \n She connects each wire in the circuit and measures the current and the voltage. \n She records the readings from the ammeter and voltmeter in Table 2.1.\n(a) Fig 2.2 shows length readings of wires B and C taken from the ruler.\n(b) The recorded voltage is constant. Suggest one other quantity that should be kept constant during the experiment.\n(c) The reading on the ammeter for wire C is 2.7A On Fig 2.3, draw the missing pointer on the ammeter from the pivot P.\n(d) Comment on the effect of the length of the wire on the measured variables in Table 2.1 \n(e) A wire of the same material has a length of 12.0cm.\n Use the results in Table 2.1 to determine the resistance of the wire\n Explain your prediction.\n State any two precautions that the student should have taken in order to reduce the errors in her measurements.",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "phy5.png",
+      "phy6.png",
+      "phy7.png"
     ]
   },
   {
@@ -783,6 +844,34 @@
     ]
   },
   {
+    "id": "2016P3-Q03",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 3,
+    "topic": "Physics - Light Energy",
+    "title": "Glass Prism",
+    "body_markdown": "A ray of white light strikes a glass prism at a speed of 3.0 x 10 power 8 m/s. The white light is dispersed into different colours. Fig 3.1 shows the path taken by the red light after dispersion.\n(a) Calculate the speed of red light in glass. The refractive index of glass for red light is 1.50.\n Use the relationship\n refractive index = (speed of light in a vacuum refractive index)/(speed of light in glass)\n Show your working.[2]\n(b) The refractive index of glass for violet light is 1.52. Sketch the path of violet light on Fig 3.1 from where it enters the prism until it has left the prism.[2]\n(c) State one natural phenomenon that shows dispersion of white light.\n(d) State one other part of the electromagnetic spectrum that has a higher frequency than light.",
+    "latex": "",
+    "total_marks": 6,
+    "images": [
+      "phy162.png"
+    ]
+  },
+  {
+    "id": "2016P4-Q03",
+    "year": 2016,
+    "paper": "P4 2016",
+    "original_num": 3,
+    "topic": "Chemistry - Chemical Reactions ",
+    "title": "Reactions",
+    "body_markdown": "Fig 3.1 represents a set-up of apparatus used to prepare and collect chlorine gas in a laboratory\n(a)(i) Suggest any two precautions that should be taken when preparing ad collecting chlorine in the laboratory as in Fig 3.1\n(ii) Suggest a piece of apparatus that could be used for heating the reaction flask.\n(iii) The concentrated sulfuric acid is used to dry the chlorine gas produced, Name a chemical that the chlorine gas from tube 3 could be passed through to show that there is no water vapour present.(b) (i) There is a mistake in the set-up in Fig 3.1 which would not allow chlorine gas to be collected in the jar.\n Identify the mistake and state how it should be corrected.\n(ii) When the mistake has been corrected, chlorine would start to be collected in the gas jar.\n Name the method of collection used and explain why it is suitable for collecting chlorine gas.\n(c) Describe a test for chlorine gas and state a positive result.",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "phy8.png"
+    ]
+  },
+  {
     "id": "2016P1-Q04",
     "year": 2016,
     "paper": "P1 2016",
@@ -808,6 +897,37 @@
       "phy153.png",
       "phy154.png",
       "phy155.png"
+    ]
+  },
+  {
+    "id": "2016P3-Q04",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 4,
+    "topic": "Physics - Electricity",
+    "title": "Motors",
+    "body_markdown": "Fig 4.1 shows a relay switch used to control a high current motor.\n(a) Describe what happens when current flows between A and B.[3]\n(b) The coil in Fig. 4.1 has a resistance of 200 Ohms.\n Calculate the current that flows through AB if a 12V battery is connected between A and B.\n Show your working.[2]\n(c) Describe how the resistance of the coil would change if the diameter of the wire was halved.[2]\n(d) Draw an X on Fig 4.1 to show where a fuse should be connected to provide a safety precaution for people using the electric motor.",
+    "latex": "",
+    "total_marks": 8,
+    "images": [
+      "phy163.png"
+    ]
+  },
+  {
+    "id": "2016P4-Q04",
+    "year": 2016,
+    "paper": "P4 2016",
+    "original_num": 4,
+    "topic": "Chemistry - Organic",
+    "title": "Alcohol Percentage",
+    "body_markdown": "Thabang investigated the alcohol percentage in home brew. He started by filtering a 25cm\u00b3 sample of home brew as shown in Fig 4.1.\n(a) Describe how Thabang would fold the filter paper to fit into the funnel as shown in Fig 4.1. \n You may use diagrams to help you.\n(b) He measured the volume of the filtrate using a measuring cylinder.\nFig 4.2 represents part of the measuring cylinder used.\n Record the volume of the filtrate V1, as shown in Fig 4.2.\n(ii) Use your answer in (b)(i) to calculate the approximate volume of the residue left on the filter paper.\n(iii) Suggest why the volume in (b)(ii) is not the actual volume of the residue.\n(c) Thabang separated the filtrate further as shown in Fig 4.3.\n He then measured the volume of alcohol collected in the beaker. \n Fig 4.4 represents part of the measuring cylinder used.\n(i) Record the volume of the distillate V2 as shown in Fig 4.4 \n(ii) Thabang was told that alcohol percentage is calculated using the formula: % alcohol = (V2/V1)X 100% .\n Calculate the alcohol percentage in the sample of home brew.\n(d) Suggest one way in which the investigation could be improved.",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "phy9.png",
+      "phy10.png",
+      "phy11.png",
+      "phy12.png"
     ]
   },
   {
@@ -837,6 +957,20 @@
     ]
   },
   {
+    "id": "2016P3-Q05",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 5,
+    "topic": "Physics - Nuclear Energy",
+    "title": "Radioactivity",
+    "body_markdown": "Fig 5.1 shows the laboratory apparatus used by a teacher to demonstrate the deflection of the radiations emitted by a radioactive radium source.\n(a) Three detectors, A, B and C, are each used to detect one of the three types of radiation emitted by the radium source.\n(i) State any two types of radiation that are emitted by radium.[2]\n(ii) Name the type of radiation that is detected by C. Give a reason for your answer.\n(b) Explain why the radium source is kept inside a lead block with a narrow exit.\n(c) Explain why all the air must be removed from the sealed container before any readings are taken.[2]",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "phy164.png"
+    ]
+  },
+  {
     "id": "2016P1-Q06",
     "year": 2016,
     "paper": "P1 2016",
@@ -861,6 +995,18 @@
     "images": []
   },
   {
+    "id": "2016P3-Q06",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 6,
+    "topic": "Chemistry - Organic",
+    "title": "Methane and Sulfur",
+    "body_markdown": "Methane is a compound. Sulfur is an element.\n(a) Describe the difference between an element and a compound using sulfur and methane as your examples.[2]\n(b) Both sulfur and methane burn in excess air, releasing energy.\n How would you test for one of the products of complete combustion of methane?[2]\n(ii) State and describe an environmental hazard which prevents the use of sulfur as a domestic fuel.[2]",
+    "latex": "",
+    "total_marks": 6,
+    "images": []
+  },
+  {
     "id": "2016P1-Q07",
     "year": 2016,
     "paper": "P1 2016",
@@ -877,13 +1023,27 @@
     "year": 2016,
     "paper": "P2 2016",
     "original_num": 7,
-    "topic": "Unknown",
-    "title": "Untitled Question",
+    "topic": "Chemistry - Electrolysis",
+    "title": "Electrolysis",
     "body_markdown": "Fig 7.1 illustrates the electrolysis of water to form hydrogen and oxygen gases.\n(a) Define electrolysis.[2]\n(b) On Fig 7.1, label an electrode and the electrolyte[2]\n(c) Electrolysis of water is a chemical change which is also endothermic. \n Use this statement to explain the meaning of\n chemical change\n endothermic\n[2]",
     "latex": "",
     "total_marks": 6,
     "images": [
       "phy157.png"
+    ]
+  },
+  {
+    "id": "2016P3-Q07",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 7,
+    "topic": "Chemistry - Electrolysis",
+    "title": "Electrolysis",
+    "body_markdown": "Fig 7.1 represents the electrolysis of water.\n(a)(i) On Fig 7.1, label the anode[1]\n(ii) Use the idea of ions to explain what happens in the electrolyte as the current passes.[2]\n(b) State the type of reaction taking place at the cathode. Explain your answer.[2]\n(c) Draw a 'dot and cross' diagram to show the bonding of atoms in a water molecule.[2]",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "phy165.png"
     ]
   },
   {
@@ -910,6 +1070,20 @@
     "total_marks": 7,
     "images": [
       "phy158.png"
+    ]
+  },
+  {
+    "id": "2016P3-Q08",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 8,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "Table 8.1 shows the reactions of metals X, Y and Z with the aqueous sulfate of Y, with dilute hydrochloric acid, and with the aqueous nitrate of Z.\n The letters X, Y and Z are not the true symbols of the metals.\n The same mass of each metal was used.\n(a)(i) Name the gas responsible for the effervescence observed.\n(ii) Describe a test for this gas.[2]\n(b)(i) Arrange metals X; Y and Z in order of reactivity, starting with the most reactive.[2]\n(ii) Suggest and explain which of the metals, X, Y or Z, is most likely to be extracted from its ore by electrolysis.[2]",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "phy167.png"
     ]
   },
   {
@@ -941,6 +1115,18 @@
     ]
   },
   {
+    "id": "2016P3-Q09",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 9,
+    "topic": "Chemistry - Atomic Structures",
+    "title": "Transitional elements",
+    "body_markdown": "Cobalt, atomic number 27 , is one of the transition elements.\n(a) Cobalt shows variable oxidation states.\n(i) Give two other general properties you would expect cobalt to show as a transition element.[2]\n(ii) Determine the valency of cobalt in Co2O3' Show your working.[2]\n(b) Some of the compounds of cobalt are CoCl2 and Co203 \n Addition of nitric acid followed by silver nitrate to a solution of one of these compounds gave a white precipitate. \n When a second sample of the solution of this compound is electrolysed, cobalt is deposited on one of the electrodes.\n Identify the compound.",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
     "id": "2016P1-Q10",
     "year": 2016,
     "paper": "P1 2016",
@@ -965,6 +1151,20 @@
     "images": []
   },
   {
+    "id": "2016P3-Q10",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 10,
+    "topic": "Chemistry - Organic",
+    "title": "Organic compounds",
+    "body_markdown": "The following flow diagram shows reactions of some organic compounds.\n(a) Identify substances A and B.[2]\n(ii) Draw the graphical structural formula of ethanoic acid.[2]\n(b) Process T occurs at high temperature\n(i) Write a balanced chemical equation for the process T.[2]\n(ii) Gaseous products of process T are cooled to form a liquid mixture.\n Suggest; with a reason, the likely method of separation of the mixture to obtain heptane.",
+    "latex": "",
+    "total_marks": 8,
+    "images": [
+      "phy166.png"
+    ]
+  },
+  {
     "id": "2016P1-Q11",
     "year": 2016,
     "paper": "P1 2016",
@@ -974,6 +1174,18 @@
     "body_markdown": "A student uses a hand lens to view crawling insects.\n\nWhat type of image is formed by the hand lens?\n\nA  real and diminished\nB  real and enlarged\nC  virtual and diminished\nD  virtual and enlarged",
     "latex": "",
     "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2016P3-Q11",
+    "year": 2016,
+    "paper": "P3 2016",
+    "original_num": 11,
+    "topic": "Chemistry - Chemical Reactions",
+    "title": "Reactions",
+    "body_markdown": "Malehloa wanted to prepare sodium chloride from sodium carbonate and dilute hydrochloric acid. \n She had 150g of sodium carbonate (Na4CO3). \n She then dissolved it in water and made it up to the 1dm\u00b3 mark in a volumetric flask\n(a) Calculate the concentration, in mol/dm\u00b3? , of sodium carbonate (Na2CO3) in the volumetric flask.\n[A: Na, 23; C, 12; 0, 16]\n Show your working.[3]\n(b) She reacted 0.07 mol of sodium carbonate from the volumetric flask with 0.5dm\u00b3 of 0.20mol/dm\u00b3 of the acid to form the salt.\n The reaction is represented by the equation;\n Na2CO3 + 2HCI -> 2NaCl+ H2O + CO2. \n Determine the limiting reactant in this reaction. Show your working.",
+    "latex": "",
+    "total_marks": 7,
     "images": []
   },
   {
