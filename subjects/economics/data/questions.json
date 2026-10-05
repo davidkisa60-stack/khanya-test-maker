@@ -765,7 +765,7 @@
     ]
   },
   {
-    "id": "2026P1-Q01",
+    "id": "2026P1V1-Q01",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 1,
@@ -777,7 +777,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q02",
+    "id": "2026QP1V2-01",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 1,
+    "topic": "Basic Economic Problem",
+    "title": "Factors of Production",
+    "body_markdown": "What could cause a reduction in the factors of production in a country?\nA  decrease in the population \nB   a discovery of new resources \nC  an advance in technology \nD  an increase in the unemployment rate",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q01",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 1,
+    "topic": "Basic Economic Problem",
+    "title": "Free Goods",
+    "body_markdown": "What is an example of a free good?\nA  Headphones given away with a new mobile phone.\nB  Machinery bought with a 0% interest bank loan. \nC  Sunshine that powers a solar energy farm.\nD  Water that has been purified and bottled",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q02",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 2,
@@ -789,7 +813,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q03",
+    "id": "2026P1V2-Q02",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 2,
+    "topic": "Basic Economic Problem",
+    "title": "Factors of Production",
+    "body_markdown": "A government reduces social security spending by $1Obn in order to increase defence spending by S1Obn.\n What is this an example of? \nA  expansionary fiscal policy \nB  market forces \nC  price stability \nD  reallocation of resources",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q02",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 2,
+    "topic": "Basic Economic Problem",
+    "title": "Production",
+    "body_markdown": "What is the reward for the factor of production, capital?\nA  interest\nB  profits\nC  rent\nD  wages",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q03",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 3,
@@ -803,7 +851,35 @@
     ]
   },
   {
-    "id": "2026P1-Q04",
+    "id": "2026P1V2-Q03",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 3,
+    "topic": "Basic Economic Problem",
+    "title": "PPC",
+    "body_markdown": "The diagram shows an economy located at point X on an initial production possibility curve, PPC1. The government would like to move to point Y on PPC2.\n Which policy is likely to achieve this outcome? \nA  Cut indirect taxes on consumer goods.\nB  Encourage the immigration of skilled labour into the country. \nC  Train the unemployed to help them get jobs.\nD  Transfer resources from the production of capital goods to the production of consumer goods.",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec30.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q03",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 3,
+    "topic": "Basic Economic Problem",
+    "title": "Opportunity Cost",
+    "body_markdown": "The diagram shows the choices for an individual between leisure and earnings.\n The person decides to take a job that gives more leisure time.\n What is the opportunity cost to the individual of moving from position Y to position. \nA  $20 \nB  $80 \nC  four hours of leisure per day \nD  12 hours of leisure per day",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec50.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q04",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 4,
@@ -815,7 +891,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q05",
+    "id": "2026P1V2-Q04",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 4,
+    "topic": "Basic Economic Problem",
+    "title": "Price",
+    "body_markdown": "What is likely to reduce the price of an airline's flights?\nA  increased competition from new airline companies \nB  increased demand for flights \nC  increased fuel prices \nD  increased wages for airline",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q04",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 4,
+    "topic": "Basic Economic Problem",
+    "title": "Macroeconomics",
+    "body_markdown": "What would be classified by an economist as a macroeconomic aim?\nA  a government increasing the unit tax on petrol\nB  a central bank having an inflation target of 2% \nC  a monopoly increasing its profit target by 2% \nD  a trade union increasing the living standards of its members",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q05",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 5,
@@ -829,7 +929,35 @@
     ]
   },
   {
-    "id": "2026P1-Q06",
+    "id": "2026P1V2-Q05",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 5,
+    "topic": "Allocation of Resources",
+    "title": "Price",
+    "body_markdown": "The diagram shows the market for a good.\n If the current disequilibrium price is at P1, what will need to happen to adjust to the market equilibrium at point Z?\nA  contraction in supply from Y to Z and an extension in demand from X to Z \nB  The demand curve will need to shift to the right from X to Y \nC  The government will need to set a minimum price at P1.\nD  The supply curve will need to shift to the left from Y to X",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec31.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q05",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 5,
+    "topic": "Allocation of Resources",
+    "title": "Demand",
+    "body_markdown": "On the diagram, D1 and S are the original demand and supply curves for tea in a country.\n What would cause the demand curve to shift from D1 to D2?\nA  a decrease in the population \nB  a decrease in wage levels \nC  an increase in the price of coffee \nD  an increase in the price of sugar",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec51.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q06",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 6,
@@ -843,7 +971,35 @@
     ]
   },
   {
-    "id": "2026P1-Q07",
+    "id": "2026P1V2-Q06",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 6,
+    "topic": "Allocation of Resources",
+    "title": "Price",
+    "body_markdown": "Which combination of changes in price and quantity demanded would result in a price elasticity of demand of -0.1?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec32.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q06",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 6,
+    "topic": "Allocation of Resources",
+    "title": "Supply Curve",
+    "body_markdown": "The diagram shows the supply curve for a good.\n What causes an extension in the supply of the good? \nA  a decrease in the cost of producing the good \nB  a decrease in the price of the good \nC  an increase in the cost of producing the good \nD  an increase in the price of the good",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec52.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q07",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 7,
@@ -855,7 +1011,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q08",
+    "id": "2026P1V2-Q07",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 7,
+    "topic": "Allocation of Resources",
+    "title": "Market economic system",
+    "body_markdown": "What is a key feature of the market economic system?\nA  both the private and public sectors play an important role in the allocation of resources \nB  competition between firms results in lower prices and more choice for consumers \nC  the government always intervenes to reduce market failure and increase competition \nD  the transfer of ownership of private sector assets to the public sector ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q07",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 7,
+    "topic": "Allocation of Resources",
+    "title": "Elasticity of demand",
+    "body_markdown": "The elasticity of demand for cigarettes is estimated to be -0.5. The government introduces a tax on cigarettes to reduce consumption.\n By how much must the price of cigarettes rise to reduce consumption by 10% \nA  5% \nB  10% \nC  15% \nD  20% 0 2 8 Which type of good does not cause market failure? Panandee { ' a demerit good  1 B a free good  merit good D a public good",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q08",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 8,
@@ -867,7 +1047,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q09",
+    "id": "2026P1V2-Q08",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 8,
+    "topic": "Allocation of Resources",
+    "title": "What is a key feature of the market economic system?",
+    "body_markdown": "Some private sector firms in a free market allocate resources inefficiently; by causing external costs.\n Which economic concept does this describe?\nA  opportunity cost \nB  diseconomies of scale\nC  market failure \nD  specialisation ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q08",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 8,
+    "topic": "Allocation of Resources",
+    "title": "Elasticity of demand",
+    "body_markdown": "Which type of good does not cause market failure? \nA  a demerit good \nB  a free good  \n a merit good \nD  a public good",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q09",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 9,
@@ -881,7 +1085,36 @@
     ]
   },
   {
-    "id": "2026P1-Q10",
+    "id": "2026P1V2-Q09",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 9,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Subsidy",
+    "body_markdown": "A government gives farmers a subsidy of $5 per kilo to supply food on the open market; where X is the original equilibrium position.\n The effect is illustrated in the diagram shown.\n What will be the new equilibrium price and quantity supplied as a result of the subsidy?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec33.png",
+      "ec34.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q09",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 9,
+    "topic": "Allocation of Resources",
+    "title": "Market",
+    "body_markdown": "The diagram shows the market for an essential medicine.\n The government has intervened to decrease the maximum price of the medicine from P1 to P2.\n What is the impact of the decrease in maximum price on the market for this medicine?\nA  a decrease in excess demand\nB  a decrease in quantity demanded\nC  an increase in quantity demanded\nD  an increase in excess supply",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec53.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q10",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 10,
@@ -895,7 +1128,31 @@
     ]
   },
   {
-    "id": "2026P1-Q11",
+    "id": "2026P1V2-Q10",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 10,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Central Bank",
+    "body_markdown": "Why is a central bank important to producers?\nA  for the collection of corporation tax \nB  to maintain price stability \nC  for the provision of loan facilities \nD  for the provision of savings accounts",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q10",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 10,
+    "topic": "Allocation of Resources",
+    "title": "Price changes",
+    "body_markdown": "A kilogram of rice was priced at $0.50 in one year, but the price increased to $0.75 for a kilogram in the following year. \n Which function of money does this statement demonstrate? \nA  deferred payment \nB  unit of account \nC  store of value \nD  medium of exchange",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q11",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 11,
@@ -907,7 +1164,33 @@
     "images": []
   },
   {
-    "id": "2026P1-Q12",
+    "id": "2026P1V2-Q11",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 11,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Savings",
+    "body_markdown": "What might have caused savings to rise faster than incomes in a particular year?\nA  incomes increased at a greater rate than inflation \nB  increased consumer confidence leading to increased consumer spending \nC  interest rates fell leading to a fall in the return on savings \nD  the rate of income tax increased",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q11",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 11,
+    "topic": "Allocation of Resources",
+    "title": "Income",
+    "body_markdown": "The table shows a worker's total income and the deductions made.\n The worker decided to save 10% of the disposable income \n Which sum did the worker save? \nA  $12000 \nB  $8000 \nC  $1200 \nD  $1000",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec54.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q12",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 12,
@@ -921,7 +1204,31 @@
     ]
   },
   {
-    "id": "2026P1-Q13",
+    "id": "2026P1V2-Q12",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 12,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Salary gap",
+    "body_markdown": "On average, doctors earn more than bus drivers.\n Which change would be likely to reduce the earnings gap between doctors and bus drivers?\nA  a decrease in the profits earned by bus companies \nB  a decrease in the qualifications needed to be a doctor\nC  an increase in demand for medical care\nD  an increase in the number of people passing the driving test",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q12",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 12,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Non-wage factor",
+    "body_markdown": "A lawyer is considering becoming a teacher. \n What is a non-wage factor that might influence this decision? \nA  the amount of holidays in each occupation \nB  the current earnings as a lawyer \nC  the minimum wage rate \nD  the rate of income tax payable",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q13",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 13,
@@ -933,7 +1240,35 @@
     "images": []
   },
   {
-    "id": "2026P1-Q14",
+    "id": "2026P1V2-Q13",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 13,
+    "topic": "Government and the Macroeconomy",
+    "title": "Salary gap",
+    "body_markdown": "A car manufacturer has increased the amount of specialisation in its factory.\n Which diagram shows the impact on the market for the manufacturer's cars?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec35.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q13",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 13,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Labour productivity index",
+    "body_markdown": "The table gives the labour productivity index (real GDP per hour worked) for a country over a three year period. \n What is most likely to have caused the changes in labour productivity over the period shown?\nA  capital spending has fallen \nB  the workforce has become more skilled\nC  the level of employment has increased \nD  markets have become less competitive",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec55.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q14",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 14,
@@ -945,7 +1280,33 @@
     "images": []
   },
   {
-    "id": "2026P1-Q15",
+    "id": "2026P1V2-Q14",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 14,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Trade Unions",
+    "body_markdown": "A group of workers in a firm joins a trade union.\n What would the union be expected to do?\nA  arrange for labour-saving technology to be introduced \nB  discuss safety issues in the workplace with the employer \nC  ensure job security by promoting the firm's products through advertising \nD  negotiate new contracts with major buyers of the firm's products",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q14",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 14,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Factors of production",
+    "body_markdown": "The table shows the units of factors of production that a firm needs to employ for two different levels of output. \n What is the firm experiencing? \nA  diseconomies of scale \nB  economies of scale \nC  external diseconomies of scale \nD  external economies of scale",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec56.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q15",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 15,
@@ -959,7 +1320,35 @@
     ]
   },
   {
-    "id": "2026P1-Q16",
+    "id": "2026P1V2-Q15",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 15,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Costs",
+    "body_markdown": "The table shows the output; total fixed cost and total variable cost of a firm.\n What can be concluded from the data?\nA  average fixed cost remains constant \nB  average total cost rises  \nC  average variable cost remains constant \nD  total cost falls What allows a monopoly to charge a high price for its products and still make a profit?  3 number of barriers to  substitute entry into products the industry many high B many low none high D none low",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec36.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q15",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 15,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Average Total cost",
+    "body_markdown": "A firm has the following set of costs at different levels of output. \n At which level of output is the average total cost at its lowest level?\nA  10\nB 20\nC  30\nD  40",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec57.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q16",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 16,
@@ -971,7 +1360,33 @@
     "images": []
   },
   {
-    "id": "2026P1-Q17",
+    "id": "2026P1V2-Q16",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 16,
+    "topic": "Microeconomic Decision Makers",
+    "title": "Costs",
+    "body_markdown": "What allows a monopoly to charge a high price for its products and still make a profit?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec37.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q16",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 16,
+    "topic": "Microeconomic Decision Makers",
+    "title": "What may exist in a competitive market but not in a monopoly?",
+    "body_markdown": "What may exist in a competitive market but not in a monopoly?\nA  many sellers\nB  economies of scale\nC  barriers to entry \nD  product differentiation",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q17",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 17,
@@ -983,7 +1398,33 @@
     "images": []
   },
   {
-    "id": "2026P1-Q18",
+    "id": "2026P1V2-Q17",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 17,
+    "topic": "Government and the Macroeconomy",
+    "title": "Government actions",
+    "body_markdown": "Which government actions are primarily aimed at achieving an international impact?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec38.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q17",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 17,
+    "topic": "Government and the Macroeconomy",
+    "title": "Role of a government",
+    "body_markdown": "What is an international role of a government?\nA  to improve health standards through an efficient healthcare system \nB  to support export-oriented firms by negotiating free trade deals \nC  to redistribute income through direct taxation \nD  to increase productivity levels by spending on education     ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q18",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 18,
@@ -995,7 +1436,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q19",
+    "id": "2026P1V2-Q18",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 18,
+    "topic": "Government and the Macroeconomy",
+    "title": "Balance of payments",
+    "body_markdown": "Governments aim to encourage stable prices because inflation can result in a current account deficit on the balance of payments.\n How does high inflation contribute to a current account deficit?\nA  Countries have to barter manufactured goods for raw materials.\nB  Goods manufactured for export lose their competitiveness \nC  Numbers of foreign visitors increase. \nD  Spending on imported goods is reduced.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q18",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 18,
+    "topic": "Government and the Macroeconomy",
+    "title": "Inflation",
+    "body_markdown": "A government aims to reduce the rate of inflation. \n Which measure to help the unemployed is most likely to conflict with this aim? \nA  giving grants for travel to overcome high transport costs \nB  offering training to raise worker productivity \nC  providing information on job vacancies to raise mobility \nD  raising benefits to increase living standards",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q19",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 19,
@@ -1009,7 +1474,31 @@
     ]
   },
   {
-    "id": "2026P1-Q20",
+    "id": "2026P1V2-Q19",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 19,
+    "topic": "Government and the Macroeconomy",
+    "title": "Tax",
+    "body_markdown": "Which feature of a tax is not desirable? \nA  certainty regarding the payment required \nB  convenient payment method \nC  equal payments by all citizens \nD  flexibility in different economic circumstances",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q19",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 19,
+    "topic": "Government and the Macroeconomy",
+    "title": "Taxation",
+    "body_markdown": "In an economy, lower income earners pay income tax ata rate of 20% whilst higher income earners pay income tax at a rate of 45%. \n Which classification of taxation is in operation?  \nA  indirect   \nB  progressive \nC  proportional \nD  regressive",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q20",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 20,
@@ -1021,7 +1510,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q21",
+    "id": "2026P1V2-Q20",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 20,
+    "topic": "Government and the Macroeconomy",
+    "title": "Expansionary monetary policy",
+    "body_markdown": "What is an example of expansionary monetary policy?\nA  a reduction in the money supply \nB  a reduction in the rate of income tax\nC  a reduction in trade union power \nD  a reduction in the rate of interest",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q20",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 20,
+    "topic": "Government and the Macroeconomy",
+    "title": "Monetary policy",
+    "body_markdown": "What is an example of monetary policy?\nA  decreasing government expenditure \nB  decreasing tariffs on imports\nC  increasing income tax rates\nD  increasing interest rates",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q21",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 21,
@@ -1033,7 +1546,33 @@
     "images": []
   },
   {
-    "id": "2026P1-Q22",
+    "id": "2026P1V2-Q21",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 21,
+    "topic": "Government and the Macroeconomy",
+    "title": "High unemployment and low inflation",
+    "body_markdown": "A country has high unemployment and low inflation.To reduce unemployment; the government increases its spending on education and training causing a budget deficit.\n What is the most likely effect of this policy on inflation in the short run and the long run?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec39.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q21",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 21,
+    "topic": "Government and the Macroeconomy",
+    "title": "Government spending",
+    "body_markdown": "A government increases spending on education and training to raise international competitiveness:\nWhat is likely to decrease? \nA  a current account deficit \nB  real GDP \nC  the HDI value  \nD  the productivity of labour",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q22",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 22,
@@ -1045,7 +1584,34 @@
     "images": []
   },
   {
-    "id": "2026P1-Q23",
+    "id": "2026P1V2-Q22",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 22,
+    "topic": "Government and the Macroeconomy",
+    "title": "Central bank",
+    "body_markdown": "The following information was published by an economy's central bank\n In which case was real GDP growth highest?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec40.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q22",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 22,
+    "topic": "Economic Development",
+    "title": "The table shows figures for the real GDP of a country in a particular year.\n At the end of which quarter had the economy experienced a recession? \nA  quarter 1  \nB  quarter 2 \nC  quarter 3 \nD  quarter 4",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec58.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q23",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 23,
@@ -1059,7 +1625,35 @@
     ]
   },
   {
-    "id": "2026P1-Q24",
+    "id": "2026P1V2-Q23",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 23,
+    "topic": "Government and the Macroeconomy",
+    "title": "CPI",
+    "body_markdown": "The table shows the percentage change in some items of the Consumer Prices Index (CPI) in a year.\n What will be the most likely consequence of these changes? \nA  interest rates will need to be reduced \nB  there will be a more equal distribution of income \nC  there will be cost-push inflation \nD  there will be demand-side deflation",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec41.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q23",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 23,
+    "topic": "Government and the Macroeconomy",
+    "title": "Labour market",
+    "body_markdown": "The table shows selected indicators for the labour market. \n Based on this information, what is the percentage rate of unemployment? \nA  9.09% \nB  12%  \nC  14.2% \nD  71.4% ",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec59.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q24",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 24,
@@ -1071,7 +1665,33 @@
     "images": []
   },
   {
-    "id": "2026P1-Q25",
+    "id": "2026P1V2-Q24",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 24,
+    "topic": "Economic Development",
+    "title": "Market Economic System",
+    "body_markdown": "Cuba is said to be transitioning towards a market economic system. \n What is the most likely impact of this on the pattern of employment in Cuba? \nA  a decrease in the proportion of workers employed in the public sector \nB  a decrease in the proportion of workers employed in the private sector \nC  a decrease in the proportion of workers employed in small firms \nD  a decrease in the proportion of workers employed in the tertiary sector",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q24",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 24,
+    "topic": "Government and the Macroeconomy",
+    "title": "Inflation rate",
+    "body_markdown": "In 2018,a country had an inflation rate of 4%. The table shows the inflation rate in the following years.\n In which year did deflation start?\nA  2019\nB  2020 \nC  2021 \nD  2022",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec60.png"
+    ]
+  },
+  {
+    "id": "2026P1V1-Q25",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 25,
@@ -1083,7 +1703,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q26",
+    "id": "2026P1V2-Q25",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 25,
+    "topic": "Economic Development",
+    "title": "HDI",
+    "body_markdown": "What is not a component of the Human Development Index (HDI)? \nA  expected years of schooling \nB  income per head \nC  life expectancy at birth \nD  stock of natural resources",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q25",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 25,
+    "topic": "Government and the Macroeconomy",
+    "title": "Poverty",
+    "body_markdown": "What is not a cause of absolute poverty? \nA  high unemployment \nB  low literacy rate \nC  poor health \nD  state benefits",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q26",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 26,
@@ -1095,7 +1739,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q27",
+    "id": "2026P1V2-Q26",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 26,
+    "topic": "Economic Development",
+    "title": "Population",
+    "body_markdown": "What could explain the rise in a country's population size despite a fall in its birth rate?\nA  birth rate that exceeds the death rate.\nB  A death rate that exceeds the birth rate.\nC  Net emigration exceeds the birth rate.\nD  Net emigration exceeds the death rate.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q26",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 26,
+    "topic": "Economic Development",
+    "title": "Economies",
+    "body_markdown": "What would usually be greater in a low-income economy than in a high-income economy? \nA  the importance of the service sector \nB  the length of life expectancy \nC  the level of capital-intensive production \nD  the number of children in the average family.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q27",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 27,
@@ -1107,7 +1775,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q28",
+    "id": "2026P1V2-Q27",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 27,
+    "topic": "Economic Development",
+    "title": "Specialisation",
+    "body_markdown": "What is a basis for specialisation at a national level? \nA  diseconomies of scale \nB    increased costs of production \nC  superior resource allocation \nD  wide variety of goods produced",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q27",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 27,
+    "topic": "International Trade and Globalisation",
+    "title": "Specialisation",
+    "body_markdown": "What would be a disadvantage to a country specialising at a national level?\nA  increased average costs of production \nB  increased diversification \nC  increased exposure to external shocks \nD  increased income equality",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q28",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 28,
@@ -1119,7 +1811,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q29",
+    "id": "2026P1V2-Q28",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 28,
+    "topic": "International Trade and Globalisation",
+    "title": "Imports",
+    "body_markdown": "The import of a product from country X into country Y has been banned.\n What is this an example of?\nA  embargo \nB  quota\nC  subsidy\nD  tariff",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q28",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 28,
+    "topic": "International Trade and Globalisation",
+    "title": "Globalisation",
+    "body_markdown": "Which change is not associated with the spread of globalisation? \nA  greater movement of labour \nB  longer product supply chains \nC  more effective tariff barriers \nD  wider use of technology",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q29",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 29,
@@ -1131,7 +1847,31 @@
     "images": []
   },
   {
-    "id": "2026P1-Q30",
+    "id": "2026P1V2-Q29",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 29,
+    "topic": "International Trade and Globalisation",
+    "title": "Fixed exchange rate system",
+    "body_markdown": "What is necessary to be able to operate a fixed exchange rate system? \nA  free movement of capital and workers \nB  free trade between all economies \nC  permission from trading partners \nD  reserves of foreign currencies",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJV1-Q29",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 29,
+    "topic": "International Trade and Globalisation",
+    "title": "Exchange rate system",
+    "body_markdown": "What describes a fixed exchange rate system?\nA  the central bank sets an inflation target \nB  the government sets prices in the markets for goods \nC  the money in the economy buys the same quantity of goods each year \nD  the value of the currency is fixed against another currency",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1V1-Q30",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 30,
@@ -1143,5 +1883,31 @@
     "images": [
       "ec29.png"
     ]
+  },
+  {
+    "id": "2026P1V2-Q30",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 30,
+    "topic": "International Trade and Globalisation",
+    "title": "Surplus",
+    "body_markdown": "A developing economy has a surplus on its trade in goods of $75 billion and a deficit on its trade in services of $25 billion, while its current account is in overall balance. \n Which values for primary income and secondary income result in the current account being in balance?",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "ec42.png"
+    ]
+  },
+  {
+    "id": "2026P1MJV1-Q30",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 30,
+    "topic": "International Trade and Globalisation",
+    "title": "Exchange rate system",
+    "body_markdown": "A country's balance of payments goes into a current account deficit.\n What is most likely to increase immediately as a consequence of this deficit? \nA  economic growth \nB  exchange rate \nC  money supply \nD  unemployment rate ",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
   }
 ]

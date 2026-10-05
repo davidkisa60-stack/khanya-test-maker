@@ -46,7 +46,7 @@
                 </div>
 
                 <!-- Login Form -->
-                <form id="login-form" onsubmit="handleLogin(event)">
+                <form id="login-form" onsubmit="handleLogin(event)" autocomplete="off">
                     <div class="mb-6">
                         <label class="block text-sm font-medium text-zinc-300 mb-2">Email Address</label>
                         <div class="relative">
@@ -55,7 +55,9 @@
                                 id="login-email" 
                                 required
                                 value=""
-                                autocomplete="username"
+                                autocomplete="off"
+                                autocapitalize="off"
+                                spellcheck="false"
                                 placeholder="you@school.edu.ls"
                                 class="w-full bg-zinc-950 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none">
                             <i class="fa-solid fa-envelope absolute right-4 top-4 text-zinc-500"></i>
@@ -86,17 +88,14 @@
     </div>
 
     <script>
-        // If already logged in, go to the test maker
+        // Always start logged out on the login page.
+        // Visiting the site URL must never restore the previous user.
         (function() {
             try {
-                const raw = localStorage.getItem('khanya_user');
-                if (raw) {
-                    const user = JSON.parse(raw);
-                    if (user && user.email) {
-                        window.location.replace('/');
-                    }
-                }
+                localStorage.removeItem('khanya_user');
             } catch (e) {}
+            var emailInput = document.getElementById('login-email');
+            if (emailInput) emailInput.value = '';
         })();
 
         async function handleLogin(e) {
@@ -124,8 +123,7 @@
                         subjects: Array.isArray(data.subjects) ? data.subjects : []
                     };
                     localStorage.setItem('khanya_user', JSON.stringify(userData));
-                    // Always open the test maker. Admins can use Admin Panel from the navbar.
-                    window.location.href = '/';
+                    window.location.href = '/app';
                 } else {
                     errorEl.textContent = data.message || 'Login failed';
                     errorEl.classList.remove('hidden');
@@ -136,5 +134,5 @@
             }
         }
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3f13717b93995ff',t:'MTc5MDA3OTExOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a45e79ee68fa9997',t:'MTc5MTIyNDgwMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

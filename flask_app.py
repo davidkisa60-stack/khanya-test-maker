@@ -232,12 +232,13 @@ def list_subjects():
 # ==================== EXISTING ROUTES ====================
 
 @app.route('/')
-def index():
-    # Serve the main app (login protection is handled client-side + login page)
-    try:
-        return send_from_directory('.', 'index.html')
-    except:
-        return "<h1>Khanya Test Maker</h1><p>index.html not found.</p>"
+def root():
+    # Site URL always opens on a fresh login screen
+    return send_from_directory('.', 'login.html')
+
+@app.route('/app')
+def app_page():
+    return send_from_directory('.', 'index.html')
 
 @app.route('/<path:path>')
 def static_files(path):

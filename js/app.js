@@ -13,7 +13,7 @@
     } catch (e) {}
 
     if (!user || !user.email) {
-        window.location.replace('/login');
+        window.location.replace('/');
         return;
     }
 
@@ -260,6 +260,7 @@ async function showSubject(subject) {
     setTimeout(attachPreviewButton, 50);
     setTimeout(attachPreviewButton, 300);
 }
+window.showSubject = showSubject;
 
 function populateFilterDropdowns() {
     const years = [...new Set(allQuestions.map(q => q.year))].sort((a,b)=>b-a);
