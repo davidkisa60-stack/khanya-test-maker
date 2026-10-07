@@ -21,8 +21,78 @@ app = Flask(__name__, static_folder='.', static_url_path='')
 # === CORS for Netlify frontend (important for split deployment) ===
 ALLOWED_ORIGINS = os.environ.get("ALLOWED_ORIGINS", "*")
 
-# Simple JSON user store
-USERS_FILE = Path(__file__).parent / "data" / "users.json"
+# User store:
+# - Local JSON file for development
+# - PostgreSQL when DATABASE_URL is set (survives Render sleep/redeploys)
+USERS_FILE = Path(os.environ.get("USERS_FILE", Path(__file__).parent / "data" / "users.json"))
+DATABASE_URL = (os.environ.get("DATABASE_URL") or "").strip()
+
+try:
+    import psycopg2
+    from psycopg2.extras import Json as PgJson
+    HAS_PSYCOPG = True
+except ImportError:
+    HAS_PSYCOPG = False
+
+_pg_ready = False
+
+
+def _using_postgres():
+    return bool(DATABASE_URL) and HAS_PSYCOPG
+
+
+def _pg_connect():
+    dsn = DATABASE_URL
+    if dsn.startswith("postgres://"):
+        dsn = "postgresql://" + dsn[len("postgres://"):]
+    if "sslmode=" not in dsn and "localhost" not in dsn and "127.0.0.1" not in dsn:
+        dsn += ("&" if "?" in dsn else "?") + "sslmode=require"
+    return psycopg2.connect(dsn)
+
+
+def _load_users_file():
+    if not USERS_FILE.exists():
+        USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+        return {"users": []}
+    with open(USERS_FILE, "r") as f:
+        return json.load(f)
+
+
+def _save_users_file(data):
+    USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(USERS_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+def _ensure_pg():
+    global _pg_ready
+    if _pg_ready:
+        return
+    conn = _pg_connect()
+    try:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS khanya_kv (
+                    key TEXT PRIMARY KEY,
+                    value JSONB NOT NULL,
+                    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+                )
+                """
+            )
+            cur.execute("SELECT value FROM khanya_kv WHERE key = %s", ("users",))
+            row = cur.fetchone()
+            if not row:
+                seed = _load_users_file()
+                cur.execute(
+                    "INSERT INTO khanya_kv (key, value) VALUES (%s, %s)",
+                    ("users", PgJson(seed)),
+                )
+        conn.commit()
+        _pg_ready = True
+        print("Khanya user store: PostgreSQL (persistent)")
+    finally:
+        conn.close()
 
 ALL_SUBJECTS = [
     "Mathematics",
@@ -36,16 +106,56 @@ ALL_SUBJECTS = [
 
 
 def load_users():
-    if not USERS_FILE.exists():
-        USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
-        return {"users": []}
-    with open(USERS_FILE, "r") as f:
-        return json.load(f)
+    if _using_postgres():
+        try:
+            _ensure_pg()
+            conn = _pg_connect()
+            try:
+                with conn.cursor() as cur:
+                    cur.execute("SELECT value FROM khanya_kv WHERE key = %s", ("users",))
+                    row = cur.fetchone()
+                    if row and row[0]:
+                        val = row[0]
+                        if isinstance(val, str):
+                            val = json.loads(val)
+                        if isinstance(val, dict) and "users" in val:
+                            return val
+            finally:
+                conn.close()
+        except Exception as e:
+            print("Postgres load failed, falling back to file:", e)
+            traceback.print_exc()
+    return _load_users_file()
+
 
 def save_users(data):
-    USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with open(USERS_FILE, "w") as f:
-        json.dump(data, f, indent=2)
+    # Always keep a local copy for development / cache
+    try:
+        _save_users_file(data)
+    except Exception as e:
+        print("Local users.json save failed:", e)
+
+    if _using_postgres():
+        _ensure_pg()
+        conn = _pg_connect()
+        try:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    INSERT INTO khanya_kv (key, value, updated_at)
+                    VALUES (%s, %s, NOW())
+                    ON CONFLICT (key) DO UPDATE
+                    SET value = EXCLUDED.value, updated_at = NOW()
+                    """,
+                    ("users", PgJson(data)),
+                )
+            conn.commit()
+        finally:
+            conn.close()
+        return
+
+    # Without DATABASE_URL, Render's disk is wiped when the service sleeps.
+    print("WARNING: users saved to ephemeral disk only. Set DATABASE_URL to keep admin changes.")
 
 
 def normalize_subjects(raw, default_all=True):
@@ -117,6 +227,15 @@ def login():
         return jsonify({"success": False, "message": str(e)}), 500
 
 # ==================== ADMIN ROUTES ====================
+
+@app.route('/api/admin/storage', methods=['GET'])
+def storage_status():
+    persistent = _using_postgres()
+    return jsonify({
+        "persistent": persistent,
+        "backend": "postgres" if persistent else "ephemeral-file"
+    })
+
 
 @app.route('/api/admin/users', methods=['GET'])
 def get_users():

@@ -95,6 +95,17 @@
         <!-- Logged in as -->
         <div id="current-user" class="mb-4 text-sm text-emerald-400 flex items-center gap-x-2"></div>
 
+        <div id="storage-warning" class="hidden mb-6 p-4 rounded-2xl border border-amber-500/40 bg-amber-500/10 text-amber-200 text-sm">
+            <div class="font-semibold flex items-center gap-x-2 mb-1">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <span>User changes will reset after inactivity</span>
+            </div>
+            <p class="text-amber-100/80">
+                This server uses a temporary disk. Added or activated emails are lost when Render sleeps.
+                Add a free Postgres database and set the <span class="font-mono">DATABASE_URL</span> environment variable so users stay saved.
+            </p>
+        </div>
+
         <!-- Add New User -->
         <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 mb-8">
             <h2 class="font-semibold mb-4 flex items-center gap-x-2">
@@ -470,13 +481,25 @@
             if (e.target.id === 'edit-subjects-modal') closeEditSubjects();
         });
 
+        async function checkStorage() {
+            try {
+                const res = await fetch('/api/admin/storage');
+                const data = await res.json();
+                const el = document.getElementById('storage-warning');
+                if (el && data && data.persistent === false) {
+                    el.classList.remove('hidden');
+                }
+            } catch (e) {}
+        }
+
         window.addEventListener('load', function() {
             if (window.khanyaReveal) window.khanyaReveal();
             document.documentElement.classList.remove('khanya-boot');
             showLoggedInUser();
             renderSubjectCheckboxes('add-subjects', ALL_SUBJECTS.map(s => s.name));
             loadUsers();
+            checkStorage();
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a45e7a4d18599997',t:'MTc5MTIyNDgxOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a46e7ae059e395f3',t:'MTc5MTM5MjYxNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
