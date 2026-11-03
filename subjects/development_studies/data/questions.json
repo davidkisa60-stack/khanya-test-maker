@@ -233,7 +233,7 @@
     "year": 2020,
     "paper": "P1 2020",
     "original_num": 1,
-    "topic": " Environment and Development",
+    "topic": "Environment and Development",
     "title": "Agricultural Products",
     "body_markdown": "(a) Study Fig 1.1, a bar chart that shows exports and imports of agricultural products for selected developing countries.\n(i) Identify the country that imports the highest value of agricultural products.[1]\n(ii) Give two reasons why some countries import more agricultural products than they export.[2]\n(b) Explain how a government can improve the balance of trade of a country.[4]\n(c) Study Fig 1.2, a graph which shows government debt as a percentage of Gross Domestic Product (GDP) for selected developing countries.\n(i) Identify the two countries which have the highest government debt as a percentage of their GDP[2]\n(ii) Suggest two reasons why a country may have large amounts of government debt.[2].\n(iii) Describe the   possible effects on services, such as health or education, when a government tries to reduce its debt.[3] \n(d) Countries with a very low income may apply for debt relief to the International Monetary Fund or the World Bank\n Describe the benefits of debt relief on the people and the economy of a developing country: You should develop fully the points you make.[6]",
     "latex": "",
@@ -261,7 +261,7 @@
     "year": 2020,
     "paper": "P1 2020",
     "original_num": 2,
-    "topic": " Environment and Development",
+    "topic": "Environment and Development",
     "title": "Hydroponics",
     "body_markdown": "(a) Study Fig 2.1, which shows an indoor farm in an urban area that uses hydroponics, a modern farming method and Fig: 2.2, an illustration of hydroponic farming.\n Using Fig: 2.1 and Fig. 2.2, explain how hydroponics increases agricultural output in an urban area.[3]\n(ii) Suggest two advantages to the local urban community of a farm such as that shown in Fig: 2.1[2]\n(b) Name two ways of increasing agricultural output; other than hydroponics.[2]\n(c) Explain why governments of developing countries need to encourage the use of modern farming methods.[4].\n(d) Study Table 2.1, which shows the consumption of livestock products (meat) per person in different parts of the world in two different years.\n(i) Identify the region that will have the largest increase in meat consumption (kg per person) by 2030.[1]\n(ii) Suggest two ways that consumers can promote sustainable development in commercial livestock farming.[2].\n(e) Explain why organic farming would be a sustainable development: You should develop fully the points you make[6]",
     "latex": "",
@@ -443,6 +443,128 @@
     "images": [
       "ds5.png",
       "ds6.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q01",
+    "year": 2026,
+    "paper": "P1 2017",
+    "original_num": 1,
+    "topic": "Large-Scale Case Studies",
+    "title": "GDP",
+    "body_markdown": "(a) Study Fig. 1 which shows the percentage of GDP spent on health, education and the military for selected countries.\n Which country spends the largest percentage of its GDP on health?\n What do all the countries spend the most similar percentage of their GDP on?\n(iii) Suggest a reason for the difference in spending on health between Benin and Rwanda.\n(b) Describe the characteristics of socialist systems of government.\n(c) Describe three differences between a democracy and a dictatorship.\n(d) Explain why countries are less likely to develop socially and economically if they are involved in wars and conflicts.\n(e) One of the roles of government is to plan for development\n Choose a large construction project, such as a port; mine or dam: Describe the advantages and disadvantages of the project. You should develop fully the points you make.",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ec65.png"
+    ]
+  },
+  {
+    "id": "2017P2-Q01",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 1,
+    "topic": "Population and Development",
+    "title": "Population",
+    "body_markdown": "(a) Study Fig 1, which shows information about a sample of countries in Africa.\n What do the initials HDI represent?\n Identify from Fig. 1 the country where:\n people live the longest on average\n the lowest percentage of the population can read and write.\n(iii) What is meant by the following statement?\n Cameroon has a GDP per person of US $3000.\n(iv) Using the data in Fig. 1 only; suggest which country has the highest level of development. Give reasons for your choice.\n(b) Study Fig. 2, which shows information about the employment structure in Australia and India. \n(i) Plot a cross on Fig. 2 to show the following information about the employment structure of Zimbabwe:\n Primary    65% \n Secondary    10% \n Tertiary    25% \n(ii) Using Fig. 2, compare the employment structure of Australia and India.\n(c) Study Fig. 3, which shows changes in the employment structure of South Korea between 1963 and 2010.\n(i) Using Fig. 3, identify the changes which have taken place between 1963 and 2010 in: primary industry, secondary industry and tertiary industry.\n(ii) Explain why the employment structure of a country changes as it develops.",
+    "latex": "",
+    "total_marks": 19,
+    "images": [
+      "ds200.png",
+      "ds201.png",
+      "ds202.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q02",
+    "year": 2026,
+    "paper": "P1 2017",
+    "original_num": 2,
+    "topic": "Poverty and Development",
+    "title": "Squatter settlements",
+    "body_markdown": "(a) Study Photograph A, which shows part of a squatter settlement (shanty town) in Mumbai, India: Squatter  settlements are a feature of many urban areas in developing countries:\n Identify four different ways that the land is used in the photograph.\n(b) Many people who live in squatter settlements have migrated from rural areas.\n Describe three different aspects of life in rural areas that result in people leaving to search for a better life in urban areas.\n(c) Many people who live in squatter settlements work in the informal economy.\n Describe the characteristics of work in the informal economy.\n(d) Explain how poor housing and a lack of basic services may lead to the poor health of people who live in squatter settlements.\n(e) Describe possible solutions to the problems found in squatter settlements. You should develop fully the points you make.",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ec69.png"
+    ]
+  },
+  {
+    "id": "2017P2-Q02",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 2,
+    "topic": "Industrial Development, Trade and Globalisation",
+    "title": "Exports and Imports",
+    "body_markdown": "(a) Study Fig. 4, which shows the value of exports and imports between different parts of the world in 2013.\n(i) What was the value of exports from Asia to North America in 2013?\n Tick your answer from the list in the table below.\n(ii) Complete the table by inserting the names of the three parts of the world below. The parts of the world should be arranged in rank order of their total value of trade.\n(iii) Explain how trade benefits a country.\n(b) Study Fig. 5, showing information about a multinational chain of coffee shops (cafes), which has its headquarters in the USA\n Explain why this company is a good example of globalisation.\n(c) Study Fig. 6, which shows information about a multinational chain of restaurants.\n Draw a bar graph below which shows the information in Fig. 6.\n(ii) Suggest reasons why these restaurants are located in many different countries.\n(iii) This company has opened many restaurants in developing countries. These provide employment in the formal sector.\n Describe four characteristics of employment in the formal sector",
+    "latex": "",
+    "total_marks": 22,
+    "images": [
+      "ds203.png",
+      "ds204.png",
+      "ds205.png",
+      "ds206.png",
+      "ds207.png",
+      "ds208.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q03",
+    "year": 2026,
+    "paper": "P1 2017",
+    "original_num": 3,
+    "topic": "Population and Development",
+    "title": "Population",
+    "body_markdown": "(a) Study Fig.2 which shows the population of the world and selected areas.\n(i) Using Fig. 2, describe how the population of the world is expected to change between 2015 and 2100.\n(ii) Which area is expected to more than double its population between 2015 and 21002\n(b) Study the passage below which is an extract from 'How to feed the world in 2050'.\n In order to feed this larger population, food production must increase by 70%. Annual cereal production will need to rise to about 3 billion tonnes from 2.1 billion today and annual meat production will need to rise by over 200 million tonnes to reach 470 million tonnes.\n Urbanisation will bring with it changes in lifestyles and consumption patterns. In combination with income growth, it may lead to diets in developing countries becoming more varied.\n Identify why the demand for food supplies is likely to change.\n(c) Up to 40% of food produced in the developing world is wasted before it reaches the market.\n Suggest how this loss could be reduced.\n(d) Explain why the families of many subsistence farmers in traditional societies are malnourished. \n(e) Describe methods to increase commercial food production and suggest the extent to which these methods are sustainable. You should develop fully the points you make",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ec66.png"
+    ]
+  },
+  {
+    "id": "2017P2-Q03",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 3,
+    "topic": "Industrial Development, Trade and Globalisation",
+    "title": "Industrialisation",
+    "body_markdown": "(a) Study Fig. 7, a diagram which shows some of the problems which are caused by rapid industrialisation in a developing country.\n(i) State two different types of damage to the natural environment that may occur during rapid industrialisation.\n(ii) From Fig: 7 ,explain two different problems which may be faced by workers in a country experiencing rapid industrialisation. \n(b) Study Fig. 8, an extract about the impacts of a new cement factory in Pakistan.\n Residents of Kamalpur staged a protest against a local cement factory on Tuesday:\nVillagers accused the factory of polluting the environment and causing health problems for children at a nearby school. The villagers protested in front of the factory gates, blocking traffic for two hours.\n A representative of the villagers accused the factory management of using old machines. These released dust and cement particles into the air which caused breathing difficulties and eye diseases.\n He added that the dust had reduced the fertility of their land.\n The protestors stated that the Kamalpur Primary School has been affected by the factory; adding that the children were not able to concentrate due to the noise.\n They also said that large trucks carrying stones and other materials have damaged the roads and held up traffic.\n Identify three different problems which the cement factory has caused for people in the area.\n(c) A researcher wanted to find out how worried local people were about the cement factory and other industries in Kamalpur. She gave 50 people a questionnaire to fill in, shown in Fig. 9\n(i) The 50 people who were selected to fill in the questionnaire were chosen using a random sample.\n Describe how this sample could have been selected.\n(ii) The researcher wanted to find out how worried people were about each impact of industry in the area. Use your own words to explain how she did this.\n(iii) Do you think this was a good questionnaire? Give reasons for your opinion.\n(iv) Suggest reasons why some people in Kamalpur will be more worried than others about the impacts of industry in the area.\n(d) Study the information below, which shows the researcher's recommendations for reducing the negative impacts of industry in Kamalpur\n Method A: Make laws to reduce the amount of air pollution from factories.\nMethod B: Give grants and low interest loans to factory owners to update their machinery and processes.\nMethod C: Close down the industries which cause pollution and do not allow any new industries to be built in Kamalpur.\n Method D: Enlarge the clinics in Kamalpur and employ specialist doctors and nurses to treat breathing difficulties and eye diseases.\n Choose the method listed above which you think will be most likely to reduce the negative impacts of industry in Kamalpur.\n Justify your choice by referring to the advantages of the method you have chosen and the disadvantages of the methods which you have rejected.",
+    "latex": "",
+    "total_marks": 25,
+    "images": [
+      "ds209.png",
+      "ds210.png"
+    ]
+  },
+  {
+    "id": "2017P1-Q04",
+    "year": 2026,
+    "paper": "P1 2017",
+    "original_num": 4,
+    "topic": "Environment and Development",
+    "title": "Climate change",
+    "body_markdown": "(a) Study Fig. 4 which shows annual global carbon dioxide (CO2) emissions per person resulting from energy production, transportation and industrial processes.\n(i) State the carbondioxide emissions per person per year in India, shown in Fig. 4.\n Describe the global distribution of carbondioxide emissions, shown in Fig. 4.\n(b) Human activities are contributing to climate change by adding gases such as COz to the atmosphere.\n(i) Why is international co-operation needed to limit climate change?\n(ii) Suggest ways governments can work together to limit climate change.\n(c) Carbondioxide and other gases that lead to climate change are often referred to as greenhouse gases.\n Study Fig. 5 which shows the sources of global greenhouse gas emissions.\n(i) What is the largest source of greenhouse gas emissions?\n(ii) What proportion of global greenhouse gas emissions is produced by industry, agriculture and forestry combined?\n(d) Explain how large-scale deforestation of tropical forests contributes to climate change.\n(e) Describe the likely impacts of climate change on developing countries. You should develop fully the points you make.",
+    "latex": "",
+    "total_marks": 20,
+    "images": [
+      "ec67.png",
+      "ec68.png"
+    ]
+  },
+  {
+    "id": "2017P2-Q04",
+    "year": 2017,
+    "paper": "P2 2017",
+    "original_num": 4,
+    "topic": "Environment and Development",
+    "title": "Pollution",
+    "body_markdown": "Study Fig. 11 which shows three students of Development Studies who are planning research on pollution of the environment in their home areas.\n Fig. 12 shows a sequence which is a useful way to organise research.\n(a) Choose one of the students from Fig. 11,A, B or C, and write down the letter of that student\n Describe how the student could carry out the research. Use the ideas in Fig. 12 to organise your answer.\n(b) Describe any difficulties the student might have carrying out the chosen research.",
+    "latex": "",
+    "total_marks": 14,
+    "images": [
+      "ds211.png",
+      "ds212.png"
     ]
   }
 ]

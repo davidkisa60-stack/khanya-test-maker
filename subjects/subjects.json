@@ -20,20 +20,7 @@
       "folder": "physical_science",
       "default_paper_types": ["P1", "P2", "P3", "P4"],
       "active": true
-    },
-    {
-      "id": "physics",
-      "name": "Physics",
-      "folder": "physics",
-      "default_paper_types": ["P1", "P2", "P3"],
-      "active": true
-    },
-    {
-      "id": "chemistry",
-      "name": "Chemistry",
-      "folder": "chemistry",
-      "default_paper_types": ["P1", "P2", "P3"],
-      "active": true
+    
     },
     {
       "id": "economics",

@@ -1042,8 +1042,8 @@
     "year": 2017,
     "paper": "P4 2017",
     "original_num": 13,
-    "topic": "Number",
-    "title": "5...",
+    "topic": "Statistics",
+    "title": "Data Analysis",
     "body_markdown": "Mpho records the growth in the height of a tree over a period of 23 weeks At the start; the tree has a height of 0.78 metres tall.\nThe table shows the height of the tree at the end of each of the seven weeks.\n(a) By how much has the tree grown during week 52 Give your answer in centimetres.\n(b) In which week is the maximum growth recorded?\n(c) From Week & to Week 23 Mpho summarises the amount of growth in the height of the tree in the table below:\n(i) State the modal class.\n(ii) Calculate an estimate of the mean growth each week\n(d)(i) Using the tables in part (a) and (c), complete the table below to cover the entire period 0f 23 weeks\n(ii) On the grid provided, draw the frequency polygon to represent the information:",
     "latex": "",
     "total_marks": 13,
@@ -4535,7 +4535,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q01",
+    "id": "2025P4-Q01",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 1,
@@ -4631,7 +4631,7 @@
     "images": []
   },
   {
-    "id": "2025P42025-Q02",
+    "id": "2025P4-Q02",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 2,
@@ -4733,7 +4733,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q03",
+    "id": "2025P4-Q03",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 3,
@@ -4842,7 +4842,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q04",
+    "id": "2025P4-Q04",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 4,
@@ -4948,7 +4948,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q05",
+    "id": "2025P4-Q05",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 5,
@@ -5049,7 +5049,7 @@
     "images": []
   },
   {
-    "id": "2025P42025-Q06",
+    "id": "2025P4-Q06",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 6,
@@ -5165,7 +5165,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q07",
+    "id": "2025P4-Q07",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 7,
@@ -5260,7 +5260,7 @@
     "images": []
   },
   {
-    "id": "2025P42025-Q08",
+    "id": "2025P4-Q08",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 8,
@@ -5365,7 +5365,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q09",
+    "id": "2025P4-Q09",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 9,
@@ -5468,7 +5468,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q10",
+    "id": "2025P4-Q10",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 10,
@@ -5513,8 +5513,8 @@
     "paper": "P3",
     "original_num": 11,
     "topic": "Number",
-    "title": "11...",
-    "body_markdown": "\n(a) Two cars left the same place at 9.51p.m,, one to town P and the other to town Q.\nThe car to town P took 4.95 hours.\nFind the time it arrived.\n(ii) The other car arrived at town Q at 5.37a.m:\nFind, in hours and minutes, the time taken:\n(b)Given the matrices:\n Find \n(i)(-1/2)P \n(ii) 2Q - R",
+    "title": "LCM",
+    "body_markdown": "(a) Two cars left the same place at 9.51p.m,, one to town P and the other to town Q.\nThe car to town P took 4.95 hours.\nFind the time it arrived.\n(ii) The other car arrived at town Q at 5.37a.m:\nFind, in hours and minutes, the time taken:\n(b)Given the matrices:\n Find \n(i)(-1/2)P \n(ii) 2Q - R",
     "latex": "",
     "total_marks": 9,
     "images": [
@@ -5566,7 +5566,7 @@
     "original_num": 11,
     "topic": "Number",
     "title": "Sets",
-    "body_markdown": " The office invited 40 people for an interview. \n 10 were called using mobile phone M. \n 20 were called using landline phone L. \n 12 were neither contacted by landline phone nor mobile phone. The Venn diagram represents this information. \n(a) Find the values of x , y and z in the Venn diagram. \n(b) Find n(M U L)',\n(ii) n(M' U L):\n(c) Use set notation to represent the number of people who were conducted by landline phone only.",
+    "body_markdown": "The office invited 40 people for an interview. \n 10 were called using mobile phone M. \n 20 were called using landline phone L. \n 12 were neither contacted by landline phone nor mobile phone. The Venn diagram represents this information. \n(a) Find the values of x , y and z in the Venn diagram. \n(b) Find n(M U L)',\n(ii) n(M' U L):\n(c) Use set notation to represent the number of people who were conducted by landline phone only.",
     "latex": "",
     "total_marks": 8,
     "images": [
@@ -5574,7 +5574,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q11",
+    "id": "2025P4-Q11",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 11,
@@ -5680,7 +5680,7 @@
     ]
   },
   {
-    "id": "2025P42025-Q12",
+    "id": "2025P4-Q12",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 12,
@@ -5775,7 +5775,7 @@
     "images": []
   },
   {
-    "id": "2025P42025-Q13",
+    "id": "2025P4-Q13",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 13,
@@ -5839,7 +5839,7 @@
     "images": []
   },
   {
-    "id": "2025P42025-Q14",
+    "id": "2025P4-Q14",
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 14,
@@ -6153,7 +6153,7 @@
     ]
   },
   {
-    "id": "2025Q21",
+    "id": "2025P1-Q21",
     "year": 2025,
     "paper": "P1 2025",
     "original_num": 21,
@@ -6208,5 +6208,306 @@
     "images": [
       "cm11.png"
     ]
+  },
+  {
+    "id": "2026P1MJCA-Q01",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 1,
+    "topic": "Number",
+    "title": "Types of numbers",
+    "body_markdown": "1.694,  sq.root of 18,  6,  6.666,  7,  sq.root of 225,  25,  27,  39,  56,  1000 \n From the list of numbers, write down an \n(a) even number \n(b) a factor of 28 \n(c) a square number \n(d) a prime number \n(e) irrational number",
+    "latex": "",
+    "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q02",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 2,
+    "topic": "Algebra",
+    "title": "Expressions",
+    "body_markdown": "(a) Bella is b years old. \n Alan is 5 years older than Bella. \n Write an expression; in terms of b, for how old Alan is. \n(b) Write an expression for the total cost, in cents, of x bags of sweets costing 65 cents each",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q03",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 3,
+    "topic": "Geometry",
+    "title": "Angles",
+    "body_markdown": "(a) Measure angle a \n(b) Write down the mathematical name for this type of angle.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "mth1.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q04",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 4,
+    "topic": "Geometry",
+    "title": "Circles",
+    "body_markdown": "Points A and B lie on a circle, centre O, as shown in the diagram.\n Write down the mathematical name for line AB. \n A  quadrilateral has  \n. four equal sides \n. no right angles \n .opposite angles that are equal. \n Write down the mathematical name for this quadrilateral.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "mth2.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q05",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 5,
+    "topic": "Number",
+    "title": "Fractions",
+    "body_markdown": "(a) Write 1/2 as a decimal.\n(b) Write 9/10 as a percentage. \n(c) Write 0.15 as a fraction in its simplest form.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q06",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 6,
+    "topic": "Geometry",
+    "title": "Construction",
+    "body_markdown": "Triangle ABC has sides AC = 7.4cm and BC = 4.6cm. \n Using a ruler and compasses only, construct triangle ABC.\n Leave in your construction arcs.  The side AB has been drawn for you.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "mth3.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q07",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 7,
+    "topic": "Probability",
+    "title": "Probability",
+    "body_markdown": "(a) Two fair 4-sided dice have faces numbered 1 to 4. \n The dice are thrown, and the numbers are multiplied to give a total.\n The table shows all the possible results.\n Find the probability the total is \n(i)12 \n(ii) 5 \n(iii) a number that is less than 20.\n(b) A biased 6-sided dice, numbered 1 to 6, is thrown. \n The probability of scoring the number 6 is 0.2. \n Work out the probability of scoring a number less than 6.",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "mth4.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q08",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 8,
+    "topic": "Number",
+    "title": "Directed numbers",
+    "body_markdown": "In a town, the lowest temperature one night is -12.6 degrees C. The highest temperature the next day is 25.7 degrees C.\n Calculate the difference between these two temperatures.",
+    "latex": "",
+    "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q09",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 9,
+    "topic": "Number",
+    "title": "Time",
+    "body_markdown": "When Ahmed gets out of bed he takes \n. 12 minutes to get dressed \n. 26 minutes to eat breakfast \n. 37 minutes to walk to the station. \n Ahmed must be at the station by 09 45.\n Work out the latest time Ahmed can get out of bed.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q10",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 10,
+    "topic": "Geometry",
+    "title": "Parallel lines",
+    "body_markdown": "The diagram shows two straight lines intersecting two parallel lines. \n Complete each of these statements with the correct geometrical reason. \n X = 67 because .................................................. \n y = 81 because .................................................. ",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "mth5.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q11",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 11,
+    "topic": "Geometry",
+    "title": "Nets",
+    "body_markdown": "On the 1cm\u00b2 grid, complete a net of this cuboid. One face has been drawn for you",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "mth6.png",
+      "mth7.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q12",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 12,
+    "topic": "Statistics",
+    "title": "Stem and Leaf",
+    "body_markdown": "The stem-and-leaf diagram shows the lengths, in centimetres, of 32 wooden planks.\n(a) Find the range.\n(b) Find the mode.\n(c) Find the median.\n(d) Find the fraction of all these planks which are less than 236cm.\n Write your answer as a fraction in its simplest form.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "mth8.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q13",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 13,
+    "topic": "Number",
+    "title": "Significant figures",
+    "body_markdown": "1 13 By writing each number in the calculation correct to 1 significant figure, work out an estimate for the value of (9.57 x 3.84)/(6.72 + 1.13) ",
+    "latex": "",
+    "total_marks": 0,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q14",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 14,
+    "topic": "Algebra",
+    "title": "Ratios",
+    "body_markdown": "A bag contains 45 balls. \n The balls are red or green. \n The balls are in the ratio red balls : green balls = 2 : 3 \n Carlos puts 4 more red balls and x more green balls into the bag. \n The balls are now in the ratio red balls green balls = 1 : 2.\n Find the value of x",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q15",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 15,
+    "topic": "Number",
+    "title": "Sets",
+    "body_markdown": "\n(a) 60 people complete a survey about hobbies. \n 41 people like reading books(R) \n 31 people like cookery(C) \n 11 do not like reading books and do not like cookery. \n(i) Complete the Venn diagram. \n(b) One of these 60 people is picked at random.\n Find the probability that they like cookery but they do not like reading books.\n(b) Shade A n B",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "mth9.png",
+      "mth10.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q16",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 16,
+    "topic": "Number",
+    "title": "LCM",
+    "body_markdown": "Buses at a station go to Alve or to Riba. \n Buses leave every 16 minutes for Alve.  \n Buses leave every 28 minutes for Riba. \n At 08 25 a bus for Alve and a bus for Riba leave the station together. \n Find the next time a bus for Alve and a bus for Riba leave the station together.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q17",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 17,
+    "topic": "Number",
+    "title": "Fractions",
+    "body_markdown": "Work out. 2(1/6) - 1(3/5).\n Write your answer as a fraction in its simplest form.",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q18",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 18,
+    "topic": "Algebra",
+    "title": "Graphs",
+    "body_markdown": "(a) Complete the table of values for y =x\u00b2 + x - 3.\n(b) On the grid, draw the graph of y=x\u00b2 + x - 3 for -4 < x 4. \n(c) Write down the equation of the line of symmetry of the graph. \n(d) Use your graph to solve the equation x\u00b2 + x - 3 = 0",
+    "latex": "",
+    "total_marks": 9,
+    "images": [
+      "mth11.png",
+      "mth12.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q19",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 19,
+    "topic": "Geometry",
+    "title": "Transformations",
+    "body_markdown": "(a) On the grid, draw the image of triangle T after a translation by the vector. \n(b) On the grid, draw the image of triangle T after a reflection in the line y = -1. \n(c) Describe fully the single transformation that maps triangle T onto triangle A. \n(d) Describe fully the single transformation that maps triangle T onto triangle B.",
+    "latex": "",
+    "total_marks": 10,
+    "images": [
+      "mth13.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q20",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 20,
+    "topic": "Geometry",
+    "title": "Straight line graphs",
+    "body_markdown": "The diagram shows line L on a grid.\n Find the equation of line L in the form y = mx+c.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "mth14.png"
+    ]
+  },
+  {
+    "id": "2026P1MJCA-Q21",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 21,
+    "topic": "Algebra",
+    "title": "Expressions",
+    "body_markdown": "(a) Make T the subject of the formula. P = Ty \n(b) Expand the brackets and simplify: (x+8)(x-5)",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q22",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 22,
+    "topic": "Algebra",
+    "title": "Time",
+    "body_markdown": "The time, t seconds, for the winner of a race is 12.7 seconds, correct to 3 significant figures.\n Find the Upper and Lower Bound of time.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2026P1MJCA-Q23",
+    "year": 2026,
+    "paper": "P1 2026",
+    "original_num": 23,
+    "topic": "Algebra",
+    "title": "Equations",
+    "body_markdown": "Solve the simultaneous equations. \n 2x - 3y = 12 \n 3x + 4y = 1",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
   }
 ]

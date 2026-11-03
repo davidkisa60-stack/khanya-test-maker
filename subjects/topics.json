@@ -8,12 +8,6 @@
   "physical_science": [
     "Physics - Mechanics", "Physics - Waves & Sound", "Physics - Electricity", "Physics - Heat", "Chemistry - Matter", "Chemistry - Chemical Reactions", "Chemistry - Organic", "Earth Science"
   ],
-  "physics": [
-    "Mechanics", "Waves", "Electricity & Magnetism", "Thermal Physics", "Modern Physics", "Nuclear Physics", "Astrophysics"
-  ],
-  "chemistry": [
-    "Atomic Structure", "Chemical Bonding", "Stoichiometry", "Acids & Bases", "Redox Reactions", "Organic Chemistry", "Physical Chemistry", "Industrial Chemistry"
-  ],
   "economics": [
     "Microeconomics", "Macroeconomics", "International Trade", "Development Economics", "Market Structures", "Government Intervention", "Economic Indicators"
   ],
