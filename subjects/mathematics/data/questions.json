@@ -92,7 +92,7 @@
     "original_num": 8,
     "topic": "Algebra",
     "title": "Simultaneous equations",
-    "body_markdown": "Solve the simultaneous equations:\n\n5x + 2y = 14\n2x - 3y = 17",
+    "body_markdown": "Solve the simultaneous equations:\n 5x + 2y = 14\n 2x - 3y = 17",
     "latex": "",
     "total_marks": 3,
     "images": []
@@ -104,12 +104,10 @@
     "original_num": 9,
     "topic": "Algebra",
     "title": "Algebraic expression",
-    "body_markdown": "Express s in terms of r and t.",
+    "body_markdown": "Express s in terms of r and t.\n\n 1/r = 2/s + 3/t",
     "latex": "",
     "total_marks": 3,
-    "images": [
-      "Pg5_img00.png"
-    ]
+    "images": []
   },
   {
     "id": "2014P1-Q10",
@@ -158,7 +156,7 @@
     "original_num": 13,
     "topic": "Algebra",
     "title": "Simplify and evaluate powers",
-    "body_markdown": "(a) Simplify (5x\u00b2)\u00b3.\n\n(b) Evaluate each of the following:\n\n(i) 5\u00b3 + 5\u00b2 + 5\u00b9 + 5\u2070\n\n(ii) 16^{3/2}",
+    "body_markdown": "(a) Simplify (5x\u00b2)\u00b3.\n\n(b) Evaluate each of the following:\n\n(i) 5\u00b3 + 5\u00b2 + 5\u00b9 + 5\u2070\n\n(ii) 16 \u00b3 \u2044 \u00b2",
     "latex": "",
     "total_marks": 4,
     "images": []
@@ -261,7 +259,7 @@
     "year": 2014,
     "paper": "P1 2014",
     "original_num": 21,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Speed-time graphs",
     "body_markdown": "The diagram shows the speed-time graphs of two remote controlled toy cars, Toy Red and Toy Black.\n\n(a) Describe the motion of Toy Red between t = 10 and t = 15.\n\n(b) Find the times at which both cars travel at the same speed.\n\n(c) Calculate the area under the graph for Toy Red between t = 0 and t = 10.\n\nWhat does this area represent?\n\n(d) Calculate the time, between t = 5 and t = 10, when both cars had travelled the same distance. Give your answer as a mixed number in its simplest form.",
     "latex": "",
@@ -605,7 +603,7 @@
     "original_num": 1,
     "topic": "Algebra",
     "title": "straight line graphs",
-    "body_markdown": "straight line K joins points A(-1,a), B(1,1) and C(3, -5).\na) Given that B is the midpoint of AC, find the value of a.\nAnswer (a7\n[2]\n(b_\nCalculate the gradient of the line K\nAnswer (b)\n[2]\nAnother straight line Q which is parallel to line K has equation y = mx + 1. State the value of m_\nAnswer\nm\nA point D has coordinates (d,9). Given that the length of the line joining B and D is 10 units, find two possible values of d\nAnswer (d) d\nor\n[3]\n17",
+    "body_markdown": "straight line K joins points A(-1,a), B(1,1) and C(3, -5).\na) Given that B is the midpoint of AC, find the value of a.\n(b) Calculate the gradient of the line K\n(c) Another straight line Q which is parallel to line K has equation y = mx + 1. State the value of m \n A point D has coordinates (d,9). \n(d) Given that the length of the line joining B and D is 10 units, find two possible values of d",
     "latex": "",
     "total_marks": 8,
     "images": []
@@ -917,9 +915,9 @@
     "year": 2017,
     "paper": "P4 2017",
     "original_num": 9,
-    "topic": "Number",
-    "title": "The diagram shows a rescue boat R, a yacht Y and a ship S.",
-    "body_markdown": "The diagram shows a rescue boat R, a yacht Y and a ship S. S is on the bearing of 120 from R at a distance of 350 km. Y is on the bearing of 220 from S at the distance of 170 km\nShow that angle RSY = 80.\n(b\nBoth the yacht and the ship need help from the rescue boat.\nWhich one would the rescue boat reach first, the yacht or the ship? Show your working clearly.\nThe rescue boat radios to the yacht and the boat to sail to a point M, the midpoint of SY\nPoint M is 345.5 km away from R as shown.\nFind the bearing on which the rescue boat should sail to get to M",
+    "topic": "Geometry",
+    "title": "Bearings",
+    "body_markdown": "The diagram shows a rescue boat R, a yacht Y and a ship S. S is on the bearing of 120 from R at a distance of 350 km. Y is on the bearing of 220 from S at the distance of 170 km\n Show that angle RSY = 80.\n(b) Both the yacht and the ship need help from the rescue boat.\n Which one would the rescue boat reach first, the yacht or the ship? Show your working clearly.\n The rescue boat radios to the yacht and the boat to sail to a point M, the midpoint of SY\nPoint M is 345.5 km away from R as shown.\nFind the bearing on which the rescue boat should sail to get to M",
     "latex": "",
     "total_marks": 10,
     "images": [
@@ -1028,7 +1026,7 @@
     "year": 2017,
     "paper": "P2 2017",
     "original_num": 13,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Speed-time graph",
     "body_markdown": "The speed-time graph shows the journey of a car.\n\n(a) Find the acceleration in the first 10 seconds.\n\n(b) Calculate the total distance travelled during the journey.",
     "latex": "",
@@ -1097,7 +1095,7 @@
     "original_num": 1,
     "topic": "Algebra",
     "title": "Matrices - scalar multiple, add, transpose",
-    "body_markdown": "Find the following matrices:\n\n(a) 3A\n\n(b) A + B\n\n(c) B^T",
+    "body_markdown": "Find the following matrices:\n\n(a) 3A\n\n(b) A + B\n\n(c) B\u00b2",
     "latex": "",
     "total_marks": 4,
     "images": [
@@ -1105,7 +1103,7 @@
     ]
   },
   {
-    "id": "2018Q01",
+    "id": "2018P1-Q01",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 1,
@@ -1155,7 +1153,7 @@
     "images": []
   },
   {
-    "id": "2018Q02",
+    "id": "2018P1-Q02",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 2,
@@ -1310,7 +1308,7 @@
     ]
   },
   {
-    "id": "2018Q05",
+    "id": "2018P1-Q05",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 5,
@@ -1354,7 +1352,7 @@
     "original_num": 6,
     "topic": "Geometry",
     "title": "Circle theorems - tangent, parallel, angles",
-    "body_markdown": "In the diagram, P, Q, R and S are points on the circle with centre O.\n\nAngle PQO = 30\u00b0 and TOQ is a straight line.\nPQ is parallel to SR and TP is a tangent to the circle at P.\n\nState the size of angle QSR and give a reason for your answer.\n\n(b) Calculate:\n\n(i) angle SPO\n\n(ii) angle TSP",
+    "body_markdown": "In the diagram, P, Q, R and S are points on the circle with centre O.\n\nAngle PQO = 30\u00b0 and TOQ is a straight line.\nPQ is parallel to SR and TP is a tangent to the circle at P.\n(a) State the size of angle QSR and give a reason for your answer.\n\n(b) Calculate:\n\n(i) angle SPO\n\n(ii) angle TSP",
     "latex": "",
     "total_marks": 5,
     "images": [
@@ -1380,9 +1378,9 @@
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 7,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Speed, distance and time",
-    "body_markdown": "A car travels 50 km at a speed of 40 km/h. The journey starts at 12:10.\nWork out the time the journey finishes.",
+    "body_markdown": "A car travels 50 km at a speed of 40 km/h. The journey starts at 12:10.\n Work out the time the journey finishes.",
     "latex": "",
     "total_marks": 2,
     "images": []
@@ -1412,7 +1410,7 @@
     "images": []
   },
   {
-    "id": "2018Q07",
+    "id": "2018P1-Q07",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 7,
@@ -1466,7 +1464,7 @@
     "images": []
   },
   {
-    "id": "2018Q08",
+    "id": "2018P1-Q08",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 8,
@@ -1520,7 +1518,7 @@
     ]
   },
   {
-    "id": "2018Q09",
+    "id": "2018P1-Q09",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 9,
@@ -1574,7 +1572,7 @@
     ]
   },
   {
-    "id": "2018Q10",
+    "id": "2018P1-Q10",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 10,
@@ -1606,7 +1604,7 @@
     "year": 2018,
     "paper": "P2 2018",
     "original_num": 11,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Speed-time graph of a toy truck",
     "body_markdown": "The diagram shows the speed-time graph of a toy truck.\n\nCalculate:\n(a) the acceleration during the first 40 seconds\n(b) the time, in seconds, it takes to reach the speed of 15 m/s for the first time\n(c) the total distance travelled in metres.",
     "latex": "",
@@ -1630,7 +1628,7 @@
     ]
   },
   {
-    "id": "2018Q11",
+    "id": "2018P1-Q11",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 11,
@@ -1682,7 +1680,7 @@
     ]
   },
   {
-    "id": "2018Q12",
+    "id": "2018P1-Q12",
     "year": 2018,
     "paper": "P1 2018",
     "original_num": 12,
@@ -1712,7 +1710,7 @@
     "year": 2018,
     "paper": "P3 2018",
     "original_num": 13,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Travel graph - journey to hospital",
     "body_markdown": "The travel graph shows Mpho's journey to and from a hospital.\n\n(a) (i) Describe Mpho's motion at 08:00 hours.\n\n(ii) Find the time at which he arrives at the hospital.\n\n(b) For how long does he stay at the hospital?\n\n(c) Calculate Mpho's average speed, in km/h, on his way to the hospital.",
     "latex": "",
@@ -1814,7 +1812,7 @@
     "original_num": 2,
     "topic": "Geometry",
     "title": "Construction and Locus",
-    "body_markdown": "The diagram shows a quadrilateral ABCD.\n(a) Explain why A, B; C and D lie on a circle.\n(b) Find, by construction, the point O, equidistant from all the vertices\n(c) Find, by accurate construction; the region; inside the quadrilateral, containing the points, P such that\nP lies nearer t0 CD than DA, \nP lies nearer to CD than CB.\nShade this region.\n(d) Describe the locus of a point Q which is equidistant from AB and BC, if Q lies.\n on the plane ABCD;\n in space",
+    "body_markdown": "The diagram shows a quadrilateral ABCD.\n(a) Explain why A, B; C and D lie on a circle.\n(b) Find, by construction, the point O, equidistant from all the vertices\n(c) Find, by accurate construction; the region; inside the quadrilateral, containing the points, P such that\nP lies nearer to CD than DA, \nP lies nearer to CD than CB.\nShade this region.\n(d) Describe the locus of a point Q which is equidistant from AB and BC, if Q lies.\n on the plane ABCD;\n in space",
     "latex": "",
     "total_marks": 9,
     "images": [
@@ -1842,7 +1840,7 @@
     "original_num": 3,
     "topic": "Algebra",
     "title": "Functions",
-    "body_markdown": "f(x) = 1/x \nFind:\n(i) f(3) \n(ii)f(k/4), in terms of k \n(iii) k if f(2 - (k/4)) = 2 \n(iv) ff(8^k - k/5), in terms of k \n(b) Another function g(x) is such that:g(192) = 850,and g^-1(x) exists.\nFind g^-1 g(192).\n(c) Simplify f(x) f(x) - ff(x).\nGive your answer as a single fraction, in terms of x",
+    "body_markdown": "f(x) = 1/x \nFind:\n(i) f(3) \n(ii)f(k/4), in terms of k \n(iii) k if f(2 - (k/4)) = 2 \n(iv) ff(8\u1D4F - k/5), in terms of k \n(b) Another function g(x) is such that:g(192) = 850,and g\u207B \u00B9(x) exists.\n Find g\u207B \u00B9g(192).\n(c) Simplify f(x) f(x) - ff(x).\nGive your answer as a single fraction, in terms of x",
     "latex": "",
     "total_marks": 9,
     "images": []
@@ -1918,7 +1916,7 @@
     "original_num": 6,
     "topic": "Algebra",
     "title": "Functions",
-    "body_markdown": "The diagram shows the graph of y = f(x) for -2 < x < 1.5.\n(a) Using the graph, find;\n(i) f(-1)\n(ii) the values of x for which f(x) = 4.\n(iii) By drawing tangents appropriately on the graph of y = f(x); find the range of values within which f(x) has exactly three solutions \n(b) The table shows the values of h(x) = (2/x) + 3; x is not = 0 for -2.5 < x < 2.5.\n0.\nComplete the table.\n On the grid above, draw the graph of y = h(x)\n(iii) Use your graph to solve the equation h(x) = f(x)",
+    "body_markdown": "The diagram shows the graph of y = f(x) for -2 < x < 1.5.\n(a) Using the graph, find;\n(i) f(-1)\n(ii) the values of x for which f(x) = 4.\n(iii) By drawing tangents appropriately on the graph of y = f(x); find the range of values within which f(x) has exactly three solutions \n(b) The table shows the values of h(x) = (2/x) + 3; x is not = 0 for -2.5 < x < 2.5.\nComplete the table.\n On the grid above, draw the graph of y = h(x)\n(iii) Use your graph to solve the equation h(x) = f(x)",
     "latex": "",
     "total_marks": 13,
     "images": [
@@ -2007,7 +2005,7 @@
     "original_num": 10,
     "topic": "Probability",
     "title": "Probability with two bags of coloured balls",
-    "body_markdown": "Bags A and B contain balls of the same shape and size.\n\nBag A contains 4 red balls and 2 yellow balls.\nBag B contains 2 red balls and 3 yellow balls.\n\nA ball is drawn at random from each bag.\n\n(a) Find the probability that both balls are of the same colour.\n\n(b) Two balls are drawn at random from each bag, one at a time.\nFind the probability that:\n(i) the two balls drawn from bag A or bag B are red\n(ii) all the four balls drawn are red.",
+    "body_markdown": "Bags A and B contain balls of the same shape and size.\n\nBag A contains 4 red balls and 2 yellow balls.\nBag B contains 2 red balls and 3 yellow balls.\n A ball is drawn at random from each bag.\n(a) Find the probability that both balls are of the same colour.\n(b) Two balls are drawn at random from each bag, one at a time.\nFind the probability that:\n(i) the two balls drawn from bag A or bag B are red\n(ii) all the four balls drawn are red.",
     "latex": "",
     "total_marks": 5,
     "images": []
@@ -2205,7 +2203,7 @@
     "original_num": 6,
     "topic": "Geometry",
     "title": "The diagram shows a triangle ABC.",
-    "body_markdown": "The diagram shows a triangle ABC.\nB\n(a) Measure and write the length of BC.\n(b)(i)\n By construction show all the points inside triangle ABC, that are\n(a) 1.5 cm from AC \n(b) equidistant from C and A \n(ii) Shade the region; inside triangle ABC, of points that are \nmore than 1.5 cm from AC\nand\nnearer to C than to A.",
+    "body_markdown": "The diagram shows a triangle ABC.\n(a) Measure and write the length of BC.\n(b)(i)By construction show all the points inside triangle ABC, that are\n(a) 1.5 cm from AC \n(b) equidistant from C and A \n(ii) Shade the region; inside triangle ABC, of points that are \nmore than 1.5 cm from AC and nearer to C than to A.",
     "latex": "",
     "total_marks": 6,
     "images": [
@@ -2432,7 +2430,7 @@
     "original_num": 12,
     "topic": "Geometry",
     "title": "Sector and rectangle - cylindrical cake slice",
-    "body_markdown": "The diagram shows a side view of a slice of a cylindrical cake.\nThe top of the slice is a sector of angle 45\u00b0 while the side is a rectangle of dimensions 24 cm by 20 cm as shown.\n\n20 cm\n45\u00b0\n24 cm\nSide",
+    "body_markdown": "The diagram shows a side view of a slice of a cylindrical cake.\nThe top of the slice is a sector of angle 45\u00b0 while the side is a rectangle of dimensions 24 cm by 20 cm as shown.",
     "latex": "",
     "total_marks": 5,
     "images": [
@@ -2444,7 +2442,7 @@
     "year": 2021,
     "paper": "P2 2021",
     "original_num": 12,
-    "topic": "Sets",
+    "topic": "Number",
     "title": "Sets",
     "body_markdown": "In a class of 50 students, some take part in Football(F), Singing(S) and Athletics(A).\nThe venn diagram shows part of the information.\n\n(a) Find the number of students who donot take part in any of the activities. \n\n(b) Use set notation to describe what 7 represents.",
     "latex": "",
@@ -2561,7 +2559,7 @@
     "year": 2021,
     "paper": "P2 2021",
     "original_num": 19,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Speed-time graph - distance in terms of x",
     "body_markdown": "The diagram shows a speed-time graph.\nFind an expression in terms of x for the total distance travelled.\nGive your answer in its simplest form.",
     "latex": "",
@@ -2599,7 +2597,7 @@
     "year": 2022,
     "paper": "P4 2022 (May/June)",
     "original_num": 1,
-    "topic": "Sets",
+    "topic": "Number",
     "title": "Venn diagrams",
     "body_markdown": "The Venn diagram shows sets A, B and C inside the universal set of the first 15 positive integers. \n(a\nList the elements of\nB n C,\n(ii)\nA' n B' U C \n(b)\nDescribe in words.\n(i)Set C \n(ii)Set B.\n(c) Find n(A n C').",
     "latex": "",
@@ -2653,7 +2651,7 @@
     "original_num": 1,
     "topic": "Number",
     "title": "Operations",
-    "body_markdown": "\n(a) Work out.\n(i) 2.5 X 0.2 \n(ii) 2/3 - 3/5 \n(b) Evaluate 25 - 4 divided by 20%",
+    "body_markdown": "\n(a) Work out.\n(i) 2.5 X 0.2 \n(ii) 2/3 - 3/5 \n(b) Evaluate 25 - 4 \u00F7 20%",
     "latex": "",
     "total_marks": 4,
     "images": []
@@ -2928,7 +2926,7 @@
     "year": 2022,
     "paper": "P4 2022 (May/June)",
     "original_num": 6,
-    "topic": "Number",
+    "topic": "Geometry",
     "title": "Transformations",
     "body_markdown": "The diagram shows triangles A and B \n(a) Draw the image of triangle A after \n(i)reflection in the line y = 2 \n(ii)a rotation of 180 around (-1,0).\n(b)\nDescribe fully the single transformation \n(i) that maps triangle A onto triangle B,\nrepresented by the matrix below",
     "latex": "",
@@ -3134,7 +3132,7 @@
     "year": 2022,
     "paper": "P4 2022 (May/June)",
     "original_num": 9,
-    "topic": "Number",
+    "topic": "Geometry",
     "title": "Trigonometry",
     "body_markdown": "Figure (a) hows a rectangular slab ABCD with length 5cm and width 2.6m. The slab rests on a horizontal ground BE and leans against a wall EC. \n Angle BCE = 28 and angle CBE = 62.\n(i) Show that BEC is a right angled triangle.\n(ii) Find EC \n(iii) Calculate the height of D above the ground.\n(iv)The slab is now rotated about the point B so that corner A now rests on the ground as shown in Figure (b).\nCalculate the distance moved by point A during the rotation. \n(b)The diagram shows the position of a hospital, H, on bearing of 116 from a church C. A school, S, is on a bearing of 242 from the church: SC = 38m and CH = 102 m.\n(i)Show that the size of the obtuse angle SCH is 126 \n(ii)Calculate the length SH , giving your answer correct to the nearest metre.",
     "latex": "",
@@ -3276,7 +3274,7 @@
     "latex": "",
     "total_marks": 6,
     "images": [
-      "c11.png",
+      "cw11.png",
       "cw12.png"
     ]
   },
@@ -3404,9 +3402,9 @@
     "original_num": 2,
     "topic": "Number",
     "title": "Fractions and Decimals",
-    "body_markdown": "Evaluate.\n(a) 3.6 divided by 0.03\n(b) 3 (1/8) x 3 (1/5) \n(a) By rounding each number in the calculation correct t0 one significant figure, estimate the 5.62 * 230 value of 0.34\n[2]\n(b) Express 360 as a product of its prime factors.\n[2]\nECoL 2023\n0178/01/O/N/23",
+    "body_markdown": "Evaluate.\n(a) 3.6 divided by 0.03\n(b) 3 (1/8) x 3 (1/5) \n(c) By rounding each number in the calculation correct tO one significant figure, estimate the value of (5.62 x 230)\u00F7 0.34\n(d) Express 360 as a product of its prime factors",
     "latex": "",
-    "total_marks": 3,
+    "total_marks": 7,
     "images": []
   },
   {
@@ -3950,7 +3948,7 @@
     "year": 2024,
     "paper": "P2 2024",
     "original_num": 6,
-    "topic": "Sets",
+    "topic": "Number",
     "title": "Venn diagram",
     "body_markdown": "The Venn diagram shows the number of students who play football (F), netball (N) or volleyball (V).\n\nFind:\n(a) the number of students who play volleyball.\n\n(b) n((F \u222a N) \u2229 V').",
     "latex": "",
@@ -4111,7 +4109,7 @@
   {
     "id": "2024P1-Q11",
     "original_num": 11,
-    "topic": "Sets",
+    "topic": "Number",
     "title": "Venn diagram elements",
     "body_markdown": "Venn diagram shows elements of the universal set, set A and set B.\n\n(a) Use set notation to complete the statement:\n\n{a, b, c} .................... A\n\n(b) Find\n\n(i) A \u2229 B, \n\n(ii) n(A \u222a B)'. \n\n(c) Draw and shade A' \u2229 B.",
     "latex": "The Venn diagram shows elements of the universal set, set $A$ and set $B$.\n\n\\begin{enumerate}[label=(\\alph*)]\n\\item Use set notation to complete the statement: $\\{a, b, c\\} \\ldots\\ldots A$.\n\\item Find\n  \\begin{enumerate}[label=(\\roman*)]\n  \\item $A \\cap B$.\n  \\item $n(A \\cup B)'$.\n  \\end{enumerate}\n\\item Shade $A' \\cap B$.\n\\end{enumerate}",
@@ -4218,7 +4216,7 @@
     "year": 2024,
     "paper": "P3 2024",
     "original_num": 13,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Distance-time graph - cycling journey",
     "body_markdown": "Sampu cycles from home to Putsoa Lodge. The distance-time graph represents his journey.\n\n(a) Find\n\n(i) the distance Sampu cycled after 1 hour and 30 minutes.\n\n(ii) the time at which Sampu had covered 15 km.\n\n(b) Calculate Sampu's average speed from home to Putsoa Lodge. Give your answer in kilometres per hour.\n\n(c) Sampu stayed at Putsoa Lodge for 45 minutes. He then cycled back home at the constant speed of 32 km/h.\n\nComplete the travel journey for Sampu on the grid.\n\n(d) Change 32 km/h to metres per second (m/s).",
     "latex": "",
@@ -4404,7 +4402,7 @@
     "year": 2024,
     "paper": "P2 2024",
     "original_num": 21,
-    "topic": "Number",
+    "topic": "Algebra",
     "title": "Speed-time graph - distance",
     "body_markdown": "The diagram shows a speed-time graph of an object.\n\nCalculate the total distance travelled after 12 seconds.",
     "latex": "",
@@ -4587,7 +4585,7 @@
     "year": 2025,
     "paper": "P4 2025",
     "original_num": 2,
-    "topic": "Sets",
+    "topic": "Number",
     "title": "Sets",
     "body_markdown": "(a)  Universal set = {x:x is whole number less than 12} \n A = {x:x is a prime number}. B= {x:x is the solution of 0 < x < 7}.\n Draw a Venn diagram to illustrate this information:\n(ii) State the value of n(A n B) \n(iii) List the elements of (B n A')\n(b) The ceremony was attended by 64 people: 40 people preferred fizzy drink: 36 people preferred fruit juice. 5 people preferred neither. Find the number of people who preferred both fizzy drink and fruit juice.",
     "latex": "",
@@ -4601,7 +4599,7 @@
     "original_num": 2,
     "topic": "Number",
     "title": "Fractions",
-    "body_markdown": " m = 2 X 3^a x 7^b and n = 3x7\u00b2 X 11 \n(a) Given that m > 126, find the smallest values of a and b which make m a multiple of 126.\n(b) Explain why 33n is a perfect square.",
+    "body_markdown": " m = 2 X 3\u1D43 x 7\u1D47 and n = 3 x 7\u00b2 X 11 \n(a) Given that m > 126, find the smallest values of a and b which make m a multiple of 126.\n(b) Explain why 33n is a perfect square.",
     "latex": "",
     "total_marks": 3,
     "images": []
@@ -4613,7 +4611,7 @@
     "original_num": 2,
     "topic": "Number",
     "title": "Product of Prime factors",
-    "body_markdown": "m = 2 X 3^a x 7^b and n = 3 x 7\u00b2 X 11 \n(a) Given that m > 126, find the smallest value of a and b which make m a multiple of 126.\n(b) Explain why 33n is a perfect square.",
+    "body_markdown": "m = 2 X 3\u1D43 x 7\u1D47 and n = 3 x 7\u00b2 X 11 \n(a) Given that m > 126, find the smallest value of a and b which make m a multiple of 126.\n(b) Explain why 33n is a perfect square.",
     "latex": "",
     "total_marks": 3,
     "images": []
@@ -4689,7 +4687,7 @@
     "original_num": 3,
     "topic": "Probability",
     "title": "Probability",
-    "body_markdown": "In bowl A there are three red balls and one blue ball: In bowl B there are two red balls and three blue balls.\n A ball is randomly selected from each bowl:.\n(a) Find the probability that\n(i)\n only blue balls are selected,\n(ii) balls of the same colour are selected \n(iii) at least one red ball is selected.\n(b) Find the number of red balls to be added in bowl B such that the probability of selecting a red ball is 2/3",
+    "body_markdown": "In bowl A there are three red balls and one blue ball: In bowl B there are two red balls and three blue balls.\n A ball is randomly selected from each bowl.\n(a) Find the probability that\n(i) only blue balls are selected\n(ii) balls of the same colour are selected \n(iii) at least one red ball is selected.\n(b) Find the number of red balls to be added in bowl B such that the probability of selecting a red ball is 2/3",
     "latex": "",
     "total_marks": 8,
     "images": []
@@ -4713,7 +4711,7 @@
     "original_num": 3,
     "topic": "Algebra",
     "title": "Indices",
-    "body_markdown": " Given (5/6) x (486/625) = (x^4/5^y) \nfind the value of x and the value of y.",
+    "body_markdown": " Given (5/6) x (486/625) = (x\u2074/5\u02B8) \n Find the value of x and the value of y.",
     "latex": "",
     "total_marks": 3,
     "images": []
@@ -4834,7 +4832,7 @@
     "original_num": 4,
     "topic": "Algebra",
     "title": "Equations",
-    "body_markdown": "(a) Given that a + b = 9 and a\u00b2 + b\u00b2 =71,find the value of (ab)\u00b3 \n(b) Factorise completely. x\u00b2 - x - 20 \n(c) T = 2pi x square root (l/g). \n Find T when l = 22.8 and g = 9.8.\n(d) Express as a single fraction in its simplest form:\n (a + 2)/4 + (a + 3)/5. \n(e) The table shows the number of days and the number of people who visit the gym.\n(i) Find the greatest possible value of a such that the median is 3.\n(ii) Write an expression; in terms of a, for the mean:",
+    "body_markdown": "(a) Given that a + b = 9 and a\u00b2 + b\u00b2 =71,find the value of (ab)\u00b3 \n(b) Factorise completely. x\u00b2 - x - 20 \n(c) T = 2\u03C0 \u221A(l/g). \n Find T when l = 22.8 and g = 9.8.\n(d) Express as a single fraction in its simplest form:\n (a + 2)/4 + (a + 3)/5. \n(e) The table shows the number of days and the number of people who visit the gym.\n(i) Find the greatest possible value of a such that the median is 3.\n(ii) Write an expression; in terms of a, for the mean:",
     "latex": "",
     "total_marks": 13,
     "images": [
@@ -4848,7 +4846,7 @@
     "original_num": 4,
     "topic": "Algebra",
     "title": "Expressions",
-    "body_markdown": "(a) Factorise completely. \n(i) x\u00b2 - x - 20.\n(ii) Hence , simplify (x\u00b2 - 25)/(x\u00b2 - x - 20). \n(b) T = 2pi x squareroot (l/g). \n(i) Find T when l = 22.8 and g = 9.8.\n(ii) Express g in terms of pi, T and L.\n(c) Express as a single fraction in its simplest form:\n (a + 2)/4 + (a + 3)/5",
+    "body_markdown": "(a) Factorise completely. \n(i) x\u00b2 - x - 20.\n(ii) Hence , simplify (x\u00b2 - 25)/(x\u00b2 - x - 20). \n(b) T = 2\u03C0 \u221A(l/g). \n(i) Find T when l = 22.8 and g = 9.8.\n(ii) Express g in terms of pi, T and L.\n(c) Express as a single fraction in its simplest form:\n (a + 2)/4 + (a + 3)/5",
     "latex": "",
     "total_marks": 12,
     "images": []
@@ -5007,7 +5005,7 @@
     "original_num": 6,
     "topic": "Algebra",
     "title": "Functions",
-    "body_markdown": "h(x) = 2x - 5 and g(x) = x\u00b2 + 1,\n(a) Find\n(i) g(-6) - 3 \n(ii) h-lg(x), in its simplest form.\n(b) 2g(x) - h(x) can be expressed in the form px\u00b2 + qx + 7, where p and q are integers.\n Find the value of p and the value of q.\n(c) Find the value of x for which xh(x) - 2g(x) = -12.",
+    "body_markdown": "h(x) = 2x - 5 and g(x) = x\u00b2 + 1,\n(a) Find\n(i) g(-6) - 3 \n(ii) h(x) - g(x), in its simplest form.\n(b) 2g(x) - h(x) can be expressed in the form px\u00b2 + qx + 7, where p and q are integers.\n Find the value of p and the value of q.\n(c) Find the value of x for which xh(x) - 2g(x) = -12.",
     "latex": "",
     "total_marks": 11,
     "images": []
@@ -5017,9 +5015,9 @@
     "year": 2025,
     "paper": "P1 2025",
     "original_num": 6,
-    "topic": "Geometry",
-    "title": "Areas",
-    "body_markdown": " Evaluate \n(a) 1/9^-2   \n(b) square root of 2 (1/4).",
+    "topic": "Algebra",
+    "title": "Indicies",
+    "body_markdown": " Evaluate \n(a) (1/9)\u207B\u00b2 \n(b) \u221A 2(1/4).",
     "latex": "",
     "total_marks": 4,
     "images": []
@@ -5171,7 +5169,7 @@
     "original_num": 7,
     "topic": "Probability",
     "title": "Probability",
-    "body_markdown": " There are 150 marbles in a box.\n 60 of the marbles are red while the others are green and blue.\n A marble is chosen at random; and the probability of choosing a green marble is 7/30. \n (a) Find the probability of choosing \n(i) a red marble.\n(ii) a blue marble.\n(b) A marble is chosen at random, observed; but not replaced. Another marble is then chosen and observed.\n Calculate the probability that one marble is red and the other is green.",
+    "body_markdown": " There are 150 marbles in a box.\n 60 of the marbles are red while the others are green and blue.\n A marble is chosen at random; and the probability of choosing a green marble is 7/30. \n(a) Find the probability of choosing \n(i) a red marble.\n(ii) a blue marble.\n(b) A marble is chosen at random, observed; but not replaced. Another marble is then chosen and observed.\n Calculate the probability that one marble is red and the other is green.",
     "latex": "",
     "total_marks": 7,
     "images": []
@@ -5305,7 +5303,7 @@
     "original_num": 9,
     "topic": "Algebra",
     "title": "Directed numbers",
-    "body_markdown": "n(a) A ceremony was attended by 64 people: 40 people preferred fizzy drink. 36 people preferred fruit juice: 5 people preferred neither.\nFind the number of people who preferred both fizzy drink and fruit juice.\n(b) The table shows the minimum and the maximum temperatures, correct to the nearest degrees, recorded in three places on a particular day. \n(i)State the place in which the lowest minimum temperature was recorded.\n(ii) Calculate the temperature difference in Oxbow:\n(iii) Find the least possible temperature recorded in Semonkong:\n(c) An item is warmed constantly from -5.5C to 27.3C in 8.2 minutes.\nCalculate, in minutes and seconds, the time it takes to reach 22C.",
+    "body_markdown": "(a) A ceremony was attended by 64 people: 40 people preferred fizzy drink. 36 people preferred fruit juice: 5 people preferred neither.\nFind the number of people who preferred both fizzy drink and fruit juice.\n(b) The table shows the minimum and the maximum temperatures, correct to the nearest degrees, recorded in three places on a particular day. \n(i)State the place in which the lowest minimum temperature was recorded.\n(ii) Calculate the temperature difference in Oxbow:\n(iii) Find the least possible temperature recorded in Semonkong:\n(c) An item is warmed constantly from -5.5C to 27.3C in 8.2 minutes.\nCalculate, in minutes and seconds, the time it takes to reach 22C.",
     "latex": "",
     "total_marks": 9,
     "images": [
@@ -5371,7 +5369,7 @@
     "original_num": 9,
     "topic": "Algebra",
     "title": "Expressions",
-    "body_markdown": "(a) Given that a + b = 9 and a\u00b2 + b\u00b2 = 71, find the value of (ab)^5.\n(b) Solve (1 + 2a)\u00b2 = 81. \n(c) If f(x) = x - 3/x \n(i) Find the value of x when f(x) = -2. \n(ii) Using the result from 9(c)(i) or otherwise, solve square root (2b - 3) - 3/ (square root (2b - 3)) = -2",
+    "body_markdown": "(a) Given that a + b = 9 and a\u00b2 + b\u00b2 = 71, find the value of (ab)\u2075.\n(b) Solve (1 + 2a)\u00b2 = 81. \n(c) If f(x) = x - 3/x \n(i) Find the value of x when f(x) = -2. \n(ii) Using the result from 9(c)(i) or otherwise, solve \u221A(2b - 3) - 3/ (\u221A(2b - 3)) = -2",
     "latex": "",
     "total_marks": 13,
     "images": []
@@ -6041,7 +6039,7 @@
     "original_num": 18,
     "topic": "Number",
     "title": "Estimations",
-    "body_markdown": " By rounding each number to one significant figure, estimate the value of (sq.root (8.7) X 0.25)/0.87.",
+    "body_markdown": " By rounding each number to one significant figure, estimate the value of (\u221A(8.7) X 0.25)/0.87.",
     "latex": "",
     "total_marks": 2,
     "images": []
@@ -6216,9 +6214,21 @@
     "original_num": 1,
     "topic": "Number",
     "title": "Types of numbers",
-    "body_markdown": "1.694,  sq.root of 18,  6,  6.666,  7,  sq.root of 225,  25,  27,  39,  56,  1000 \n From the list of numbers, write down an \n(a) even number \n(b) a factor of 28 \n(c) a square number \n(d) a prime number \n(e) irrational number",
+    "body_markdown": "1.694, \u221A18,  6,  6.666,  7,  \u221A225,  25,  27,  39,  56,  1000 \n From the list of numbers, write down an \n(a) even number \n(b) a factor of 28 \n(c) a square number \n(d) a prime number \n(e) irrational number",
     "latex": "",
     "total_marks": 5,
+    "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q01",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 1,
+    "topic": "Algebra",
+    "title": "Indicies",
+    "body_markdown": "Write down the value of 143\u00b0",
+    "latex": "",
+    "total_marks": 0,
     "images": []
   },
   {
@@ -6229,6 +6239,18 @@
     "topic": "Algebra",
     "title": "Expressions",
     "body_markdown": "(a) Bella is b years old. \n Alan is 5 years older than Bella. \n Write an expression; in terms of b, for how old Alan is. \n(b) Write an expression for the total cost, in cents, of x bags of sweets costing 65 cents each",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q02",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 2,
+    "topic": "Algebra",
+    "title": "Equations",
+    "body_markdown": " Solve 7x + 4 = 25",
     "latex": "",
     "total_marks": 2,
     "images": []
@@ -6248,6 +6270,18 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q03",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 3,
+    "topic": "Algebra",
+    "title": "Expressions",
+    "body_markdown": " Find the value of 4x\u00b2 +3y when x = 5 and y = 10",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
     "id": "2026P1MJCA-Q04",
     "year": 2026,
     "paper": "P1 2026",
@@ -6262,6 +6296,20 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q04",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 4,
+    "topic": "Geometry",
+    "title": "Areas",
+    "body_markdown": "The diagram shows a rectangle with width 6cm. \n The width of the rectangle is 1/12 of the perimeter of the rectangle. \n Work out the length of the rectangle.",
+    "latex": "",
+    "total_marks": 0,
+    "images": [
+      "mth15.png"
+    ]
+  },
+  {
     "id": "2026P1MJCA-Q05",
     "year": 2026,
     "paper": "P1 2026",
@@ -6272,6 +6320,20 @@
     "latex": "",
     "total_marks": 3,
     "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q05",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 5,
+    "topic": "Statistics",
+    "title": "Bar charts",
+    "body_markdown": "For four months, Hannah records the amount of time that she spends swimming, running and cycling. The composite bar chart shows this information.\n(a) Complete the statement with the correct month.\n Hannah spends more time running in ....................... than in any of the other months.\n(b) In May, Hannah spends 9 more hours swimming than she spends cycling. \n Find the number of hours Hannah spends swimming in July.",
+    "latex": "",
+    "total_marks": 2,
+    "images": [
+      "mth15.png"
+    ]
   },
   {
     "id": "2026P1MJCA-Q06",
@@ -6288,6 +6350,18 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q06",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 6,
+    "topic": "Algebra",
+    "title": "Equations",
+    "body_markdown": "Solve the simultaneous equations. \n 2x - y = 3 \n x + y = 12",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
     "id": "2026P1MJCA-Q07",
     "year": 2026,
     "paper": "P1 2026",
@@ -6302,15 +6376,39 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q07",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 7,
+    "topic": "Geometry",
+    "title": "Bearings",
+    "body_markdown": "The diagram shows the positions of three ships P, Q and R.\n Ship Q is 40km due east of ship R. \n Ship P is 40km due north of ship Q. \n Work out the bearing of ship R from ship P.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
     "id": "2026P1MJCA-Q08",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 8,
     "topic": "Number",
     "title": "Directed numbers",
-    "body_markdown": "In a town, the lowest temperature one night is -12.6 degrees C. The highest temperature the next day is 25.7 degrees C.\n Calculate the difference between these two temperatures.",
+    "body_markdown": "In a town, the lowest temperature one night is -12.6\u00b0C. The highest temperature the next day is 25.7\u00b0C.\n Calculate the difference between these two temperatures.",
     "latex": "",
     "total_marks": 1,
+    "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q08",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 8,
+    "topic": "Geometry",
+    "title": "Vectors",
+    "body_markdown": "P is the point (0, 4) and Q is the point (1, 8).\n(a) Find the coordinates of the midpoint of PQ.\n(b) Find the vector QP.\n(c) The graph of y = x\u00b2 + ax + b passes through the points P and Q.\n This graph also passes through the  point (-2 , c).\n Find the value of c",
+    "latex": "",
+    "total_marks": 8,
     "images": []
   },
   {
@@ -6326,6 +6424,20 @@
     "images": []
   },
   {
+    "id": "2026P2MJCA-Q09",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 9,
+    "topic": "Number",
+    "title": "Set shading",
+    "body_markdown": "In this Venn diagram, shade the region A' U B",
+    "latex": "",
+    "total_marks": 1,
+    "images": [
+      "mth17.png"
+    ]
+  },
+  {
     "id": "2026P1MJCA-Q10",
     "year": 2026,
     "paper": "P1 2026",
@@ -6338,6 +6450,18 @@
     "images": [
       "mth5.png"
     ]
+  },
+  {
+    "id": "2026P2MJCA-Q10",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 10,
+    "topic": "Number",
+    "title": "Prime factorisation",
+    "body_markdown": "(a) 24192 = 2\u2077 x 3\u00b3 x 7 \n 245000 = 2\u00b3 x 5\u2074 x 7\u00b2.\n Find the highest common factor (HCF) of 24192 and 245 000.\n(b) A number, k, is written as product of its prime factors.\n k = 2\u00b3 x 3^4 x 5 x c \n where c is a prime number greater than 5. \n Write the number 20k\u00b2 as a product of its prime factors. \n Give your answer in terms of c in its simplest form",
+    "latex": "",
+    "total_marks": 3,
+    "images": []
   },
   {
     "id": "2026P1MJCA-Q11",
@@ -6355,6 +6479,18 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q11",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 11,
+    "topic": "Algebra",
+    "title": "Sequences",
+    "body_markdown": "A, B and C are linear sequences.The table gives some information about these sequences.\n Work out An the nth term of sequence A.\n(b) These are the first five terms of another sequence. \n 1/2, 1, 2, 4,  8 \n(i) Find the next term in this sequence.\n(ii) Find the nth term of this sequence.",
+    "latex": "",
+    "total_marks": 6,
+    "images": []
+  },
+  {
     "id": "2026P1MJCA-Q12",
     "year": 2026,
     "paper": "P1 2026",
@@ -6369,15 +6505,39 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q12",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 12,
+    "topic": "Algebra",
+    "title": "Coordinates",
+    "body_markdown": "The coordinates of A are (3, 20). The coordinates of B are (5, 10).\n Work out the gradient of AB.",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
     "id": "2026P1MJCA-Q13",
     "year": 2026,
     "paper": "P1 2026",
     "original_num": 13,
     "topic": "Number",
     "title": "Significant figures",
-    "body_markdown": "1 13 By writing each number in the calculation correct to 1 significant figure, work out an estimate for the value of (9.57 x 3.84)/(6.72 + 1.13) ",
+    "body_markdown": "By writing each number in the calculation correct to 1 significant figure, work out an estimate for the value of (9.57 \u00D7 3.84) \u00F7 (6.72 + 1.13)",
     "latex": "",
-    "total_marks": 0,
+    "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q13",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 13,
+    "topic": "Number",
+    "title": "Fractions",
+    "body_markdown": "(a) Work out \n 0.924 - 0.213 \n Give your answer as a decimal correct to 5 decimal places.\n Write 0.67 as a fraction",
+    "latex": "",
+    "total_marks": 2,
     "images": []
   },
   {
@@ -6391,6 +6551,21 @@
     "latex": "",
     "total_marks": 4,
     "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q14",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 14,
+    "topic": "Statistics",
+    "title": "Cumulative frequency diagram",
+    "body_markdown": "The cumulative frequency diagram shows information about the amount of time 60 students  spend 2 watching television on one day.\n(a) Find an estimate for: \n(i) the median 2 \n(ii) the interquartile range \n(b) Use the cumulative frequency diagram to complete this frequency table.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "mth19.png",
+      "mth20.png"
+    ]
   },
   {
     "id": "2026P1MJCA-Q15",
@@ -6408,6 +6583,20 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q15",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 15,
+    "topic": "Geometry",
+    "title": "Shapes",
+    "body_markdown": "Shape S is one quarter of a circle with radius tcm.\n Shape B is a sector of a circle with radius 2tcm and sector angle 135 degrees.\n The area of shape B is k times the area of shape A.\n Work out the value of k",
+    "latex": "",
+    "total_marks": 4,
+    "images": [
+      "mth21.png"
+    ]
+  },
+  {
     "id": "2026P1MJCA-Q16",
     "year": 2026,
     "paper": "P1 2026",
@@ -6417,6 +6606,18 @@
     "body_markdown": "Buses at a station go to Alve or to Riba. \n Buses leave every 16 minutes for Alve.  \n Buses leave every 28 minutes for Riba. \n At 08 25 a bus for Alve and a bus for Riba leave the station together. \n Find the next time a bus for Alve and a bus for Riba leave the station together.",
     "latex": "",
     "total_marks": 3,
+    "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q16",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 16,
+    "topic": "Algebra",
+    "title": "Expressions",
+    "body_markdown": "Expand and simplify (3x+a)(x+4a)",
+    "latex": "",
+    "total_marks": 0,
     "images": []
   },
   {
@@ -6430,6 +6631,20 @@
     "latex": "",
     "total_marks": 3,
     "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q17",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 17,
+    "topic": "Geometry",
+    "title": "Transformation",
+    "body_markdown": "The diagram shows shape A and Shape B drawn on the grid.\n(a) On the grid, draw the image of shape A after a reflection in the line x = 1.\n(b) Describe fully the single transformation that maps shape A onto shape B.",
+    "latex": "",
+    "total_marks": 5,
+    "images": [
+      "mth22.png"
+    ]
   },
   {
     "id": "2026P1MJCA-Q18",
@@ -6447,6 +6662,18 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q18",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 18,
+    "topic": "Geometry",
+    "title": "Trigonometry",
+    "body_markdown": "y = sin60 x tan 30\n Find the value of y",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
+  },
+  {
     "id": "2026P1MJCA-Q19",
     "year": 2026,
     "paper": "P1 2026",
@@ -6459,6 +6686,18 @@
     "images": [
       "mth13.png"
     ]
+  },
+  {
+    "id": "2026P2MJCA-Q19",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 19,
+    "topic": "Number",
+    "title": "Standard form",
+    "body_markdown": "710 000.03 = (7.1 x 10\u1D43) + (3 x 10\u1D47).\n Find the value of a and the value of b",
+    "latex": "",
+    "total_marks": 2,
+    "images": []
   },
   {
     "id": "2026P1MJCA-Q20",
@@ -6475,6 +6714,18 @@
     ]
   },
   {
+    "id": "2026P2MJCA-Q20",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 20,
+    "topic": "Algebra",
+    "title": "Indicies",
+    "body_markdown": "Find the value of 27\u207B\u00b2\u2044 \u00b3 X (6\u2074)\u00b9 \u2044 \u00b2",
+    "latex": "",
+    "total_marks": 4,
+    "images": []
+  },
+  {
     "id": "2026P1MJCA-Q21",
     "year": 2026,
     "paper": "P1 2026",
@@ -6485,6 +6736,20 @@
     "latex": "",
     "total_marks": 3,
     "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q21",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 21,
+    "topic": "Geometry",
+    "title": "Volumes and Surface area",
+    "body_markdown": "The diagram shows a solid cuboid ABCDEFGH.\n BF = 2 cm, BC = 6cm and CD = 9cm \n(a) Calculate the volume of the cuboid.\n(b) Calculate the surface area of the cuboid. \n(c) Calculate CE \n(d) The angle between CE and the base CDHG is x?. Find the value of sinx",
+    "latex": "",
+    "total_marks": 9,
+    "images": [
+      "mth23.png"
+    ]
   },
   {
     "id": "2026P1MJCA-Q22",
@@ -6499,6 +6764,20 @@
     "images": []
   },
   {
+    "id": "2026P2MJCA-Q22",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 22,
+    "topic": "Statistics",
+    "title": "Frequency table",
+    "body_markdown": "The table shows some information about the lengths of 145 pieces of wire.\n Stanley wants to draw a histogram to represent the information.\n Complete the table.",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "mth24.png"
+    ]
+  },
+  {
     "id": "2026P1MJCA-Q23",
     "year": 2026,
     "paper": "P1 2026",
@@ -6509,5 +6788,59 @@
     "latex": "",
     "total_marks": 2,
     "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q23",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 23,
+    "topic": "Geometry",
+    "title": "Shapes",
+    "body_markdown": "The two solids are mathematically similar.\n The volume of the larger solid is 64cm\u00b3 and the volume of the smaller solid is 27cm\u00b3.\n The height of the larger solid is 10cm and the height of the smaller solid is hcm. Find the value of h cm",
+    "latex": "",
+    "total_marks": 3,
+    "images": [
+      "mth25.png"
+    ]
+  },
+  {
+    "id": "2026P2MJCA-Q24",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 24,
+    "topic": "Algebra",
+    "title": "Graphs",
+    "body_markdown": "(a) Find the coordinates of the turning points of the graph of y = x\u00b3 - 6x + 7. \n(b) By drawing a suitable sketch, determine whether each turning point is a maximum or a minimum.",
+    "latex": "",
+    "total_marks": 9,
+    "images": []
+  },
+  {
+    "id": "2026P2MJCA-Q25",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 25,
+    "topic": "Geometry",
+    "title": "Vectors",
+    "body_markdown": "The diagram shows triangle ABC and straight line ACD.\n P lies on AB and AP : PB = 4 : 1. \n Q lies on BC and BQ = (2/5)BC. \n AB = m and AC = 5n.\n(a) In each part, give your answer in terms of m and n in its simplest form.\n(i) Find BC \n(ii) Find PQ. \n(b) CD = 3n \n Show that P, Q and D lie on a straight line.",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "mth26.png"
+    ]
+  },
+  {
+    "id": "2026P2MJCA-Q26",
+    "year": 2026,
+    "paper": "P2 2026",
+    "original_num": 26,
+    "topic": "Algebra",
+    "title": "Surds",
+    "body_markdown": "(a) Expand and simplify.\n (5 + \u221A2)(3 - \u221A8).\n Find the value of k",
+    "latex": "",
+    "total_marks": 7,
+    "images": [
+      "mth27.png"
+    ]
   }
 ]
