@@ -100,6 +100,23 @@ def pretty_math(text):
     return text
 
 
+# Sub-question labels: (a), (b), (i), (ii) …
+# Function notation like h(x) or g(x) has a letter immediately before '(' and must not split.
+_SUBQ_SPLIT = re.compile(r'(?=(?<![A-Za-z0-9])\((?:[a-z]|[ivx]+)\)(?:\s|$))')
+_SUBQ_START = re.compile(r'^\((?:[a-z]|[ivx]+)\)(?:\s|$)')
+
+
+def split_subquestions(body):
+    """Break on (a)/(i) parts only. Keep h(x), g(x) on the same line."""
+    if not body:
+        return []
+    return [p for p in (part.strip() for part in _SUBQ_SPLIT.split(body)) if p]
+
+
+def is_subquestion_part(text):
+    return bool(text and _SUBQ_START.match(text.strip()))
+
+
 def clean_body_for_pdf(body):
     """Remove dotted answer lines and prepare clean text for display."""
     if not body:
@@ -196,17 +213,17 @@ def build_pdf(selected_questions, title="Test Paper"):
 
         body = clean_body_for_pdf(q.get('body_markdown', q.get('latex', '')))
 
-        # Split body and add extra space between sub-parts (a), (b), (i), etc.
-        parts = re.split(r'(?=\([a-z]\)|[ \t]*\([ivx]+\))', body)
+        # Split on real sub-parts (a), (b), (i) — never on function notation h(x)
+        parts = split_subquestions(body)
+        if not parts:
+            parts = [body] if body else []
         for part in parts:
-            part = part.strip()
-            if not part:
-                continue
             para_text = part.replace('\n', '<br/>')
+            # Word joiner so ReportLab will not wrap between h and (x)
+            para_text = re.sub(r'([A-Za-z])\(', r'\1&#8288;(', para_text)
             story.append(Paragraph(para_text, body_style))
 
-            # Extra breathing room between sub-questions
-            if re.search(r'\([a-z]\)|[ivx]+\)', part):
+            if is_subquestion_part(part):
                 story.append(Spacer(1, 3*mm))
 
         # Images (only attached ones, properly scaled)
@@ -316,7 +333,7 @@ def build_docx(selected_questions, title="Test Paper"):
             p = doc.add_paragraph(line)
             p.paragraph_format.space_after = Pt(3)
 
-            if re.search(r'\([a-z]\)|[ivx]+\)', line):
+            if is_subquestion_part(line):
                 p.paragraph_format.space_after = Pt(6)   # extra space between (a), (b), etc.
 
         # Images
