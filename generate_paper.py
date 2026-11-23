@@ -3,7 +3,7 @@
 Enhanced generate_paper.py for Khanya Test Maker
 - Clean titles and no branding
 - Sequential numbering
-- No dotted dashes (replaced by real working space)
+- No dotted dashes and no blank working space
 - Improved math display: unicode superscripts for indices, bolder fraction bars
 - Extra spacing between sub-parts (a), (b), (i), etc.
 - Supports PDF (reportlab) and Word .docx (python-docx)
@@ -24,6 +24,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, HRFl
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfgen import canvas as pdfcanvas
 
 try:
     pdfmetrics.registerFont(TTFont('DejaVu', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'))
@@ -39,6 +40,8 @@ try:
     from docx import Document
     from docx.shared import Pt, Inches, Cm, RGBColor
     from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
     HAS_DOCX = True
 except ImportError:
     HAS_DOCX = False
@@ -143,33 +146,49 @@ def build_latex_document(selected_questions, title="Test Paper"):
 
 
 
-def add_page_number(canvas, doc):
-    """Draw page number at the top center of every page."""
-    canvas.saveState()
-    canvas.setFont('Helvetica', 9)
-    page_num = canvas.getPageNumber()
-    text = f"Page {page_num}"
-    canvas.drawCentredString(A4[0] / 2, A4[1] - 1.0*cm, text)
-    canvas.restoreState()
+class NumberedCanvas(pdfcanvas.Canvas):
+    """Canvas that writes 'Page X of Y' at the bottom centre of every page."""
+
+    def __init__(self, *args, **kwargs):
+        pdfcanvas.Canvas.__init__(self, *args, **kwargs)
+        self._saved_page_states = []
+
+    def showPage(self):
+        self._saved_page_states.append(dict(self.__dict__))
+        self._startPage()
+
+    def save(self):
+        page_count = len(self._saved_page_states)
+        for state in self._saved_page_states:
+            self.__dict__.update(state)
+            self._draw_page_number(page_count)
+            pdfcanvas.Canvas.showPage(self)
+        pdfcanvas.Canvas.save(self)
+
+    def _draw_page_number(self, page_count):
+        self.setFont(MAIN_FONT, 9)
+        self.setFillColorRGB(0.25, 0.25, 0.25)
+        page = self._pageNumber
+        self.drawCentredString(A4[0] / 2.0, 1.15 * cm, f"Page {page} of {page_count}")
+
 
 def build_pdf(selected_questions, title="Test Paper"):
-    """PDF with improved math, spacing between parts, working space, and images.
-       No title, no instructions. Page numbers at top.
-    """
+    """Print-ready PDF: A4, generous margins, page numbers, no workings space."""
     buf = BytesIO()
+    # Print-friendly A4 margins (room for binding / hole punch + footer)
     doc = SimpleDocTemplate(
         buf, pagesize=A4,
-        rightMargin=1.5*cm, leftMargin=1.5*cm,
-        topMargin=1.8*cm, bottomMargin=1.4*cm,
-        onFirstPage=add_page_number,
-        onLaterPages=add_page_number
+        leftMargin=2.0*cm,
+        rightMargin=2.0*cm,
+        topMargin=2.0*cm,
+        bottomMargin=2.2*cm,
     )
     styles = getSampleStyleSheet()
     q_style = ParagraphStyle('Q', fontName=BOLD_FONT, fontSize=11, spaceBefore=10, spaceAfter=4)
     body_style = ParagraphStyle('Body', fontName=MAIN_FONT, fontSize=10, leading=14, spaceAfter=2, alignment=TA_LEFT)
 
     story = []
-    # No title, no instructions (user request). Page numbers added via onFirstPage/onLaterPages
+    # No title, no instructions. Page numbers are drawn by NumberedCanvas.
     story.append(Spacer(1, 2*mm))
 
     for idx, q in enumerate(selected_questions, 1):
@@ -188,10 +207,7 @@ def build_pdf(selected_questions, title="Test Paper"):
 
             # Extra breathing room between sub-questions
             if re.search(r'\([a-z]\)|[ivx]+\)', part):
-                story.append(Spacer(1, 5*mm))
-
-        # Working space (generous, not dashes)
-        story.append(Spacer(1, 12*mm))
+                story.append(Spacer(1, 3*mm))
 
         # Images (only attached ones, properly scaled)
         for img_name in q.get("images", []):
@@ -215,26 +231,59 @@ def build_pdf(selected_questions, title="Test Paper"):
                     print(f"Warning: could not add image {img_name}: {e}")
                     pass
 
-        story.append(Spacer(1, 6*mm))
+        # Modest gap before the next question (not working space)
+        story.append(Spacer(1, 8*mm))
 
-    doc.build(story)
+    doc.build(story, canvasmaker=NumberedCanvas)
     buf.seek(0)
     return buf.getvalue()
 
 
+def _add_docx_page_number(paragraph):
+    """Insert a PAGE field so Word shows page numbers when printed."""
+    run = paragraph.add_run()
+
+    def _fld(char_type):
+        el = OxmlElement("w:fldChar")
+        el.set(qn("w:fldCharType"), char_type)
+        return el
+
+    begin = _fld("begin")
+    instr = OxmlElement("w:instrText")
+    instr.set(qn("xml:space"), "preserve")
+    instr.text = " PAGE "
+    end = _fld("end")
+
+    run._r.append(begin)
+    run._r.append(instr)
+    run._r.append(end)
+
+
 def build_docx(selected_questions, title="Test Paper"):
-    """Word document export with improved formatting."""
+    """Word document export with print margins, no workings space."""
     if not HAS_DOCX:
         raise ImportError("python-docx is not installed. Please run: pip install python-docx")
 
     doc = Document()
 
-    # Set nice margins
+    # Print-friendly A4-style margins
     for section in doc.sections:
-        section.top_margin = Cm(1.6)
-        section.bottom_margin = Cm(1.4)
-        section.left_margin = Cm(1.5)
-        section.right_margin = Cm(1.5)
+        section.page_width = Cm(21.0)
+        section.page_height = Cm(29.7)
+        section.top_margin = Cm(2.0)
+        section.bottom_margin = Cm(2.0)
+        section.left_margin = Cm(2.0)
+        section.right_margin = Cm(2.0)
+        footer = section.footer
+        footer.is_linked_to_previous = False
+        fp = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+        fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = fp.add_run("Page ")
+        run.font.size = Pt(9)
+        run.font.color.rgb = RGBColor(80, 80, 80)
+        _add_docx_page_number(fp)
+        run = fp.add_run()
+        run.font.size = Pt(9)
 
     # Title
     p = doc.add_paragraph()
@@ -268,11 +317,7 @@ def build_docx(selected_questions, title="Test Paper"):
             p.paragraph_format.space_after = Pt(3)
 
             if re.search(r'\([a-z]\)|[ivx]+\)', line):
-                p.paragraph_format.space_after = Pt(8)   # extra space between (a), (b), etc.
-
-        # Working space (blank paragraphs)
-        for _ in range(3):
-            doc.add_paragraph()
+                p.paragraph_format.space_after = Pt(6)   # extra space between (a), (b), etc.
 
         # Images
         for img_name in q.get("images", []):
@@ -284,7 +329,9 @@ def build_docx(selected_questions, title="Test Paper"):
                 except Exception as e:
                     print(f"Warning: could not add image to docx {img_name}: {e}")
 
-        doc.add_paragraph()  # extra gap before next question
+        # Modest gap before the next question (not working space)
+        gap = doc.add_paragraph()
+        gap.paragraph_format.space_after = Pt(10)
 
     # Return as bytes
     buf = BytesIO()

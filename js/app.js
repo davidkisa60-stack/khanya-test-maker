@@ -552,7 +552,7 @@ function previewFullPaper() {
         total += marks;
 
         const section = document.createElement('div');
-        section.className = 'mb-8 pb-6 border-b last:border-b-0';
+        section.className = 'mb-5 pb-4 border-b last:border-b-0';
 
         const bodyText = cleanQuestionBody(q.body_markdown || q.latex || '');
 
@@ -571,8 +571,6 @@ function previewFullPaper() {
             });
             html += `</div>`;
         }
-
-        html += `<div class="text-[10px] text-zinc-400 mt-1 italic">— space for workings —</div>`;
 
         section.innerHTML = html;
         body.appendChild(section);
