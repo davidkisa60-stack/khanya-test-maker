@@ -201,8 +201,15 @@ def build_pdf(selected_questions, title="Test Paper"):
         bottomMargin=2.2*cm,
     )
     styles = getSampleStyleSheet()
-    q_style = ParagraphStyle('Q', fontName=BOLD_FONT, fontSize=11, spaceBefore=10, spaceAfter=4)
-    body_style = ParagraphStyle('Body', fontName=MAIN_FONT, fontSize=10, leading=14, spaceAfter=2, alignment=TA_LEFT)
+    q_style = ParagraphStyle('Q', fontName=BOLD_FONT, fontSize=11, spaceBefore=10, spaceAfter=4, alignment=TA_LEFT)
+    body_style = ParagraphStyle(
+        'Body',
+        fontName=MAIN_FONT,
+        fontSize=10,
+        leading=15,
+        spaceAfter=3,
+        alignment=TA_JUSTIFY,
+    )
 
     story = []
     # No title, no instructions. Page numbers are drawn by NumberedCanvas.
@@ -282,6 +289,12 @@ def build_docx(selected_questions, title="Test Paper"):
         raise ImportError("python-docx is not installed. Please run: pip install python-docx")
 
     doc = Document()
+    normal = doc.styles['Normal']
+    normal.font.name = 'Calibri'
+    normal.font.size = Pt(11)
+    normal.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+    normal.paragraph_format.space_after = Pt(3)
+    normal.paragraph_format.line_spacing = 1.15
 
     # Print-friendly A4-style margins
     for section in doc.sections:
@@ -313,8 +326,9 @@ def build_docx(selected_questions, title="Test Paper"):
     doc.add_paragraph()  # breathing space
 
     for idx, q in enumerate(selected_questions, 1):
-        # Question header
+        # Question header stays left; body below is justified
         p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.LEFT
         run = p.add_run(f"{idx}.")
         run.bold = True
         run.font.size = Pt(11)
@@ -322,19 +336,21 @@ def build_docx(selected_questions, title="Test Paper"):
         run.font.size = Pt(10)
         run.font.color.rgb = RGBColor(21, 128, 61)   # emerald green
 
-        # Body text with improvements
+        # Body text with improvements — same part-splitting as PDF, justified
         body = clean_body_for_pdf(q.get('body_markdown', q.get('latex', '')))
-
-        # Add paragraphs with extra space after sub-parts
-        for line in body.split('\n'):
-            line = line.strip()
-            if not line:
+        parts = split_subquestions(body)
+        if not parts:
+            parts = [body] if body else []
+        for part in parts:
+            text = re.sub(r'\s+', ' ', part).strip()
+            if not text:
                 continue
-            p = doc.add_paragraph(line)
-            p.paragraph_format.space_after = Pt(3)
-
-            if is_subquestion_part(line):
-                p.paragraph_format.space_after = Pt(6)   # extra space between (a), (b), etc.
+            p = doc.add_paragraph(text)
+            p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+            p.paragraph_format.space_after = Pt(6) if is_subquestion_part(part) else Pt(3)
+            for run in p.runs:
+                run.font.size = Pt(11)
+                run.font.name = 'Calibri'
 
         # Images
         for img_name in q.get("images", []):
